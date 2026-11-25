@@ -28,7 +28,6 @@ main{padding:24px max(4vw,16px) 60px}
 .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
 .card{border:1px solid var(--line);border-radius:12px;padding:18px;background:var(--bg)}
 .pool{display:flex;flex-direction:column;gap:10px;text-align:left;width:100%;transition:transform .15s}
-.pool:hover{transform:translateY(-2px);border-color:var(--blue)}
 .pool .top{display:flex;gap:12px;align-items:center}
 .flag{width:46px;height:34px;flex:none;border-radius:2px;box-shadow:0 0 0 1px var(--line)}
 .band .flag{width:58px;height:42px;box-shadow:0 0 0 2px #fff}
@@ -40,13 +39,11 @@ main{padding:24px max(4vw,16px) 60px}
 .legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px;background:var(--c)}
 .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .btn{min-height:44px;padding:9px 18px;border-radius:9px;border:1px solid var(--line);background:var(--bg);font-weight:500}
-.btn:hover{border-color:var(--blue)}
 .btn.pri{background:var(--blue);border-color:var(--blue);color:light-dark(#fff,#0d1117)}
 .btn.big{font-size:18px;padding:12px 22px}
 .btn[disabled]{opacity:.45;cursor:default}
 .actions{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin:18px 0 28px}
 .action{text-align:left;padding:16px 18px;border-radius:12px;border:1px solid var(--line);background:var(--panel)}
-.action:hover{border-color:var(--blue)}
 .action b{display:block;font-family:"Barlow Condensed",sans-serif;font-size:22px;font-weight:600}
 .action span{font-size:14px;color:var(--mute)}
 .resume{background:var(--sel);border:1px solid var(--blue);border-radius:12px;padding:14px 16px;margin-top:18px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
@@ -72,7 +69,6 @@ td.n,th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
 .fig img{display:block;max-width:100%;height:auto;max-height:340px;margin:auto}
 .choices{display:grid;gap:10px}
 .ch{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;min-height:52px;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);font-size:17px;line-height:1.4}
-.ch:hover:not([disabled]){border-color:var(--blue)}
 .ch .L{flex:none;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-weight:600;font-size:14px}
 .ch.picked{border-color:var(--blue);background:var(--sel)}
 .ch.picked .L{background:var(--blue);border-color:var(--blue);color:light-dark(#fff,#0d1117)}
@@ -118,7 +114,6 @@ footer{padding:20px max(4vw,16px) 40px;font-size:13px;color:var(--mute)}
 .topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px;min-height:40px}
 .topbar .crumb{margin:0}
 .acct{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);color:#fff;border-radius:99px;padding:7px 14px;font-size:14px;min-height:40px;max-width:60vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.acct:hover{background:rgba(255,255,255,.24)}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:1px;background:#9aa5b8}
 .dot.synced{background:#56d391}.dot.syncing{background:#f2c230}.dot.offline,.dot.error{background:#ff7a80}
 .box h3{margin-bottom:10px}
@@ -147,3 +142,6 @@ details.whyd summary{cursor:pointer;color:var(--blue);font-size:15px;min-height:
 .topic .lede{font-size:18px}
 .facts{padding-left:20px}.facts li{margin:8px 0}
 .cite{font-size:13px;white-space:nowrap;margin-left:4px}
+
+/* Hover only where a real pointer can hover; on touch screens :hover sticks to whatever is under the last tap. */
+@media (hover:hover){.pool:hover{transform:translateY(-2px);border-color:var(--blue)}.btn:hover{border-color:var(--blue)}.action:hover{border-color:var(--blue)}.ch:hover:not([disabled]){border-color:var(--blue)}.acct:hover{background:rgba(255,255,255,.24)}}
