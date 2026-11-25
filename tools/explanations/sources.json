@@ -343,6 +343,14 @@
   "80.1133": {
    "head": "§ 80.1133 Transmission of safety communications.",
    "url": "https://www.ecfr.gov/current/title-47/section-80.1133"
+  },
+  "80.1129": {
+   "head": "§ 80.1129 Locating and homing signals.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1129"
+  },
+  "80.1127": {
+   "head": "§ 80.1127 On-scene communications.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1127"
   }
  },
  "docs": {
@@ -421,6 +429,62 @@
   "itu-m541": {
    "title": "Recommendation ITU-R M.541-11, Operational procedures for the use of digital selective-calling equipment in the maritime mobile service",
    "url": "https://www.itu.int/rec/R-REC-M.541/en"
+  },
+  "sarsat-overview": {
+   "title": "NOAA SARSAT, Cospas-Sarsat system overview",
+   "url": "https://www.sarsat.noaa.gov/cospas-sarsat-system-overview/"
+  },
+  "sarsat-faqs": {
+   "title": "NOAA SARSAT, Frequently asked questions",
+   "url": "https://www.sarsat.noaa.gov/faqs/"
+  },
+  "sarsat-satellites": {
+   "title": "NOAA SARSAT, Search and rescue satellites",
+   "url": "https://www.sarsat.noaa.gov/search-and-rescue-satellites/"
+  },
+  "imo-a810": {
+   "title": "IMO Resolution A.810(19), Performance standards for float-free satellite EPIRBs",
+   "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.810(19).pdf"
+  },
+  "imo-msc471": {
+   "title": "IMO Resolution MSC.471(101), Performance standards for float-free EPIRBs operating on 406 MHz",
+   "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.471(101).pdf"
+  },
+  "sarsat-406": {
+   "title": "NOAA SARSAT, 406 MHz distress beacons",
+   "url": "https://www.sarsat.noaa.gov/emergency-406-beacons/"
+  },
+  "sarsat-mcc": {
+   "title": "NOAA SARSAT, Mission Control Center",
+   "url": "https://www.sarsat.noaa.gov/mission-control-center/"
+  },
+  "sarsat-ground": {
+   "title": "NOAA SARSAT, Ground stations",
+   "url": "https://www.sarsat.noaa.gov/ground-stations/"
+  },
+  "itu-m540": {
+   "title": "Recommendation ITU-R M.540-2, Operational and technical characteristics for an automated direct-printing telegraph system for promulgation of navigational and meteorological warnings and urgent information to ships",
+   "url": "https://www.itu.int/rec/R-REC-M.540/en"
+  },
+  "itu-m476": {
+   "title": "Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service",
+   "url": "https://www.itu.int/rec/R-REC-M.476/en"
+  },
+  "imo-safetynet": {
+   "title": "IMO MSC.1/Circ.1364/Rev.2, International SafetyNET Services Manual",
+   "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/Documents%20relevant%20to%20GMDSS/MSC.1-Circ.1364-Rev.2.pdf"
+  },
+  "nws-metarea": {
+   "title": "National Weather Service, METAREAs",
+   "url": "https://www.weather.gov/marine/metarea"
+  },
+  "iho-navarea-iv-xii": {
+   "title": "IHO WWNWS16, MSI self-assessment for NAVAREA IV/XII (2024)",
+   "url": "https://iho.int/uploads/user/Inter-Regional%20Coordination/WWNWS/WWNWS16/WWNWS16_2024_3.2-IV_XII_EN_Self%20Assessment%20NAVAREA%20IV%20XII.pdf"
+  },
+  "nws-uscg-broadcasts": {
+   "title": "National Weather Service, Marine products via U.S. Coast Guard broadcasts",
+   "url": "https://www.weather.gov/marine/uscg_broadcasts"
   }
  }
 }

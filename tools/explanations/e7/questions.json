@@ -2685,5 +2685,1400 @@
   "src": [],
   "id": "50G6",
   "status": "verified"
+ },
+ "39F1": {
+  "why": "A SART must have a visual or audible indicator (or both) that shows it's working and tells survivors when a searching ship's 3 cm (9 GHz, X-band) radar has triggered it. EPIRBs don't react to radar, and an AIS-SART doesn't detect radars.",
+  "src": [
+   {
+    "doc": "imo-a802",
+    "quote": "be equipped with a means which is either visual or audible, or both visual and audible, to indicate correct operation and to alert survivors to the fact that a radar has triggered the SART"
+   }
+  ],
+  "id": "39F1",
+  "status": "verified"
+ },
+ "39F2": {
+  "why": "A SART only responds to 9 GHz (3 cm, X-band) radar, and its range depends heavily on being mounted properly at least 1 m high. Both conditions together give the best detection: a 10 cm (S-band, about 3 GHz) radar won't trigger it at all.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "Frequency: 9 200-9 500 MHz."
+   },
+   {
+    "doc": "itu-m628",
+    "quote": "Tests have also shown the importance of maintaining a SART antenna height of at least 1 m."
+   }
+  ],
+  "id": "39F2",
+  "status": "verified"
+ },
+ "39F3": {
+  "why": "Height matters most: tests show a SART lying on the floor of a survival craft or floating in the water has a much shorter range than one mounted at least 1 m up, standing upright. There's no high-power switch, and putting it in the water reduces its range.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "Tests have also shown the importance of maintaining a SART antenna height of at least 1 m."
+   },
+   {
+    "doc": "itu-m628",
+    "quote": "SART lying flat on the floor: range 1.8 NM"
+   }
+  ],
+  "id": "39F3",
+  "status": "verified"
+ },
+ "39F4": {
+  "why": "Statement B is false: a SART works in the 9 GHz band (9200–9500 MHz, X-band), not 6 GHz. The others are true: it answers X-band radar interrogations with a 12-sweep response that shows as a line of dots.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "Frequency: 9 200-9 500 MHz."
+   },
+   {
+    "doc": "itu-m628",
+    "quote": "The response signal should consist of 12 sweeps."
+   }
+  ],
+  "id": "39F4",
+  "status": "verified"
+ },
+ "39F5": {
+  "why": "Once switched on, a SART sits in standby and transmits only when it's interrogated by a 9 GHz radar. It can wait in standby for 96 hours and then reply for 8 hours.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "Frequency: 9 200-9 500 MHz."
+   },
+   {
+    "doc": "itu-m628",
+    "quote": "96 h in stand-by condition followed by 8 h of transponder transmissions"
+   }
+  ],
+  "id": "39F5",
+  "status": "verified"
+ },
+ "39F6": {
+  "why": "A SART only responds in the 9 GHz (3 cm, X-band) radar band, so a 10 cm (S-band) radar can't detect it. Darkness and poor visibility don't affect radar detection.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "Frequency: 9 200-9 500 MHz."
+   }
+  ],
+  "id": "39F6",
+  "status": "verified"
+ },
+ "40F1": {
+  "why": "Nothing special is needed: the SART detects the searching ship's ordinary X-band (9 GHz) radar pulses and automatically replies with its 12-sweep signal, which shows as a line of dots on the radar. It doesn't use VHF or 10 cm radar.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "Frequency: 9 200-9 500 MHz."
+   },
+   {
+    "doc": "itu-m628",
+    "quote": "The response signal should consist of 12 sweeps."
+   }
+  ],
+  "id": "40F1",
+  "status": "verified"
+ },
+ "40F2": {
+  "why": "The SART shows as a line of dots extending outward from its position along the bearing. As the rescuing ship gets close (within about a mile), the dots widen into arcs, and very close they become circles, so rescuers should slow down as the arcs grow.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-a802",
+    "quote": "The SART should be capable of indicating the location of a unit in distress on the assisting units radars by means of a series of equally spaced dots"
+   }
+  ],
+  "id": "40F2",
+  "status": "verified"
+ },
+ "40F3": {
+  "why": "When the searching ship is very close, the SART's dots on the radar (PPI) display widen into arcs and finally into concentric circles around the centre. That's the sign the SART is in the immediate vicinity.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-a802",
+    "quote": "The SART should be capable of indicating the location of a unit in distress on the assisting units radars by means of a series of equally spaced dots"
+   }
+  ],
+  "id": "40F3",
+  "status": "verified"
+ },
+ "40F4": {
+  "why": "An AIS-SART transmits AIS position reports, using an identity beginning with 970, so it appears on AIS receivers and displays as a special SART symbol. It doesn't use 9 GHz and isn't converted to radar targets.",
+  "src": [
+   {
+    "doc": "itu-m585",
+    "quote": "970 to indicate AIS SART, 972 to indicate man overboard device (MOB), 974 to indicate EPIRB-AIS"
+   }
+  ],
+  "id": "40F4",
+  "status": "verified"
+ },
+ "40F5": {
+  "why": "A radar SART shows on a 3 cm (X-band) radar as a line of 12 dots extending outward from the SART's position along its bearing. It makes no sound on VHF.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "The response signal should consist of 12 sweeps."
+   },
+   {
+    "doc": "imo-a802",
+    "quote": "The SART should be capable of indicating the location of a unit in distress on the assisting units radars by means of a series of equally spaced dots"
+   }
+  ],
+  "id": "40F5",
+  "status": "verified"
+ },
+ "40F6": {
+  "why": "An AIS-SART isn't generally detectable much farther away than a radar SART, so A is not an advantage. Its real advantages are that it sends a GPS position over AIS, that not every transmission needs to be received to show the location, and that it can be easier to find when radar conditions are poor.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m585",
+    "quote": "970 to indicate AIS SART, 972 to indicate man overboard device (MOB), 974 to indicate EPIRB-AIS"
+   }
+  ],
+  "id": "40F6",
+  "status": "verified"
+ },
+ "41F1": {
+  "why": "Testing the SART the same way and in the same place each time builds a record of normal results, which makes a change easy to spot. SARTs can be briefly tested with the ship's own radar, in port or at sea, and the battery must be replaced by its expiry date, not after.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-a802",
+    "quote": "activation of the SART should be limited to a few seconds to avoid harmful interference with other shipborne radars and excessive consumption of battery energy"
+   }
+  ],
+  "id": "41F1",
+  "status": "verified"
+ },
+ "41F2": {
+  "why": "A SART test shows up on other ships' radars, where it can interfere with navigation or be mistaken for a real distress. Tests should therefore last only a few seconds.",
+  "src": [
+   {
+    "doc": "imo-a802",
+    "quote": "activation of the SART should be limited to a few seconds to avoid harmful interference with other shipborne radars and excessive consumption of battery energy"
+   }
+  ],
+  "id": "41F2",
+  "status": "verified"
+ },
+ "41F3": {
+  "why": "A SART test can be received by other ships' radars, where it may interfere with safe navigation or be mistaken for a real distress, so tests must be done with care and kept short. The other choices invent rules about grace periods, required test equipment, and where testing is allowed.",
+  "src": [
+   {
+    "doc": "imo-a802",
+    "quote": "activation of the SART should be limited to a few seconds to avoid harmful interference with other shipborne radars and excessive consumption of battery energy"
+   }
+  ],
+  "id": "41F3",
+  "status": "verified"
+ },
+ "41F4": {
+  "why": "SART tests should be minimized because they can interfere with other ships' radars and safe navigation, can be mistaken for a real distress, and use up battery energy.",
+  "src": [
+   {
+    "doc": "imo-a802",
+    "quote": "activation of the SART should be limited to a few seconds to avoid harmful interference with other shipborne radars and excessive consumption of battery energy"
+   }
+  ],
+  "id": "41F4",
+  "status": "verified"
+ },
+ "41F5": {
+  "why": "Testing a SART's range with several vessels would be a long transmission seen by many radars, the kind of interference and possible false-distress confusion that tests must avoid. Checking the case, battery expiry date and lanyard, and a brief test with your own radar, are normal maintenance.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-a802",
+    "quote": "activation of the SART should be limited to a few seconds to avoid harmful interference with other shipborne radars and excessive consumption of battery energy"
+   }
+  ],
+  "id": "41F5",
+  "status": "verified"
+ },
+ "41F6": {
+  "why": "A SART's battery must last 96 hours (four days) in standby and then 8 hours of transmitting while being interrogated.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "96 h in stand-by condition followed by 8 h of transponder transmissions"
+   },
+   {
+    "doc": "imo-a802",
+    "quote": "The SAR T should have sufficient battery capacity to operate in the stand-by condition for 96 h"
+   }
+  ],
+  "id": "41F6",
+  "status": "verified"
+ },
+ "42F1": {
+  "why": "COSPAS-SARSAT satellites relay the beacon's coded ID (which links to registration information) and allow its position to be calculated, for example from the Doppler shift, at ground stations. They don't provide follow-on communications; that's done by other means.",
+  "src": [
+   {
+    "doc": "sarsat-overview",
+    "quote": "Imbedded in this frequency is a unique digital code called a HEX ID . The HEX ID identifies the type of beacon and, if the beacon is registered, important information that helps search and rescue (SAR) specialists determine the best course of action."
+   },
+   {
+    "doc": "sarsat-faqs",
+    "quote": "The LEOSAR satellites can compute a location for a 406 MHz emergency beacon using a method called “Doppler shift”."
+   },
+   {
+    "doc": "sarsat-satellites",
+    "quote": "Doppler processing is done by the LEOLUT to determine the true beacon location"
+   }
+  ],
+  "id": "42F1",
+  "status": "verified"
+ },
+ "42F2": {
+  "why": "COSPAS-SARSAT is the satellite system dedicated to search and rescue: it detects and locates distress beacons, including the 406 MHz EPIRBs ships carry. Inmarsat, GPS and Iridium are general-purpose systems.",
+  "src": [
+   {
+    "doc": "sarsat-overview",
+    "quote": "Search and Rescue (SAR) instruments are flown on board Low Earth Polar Orbiting ( LEO ), Medium Earth Orbiting ( MEO ) and Geostationary Earth Orbiting ( GEO ) satellites"
+   }
+  ],
+  "id": "42F2",
+  "status": "verified"
+ },
+ "42F3": {
+  "why": "Statement B is false: a GPS position sent by a GPS-equipped EPIRB (a GPIRB) is generally more precise than a position calculated from the Doppler shift. The others are true: 406 MHz EPIRBs are alerting devices, polar-orbiting satellites use Doppler to locate them, and signals are relayed to Local User Terminals.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "sarsat-faqs",
+    "quote": "The LEOSAR satellites can compute a location for a 406 MHz emergency beacon using a method called “Doppler shift”."
+   },
+   {
+    "doc": "sarsat-faqs",
+    "quote": "406 MHz emergency beacons with GPS receivers can include the GPS derived location of the beacon"
+   },
+   {
+    "doc": "sarsat-overview",
+    "quote": "The LUT processes the data, computes the location of the distress beacon, and transmits a decoded alert message to its associated national Mission Control Center (MCC)."
+   }
+  ],
+  "id": "42F3",
+  "status": "verified"
+ },
+ "42F4": {
+  "why": "Statement C is false: COSPAS-SARSAT satellites carry only distress beacon signals. There's no call request or land earth station, and no commercial messages (those are Inmarsat features). The other statements are true.",
+  "src": [
+   {
+    "doc": "sarsat-overview",
+    "quote": "is designed for: Emergency Locator Transmitters ( ELTs ) used by the aviation community, Emergency Position Indicating Radio Beacons ( EPIRBs ) used in the maritime environment, and Personal Locator Beacons ( PLBs )"
+   },
+   {
+    "doc": "sarsat-faqs",
+    "quote": "The LEOSAR satellites can compute a location for a 406 MHz emergency beacon using a method called “Doppler shift”."
+   }
+  ],
+  "id": "42F4",
+  "status": "verified"
+ },
+ "42F5": {
+  "why": "A 406 MHz EPIRB with a built-in GPS receiver includes its GPS position in the distress alert. GOES satellites don't cover the polar regions, COSPAS-SARSAT doesn't guarantee an alert within 10 minutes, and GPS satellites don't relay alerts.",
+  "src": [
+   {
+    "doc": "sarsat-faqs",
+    "quote": "406 MHz emergency beacons with GPS receivers can include the GPS derived location of the beacon"
+   },
+   {
+    "doc": "sarsat-faqs",
+    "quote": "However, satellites in geostationary orbit cannot see the polar regions of the world."
+   }
+  ],
+  "id": "42F5",
+  "status": "verified"
+ },
+ "42F6": {
+  "why": "When activated, a 406 MHz EPIRB transmits a coded signal containing its unique ID, which identifies the beacon (and through registration, the vessel), and lets the system determine the beacon's position. It doesn't send the nature of distress, the vessel's name directly, or follow-on frequencies.",
+  "src": [
+   {
+    "doc": "sarsat-overview",
+    "quote": "Imbedded in this frequency is a unique digital code called a HEX ID . The HEX ID identifies the type of beacon and, if the beacon is registered, important information that helps search and rescue (SAR) specialists determine the best course of action."
+   },
+   {
+    "doc": "sarsat-overview",
+    "quote": "The LUT processes the data, computes the location of the distress beacon, and transmits a decoded alert message to its associated national Mission Control Center (MCC)."
+   }
+  ],
+  "id": "42F6",
+  "status": "verified"
+ },
+ "43F1": {
+  "why": "A GMDSS satellite EPIRB has a float-free release bracket, a light to show its position, and a 406 MHz distress alert transmitter, which is choice C. It also has a 121.5 MHz homing beacon, but 121.5 MHz isn't the distress alert frequency (D), and homing is done on 121.5 MHz, not the 406 MHz alert (A). EPIRBs installed since July 2022 also send an AIS locating signal, but C is the choice that correctly describes the standard features.",
+  "src": [
+   {
+    "sec": "80.1085",
+    "quote": "capable of floating free if the ship sinks and of being automatically activated when afloat, and capable of being activated manually"
+   },
+   {
+    "doc": "imo-a810",
+    "quote": "active during darkness, to indicate its position to nearby survivors and to rescue units"
+   },
+   {
+    "sec": "80.1061",
+    "quote": "The 406.0-406.1 EPIRB must contain as an integral part a “homing” beacon operating only on 121.500 MHz"
+   },
+   {
+    "doc": "imo-msc471",
+    "quote": "be provided with an Automatic Identification System (AIS) locating signal"
+   }
+  ],
+  "id": "43F1",
+  "status": "verified"
+ },
+ "43F2": {
+  "why": "A 406 MHz EPIRB includes a 121.5 MHz homing beacon, the 406 MHz alert transmitter and a float-free bracket. It doesn't have an aural locator signal.",
+  "src": [
+   {
+    "sec": "80.1061",
+    "quote": "The 406.0-406.1 EPIRB must contain as an integral part a “homing” beacon operating only on 121.500 MHz"
+   },
+   {
+    "sec": "80.1085",
+    "quote": "capable of floating free if the ship sinks and of being automatically activated when afloat, and capable of being activated manually"
+   }
+  ],
+  "id": "43F2",
+  "status": "verified"
+ },
+ "43F3": {
+  "why": "A 406 MHz EPIRB transmits a unique hexadecimal identification (HEX ID), which SAR authorities use to identify the beacon and look up its registration. That's the defining feature of the 406 MHz transmission. It doesn't allow voice contact with the RCC, and the operator doesn't program an ID into it (or into a SART) just before use.",
+  "src": [
+   {
+    "doc": "sarsat-overview",
+    "quote": "Imbedded in this frequency is a unique digital code called a HEX ID . The HEX ID identifies the type of beacon and, if the beacon is registered, important information that helps search and rescue (SAR) specialists determine the best course of action."
+   }
+  ],
+  "id": "43F3",
+  "status": "verified"
+ },
+ "43F5": {
+  "why": "Statement B is false: Inmarsat's geostationary satellites don't cover the polar regions, so Inmarsat isn't worldwide (that's why sea area A4 exists). The others are true: a COSPAS-SARSAT alert can take time, GOES satellites are geostationary, and 406 MHz EPIRBs may have GPS.",
+  "src": [
+   {
+    "sec": "80.1069",
+    "quote": "Sea area A3. An area, excluding sea areas A1 and A2, within the coverage of an INMARSAT geostationary satellite in which continuous alerting is available."
+   },
+   {
+    "doc": "sarsat-faqs",
+    "quote": "However, satellites in geostationary orbit cannot see the polar regions of the world."
+   },
+   {
+    "doc": "sarsat-faqs",
+    "quote": "406 MHz emergency beacons with GPS receivers can include the GPS derived location of the beacon"
+   }
+  ],
+  "id": "43F5",
+  "status": "verified"
+ },
+ "43F6": {
+  "why": "GMDSS ships carry 406 MHz EPIRBs for distress alerting through COSPAS-SARSAT. Satellites stopped detecting 121.5 MHz signals in 2009, so the old 121.5/243 MHz beacons can't send a satellite alert, and S-band and X-band aren't EPIRB alerting bands.",
+  "src": [
+   {
+    "sec": "80.1085",
+    "quote": "Capable of transmitting a distress alert through the polar orbiting satellite service operating in the 406.0-406.1 MHz band"
+   },
+   {
+    "doc": "sarsat-406",
+    "quote": "Satellites have not had the ability to detect 121.5 MHz signals since 2009."
+   }
+  ],
+  "id": "43F6",
+  "status": "verified"
+ },
+ "44F1": {
+  "why": "For seeing a casualty, a light is best: the EPIRB's light shows its position to nearby survivors and rescue units in the dark. The SART, the 121.5 MHz beacon and the 406 MHz signal are all radio signals.",
+  "src": [
+   {
+    "doc": "imo-a810",
+    "quote": "active during darkness, to indicate its position to nearby survivors and to rescue units"
+   }
+  ],
+  "id": "44F1",
+  "status": "verified"
+ },
+ "44F2": {
+  "why": "Among required GMDSS equipment, the 406 MHz satellite EPIRB is the main way of transmitting locating signals: its signal lets COSPAS-SARSAT calculate the position. A SART doesn't transmit on 406 MHz, and radio direction finders aren't GMDSS equipment.",
+  "src": [
+   {
+    "sec": "80.1129",
+    "quote": "These signals include those transmitted by searching units and those transmitted by the mobile unit in distress, by survival craft, by float-free EPIRBS, by satellite EPRIBs, and by search and rescue radar transponders"
+   }
+  ],
+  "id": "44F2",
+  "status": "verified"
+ },
+ "44F3": {
+  "why": "A satellite EPIRB has a built-in 121.5 MHz beacon for homing, which searching units (mainly aircraft) use to find the bearing to it. The 406 MHz signal is for satellite alerting, and flares and strobe lights are visual aids.",
+  "src": [
+   {
+    "sec": "80.1061",
+    "quote": "The 406.0-406.1 EPIRB must contain as an integral part a “homing” beacon operating only on 121.500 MHz"
+   },
+   {
+    "doc": "imo-a810",
+    "quote": "beacon primarily for homing by aircraft"
+   }
+  ],
+  "id": "44F3",
+  "status": "verified"
+ },
+ "44F4": {
+  "why": "The EPIRB's light is the visual aid: it shows its position to nearby survivors and rescue units in darkness. The 121.5 MHz and 406 MHz signals are radio signals, and a sound isn't a visual aid.",
+  "src": [
+   {
+    "doc": "imo-a810",
+    "quote": "active during darkness, to indicate its position to nearby survivors and to rescue units"
+   }
+  ],
+  "id": "44F4",
+  "status": "verified"
+ },
+ "44F5": {
+  "why": "A locating signal helps searchers find a unit in distress. An EPIRB that also transmits an AIS position (EPIRB-AIS, identity starting with 974) does exactly that. Ship-to-shore and SSB traffic aren't locating signals, and the EPIRB frequency is 406 MHz, not 406 kHz.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m585",
+    "quote": "970 to indicate AIS SART, 972 to indicate man overboard device (MOB), 974 to indicate EPIRB-AIS"
+   },
+   {
+    "sec": "80.1129",
+    "quote": "Locating signals are radio transmissions intended to facilitate the finding of a mobile unit in distress or the location of survivors."
+   }
+  ],
+  "id": "44F5",
+  "status": "verified"
+ },
+ "44F6": {
+  "why": "In the GMDSS, satellite EPIRBs are the main means of locating a ship or survival craft in distress: COSPAS-SARSAT calculates their position (or receives it from built-in GPS) anywhere in the world, and the EPIRB keeps transmitting after the ship is lost. A DSC alert carries only the ship's position at the moment of the alert, and direction finders aren't GMDSS equipment.",
+  "src": [
+   {
+    "doc": "sarsat-faqs",
+    "quote": "Satellites in polar orbit provide emergency beacon users with global coverage (including the Polar Regions)."
+   },
+   {
+    "doc": "sarsat-overview",
+    "quote": "The LUT processes the data, computes the location of the distress beacon, and transmits a decoded alert message to its associated national Mission Control Center (MCC)."
+   }
+  ],
+  "id": "44F6",
+  "status": "verified"
+ },
+ "45F1": {
+  "why": "Survival craft VHF radios are for on-scene communication: between survival craft, between survival craft and the ship, and between survival craft and rescue units. They aren't meant for calling public coast stations.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "The equipment should be portable and capable of being used for on-scene communication between survival craft, between survival craft and ship and between survival craft and rescue unit."
+   }
+  ],
+  "id": "45F1",
+  "status": "verified"
+ },
+ "45F2": {
+  "why": "Survival craft VHF radios must work on Channel 16 (156.800 MHz) and at least one other channel. 457.525 MHz and 121.5 MHz aren't GMDSS survival craft channels, and Channel 70 is DSC only.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "The two-way radiotelephone should be capable of operation on the frequency 156.800 MHz (VHF channel 16) and on at least one additional channel."
+   }
+  ],
+  "id": "45F2",
+  "status": "verified"
+ },
+ "45F3": {
+  "why": "Survival craft VHF radios must work on Channel 16, be watertight, and have the antenna built into the set (integral). Power is at least 0.25 W ERP, and Channel 70 (DSC) isn't required.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "The two-way radiotelephone should be capable of operation on the frequency 156.800 MHz (VHF channel 16) and on at least one additional channel."
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "be watertight to a depth of 1 m for at least 5 min"
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "an integral transmitter/receiver including antenna and battery"
+   }
+  ],
+  "id": "45F3",
+  "status": "verified"
+ },
+ "45F4": {
+  "why": "Statement D is false: the minimum effective radiated power for a survival craft VHF is 0.25 W, not 2 W. The others are true: Channel 16, a permanently attached antenna, and simplex voice only.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "The effective radiated power should be a minimum of 0.25 W."
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "The two-way radiotelephone should be capable of operation on the frequency 156.800 MHz (VHF channel 16) and on at least one additional channel."
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "All channels fitted should be for single-frequency voice communication only."
+   }
+  ],
+  "id": "45F4",
+  "status": "verified"
+ },
+ "45F5": {
+  "why": "Statement A is false: Channel 13 isn't required. The radio must have Channel 16 and at least one other channel, all single-frequency (simplex) voice, with at least 0.25 W ERP.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "The two-way radiotelephone should be capable of operation on the frequency 156.800 MHz (VHF channel 16) and on at least one additional channel."
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "All channels fitted should be for single-frequency voice communication only."
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "The effective radiated power should be a minimum of 0.25 W."
+   }
+  ],
+  "id": "45F5",
+  "status": "verified"
+ },
+ "45F6": {
+  "why": "Statement B is false: survival craft VHF radios work on Channel 16 and at least one other voice channel, not Channel 70, which is DSC only. The others are true: watertight to 1 m for 5 minutes, at least 0.25 W ERP, and a fixed antenna.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "The two-way radiotelephone should be capable of operation on the frequency 156.800 MHz (VHF channel 16) and on at least one additional channel."
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "be watertight to a depth of 1 m for at least 5 min"
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "The effective radiated power should be a minimum of 0.25 W."
+   }
+  ],
+  "id": "45F6",
+  "status": "verified"
+ },
+ "46F1": {
+  "why": "Channel 16 (156.8 MHz) is a designated on-scene channel in the GMDSS, along with 2182 kHz voice and 2174.5 kHz NBDP. Channel 70 is for DSC, and 2182 is a frequency, not a channel number.",
+  "src": [
+   {
+    "sec": "80.1077",
+    "quote": "On-scene communications: VHF Ch.16 156.8 MHz. MF Radiotelephony 2182 kHz. NBDP 2174.5 kHz."
+   }
+  ],
+  "id": "46F1",
+  "status": "verified"
+ },
+ "46F2": {
+  "why": "Channel 16 is the VHF distress follow-on channel, and every survival craft VHF radio must have it.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "The two-way radiotelephone should be capable of operation on the frequency 156.800 MHz (VHF channel 16) and on at least one additional channel."
+   },
+   {
+    "doc": "itu-m541",
+    "quote": "the distress traffic channel in the same band, i.e. 2 182 kHz on MF, channel 16 on VHF"
+   }
+  ],
+  "id": "46F2",
+  "status": "verified"
+ },
+ "46F3": {
+  "why": "The GMDSS on-scene frequencies are Channel 16 and 2182 kHz for voice, and 2174.5 kHz for NBDP. 2177 kHz isn't an on-scene frequency.",
+  "src": [
+   {
+    "sec": "80.1077",
+    "quote": "On-scene communications: VHF Ch.16 156.8 MHz. MF Radiotelephony 2182 kHz. NBDP 2174.5 kHz."
+   }
+  ],
+  "id": "46F3",
+  "status": "verified"
+ },
+ "46F4": {
+  "why": "2182 kHz is a voice (radiotelephony) frequency. The MF NBDP on-scene frequency is 2174.5 kHz, so \"SITOR on 2182 kHz\" isn't designated. Channel 16, 2182 kHz voice and 4125 kHz voice (for aircraft) are.",
+  "src": [
+   {
+    "sec": "80.1077",
+    "quote": "On-scene communications: VHF Ch.16 156.8 MHz. MF Radiotelephony 2182 kHz. NBDP 2174.5 kHz."
+   },
+   {
+    "sec": "80.1127",
+    "quote": "the frequencies 3023 kHz, 4125 kHz, 5680 kHz, 123.1 MHz and 156.3 MHz may be used for ship-to-aircraft on-scene communications"
+   }
+  ],
+  "id": "46F4",
+  "status": "verified"
+ },
+ "46F5": {
+  "why": "NBDP (SITOR) on 2174.5 kHz is one of the designated on-scene frequencies. The Inmarsat distress button and a DSC alert are alerting methods, and 4125 kHz is a voice frequency.",
+  "src": [
+   {
+    "sec": "80.1077",
+    "quote": "On-scene communications: VHF Ch.16 156.8 MHz. MF Radiotelephony 2182 kHz. NBDP 2174.5 kHz."
+   }
+  ],
+  "id": "46F5",
+  "status": "verified"
+ },
+ "46F6": {
+  "why": "For on-scene communications with SAR aircraft, ships use Channel 16 and HF voice such as 4125 kHz and 3023 kHz (and 5680 kHz). These are voice frequencies, so the emission is J3E, not telex (F1B/J2B). Channel 70 is DSC only.",
+  "src": [
+   {
+    "sec": "80.1127",
+    "quote": "the frequencies 3023 kHz, 4125 kHz, 5680 kHz, 123.1 MHz and 156.3 MHz may be used for ship-to-aircraft on-scene communications"
+   }
+  ],
+  "id": "46F6",
+  "status": "verified"
+ },
+ "47F1": {
+  "why": "When abandoning ship, switch on the EPIRB and SART right away and leave them on: the EPIRB keeps alerting and providing a position and homing signal, and the SART waits to answer searching radars. Take them into the survival craft rather than leaving them aboard.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "80.1085",
+    "quote": "capable of being carried by one person into a survival craft"
+   }
+  ],
+  "id": "47F1",
+  "status": "verified"
+ },
+ "47F2": {
+  "why": "Geostationary satellites (Inmarsat and GOES) can't see the polar regions. COSPAS-SARSAT's polar-orbiting satellites cover the whole globe, so they handle the alerts, and HF radio handles follow-on and SAR communications.",
+  "src": [
+   {
+    "doc": "sarsat-faqs",
+    "quote": "Satellites in polar orbit provide emergency beacon users with global coverage (including the Polar Regions)."
+   },
+   {
+    "doc": "sarsat-faqs",
+    "quote": "However, satellites in geostationary orbit cannot see the polar regions of the world."
+   }
+  ],
+  "id": "47F2",
+  "status": "verified"
+ },
+ "47F3": {
+  "why": "Statement A is false: a 406 MHz EPIRB without GPS doesn't transmit its position. Its position is calculated on the ground from the Doppler shift. Only GPS-equipped beacons send a position. The others are true.",
+  "src": [
+   {
+    "doc": "sarsat-faqs",
+    "quote": "The LEOSAR satellites can compute a location for a 406 MHz emergency beacon using a method called “Doppler shift”."
+   },
+   {
+    "doc": "sarsat-faqs",
+    "quote": "406 MHz emergency beacons with GPS receivers can include the GPS derived location of the beacon"
+   },
+   {
+    "doc": "sarsat-satellites",
+    "quote": "No on-board position processing is performed."
+   }
+  ],
+  "id": "47F3",
+  "status": "verified"
+ },
+ "47F4": {
+  "why": "Statement B is false: COSPAS-SARSAT handles only distress beacon signals, not public correspondence. The others are true: EPIRBs are alerting and locating devices, the system detects 406 MHz beacons, and Doppler shift locates them.",
+  "src": [
+   {
+    "doc": "sarsat-overview",
+    "quote": "is designed for: Emergency Locator Transmitters ( ELTs ) used by the aviation community, Emergency Position Indicating Radio Beacons ( EPIRBs ) used in the maritime environment, and Personal Locator Beacons ( PLBs )"
+   },
+   {
+    "doc": "sarsat-faqs",
+    "quote": "The LEOSAR satellites can compute a location for a 406 MHz emergency beacon using a method called “Doppler shift”."
+   }
+  ],
+  "id": "47F4",
+  "status": "verified"
+ },
+ "47F5": {
+  "why": "A 406 MHz EPIRB transmits a unique hexadecimal ID (HEX ID), which identifies the beacon and links to its registration. The vessel's name and the nature of distress aren't in the signal, and a beacon sends a position only if it has GPS, so \"MMSI and position\" isn't what every alert carries.",
+  "src": [
+   {
+    "doc": "sarsat-overview",
+    "quote": "Imbedded in this frequency is a unique digital code called a HEX ID . The HEX ID identifies the type of beacon and, if the beacon is registered, important information that helps search and rescue (SAR) specialists determine the best course of action."
+   }
+  ],
+  "id": "47F5",
+  "status": "verified"
+ },
+ "47F6": {
+  "why": "Statement C is false: the position and ID don't go instantly to the RCC. A ground station (LUT) computes the position and sends the alert to the Mission Control Center, which processes it and then distributes it to the appropriate RCC. A LEO satellite may also store a signal until it's in view of a ground station.",
+  "src": [
+   {
+    "doc": "sarsat-overview",
+    "quote": "The LUT processes the data, computes the location of the distress beacon, and transmits a decoded alert message to its associated national Mission Control Center (MCC)."
+   },
+   {
+    "doc": "sarsat-mcc",
+    "quote": "The geographic location of the beacon is determined and is distributed by the MCC to the appropriate RCC, foreign SPOC or other MCC."
+   },
+   {
+    "doc": "sarsat-ground",
+    "quote": "When not within view of a LEOLUT, LEO satellites store the beacon distress signal information onboard until it comes into visual contact with the next LEOLUT."
+   }
+  ],
+  "id": "47F6",
+  "status": "verified"
+ },
+ "48F1": {
+  "why": "All of these are good preparation: a list of the DSC coast stations along the route, a prepared distress message ready to edit on the satellite and NBDP equipment, and Inmarsat land earth station choices kept up to date as the ship moves between SAR regions.",
+  "basis": "practice",
+  "src": [],
+  "id": "48F1",
+  "status": "verified"
+ },
+ "48F2": {
+  "why": "The initial distress button alert sends only basic data such as identity and position. A detailed follow-up message should add what it couldn't: the vessel's name and call sign, persons on board, and every way to contact the vessel.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "80.314",
+    "quote": "Any other information which might facilitate rescue, for example, the length, color, and type of vessel, or number of persons on board."
+   }
+  ],
+  "id": "48F2",
+  "status": "verified"
+ },
+ "48F3": {
+  "why": "MF/HF SSB voice can reach a distant RCC or coast station, and some of the same frequencies (2182 kHz and especially 4125 kHz) are also designated for on-scene communication with ships and SAR aircraft, so everyone can share the traffic. VHF is short-range, NBDP telex isn't usable by aircraft, and Inmarsat is point to point.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "80.1127",
+    "quote": "the frequencies 3023 kHz, 4125 kHz, 5680 kHz, 123.1 MHz and 156.3 MHz may be used for ship-to-aircraft on-scene communications"
+   }
+  ],
+  "id": "48F3",
+  "status": "verified"
+ },
+ "48F5": {
+  "why": "The Admiralty List of Radio Signals Volume 5, NGA Pub. 117 and the ITU List of Coast Stations describe coast stations, frequencies and GMDSS services along the route, which is what you need to plan equipment setup. Part 80 is regulations, and manufacturers' manuals explain the equipment, not the shore services.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "80.1085",
+    "quote": "Ships must carry either the most recent edition of the IMO publication entitled GMDSS Master Plan of Shore-Based Facilities, the U.S. NGA Publication 117, or the Admiralty List of Radio Signals Volume 5"
+   }
+  ],
+  "id": "48F5",
+  "status": "verified"
+ },
+ "51H1": {
+  "why": "All NAVTEX stations share 518 kHz, so interference is avoided by time-sharing (each station gets a 10-minute slot every 4 hours), by limiting transmitter power, and by giving stations with the same identification letter a large geographical separation.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "Each transmitter identification character is allocated a maximum transmission time of 10 minutes every 4 hours."
+   },
+   {
+    "doc": "imo-navtex",
+    "quote": "In order to avoid erroneous reception and interference of transmissions from two stations having the same transmitter identification character, it is necessary to ensure that such stations have a large geographical separation."
+   },
+   {
+    "doc": "imo-navtex",
+    "quote": "Experience indicates that the required range of 250 to 400 nautical miles will normally be attained by transmitted power of no more than 1 kW during daylight with a 60% reduction during night conditions."
+   }
+  ],
+  "id": "51H1",
+  "status": "verified"
+ },
+ "51H2": {
+  "why": "NAVTEX uses medium frequency (518 kHz), which travels farthest at night, when the ionosphere stops absorbing MF signals. That's why stations reduce power at night to avoid interfering with each other.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "Experience indicates that the required range of 250 to 400 nautical miles will normally be attained by transmitted power of no more than 1 kW during daylight with a 60% reduction during night conditions."
+   }
+  ],
+  "id": "51H2",
+  "status": "verified"
+ },
+ "51H3": {
+  "why": "If a NAVTEX message is garbled, wait for the next scheduled broadcast. Vital and important warnings are repeated at every scheduled transmission while they remain valid. NAVTEX is receive-only, so there's no way to request a repeat.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "Both VITAL and IMPORTANT messages should be repeated at each scheduled transmission time slot, if the situation is still valid."
+   }
+  ],
+  "id": "51H3",
+  "status": "verified"
+ },
+ "51H4": {
+  "why": "Running out of paper can't make the receiver switch to SafetyNET: NAVTEX and SafetyNET are separate systems. Without paper, the unit can't print, messages may be missed, and it may sound or show an alarm.",
+  "basis": "practice",
+  "src": [],
+  "id": "51H4",
+  "status": "verified"
+ },
+ "51H5": {
+  "why": "518 kHz is the international NAVTEX frequency. 4209.5 kHz is used for some NAVTEX-type warnings, and 2187.5 kHz and Channel 16 aren't NAVTEX frequencies.",
+  "src": [
+   {
+    "sec": "80.1077",
+    "quote": "International NAVTEX 518 kHz."
+   }
+  ],
+  "id": "51H5",
+  "status": "verified"
+ },
+ "51H6": {
+  "why": "NAVTEX stations typically cover a few hundred nautical miles: IMO guidance gives a required range of 250 to 400 nautical miles.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "Experience indicates that the required range of 250 to 400 nautical miles will normally be attained by transmitted power of no more than 1 kW during daylight with a 60% reduction during night conditions."
+   }
+  ],
+  "id": "51H6",
+  "status": "verified"
+ },
+ "52H1": {
+  "why": "Each NAVTEX message type has a single letter (A to Z), its subject indicator, and you reject a type by deselecting its letter. Stations are identified by a single letter too, not a two-digit code or a SELCAL.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "Some subject indicator characters can be used to reject messages concerning certain subjects which may not be required by the ship"
+   },
+   {
+    "doc": "imo-navtex",
+    "quote": "The transmitter identification character (B1) is a single letter which is allocated to each transmitter. It is used to identify the broadcasts which are to be accepted by the receiver and those to be rejected, and also the time slot for the transmission."
+   }
+  ],
+  "id": "52H1",
+  "status": "verified"
+ },
+ "52H2": {
+  "why": "A NAVTEX receiver can be programmed to accept or reject broadcasts from particular stations (by their identification letter) and particular message categories (by their subject letter).",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "The transmitter identification character (B1) is a single letter which is allocated to each transmitter. It is used to identify the broadcasts which are to be accepted by the receiver and those to be rejected, and also the time slot for the transmission."
+   },
+   {
+    "doc": "imo-navtex",
+    "quote": "Some subject indicator characters can be used to reject messages concerning certain subjects which may not be required by the ship"
+   }
+  ],
+  "id": "52H2",
+  "status": "verified"
+ },
+ "52H4": {
+  "why": "Unwanted NAVTEX broadcasts are kept out by programming the receiver to reject certain stations and message categories. Receivers aren't run on schedules or desensitized at night.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "The transmitter identification character (B1) is a single letter which is allocated to each transmitter. It is used to identify the broadcasts which are to be accepted by the receiver and those to be rejected, and also the time slot for the transmission."
+   },
+   {
+    "doc": "imo-navtex",
+    "quote": "Some subject indicator characters can be used to reject messages concerning certain subjects which may not be required by the ship"
+   }
+  ],
+  "id": "52H4",
+  "status": "verified"
+ },
+ "52H5": {
+  "why": "Operators can deselect most message categories, but navigational warnings, meteorological warnings and search and rescue information (categories A, B and D, plus L) are mandatory and can't be deselected on current receivers. Rejecting them would be unsafe.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "which have been allocated for navigational warnings, meteorological warnings, search and rescue information, acts of piracy warnings, tsunamis and other natural phenomena, is mandatory and cannot be deselected on the NAVTEX receiver"
+   }
+  ],
+  "id": "52H5",
+  "status": "verified"
+ },
+ "52H6": {
+  "why": "Navigational warnings (A), meteorological warnings (B) and search and rescue information (D) are mandatory and can't be deselected on the NAVTEX receiver. Forecasts, pilot messages and ice reports can be.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "which have been allocated for navigational warnings, meteorological warnings, search and rescue information, acts of piracy warnings, tsunamis and other natural phenomena, is mandatory and cannot be deselected on the NAVTEX receiver"
+   }
+  ],
+  "id": "52H6",
+  "status": "verified"
+ },
+ "53H1": {
+  "why": "The first character of a NAVTEX message identity (B1) is a single letter, A to X in practice, identifying the transmitting station. The second letter (B2) gives the message category, and the last two digits are the message number.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "The transmitter identification character (B1) is a single letter which is allocated to each transmitter. It is used to identify the broadcasts which are to be accepted by the receiver and those to be rejected, and also the time slot for the transmission."
+   },
+   {
+    "doc": "imo-navtex",
+    "quote": "B1 Transmitter identification character B2 Subject indicator character B3B4 Message numbering characters"
+   }
+  ],
+  "id": "53H1",
+  "status": "verified"
+ },
+ "53H2": {
+  "why": "Meteorological warnings, search and rescue information and navigational warnings (A, B and D) are mandatory NAVTEX categories and can't be deselected, whatever other MSI equipment the ship has.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "which have been allocated for navigational warnings, meteorological warnings, search and rescue information, acts of piracy warnings, tsunamis and other natural phenomena, is mandatory and cannot be deselected on the NAVTEX receiver"
+   }
+  ],
+  "id": "53H2",
+  "status": "verified"
+ },
+ "53H3": {
+  "why": "NAVTEX is sent in the collective B-mode of narrow-band direct printing, which is forward error correction (FEC): a one-way broadcast to many receivers.",
+  "src": [
+   {
+    "doc": "itu-m540",
+    "quote": "The signals transmitted should be in conformity with the collective B-mode of the direct-printing system"
+   },
+   {
+    "doc": "itu-m476",
+    "quote": "Mode B, forward error correction (FEC)"
+   }
+  ],
+  "id": "53H3",
+  "status": "verified"
+ },
+ "53H4": {
+  "why": "A NAVTEX receiver prints a message if it hasn't already received that message identity (stored for 72 hours) and the message's subject letter hasn't been deselected. Repeats of a message already received aren't printed again.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "When a message is received for the first time by a NAVTEX receiver, the message identity is recorded and stored in the memory for 72 hours."
+   },
+   {
+    "doc": "imo-navtex",
+    "quote": "Some subject indicator characters can be used to reject messages concerning certain subjects which may not be required by the ship"
+   }
+  ],
+  "id": "53H4",
+  "status": "verified"
+ },
+ "53H5": {
+  "why": "The second letter of the NAVTEX header (B2, the subject indicator) gives the message type, and the receiver uses it to accept or reject messages. Stations are identified by letters, not numbers, and messages numbered 00 can't be rejected.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "Some subject indicator characters can be used to reject messages concerning certain subjects which may not be required by the ship"
+   },
+   {
+    "doc": "imo-navtex",
+    "quote": "Messages broadcast using NAVTEX number B3B4 = 00 cannot be rejected"
+   }
+  ],
+  "id": "53H5",
+  "status": "verified"
+ },
+ "53H6": {
+  "why": "NAVTEX broadcasts are grouped into message categories, each identified by a single letter (the subject indicator). They're sent in each station's time slot, not on request or after traffic lists.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "Information is grouped by subject in the NAVTEX broadcast and each subject group is allocated a B2 subject indicator character."
+   },
+   {
+    "doc": "imo-navtex",
+    "quote": "Each transmitter identification character is allocated a maximum transmission time of 10 minutes every 4 hours."
+   }
+  ],
+  "id": "53H6",
+  "status": "verified"
+ },
+ "54H1": {
+  "why": "SafetyNET, the Inmarsat-C enhanced group call MSI service, can broadcast MSI to coastal warning areas that the international NAVTEX service doesn't cover.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "it also provides the means of broadcasting MSI to coastal warning areas not covered by the International NAVTEX service"
+   }
+  ],
+  "id": "54H1",
+  "status": "verified"
+ },
+ "54H2": {
+  "why": "SafetyNET distress and urgency messages set off an audible and visual alarm at the navigating position. The alarm can't be disabled and must be reset manually, so the operator has to respond and read the message.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "It is not possible to disable this alarm and it is only possible to reset it manually"
+   }
+  ],
+  "id": "54H2",
+  "status": "verified"
+ },
+ "54H3": {
+  "why": "SafetyNET can broadcast MSI to coastal warning areas not covered by NAVTEX, for example where NAVTEX isn't feasible or traffic doesn't justify it.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "it also provides the means of broadcasting MSI to coastal warning areas not covered by the International NAVTEX service"
+   }
+  ],
+  "id": "54H3",
+  "status": "verified"
+ },
+ "54H4": {
+  "why": "SafetyNET messages are received by the EGC (enhanced group call) receiver of the ship's Inmarsat-C ship earth station. NAVTEX, HF NBDP and VHF DSC are separate systems.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "It has been developed as a safety service of the Inmarsat C Enhanced Group Call (EGC) system"
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "Aboard ships, messages are received by type-approved Inmarsat ship earth station EGC terminals."
+   }
+  ],
+  "id": "54H4",
+  "status": "verified"
+ },
+ "54H5": {
+  "why": "SafetyNET is an Inmarsat-C enhanced group call service, so it's received on an Inmarsat-C EGC receiver.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "It has been developed as a safety service of the Inmarsat C Enhanced Group Call (EGC) system"
+   }
+  ],
+  "id": "54H5",
+  "status": "verified"
+ },
+ "54H6": {
+  "why": "SafetyNET, Inmarsat's enhanced group call service, is the satellite MSI service among these choices (Iridium now offers a similar service). NAVTEX is terrestrial, AMVER is a ship reporting system, and Inmarsat-M is a voice terminal.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "SafetyNET is an international automatic direct-printing satellite-based service for the promulgation of Maritime Safety Information (MSI)"
+   },
+   {
+    "doc": "nws-metarea",
+    "quote": "The satellite broadcasts of MSI are handled by two companies, Inmarsat and Iridium"
+   }
+  ],
+  "id": "54H6",
+  "status": "verified"
+ },
+ "55H1": {
+  "why": "SafetyNET broadcasts maritime safety information (MSI): navigational and meteorological warnings, forecasts, SAR information and other urgent safety messages.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "SafetyNET is an international automatic direct-printing satellite-based service for the promulgation of Maritime Safety Information (MSI)"
+   }
+  ],
+  "id": "55H1",
+  "status": "verified"
+ },
+ "55H2": {
+  "why": "SafetyNET carries MSI, storm warnings and distress and urgency broadcasts to geographic areas, but not vessel traffic lists, which are a commercial coast station service.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "SafetyNET is an international automatic direct-printing satellite-based service for the promulgation of Maritime Safety Information (MSI)"
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "The area may be fixed, as in the case of a NAVAREA/METAREA or coastal warning area, or a user-defined area (circular or rectangular). A user-defined area is used for messages, such as a local storm warning or a shore-to-ship distress alert, for which it is inappropriate to alert ships in an entire satellite Ocean Region or NAVAREA/METAREA."
+   }
+  ],
+  "id": "55H2",
+  "status": "verified"
+ },
+ "55H3": {
+  "why": "Inmarsat-C SafetyNET is the satellite MSI service among these choices (Iridium now runs a similar service). NAVTEX is terrestrial MF, AMVER is a ship reporting system, and Inmarsat-M is a voice terminal.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "SafetyNET is an international automatic direct-printing satellite-based service for the promulgation of Maritime Safety Information (MSI)"
+   },
+   {
+    "doc": "nws-metarea",
+    "quote": "The satellite broadcasts of MSI are handled by two companies, Inmarsat and Iridium"
+   }
+  ],
+  "id": "55H3",
+  "status": "verified"
+ },
+ "55H4": {
+  "why": "SafetyNET broadcasts maritime safety information (MSI).",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "SafetyNET is an international automatic direct-printing satellite-based service for the promulgation of Maritime Safety Information (MSI)"
+   }
+  ],
+  "id": "55H4",
+  "status": "verified"
+ },
+ "55H5": {
+  "why": "To receive the MSI meant for your area, the Inmarsat-C terminal must be working and logged in to the right ocean region, with an accurate position so it accepts broadcasts for the NAVAREA you're in. You don't notify the NAVAREA coordinator, and setting it to your destination region would miss current warnings.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "The position information in Inmarsat SESs is updated automatically from integrated navigational receivers"
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "If the position has not been updated for more than 12 hours or is unknown, all SafetyNET messages within the entire satellite Ocean Region will be printed or stored in the Inmarsat SES."
+   }
+  ],
+  "id": "55H5",
+  "status": "verified"
+ },
+ "56H1": {
+  "why": "Enhanced Group Calls are broadcast over Inmarsat satellites. EGC is part of the Inmarsat-C system.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "It has been developed as a safety service of the Inmarsat C Enhanced Group Call (EGC) system"
+   }
+  ],
+  "id": "56H1",
+  "status": "verified"
+ },
+ "56H2": {
+  "why": "An Inmarsat-C terminal that's busy may miss a broadcast, but vital messages are repeated: some are echoed a few minutes after the first broadcast, and warnings still in force are repeated at later scheduled broadcasts.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "will initiate an automatic repeated broadcast 6 minutes after the initial scheduled or unscheduled broadcast"
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "MSI and SAR related information broadcasts will only be received when the terminal is idle."
+   }
+  ],
+  "id": "56H2",
+  "status": "verified"
+ },
+ "56H3": {
+  "why": "The EGC system can address messages to fixed areas (such as NAVAREAs) or to variable, user-defined areas. That's unique to EGC: NAVTEX broadcasts to fixed station areas only.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "The area may be fixed, as in the case of a NAVAREA/METAREA or coastal warning area, or a user-defined area (circular or rectangular). A user-defined area is used for messages, such as a local storm warning or a shore-to-ship distress alert, for which it is inappropriate to alert ships in an entire satellite Ocean Region or NAVAREA/METAREA."
+   }
+  ],
+  "id": "56H3",
+  "status": "verified"
+ },
+ "56H4": {
+  "why": "EGC lets a message go to a user-defined area, which suits things like a local storm warning or a shore-to-ship distress relay, where alerting a whole ocean region would be inappropriate.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "The area may be fixed, as in the case of a NAVAREA/METAREA or coastal warning area, or a user-defined area (circular or rectangular). A user-defined area is used for messages, such as a local storm warning or a shore-to-ship distress alert, for which it is inappropriate to alert ships in an entire satellite Ocean Region or NAVAREA/METAREA."
+   }
+  ],
+  "id": "56H4",
+  "status": "verified"
+ },
+ "56H5": {
+  "why": "EGC has two kinds of service: SafetyNET, which broadcasts maritime safety information, and a commercial service (FleetNET) that sends messages to predefined groups of subscribers, such as a company's fleet. Vessel traffic lists and NOAA hourly broadcasts aren't EGC services.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "SafetyNET is an international automatic direct-printing satellite-based service for the promulgation of Maritime Safety Information (MSI)"
+   }
+  ],
+  "id": "56H5",
+  "status": "verified"
+ },
+ "56H6": {
+  "why": "SafetyNET messages come from registered information providers (such as NAVAREA coordinators and meteorological services) and are sent through an Inmarsat-C land earth station to the right ocean region.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "SafetyNET messages are submitted by registered information providers for promulgation to the appropriate satellite Ocean Region(s) via an Inmarsat C Land Earth Station (LES)."
+   }
+  ],
+  "id": "56H6",
+  "status": "verified"
+ },
+ "57H1": {
+  "why": "HF MSI broadcasts use NBDP in FEC (forward error correction) mode, the broadcast mode. ARQ is for two-way links with a single station.",
+  "src": [
+   {
+    "doc": "itu-m476",
+    "quote": "Mode B, forward error correction (FEC)"
+   },
+   {
+    "doc": "itu-m625",
+    "quote": "that for the broadcast mode a forward error-correcting (FEC) method should be used"
+   }
+  ],
+  "id": "57H1",
+  "status": "verified"
+ },
+ "57H2": {
+  "why": "NAVAREA IV covers the western North Atlantic and Caribbean, and the Coast Guard's Boston station (NMF) broadcasts HF NBDP (SITOR) MSI for that area. Kodiak, San Francisco (Point Reyes) and Honolulu are Pacific stations.",
+  "src": [
+   {
+    "doc": "iho-navarea-iv-xii",
+    "quote": "From the east coast boundary of French Guiana to 07-00N out to 035-00W, from there to 067-00N and the coastline of Greenland"
+   },
+   {
+    "doc": "nws-uscg-broadcasts",
+    "quote": "Boston (NMF) HF SITOR (NBDP Broadcast Schedule)"
+   }
+  ],
+  "id": "57H2",
+  "status": "verified"
+ },
+ "57H3": {
+  "why": "NAVAREA XII covers the eastern North Pacific, and the Coast Guard's Honolulu station (NMO) broadcasts HF NBDP (SITOR) MSI there. Miami, Boston and San Juan are Atlantic stations.",
+  "src": [
+   {
+    "doc": "iho-navarea-iv-xii",
+    "quote": "From the coastline at 03-24S to 120-00W, then to 00-00, then to 180-00, then to 50- 00N, and then following the International Date Line to 67-00N."
+   },
+   {
+    "doc": "nws-uscg-broadcasts",
+    "quote": "Honolulu (NMO) HF SITOR (NBDP Broadcast Schedule)"
+   }
+  ],
+  "id": "57H3",
+  "status": "verified"
+ },
+ "57H4": {
+  "why": "HF MSI is broadcast on specific HF NBDP (SITOR) frequencies: 4210, 6314, 8416.5, 12579, 16806.5, 19680.5, 22376 and 26100.5 kHz. They aren't NAVTEX or voice frequencies.",
+  "src": [
+   {
+    "sec": "80.1077",
+    "quote": "NBDP 4210 kHz, 6314 kHz, 8416.5 kHz, 12579 kHz, 16806.5 kHz, 19680.5 kHz, 22376 kHz, 26100.5 kHz."
+   }
+  ],
+  "id": "57H4",
+  "status": "verified"
+ },
+ "57H5": {
+  "why": "4209.5 kHz is an international MSI warnings frequency, used for NAVTEX-type broadcasts, which are sent in FEC mode. 4125 kHz is a voice distress frequency.",
+  "src": [
+   {
+    "sec": "80.1077",
+    "quote": "Warnings 490 kHz, 4209.5 kHz."
+   },
+   {
+    "doc": "itu-m540",
+    "quote": "The signals transmitted should be in conformity with the collective B-mode of the direct-printing system"
+   }
+  ],
+  "id": "57H5",
+  "status": "verified"
+ },
+ "57H6": {
+  "why": "There are eight HF NBDP frequencies for MSI broadcasts: 4210, 6314, 8416.5, 12579, 16806.5, 19680.5, 22376 and 26100.5 kHz.",
+  "src": [
+   {
+    "sec": "80.1077",
+    "quote": "NBDP 4210 kHz, 6314 kHz, 8416.5 kHz, 12579 kHz, 16806.5 kHz, 19680.5 kHz, 22376 kHz, 26100.5 kHz."
+   }
+  ],
+  "id": "57H6",
+  "status": "verified"
+ },
+ "58H1": {
+  "why": "NAVAREA IV covers the western North Atlantic from French Guiana north to Greenland, including the Caribbean. The U.S. coordinates it.",
+  "src": [
+   {
+    "doc": "iho-navarea-iv-xii",
+    "quote": "From the east coast boundary of French Guiana to 07-00N out to 035-00W, from there to 067-00N and the coastline of Greenland"
+   },
+   {
+    "doc": "nws-metarea",
+    "quote": "is responsible for METAREAs IV (western north Atlantic) and XII (eastern north Pacific)"
+   }
+  ],
+  "id": "58H1",
+  "status": "verified"
+ },
+ "58H2": {
+  "why": "The Arctic NAVAREAs are XVII through XXI. Choice A lists three of them (XVIII, XX and XXI); the other choices name areas outside the Arctic.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Until Inmarsat C or Mini-C terminals operating in arctic waters have been updated or replaced, C2 = 04 may be used for NAVAREA warnings to a rectangular area by NAVAREAs XVII, XVIII, XIX, XX and XXI."
+   }
+  ],
+  "id": "58H2",
+  "status": "verified"
+ },
+ "58H3": {
+  "why": "NAVAREAs are the same areas used by SafetyNET, which can address messages to a whole NAVAREA. They aren't the same as GMDSS sea areas or Inmarsat ocean regions.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "The area may be fixed, as in the case of a NAVAREA/METAREA or coastal warning area, or a user-defined area (circular or rectangular). A user-defined area is used for messages, such as a local storm warning or a shore-to-ship distress alert, for which it is inappropriate to alert ships in an entire satellite Ocean Region or NAVAREA/METAREA."
+   }
+  ],
+  "id": "58H3",
+  "status": "verified"
+ },
+ "58H4": {
+  "why": "The western Atlantic and the east coast of North and Central America, including the Caribbean, are in NAVAREA IV.",
+  "src": [
+   {
+    "doc": "iho-navarea-iv-xii",
+    "quote": "From the east coast boundary of French Guiana to 07-00N out to 035-00W, from there to 067-00N and the coastline of Greenland"
+   },
+   {
+    "doc": "nws-metarea",
+    "quote": "is responsible for METAREAs IV (western north Atlantic) and XII (eastern north Pacific)"
+   }
+  ],
+  "id": "58H4",
+  "status": "verified"
+ },
+ "58H5": {
+  "why": "The eastern Pacific along the west coast of the Americas, including Hawaii, is NAVAREA XII. Its limits run from about 3°S on the South American coast out to 180° and north along the date line.",
+  "src": [
+   {
+    "doc": "iho-navarea-iv-xii",
+    "quote": "From the coastline at 03-24S to 120-00W, then to 00-00, then to 180-00, then to 50- 00N, and then following the International Date Line to 67-00N."
+   },
+   {
+    "doc": "nws-metarea",
+    "quote": "is responsible for METAREAs IV (western north Atlantic) and XII (eastern north Pacific)"
+   }
+  ],
+  "id": "58H5",
+  "status": "verified"
+ },
+ "58H6": {
+  "why": "Miami is in NAVAREA IV (western Atlantic and Caribbean). Through the Panama Canal and up to Los Angeles, the ship is in NAVAREA XII (eastern Pacific). So the voyage spans IV and XII.",
+  "src": [
+   {
+    "doc": "iho-navarea-iv-xii",
+    "quote": "From the east coast boundary of French Guiana to 07-00N out to 035-00W, from there to 067-00N and the coastline of Greenland"
+   },
+   {
+    "doc": "iho-navarea-iv-xii",
+    "quote": "From the coastline at 03-24S to 120-00W, then to 00-00, then to 180-00, then to 50- 00N, and then following the International Date Line to 67-00N."
+   }
+  ],
+  "id": "58H6",
+  "status": "verified"
  }
 }

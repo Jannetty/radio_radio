@@ -2,5 +2,10 @@
  "6A4": "The keyed answer (C, 'redundancy ... and on-board maintenance ... will partially meet this requirement') doesn't fit 47 CFR 80.1105(d), under which two methods together meet the A3 requirement.",
  "21D1": "No freely available official source found for U.S. ship call sign formats (four-letter call signs for large ships).",
  "21D5": "No freely available official source found tying the WAB2174 call sign format to tugboats.",
- "49G5": "Question is flawed: choices A, B and D are all false statements about 'line of sight', and C is also inaccurate, so the key can't be explained cleanly."
+ "49G5": "Question is flawed: choices A, B and D are all false statements about 'line of sight', and C is also inaccurate, so the key can't be explained cleanly.",
+ "43F4": "The keyed answer turns on the 406 MHz beacon's output power (5 W). The Cospas-Sarsat specification that states it wasn't available to quote, so the other choices can't be ruled out from a source.",
+ "48F4": "About how Inmarsat routes distress alerts by land earth station and network coordination station. No current public Inmarsat document found to support each statement.",
+ "48F6": "About the Inmarsat-C distress alert update menu and land earth station selection. Terminal-specific; no public source found.",
+ "52H3": "The keyed answer (operators may program receivers to reject categories A, B, D and L) conflicts with the current IMO NAVTEX Manual, which says these categories are mandatory and cannot be deselected.",
+ "55H6": "Choice A (only unscheduled distress and urgency messages received when not logged in) isn't supported by the SafetyNET Services Manual, so 'all of these' can't be confirmed."
 }
