@@ -1,8 +1,6 @@
 # Technician Class explanations, review copy
 
-Generated from `app/data/explanations/tech.json` by `tools/explanations/review.py`. 303 of 409 questions have an explanation. Each quote below appears word for word in the linked source. "Heads up" notes mark places where the current rule differs from the exam's answer key; "general practice" marks answers with no rule to quote.
-
-Questions without an explanation: T8A01, T8A02, T8A03, T8A04, T8A05, T8A06, T8A07, T8A08, T8A09, T8A10, T8A11, T8A12, T8B01, T8B02, T8B03, T8B04, T8B05, T8B06, T8B07, T8B08, T8B09, T8B10, T8B11, T8B12, T8C01, T8C02, T8C03, T8C04, T8C05, T8C06, T8C07, T8C08, T8C09, T8C10, T8C11, T8D01, T8D02, T8D03, T8D04, T8D05, T8D06, T8D07, T8D08, T8D09, T8D10, T8D11, T8D12, T9A01, T9A02, T9A03, T9A04, T9A05, T9A06, T9A07, T9A08, T9A09, T9A10, T9A11, T9B01, T9B02, T9B03, T9B04, T9B05, T9B06, T9B07, T9B08, T9B09, T9B10, T9B11, T9B12, T0A01, T0A02, T0A03, T0A04, T0A05, T0A06, T0A07, T0A08, T0A09, T0A10, T0A11, T0A12, T0B01, T0B02, T0B03, T0B04, T0B05, T0B06, T0B07, T0B08, T0B09, T0B10, T0B11, T0C01, T0C02, T0C03, T0C04, T0C05, T0C06, T0C07, T0C08, T0C09, T0C10, T0C11, T0C12, T0C13
+Generated from `app/data/explanations/tech.json` by `tools/explanations/review.py`. 409 of 409 questions have an explanation. Each quote below appears word for word in the linked source. "Heads up" notes mark places where the current rule differs from the exam's answer key; "general practice" marks answers with no rule to quote.
 
 ## Topic T1A. Purpose and permissible use of the Amateur Radio Service; Operator/primary station license grant; Meanings of basic terms used in FCC rules; Interference; RACES rules; Phonetics; Frequency Coordinator; Beacon
 
@@ -4752,6 +4750,14 @@ _General operating practice, not a quoted rule._
 
 ## Topic T8A. Basic characteristics of FM and SSB; Bandwidth of various modulation modes: CW, SSB, FM, fast-scan TV; Choice of emission type: selection of USB vs LSB, use of SSB for weak signal work, use of FM for VHF packet and repeaters
 
+Choosing a mode. SSB is a narrow form of AM, good for weak signals. FM is used for repeaters and packet. Each mode takes up a different amount of spectrum.
+
+- CW needs only about 100–150 Hz; the FCC's example for 25 words per minute is 100 Hz. ([47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202))
+- SSB voice is about 3 kHz wide (the FCC's example is 2.7 kHz). ([47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202))
+- FM voice with ±5 kHz deviation is roughly 10–16 kHz wide. ([47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202))
+- An analog fast-scan TV signal is about 6 MHz wide. ([47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202))
+
+- Diagram: Typical bandwidths, on a log scale. Narrower signals concentrate power and let more stations share a band.
 ### T8A01
 
 Which of the following is a form of amplitude modulation?
@@ -4761,7 +4767,10 @@ B. Packet radio
 **C. Single sideband**  
 D. Phase shift keying (PSK)  
 
-_No explanation published._
+Single sideband is a form of amplitude modulation: an AM signal with the carrier and one sideband removed. Spread spectrum, packet and PSK aren't AM.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T8A02
 
@@ -4772,7 +4781,10 @@ B. SSB
 C. AM  
 D. PSK  
 
-_No explanation published._
+VHF packet radio is normally sent with FM (or the closely related PM): audio tones (AFSK) on an FM voice radio.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8A03
 
@@ -4783,7 +4795,10 @@ B. DRM
 **C. SSB**  
 D. PM  
 
-_No explanation published._
+SSB (and CW) is used for weak-signal, long-distance VHF/UHF contacts, because its narrow bandwidth lets weak signals be heard above the noise.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8A04
 
@@ -4794,7 +4809,10 @@ B. SSB
 C. PSK  
 **D. FM or PM**  
 
-_No explanation published._
+VHF and UHF voice repeaters use FM (or PM).
+
+_General operating practice, not a quoted rule._
+
 
 ### T8A05
 
@@ -4805,7 +4823,12 @@ B. SSB voice
 **C. CW**  
 D. Slow-scan TV  
 
-_No explanation published._
+CW is the narrowest: about 100–150 Hz. SSB voice is about 3 kHz and FM about 10–16 kHz.
+
+_Standard radio theory, not a quoted rule._
+
+- [47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202): “25 words per minute; B = 20, K = 5, Bandwidth: 100 Hz 100HA1A”
+- [47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202): “lowest modulation frequency is 3000 Hz, 2700 Hz Bandwidth: 2700Hz = 2.7 kHz 2K70J3E”
 
 ### T8A06
 
@@ -4816,7 +4839,10 @@ B. Lower sideband
 C. Suppressed sideband  
 D. Inverted sideband  
 
-_No explanation published._
+By convention, upper sideband is used on 10 meters and on VHF and UHF (and on 20 meters and above). Lower sideband is the custom on 160, 80 and 40 meters; 60 meters is an exception, where USB is required.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8A07
 
@@ -4827,7 +4853,12 @@ B. SSB signals are less susceptible to interference
 **C. SSB signals have narrower bandwidth**  
 D. SSB signals are less susceptible to high SWR  
 
-_No explanation published._
+SSB is much narrower than FM: about 3 kHz versus roughly 10–16 kHz.
+
+_Standard radio theory, not a quoted rule._
+
+- [47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202): “lowest modulation frequency is 3000 Hz, 2700 Hz Bandwidth: 2700Hz = 2.7 kHz 2K70J3E”
+- [47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202): “For an average case of commercial telephony, M = 3,000, Bandwidth: 16,000 Hz = 16 kHz 16K0F3E”
 
 ### T8A08
 
@@ -4838,7 +4869,11 @@ A. 1 kHz
 C. 6 kHz  
 D. 15 kHz  
 
-_No explanation published._
+A typical SSB voice signal is about 3 kHz wide; the FCC's worked example gives 2.7 kHz.
+
+_Standard radio theory, not a quoted rule._
+
+- [47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202): “lowest modulation frequency is 3000 Hz, 2700 Hz Bandwidth: 2700Hz = 2.7 kHz 2K70J3E”
 
 ### T8A09
 
@@ -4849,7 +4884,11 @@ B. About 150 kHz
 **C. Between 10 and 15 kHz**  
 D. Between 50 and 125 kHz  
 
-_No explanation published._
+A VHF FM voice signal (±5 kHz deviation) occupies roughly 10–15 kHz. The FCC's worked example uses Carson's rule, 2 × (5 kHz deviation + 3 kHz audio) = 16 kHz.
+
+_Standard radio theory, not a quoted rule._
+
+- [47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202): “For an average case of commercial telephony, M = 3,000, Bandwidth: 16,000 Hz = 16 kHz 16K0F3E”
 
 ### T8A10
 
@@ -4860,7 +4899,11 @@ A. More than 10 MHz
 C. About 3 MHz  
 D. About 1 MHz  
 
-_No explanation published._
+An AM fast-scan TV signal, like an old broadcast analog TV channel, is about 6 MHz wide.
+
+_Standard radio theory, not a quoted rule._
+
+- [47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202): “Total bandwidth: 6 MHz 6M25C3F”
 
 ### T8A11
 
@@ -4871,7 +4914,11 @@ A. 2.4 kHz
 C. 1000 Hz  
 D. 15 kHz  
 
-_No explanation published._
+A CW signal needs only about 150 Hz or less: the FCC's example for 25 words per minute is 100 Hz.
+
+_Standard radio theory, not a quoted rule._
+
+- [47 CFR §2.202](https://www.ecfr.gov/current/title-47/section-2.202): “25 words per minute; B = 20, K = 5, Bandwidth: 100 Hz 100HA1A”
 
 ### T8A12
 
@@ -4882,9 +4929,23 @@ A. Voice quality is poorer
 C. FM signals are harder to tune  
 D. FM signals are more susceptible to high SWR  
 
-_No explanation published._
+FM receivers lock onto the strongest signal (the capture effect), so only one signal can be heard at a time. With SSB, several signals on the same frequency can be heard together.
+
+_Standard radio theory, not a quoted rule._
+
 
 ## Topic T8B. Amateur satellite operation: Doppler shift, basic orbits, operating protocols, modulation mode selection, transmitter power considerations, telemetry, satellite tracking programs, beacons, uplink and downlink mode definitions, spin fading, definition of “LEO”, setting uplink power
+
+Amateur satellites act like repeaters in the sky, usually receiving on one band and transmitting on another. Their motion causes Doppler shift and fading.
+
+- Tracking programs predict passes from a satellite's Keplerian elements. ([AMSAT](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf))
+- Beacons send telemetry about the satellite's health and status. ([AMSAT](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf))
+- Because the beacon's power is fixed, it's a good reference for setting your uplink power: aim for a downlink signal about as strong as the beacon. ([AMSAT](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf))
+- Mode names give the uplink band, then the downlink band: U/V means a 70 cm uplink and a 2 m downlink. ([AMSAT](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf))
+- Doppler shift: frequencies appear higher as the satellite approaches and lower as it leaves. ([AMSAT](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf))
+- Most amateur satellites are in low Earth orbit (LEO). (Such orbits take roughly 90–100 minutes.) ([AMSAT](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf))
+- Satellites spin and tumble, so their antenna orientation keeps changing and causes spin fading. ([AMSAT](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf))
+- Don't overpower the uplink: high-power stations hog the satellite. ([AMSAT](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf))
 
 ### T8B01
 
@@ -4895,7 +4956,11 @@ B. Time of day accurate to plus or minus 1/10 second
 **C. Health and status of the satellite**  
 D. All these choices are correct  
 
-_No explanation published._
+Satellite beacons usually send telemetry: information on the health and status of the satellite.
+
+_General operating practice, not a quoted rule._
+
+- [AMSAT, For Beginners: an amateur radio satellite primer (K. Baker, compilation)](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf): “Most satellite telemetry signals, which consist primarily of transmissions about the health of the satellite, are also sent to ground controllers by way of the beacon.”
 
 ### T8B02
 
@@ -4906,7 +4971,11 @@ A. Possibility of commanding the satellite to an improper mode
 C. Overloading the satellite batteries  
 D. Possibility of rebooting the satellite control computer  
 
-_No explanation published._
+Too much uplink power hogs the satellite: on FM birds you capture the channel, and on linear transponders you take an unfair share of its power, blocking other users.
+
+_General operating practice, not a quoted rule._
+
+- [AMSAT, For Beginners: an amateur radio satellite primer (K. Baker, compilation)](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf): “end up hogging the bird's FM uplink.”
 
 ### T8B03
 
@@ -4917,7 +4986,10 @@ B. The time, azimuth, and elevation of the start, maximum altitude, and end of a
 C. The apparent frequency of the satellite transmission, including effects of Doppler shift  
 **D. All these choices are correct**  
 
-_No explanation published._
+Satellite tracking programs show maps of where the satellite is, when it will pass over you, and the Doppler shift to expect, among other things.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8B04
 
@@ -4928,7 +5000,10 @@ B. FM
 C. CW/data  
 **D. All these choices are correct**  
 
-_No explanation published._
+Amateur satellites use many modes: SSB, FM, CW and data.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8B05
 
@@ -4939,7 +5014,11 @@ B. An indicator light that shows where to point your antenna
 C. A reflective surface on the satellite  
 **D. A transmission from a satellite that contains status information**  
 
-_No explanation published._
+A satellite beacon is a transmission from the satellite that carries status information, and helps you find it.
+
+_General operating practice, not a quoted rule._
+
+- [AMSAT, For Beginners: an amateur radio satellite primer (K. Baker, compilation)](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf): “Most satellite beacons consist of one or more transmissions coming from the satellite that will assist you in your search as well as tell you other things about the satellite's health and the nature of its transponders.”
 
 ### T8B06
 
@@ -4950,7 +5029,11 @@ A. The satellite transmitted power
 C. The last observed time of zero Doppler shift  
 D. All these choices are correct  
 
-_No explanation published._
+Tracking programs calculate a satellite's position from its Keplerian elements: orbital data published for each satellite.
+
+_General operating practice, not a quoted rule._
+
+- [AMSAT, For Beginners: an amateur radio satellite primer (K. Baker, compilation)](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf): “orbital data called Keplerian elements.”
 
 ### T8B07
 
@@ -4961,7 +5044,11 @@ B. A mode where the satellite receives signals on one band and transmits on anot
 **C. An observed change in signal frequency caused by relative motion between the satellite and Earth station**  
 D. A special digital communications mode for some satellites  
 
-_No explanation published._
+Doppler shift is the change in frequency you hear because the satellite is moving toward or away from you, like a passing train whistle.
+
+_Standard radio theory, not a quoted rule._
+
+- [AMSAT, For Beginners: an amateur radio satellite primer (K. Baker, compilation)](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf): “signals passing through it will exhibit a pronounced Doppler shift, just like the changing pitch of a train whistle as it approaches and then passes.”
 
 ### T8B08
 
@@ -4972,7 +5059,11 @@ A. The satellite uplink is in the 15-meter band and the downlink is in the 10-me
 C. The satellite operates using ultraviolet frequencies  
 D. The satellite frequencies are usually variable  
 
-_No explanation published._
+U/V means the uplink is UHF (70 cm) and the downlink is VHF (2 meters).
+
+_General operating practice, not a quoted rule._
+
+- [AMSAT, For Beginners: an amateur radio satellite primer (K. Baker, compilation)](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf): “the old "Mode B" has now been renamed "Mode U/V" because the satellite's uplink transponder is tuned to UHF and its downlink transmitter is set for the VHF bands.”
 
 ### T8B09
 
@@ -4983,7 +5074,11 @@ A. Circular polarized noise interference radiated from the sun
 C. Doppler shift of the received signal  
 D. Interfering signals within the satellite uplink band  
 
-_No explanation published._
+Satellites rotate (spin or tumble), so their antennas keep changing orientation. The signal fades as the polarization and pattern move relative to your antenna.
+
+_General operating practice, not a quoted rule._
+
+- [AMSAT, For Beginners: an amateur radio satellite primer (K. Baker, compilation)](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf): “these satellites will be spinning and tumbling in orbit, so their uplink and downlink”
 
 ### T8B10
 
@@ -4994,7 +5089,11 @@ B. Low Elevation Orbit, which appears close to the horizon from the earth statio
 C. Low Equilibrium Orbit, which has a slightly unstable period  
 **D. Low Earth Orbit, which has a period of around 100 minutes**  
 
-_No explanation published._
+LEO means low Earth orbit. LEO satellites (like the ISS) circle the Earth in roughly 90–100 minutes.
+
+_Standard radio theory, not a quoted rule._
+
+- [AMSAT, For Beginners: an amateur radio satellite primer (K. Baker, compilation)](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf): “most of our satellites are in what we call a low Earth orbit (LEO).”
 
 ### T8B11
 
@@ -5005,7 +5104,10 @@ B. Only the satellite control operator
 C. Only the control operator or a licensed radio amateur who has received the encryption key from the control operator  
 D. Only a licensed radio amateur who has received the encryption key from AMSAT  
 
-_No explanation published._
+Anyone may receive and decode amateur satellite telemetry. It isn't secret, and you don't need a license to listen.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8B12
 
@@ -5016,9 +5118,17 @@ B. Listen for distortion on your downlink signal
 **C. Your signal strength on the downlink should be about the same as the beacon**  
 D. Compare your signal to others on the downlink using an internet SDR receiver  
 
-_No explanation published._
+The beacon is sent at a fixed power, so it's a good reference: adjust your uplink until your signal on the downlink is about as strong as the beacon.
+
+_General operating practice, not a quoted rule._
+
+- [AMSAT, For Beginners: an amateur radio satellite primer (K. Baker, compilation)](https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf): “with a fixed amount of output power, they can also serve as a superb reference point for setting up and calibrating your station antennas and other equipment.”
 
 ## Topic T8C. Operating activities: radio direction finding, contests, linking over the internet, exchanging grid locators
+
+Operating activities: direction finding (fox hunting), contesting, grid locators, and linking radio to the internet with IRLP, EchoLink and gateways.
+
+- EchoLink connects licensed amateurs to repeaters and nodes over the internet; you must register and prove you're licensed first. ([EchoLink](https://www.echolink.org/validation/))
 
 ### T8C01
 
@@ -5029,7 +5139,10 @@ B. Doppler radar
 **C. Radio direction finding**  
 D. Phase locking  
 
-_No explanation published._
+Radio direction finding, using directional antennas to take bearings, is how hams track down noise sources and jammers.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8C02
 
@@ -5040,7 +5153,10 @@ A. Calibrated SWR meter
 C. A directional wattmeter  
 D. All these choices are correct  
 
-_No explanation published._
+A directional antenna, which picks up signals best from one direction, is the key tool for finding a hidden transmitter.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8C03
 
@@ -5051,7 +5167,10 @@ B. Net operations
 C. Hidden transmitter hunts  
 **D. Contesting**  
 
-_No explanation published._
+Contesting means contacting as many stations as possible in a set time period.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8C04
 
@@ -5062,7 +5181,10 @@ B. Contacting the station twice to be sure that you are in his log
 **C. Sending only the minimum information needed for proper identification and the contest exchange**  
 D. Adding “Please copy” before your exchange  
 
-_No explanation published._
+In a contest, keep it short: send only what's needed for identification and the contest exchange.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8C05
 
@@ -5073,7 +5195,10 @@ B. A letter-number designator assigned to an azimuth and elevation
 C. An instrument for locating faults in power amplifiers  
 D. An instrument for radio direction finding  
 
-_No explanation published._
+A grid locator (Maidenhead grid square, like FN42) is a letter-number code for a geographic location.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8C06
 
@@ -5084,7 +5209,10 @@ A. By obtaining a password that is sent via voice to the node
 C. By entering the proper internet password  
 D. By using Continuous Tone-Coded Squelch System (CTCSS) tone codes  
 
-_No explanation published._
+IRLP nodes are accessed over the air with DTMF (touch-tone) codes, sent from your radio's keypad.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8C07
 
@@ -5095,7 +5223,10 @@ B. A technique employed to “spot” DX stations via the internet
 C. A technique for measuring the modulation quality of a transmitter using remote sites monitored via the internet  
 **D. A method of delivering voice communications over the internet using digital techniques**  
 
-_No explanation published._
+VoIP is a way of sending voice over the internet using digital techniques.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T8C08
 
@@ -5106,7 +5237,10 @@ B. A system for providing access to websites via amateur radio
 C. A system for informing amateurs in real time of the frequency of active DX stations  
 D. A technique for measuring signal strength of an amateur transmitter via the internet  
 
-_No explanation published._
+IRLP links amateur radio systems, such as repeaters, together over the internet.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8C09
 
@@ -5117,7 +5251,10 @@ B. D-STAR
 C. DMR  
 **D. EchoLink**  
 
-_No explanation published._
+EchoLink lets a licensed ham connect to a linked repeater or node from a computer or phone app, with no radio needed to start the transmission.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8C10
 
@@ -5128,7 +5265,11 @@ B. Purchase a license to use the EchoLink software
 **C. Register your call sign and provide proof of license**  
 D. At least a General Class license  
 
-_No explanation published._
+Before using EchoLink you register your call sign and send proof of license, so only licensed amateurs get access.
+
+_General operating practice, not a quoted rule._
+
+- [EchoLink, Validation](https://www.echolink.org/validation/): “Each new user of EchoLink must provide proof of license before access is granted.”
 
 ### T8C11
 
@@ -5139,9 +5280,20 @@ B. A repeater
 C. A digipeater  
 D. A beacon  
 
-_No explanation published._
+A gateway is a station that connects other amateur stations to the internet, for example an EchoLink or IRLP node.
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic T8D. Non-voice and digital communications: image signals and definition of NTSC, CW, packet radio, PSK, APRS, error detection and correction, amateur radio networking, DMR, WSJT modes, Broadband-Hamnet
+
+Digital and non-voice modes: CW, packet and APRS, PSK, DMR, the WSJT-X modes such as FT8, error correction, and amateur mesh networks.
+
+- WSJT-X is built for communicating with very weak signals. ([WSJT-X User Guide](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/introduction.adoc))
+- JT65 was designed for EME (moonbounce). ([WSJT-X User Guide](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/introduction.adoc))
+- MSK144 and similar fast modes use brief reflections from meteor trails. ([WSJT-X User Guide](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/introduction.adoc))
+- WSPR is used for low-power propagation beacons. ([WSJT-X User Guide](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/introduction.adoc))
+- DMR fits two digital voice channels (time slots) onto one 12.5 kHz channel. ([ETSI TS 102 361-1 V2.6.1](https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf))
 
 ### T8D01
 
@@ -5152,7 +5304,10 @@ B. IEEE 802.11
 C. FT8  
 **D. All these choices are correct**  
 
-_No explanation published._
+Packet radio, IEEE 802.11 (Wi-Fi, used in amateur mesh networks) and FT8 are all digital modes.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T8D02
 
@@ -5163,7 +5318,12 @@ A. A wideband FM voice mode
 C. An eight-channel multiplex mode for FM repeaters  
 D. A digital slow-scan TV mode with forward error correction and automatic color compensation  
 
-_No explanation published._
+FT8 is a digital mode designed for contacts with very weak signals, below the noise you could hear by ear.
+
+_General operating practice, not a quoted rule._
+
+- [WSJT-X User Guide, introduction (source mirror on GitHub)](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/introduction.adoc): “_WSJT-X_ is a computer program designed to facilitate basic amateur radio communication using very weak signals.”
+- [WSJT-X User Guide, introduction (source mirror on GitHub)](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/introduction.adoc): “The first seven are designed for making reliable QSOs under weak-signal conditions.”
 
 ### T8D03
 
@@ -5174,7 +5334,10 @@ B. Text messages
 C. Weather data  
 **D. All these choices are correct**  
 
-_No explanation published._
+APRS (Automatic Packet Reporting System) carries GPS positions, text messages, weather station data and more.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8D04
 
@@ -5185,7 +5348,10 @@ B. A special mode for satellite uplink
 **C. An analog fast-scan color TV signal**  
 D. A frame compression scheme for TV signals  
 
-_No explanation published._
+NTSC is the analog fast-scan color TV standard formerly used for US broadcast TV, and still used for amateur TV.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T8D05
 
@@ -5196,7 +5362,10 @@ B. Automatically showing the number of packets transmitted via PACTOR during a s
 C. Providing voice over internet connection between repeaters  
 D. Providing information on the number of stations signed into a repeater  
 
-_No explanation published._
+APRS gives real-time tactical digital communications along with a map showing where stations are. It's useful for events and emergencies.
+
+_General operating practice, not a quoted rule._
+
 
 ### T8D06
 
@@ -5207,7 +5376,10 @@ A. Pulse Shift Keying
 C. Packet Sampled Keying  
 D. Power Sampled Keying  
 
-_No explanation published._
+PSK stands for phase shift keying.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T8D07
 
@@ -5218,7 +5390,11 @@ B. An automatic position tracking mode for FM mobiles communicating through repe
 C. An automatic computer logging technique for hands-off logging when communicating while operating a vehicle  
 D. A digital technique for transmitting on two repeater inputs simultaneously for automatic error correction  
 
-_No explanation published._
+DMR uses time-division multiplexing to carry two digital voice signals (two time slots) on one 12.5 kHz repeater channel.
+
+_Standard radio theory, not a quoted rule._
+
+- [ETSI TS 102 361-1 V2.6.1, Digital Mobile Radio (DMR) air interface protocol](https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf): “employs a Time Division Multiple Access (TDMA) technology with a 2-slot TDMA solution and RF carrier bandwidth of 12,5 kHz”
 
 ### T8D08
 
@@ -5229,7 +5405,10 @@ B. A header that contains the call sign of the station to which the information 
 C. Automatic repeat request in case of error  
 **D. All these choices are correct**  
 
-_No explanation published._
+Packet radio (AX.25) frames include a header with the destination and source call signs and a checksum to detect errors, and connected-mode packet automatically re-sends frames with errors (ARQ).
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T8D09
 
@@ -5240,7 +5419,10 @@ B. A digital mode used primarily on 2-meter FM
 C. Error correction for digital transmission using code words  
 **D. Another name for a Morse code transmission**  
 
-_No explanation published._
+CW (continuous wave) is another name for Morse code sent by turning a carrier on and off.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T8D10
 
@@ -5251,7 +5433,13 @@ B. Weak signal propagation beacons
 C. Meteor scatter  
 **D. All these choices are correct**  
 
-_No explanation published._
+WSJT-X supports all of these: EME (moonbounce), meteor scatter (MSK144), and weak-signal propagation beacons (WSPR).
+
+_General operating practice, not a quoted rule._
+
+- [WSJT-X User Guide, introduction (source mirror on GitHub)](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/introduction.adoc): “JT65 was designed for EME ("`moonbounce`") on VHF and higher bands”
+- [WSJT-X User Guide, introduction (source mirror on GitHub)](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/introduction.adoc): “ionized meteor trails, aircraft scatter, and other types of scatter propagation.”
+- [WSJT-X User Guide, introduction (source mirror on GitHub)](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/introduction.adoc): “The WSPR protocol was designed for probing potential propagation paths using low-power transmissions.”
 
 ### T8D11
 
@@ -5262,7 +5450,10 @@ B. A system used to encrypt command signals to an amateur radio satellite
 **C. An error correction method in which the receiving station detects errors and sends a request for retransmission**  
 D. A method of compressing data using autonomous reiterative Q codes prior to final encoding  
 
-_No explanation published._
+ARQ (automatic repeat request) is error correction where the receiver checks for errors and asks the sender to retransmit any bad data.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T8D12
 
@@ -5273,10 +5464,21 @@ B. A wide-bandwidth digital voice mode employing DMR protocols
 C. An amateur-radio satellite communications network using modified commercial satellite TV hardware  
 D. An internet linking protocol allowing communication through repeaters around the world  
 
-_No explanation published._
+An amateur mesh network (such as AREDN) uses commercial Wi-Fi equipment running modified firmware on amateur frequencies to build a data network.
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic T9A. Antennas: vertical and horizontal polarization, concept of antenna gain, definition and types of beam antennas, antenna loading, common portable and mobile antennas, relationships between resonant length and frequency, dipole pattern
 
+Antennas: polarization, gain and beams, resonant length, loading, and the antennas used on handhelds and in cars.
+
+- Polarization follows the antenna's electric field: a vertical antenna is vertically polarized. ([US Navy](https://archive.org/details/NEETSModules))
+- Gain is how much more signal an antenna sends in a particular direction compared with a reference antenna. ([US Navy](https://archive.org/details/NEETSModules))
+- Beams such as the Yagi use parasitic elements (a director and a reflector) to get high gain in one direction. ([US Navy](https://archive.org/details/NEETSModules))
+- Loading coils make a short antenna electrically longer. A shorter antenna resonates at a higher frequency. ([US Navy](https://archive.org/details/NEETSModules))
+
+- Diagram: A half-wave dipole seen from above (free-space pattern). It radiates best broadside to the wire and much less off the ends.
 ### T9A01
 
 What is a beam antenna?
@@ -5286,7 +5488,11 @@ B. An omnidirectional antenna invented by Clarence Beam
 **C. An antenna that concentrates signals in one direction**  
 D. An antenna that focuses the signal into two intense rays  
 
-_No explanation published._
+A beam antenna concentrates its signal in one direction (and hears best from that direction), like a Yagi.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “The ratio between the amount of energy propagated in these directions compared to the energy that would be propagated if the antenna were not directional is known as its gain.”
 
 ### T9A02
 
@@ -5297,7 +5503,11 @@ B. Inserting a resistor in the radiating portion of the antenna to make it reson
 C. Installing a spring in the base of a mobile vertical antenna to make it more flexible  
 D. Strengthening the radiating elements of a beam antenna to better resist wind damage  
 
-_No explanation published._
+Loading means changing an antenna's electrical length, for example adding inductors (loading coils) so a physically short antenna acts electrically longer.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “To change the electrical length, you can insert either an inductor or a capacitor in series with the antenna.”
 
 ### T9A03
 
@@ -5308,7 +5518,11 @@ A. By the shape of the driven element
 C. By the orientation of the magnetic field  
 D. By the direction of radiation  
 
-_No explanation published._
+An antenna's polarization is described by the orientation of its electric field: vertical or horizontal.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Normally, the plane of polarization of a radio wave is the plane in which the E field propagates with respect to the Earth.”
 
 ### T9A04
 
@@ -5319,7 +5533,10 @@ B. It transmits only circularly polarized signals
 C. It is more susceptible to receiver desensitization  
 D. It only works on analog signals, not digital ones  
 
-_No explanation published._
+A short flexible "rubber duck" antenna is much shorter than a quarter wavelength and relies on loading. It radiates less of the power fed to it (low efficiency) than a full-size quarter-wave antenna.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T9A05
 
@@ -5330,7 +5547,11 @@ B. Inserting coils in series with radiating wires
 **C. Shortening it**  
 D. Adding capacitive loading to the ends of the radiating wires  
 
-_No explanation published._
+Shortening a dipole raises its resonant frequency, because resonant length is inversely related to frequency.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “If the antenna is too short for the wavelength being used, it is resonant at a higher frequency than that at which it is being excited.”
 
 ### T9A06
 
@@ -5341,7 +5562,11 @@ B. Isotropic
 C. J pole  
 **D. Yagi**  
 
-_No explanation published._
+Of these, a Yagi (a beam with parasitic director and reflector elements) has the most gain. Verticals radiate all around, and an isotropic antenna is the zero-gain reference.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Parasitic arrays represent another method of achieving high antenna gains.”
 
 ### T9A07
 
@@ -5352,7 +5577,10 @@ B. The bandwidth of the antenna will decrease, increasing SWR
 C. The SWR might decrease, decreasing the signal strength  
 D. The handheld will overheat due to reflected power in the vehicle  
 
-_No explanation published._
+A car's metal body shields radio signals, so a handheld used inside, with no outside antenna, gets out and hears much less.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T9A08
 
@@ -5363,7 +5591,10 @@ B. It is a resonant half-wave
 **C. It is a resonant quarter-wave**  
 D. It has low RF radiation exposure  
 
-_No explanation published._
+A quarter wavelength at 146 MHz is about 19 inches. Using the practical formula, 234 ÷ 146 ≈ 1.6 ft ≈ 19.2 in. So a 19-inch whip is a resonant quarter-wave on 2 meters.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T9A09
 
@@ -5374,7 +5605,10 @@ B. It radiates at a higher angle
 C. It has lower SWR  
 D. It has lower impedance  
 
-_No explanation published._
+A 5/8-wavelength vertical concentrates more energy toward the horizon than a 1/4-wave whip, giving it a few dB more gain.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T9A10
 
@@ -5385,7 +5619,11 @@ B. Off the ends of the antenna
 C. In the direction of the feed line  
 **D. Broadside to the antenna**  
 
-_No explanation published._
+A half-wave dipole radiates strongest broadside, at right angles to the wire, and weakest off its ends.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “maximum radiation comes from the doublet in a direction perpendicular to the antenna axis.”
 
 ### T9A11
 
@@ -5396,9 +5634,20 @@ B. The additional power that is required in the antenna when transmitting on a h
 **C. The increase in signal strength in a specified direction compared to a reference antenna**  
 D. The increase in impedance on receive or transmit compared to a reference antenna  
 
-_No explanation published._
+Antenna gain is the increase in signal in a particular direction compared with a reference antenna, such as an isotropic radiator or a dipole.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “The ratio between the amount of energy propagated in these directions compared to the energy that would be propagated if the antenna were not directional is known as its gain.”
 
 ## Topic T9B. Feed lines: types, attenuation vs frequency, selecting; SWR concepts; Antenna tuners (couplers); RF Connectors: selecting, weather protection
+
+Feed lines and connectors: coax types and losses, SWR, antenna tuners, and keeping connections weatherproof.
+
+- Coax losses rise with frequency (skin effect and dielectric loss). ([US Navy](https://archive.org/details/NEETSModules))
+- Lost power turns into heat in the conductors and the dielectric. ([US Navy](https://archive.org/details/NEETSModules))
+- Coax keeps its fields inside the outer conductor, so it's easy to route near other objects. ([US Navy](https://archive.org/details/NEETSModules))
+- SWR measures how well the load (antenna) is matched to the line. ([US Navy](https://archive.org/details/NEETSModules))
 
 ### T9B01
 
@@ -5409,7 +5658,10 @@ B. BNC
 C. Type N  
 **D. All these choices are correct**  
 
-_No explanation published._
+None of the common coax connectors (PL-259, BNC, Type N) is reliably waterproof on its own outdoors. Seal and tape them all to keep water out of the connector and cable.
+
+_General operating practice, not a quoted rule._
+
 
 ### T9B02
 
@@ -5420,7 +5672,10 @@ A. 8 ohms
 C. 600 ohms  
 D. 12 ohms  
 
-_No explanation published._
+Most amateur coax is 50 ohms, matching the 50-ohm output of typical transceivers.
+
+_General operating practice, not a quoted rule._
+
 
 ### T9B03
 
@@ -5431,7 +5686,11 @@ B. It has less loss than any other type of feed line
 C. It can handle more power than any other type of feed line  
 D. It is less expensive than any other type of feed line  
 
-_No explanation published._
+Coax is popular because it's easy to use: it can run next to metal or other cables, be buried, or be bent around obstacles with few special precautions. It isn't the lowest-loss, highest-power or cheapest line.
+
+_General operating practice, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “in a coaxial line no electric or magnetic fields extend outside of the outer conductor.”
 
 ### T9B04
 
@@ -5442,7 +5701,10 @@ B. It helps a receiver automatically tune in weak stations
 C. It allows an antenna to be used on both transmit and receive  
 D. It automatically selects the proper antenna for the frequency band being used  
 
-_No explanation published._
+An antenna tuner (coupler) matches the antenna system's impedance to the transmitter's output impedance, so the transmitter sees a proper load.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T9B05
 
@@ -5453,7 +5715,11 @@ B. The loss decreases
 C. The characteristic impedance increases  
 **D. The loss increases**  
 
-_No explanation published._
+Coax loss rises as frequency rises, from skin effect in the conductors and from dielectric loss.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “power losses increase with an increase in frequency because of skin effect.”
 
 ### T9B06
 
@@ -5464,7 +5730,10 @@ A. PL-259
 C. RS-213  
 D. DB-25  
 
-_No explanation published._
+Type N connectors keep a constant impedance well into the microwave range, so they suit frequencies above 400 MHz. PL-259/SO-239 connectors aren't constant-impedance, so their performance falls off above about 300–400 MHz.
+
+_General operating practice, not a quoted rule._
+
 
 ### T9B07
 
@@ -5475,7 +5744,10 @@ B. They are watertight
 **C. They are commonly used at HF and VHF frequencies**  
 D. They are a bayonet-type connector  
 
-_No explanation published._
+PL-259 connectors are the standard on HF and VHF equipment. They aren't watertight, aren't for microwaves, and screw on (not bayonet like BNC).
+
+_General operating practice, not a quoted rule._
+
 
 ### T9B08
 
@@ -5486,7 +5758,10 @@ B. High SWR
 C. Multiple connectors in the line  
 **D. All these choices are correct**  
 
-_No explanation published._
+All of these add loss: water in connectors, high SWR (which increases loss in the line), and each extra connector.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T9B09
 
@@ -5497,7 +5772,10 @@ A. Local thunderstorm
 C. Over-modulation  
 D. Overload from a strong local station  
 
-_No explanation published._
+A loose connection in the antenna or feed line can make SWR jump around erratically as the contact changes.
+
+_General operating practice, not a quoted rule._
+
 
 ### T9B10
 
@@ -5508,7 +5786,10 @@ B. RG-58 cable has two shields
 **C. RG-213 cable has less loss at a given frequency**  
 D. RG-58 cable can handle higher power levels  
 
-_No explanation published._
+RG-213 is thicker than RG-58, so it has lower loss at a given frequency and handles more power.
+
+_General operating practice, not a quoted rule._
+
 
 ### T9B11
 
@@ -5519,7 +5800,11 @@ B. Multi-conductor unbalanced cable
 **C. Air-insulated hardline**  
 D. 75-ohm flexible coax  
 
-_No explanation published._
+Air-insulated hardline has the lowest loss of these: air is an almost perfect dielectric, and the solid outer conductor confines the signal.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “The spacers are made of Pyrex, polystyrene, or some other material that has good insulating characteristics and low dielectric losses at high frequencies.”
 
 ### T9B12
 
@@ -5530,9 +5815,20 @@ B. The ratio of amplifier power output to input
 C. The transmitter efficiency ratio  
 D. An indication of the quality of your station’s ground connection  
 
-_No explanation published._
+SWR measures how well a load, such as an antenna, is matched to its transmission line. 1:1 is a perfect match.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “STANDING-WAVE RATIO (SWR)—The ratio of the maximum (voltage, current) to the minimum (voltage, current) of a transmission line. Measures the perfection of the termination of the line.”
 
 ## Topic T0A. Power circuits and hazards: hazardous voltages, fuses and circuit breakers, grounding, electrical code compliance; Lightning protection; Battery safety
+
+Electrical safety: shock hazards, fuses and breakers, AC wiring, grounding and bonding, lightning protection, batteries, and stored charge in power supplies.
+
+- In US AC wiring, black is the hot (line) wire. ([US Navy](https://archive.org/details/NEETSModules))
+- White is the grounded (neutral) wire, and green connects to the equipment frame and ground. ([US Navy](https://archive.org/details/NEETSModules))
+- Never replace a fuse with a higher-rated one; excess current can overheat wiring and start a fire. ([US Navy](https://archive.org/details/NEETSModules))
+- Discharge high-voltage capacitors before working inside equipment: they hold a charge after power is off. ([US Navy](https://archive.org/details/NEETSModules))
 
 ### T0A01
 
@@ -5543,7 +5839,10 @@ A. Touching both terminals with your hands can cause electrical shock
 C. RF emissions from a nearby transmitter can cause the electrolyte to emit poison gas  
 D. All these choices are correct  
 
-_No explanation published._
+A 12-volt battery won't shock you through dry skin, but it can deliver huge currents. Shorting its terminals, for example with a wrench or wire, can cause burns, fire or even an explosion.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0A02
 
@@ -5554,7 +5853,10 @@ B. It may disrupt the electrical functions of cells
 C. It may cause involuntary muscle contractions  
 **D. All these choices are correct**  
 
-_No explanation published._
+All of these: current through the body can burn tissue by heating it, disrupt the electrical signals of cells (including the heart), and cause involuntary muscle contractions.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T0A03
 
@@ -5565,7 +5867,11 @@ A. Neutral
 C. Equipment ground  
 D. Negative  
 
-_No explanation published._
+In US AC wiring, black is the hot (line) conductor, white is neutral, and green or bare is the equipment ground.
+
+_General operating practice, not a quoted rule._
+
+- [US Navy, NEETS Module 4: Introduction to Electrical Conductors, Wiring Techniques, and Schematic Reading (NAVEDTRA 14176)](https://archive.org/details/NEETSModules): “The other side of the input is called the "line," or hot side, and is color coded "black".”
 
 ### T0A04
 
@@ -5576,7 +5882,11 @@ A. To prevent power supply ripple from damaging a component
 C. To limit current and prevent shocks  
 D. All these choices are correct  
 
-_No explanation published._
+A fuse removes power when there's an overload: it melts and opens the circuit before the wiring overheats.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “The wire was smaller than the conductor it was protecting and, therefore, would melt before the conductor it was protecting was harmed.”
 
 ### T0A05
 
@@ -5587,7 +5897,12 @@ B. The power supply ripple would greatly increase
 **C. Excessive current could cause a fire**  
 D. Voltage drop in the higher current fuse could result in excessively low voltage to the device  
 
-_No explanation published._
+A 20-amp fuse in place of a 5-amp one would let four times the intended current flow before blowing, which can overheat wiring and start a fire. Always replace a fuse with the same rating.
+
+_General operating practice, not a quoted rule._
+
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “Never use a fuse with a higher current rating, a lower voltage rating, or a slower time delay rating than the specified fuse.”
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “The heat in the wire can char and burn the insulation of the wire”
 
 ### T0A06
 
@@ -5598,7 +5913,11 @@ B. Connect all AC powered station equipment to a common safety ground
 C. Ensure all capacitors used for high-voltage DC are fully discharged before working inside equipment  
 **D. All these choices are correct**  
 
-_No explanation published._
+All of these guard against shock: three-wire grounded cords and plugs, a common safety ground for station equipment, and discharging high-voltage capacitors before working inside equipment.
+
+_General operating practice, not a quoted rule._
+
+- [US Navy, NEETS Module 4: Introduction to Electrical Conductors, Wiring Techniques, and Schematic Reading (NAVEDTRA 14176)](https://archive.org/details/NEETSModules): “Always discharge the high voltage from components or terminals by using a safety probe.”
 
 ### T0A07
 
@@ -5609,7 +5928,10 @@ B. At the antenna feed point
 C. At the AC power service panel  
 **D. On a grounded panel near where feed lines enter the building**  
 
-_No explanation published._
+Lightning arresters belong on a grounded entry panel where the feed lines come into the building, so surges go to ground outside before reaching your equipment.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0A08
 
@@ -5620,7 +5942,10 @@ B. In series with the hot and neutral conductors
 C. In parallel with the hot conductor only  
 D. In parallel with the hot and neutral conductors  
 
-_No explanation published._
+A fuse or breaker goes in series with the hot conductor only, so it cuts off the live side. The neutral shouldn't be fused.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0A09
 
@@ -5631,7 +5956,10 @@ B. Keep them as far apart as possible
 **C. Bond them together with heavy wire or conductive strap**  
 D. Tune them for resonance on the lowest frequency of operation  
 
-_No explanation published._
+All ground rods and earth connections should be bonded together with heavy wire or strap, so they stay at the same potential and lightning or fault current can't flow between them through your equipment.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0A10
 
@@ -5642,7 +5970,10 @@ B. Excess output ripple
 C. Electric shock  
 D. Overvoltage  
 
-_No explanation published._
+Charging or discharging an unprotected battery too fast can make it overheat or give off gas, which can be dangerous.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0A11
 
@@ -5653,7 +5984,11 @@ B. Leakage flux in the power transformer
 C. Voltage transients from kickback diodes  
 **D. Charge stored in filter capacitors**  
 
-_No explanation published._
+Filter capacitors can hold a dangerous charge after the power is turned off. Discharge them safely before touching anything inside.
+
+_General operating practice, not a quoted rule._
+
+- [US Navy, NEETS Module 4: Introduction to Electrical Conductors, Wiring Techniques, and Schematic Reading (NAVEDTRA 14176)](https://archive.org/details/NEETSModules): “Always discharge the high voltage from components or terminals by using a safety probe.”
 
 ### T0A12
 
@@ -5664,9 +5999,17 @@ A. Ensure that the voltmeter has very low impedance
 C. Ensure that the circuit is grounded through the voltmeter  
 D. Ensure that the voltmeter is set to the correct frequency  
 
-_No explanation published._
+For high voltages, make sure the voltmeter and its test leads are rated for the voltage you're measuring.
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic T0B. Antenna safety: tower safety and grounding, installing antennas, antenna supports
+
+Antenna and tower safety: climbing, power lines, guying, and grounding for lightning protection.
+
+- Never work on high voltage alone; have a safety observer present. (The same goes for tower climbing: never climb without a helper on the ground.) ([US Navy](https://archive.org/details/NEETSModules))
+- Always know where power lines are and stay well clear of them. ([US Navy](https://archive.org/details/NEETSModules))
 
 ### T0B01
 
@@ -5677,7 +6020,10 @@ B. Make sure all ground wire bends are right angles
 **C. Ensure that connections are short and direct**  
 D. All these choices are correct  
 
-_No explanation published._
+Lightning ground wires should be short and direct, without sharp bends, so the surge takes the easy path to ground.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0B02
 
@@ -5688,7 +6034,10 @@ B. Use appropriate tie-off to the tower at all times
 C. Always wear an approved climbing harness  
 **D. All these choices are correct**  
 
-_No explanation published._
+All of these: get proper training in tower climbing, wear an approved climbing harness, and stay tied off to the tower at all times.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0B03
 
@@ -5699,7 +6048,10 @@ B. When no mechanical work is being performed
 C. When the work being done is not more than 20 feet above the ground  
 **D. Never**  
 
-_No explanation published._
+Never climb a tower without a helper or observer on the ground.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0B04
 
@@ -5710,7 +6062,10 @@ B. Insulate the base of the tower to avoid lightning strikes
 **C. Look for and stay clear of any overhead electrical wires**  
 D. All these choices are correct  
 
-_No explanation published._
+Look for overhead power lines and stay well clear of them. Contact with power lines is one of the deadliest antenna-installation hazards.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0B05
 
@@ -5721,7 +6076,10 @@ A. Secure the guy line if the turnbuckle breaks
 C. Provide a ground path for lightning strikes  
 D. Provide an ability to measure for proper tensioning  
 
-_No explanation published._
+A safety wire through a turnbuckle keeps it from loosening (unscrewing) due to vibration.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0B06
 
@@ -5732,7 +6090,10 @@ B. The height of the power line above ground
 C. 1/2 wavelength at the operating frequency  
 **D. Enough so that if the antenna falls, no part of it can come within 10 feet of the power wires**  
 
-_No explanation published._
+Place the antenna so that if it falls, no part of it can come within 10 feet of power wires.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0B07
 
@@ -5743,7 +6104,10 @@ B. This type of tower must never be grounded
 **C. This type of tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed**  
 D. All these choices are correct  
 
-_No explanation published._
+Never climb a crank-up tower unless it's fully retracted or mechanical safety locks are in place. The cables or mechanism could fail and drop the sections.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0B08
 
@@ -5754,7 +6118,10 @@ B. A ferrite-core RF choke connected between the tower and ground
 C. A connection between the tower base and a cold-water pipe  
 **D. Separate eight-foot ground rods for each tower leg, bonded to the tower and each other**  
 
-_No explanation published._
+Use a separate eight-foot ground rod for each tower leg, bonded to the tower and to each other.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0B09
 
@@ -5765,7 +6132,10 @@ B. The antenna may unbalance the power transformer, causing power fluctuations
 **C. The antenna could contact high-voltage power lines**  
 D. All these choices are correct  
 
-_No explanation published._
+Utility poles carry high-voltage lines, so an antenna mounted on one could contact them. (It isn't allowed anyway without the utility's permission.)
+
+_General operating practice, not a quoted rule._
+
 
 ### T0B10
 
@@ -5776,7 +6146,10 @@ B. Wires must be carefully routed with precise right-angle bends
 **C. Sharp bends must be avoided**  
 D. Common grounds must be avoided  
 
-_No explanation published._
+Avoid sharp bends in lightning grounding conductors: a lightning surge has very fast-changing current, and sharp bends add impedance and can make it jump off the conductor.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0B11
 
@@ -5787,10 +6160,24 @@ A. FCC Part 97 rules
 C. FAA tower lighting regulations  
 D. UL recommended practices  
 
-_No explanation published._
+Grounding requirements for towers and antennas are set by local electrical codes (typically based on the National Electrical Code), not by Part 97.
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic T0C. RF hazards: radiation exposure, proximity to antennas, recognized safe power levels, radiation types, duty cycle
 
+RF exposure safety. RF is non-ionizing, but strong fields can heat tissue. The FCC sets exposure limits, and the station licensee must make sure no one is exposed above them.
+
+- RF is non-ionizing: it lacks the energy to damage DNA, unlike X-rays. ([National Cancer Institute](https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/cell-phones-fact-sheet))
+- Limits vary with frequency because the body absorbs RF more efficiently at some frequencies. ([FCC OET Bulletin 65](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65.pdf))
+- The general-population limit is lowest, 0.2 mW/cm², from 30 to 300 MHz. ([47 CFR §1.1310](https://www.ecfr.gov/current/title-47/section-1.1310))
+- Exposure is averaged over time, so duty cycle matters: at 50% duty, twice the power density is allowed during transmission. ([FCC OET Bulletin 65](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf))
+- You can evaluate by calculation (OET Bulletin 65), computer modeling, or measurement. ([FCC OET Bulletin 65](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf))
+- The licensee is responsible and must act if limits could be exceeded. ([47 CFR §97.13](https://www.ecfr.gov/current/title-47/section-97.13))
+- Keep your evaluation, and re-evaluate whenever you change the station. ([FCC OET Bulletin 65](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf))
+
+- Diagram: FCC general-population exposure limits by frequency. The limit is strictest from 30 to 300 MHz, where the body absorbs RF most efficiently.
 ### T0C01
 
 What type of radiation are radio signals?
@@ -5800,7 +6187,11 @@ B. Ionizing radiation
 C. Alpha radiation  
 **D. Non-ionizing radiation**  
 
-_No explanation published._
+Radio signals are non-ionizing radiation: they don't have enough energy per photon to knock electrons off atoms or damage DNA.
+
+_Standard radio theory, not a quoted rule._
+
+- [National Cancer Institute, Cell phones and cancer risk fact sheet](https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/cell-phones-fact-sheet): “These frequencies all fall in the nonionizing range of the spectrum, which is low frequency and low energy. The energy is too low to damage DNA.”
 
 ### T0C02
 
@@ -5811,7 +6202,12 @@ A. 3.5 MHz
 C. 440 MHz  
 D. 1296 MHz  
 
-_No explanation published._
+The exposure limit is lowest (strictest) from 30 to 300 MHz, where the body absorbs RF most efficiently: 0.2 mW/cm² for the general public. Of the choices, 50 MHz falls in that range. At 3.5 MHz the limit is about 14.7 mW/cm², at 440 MHz about 0.29, and at 1296 MHz about 0.86.
+
+_Standard radio theory, not a quoted rule._
+
+- [47 CFR §1.1310](https://www.ecfr.gov/current/title-47/section-1.1310): “30-300 27.5 0.073 0.2”
+- [FCC OET Bulletin 65, Evaluating Compliance with FCC Guidelines for Human Exposure to Radiofrequency Electromagnetic Fields](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65.pdf): “whole-body absorption of RF energy by human beings is most efficient.”
 
 ### T0C03
 
@@ -5822,7 +6218,12 @@ B. It decreases by 50 percent
 **C. It increases by a factor of 2**  
 D. There is no adjustment allowed for lower duty cycle  
 
-_No explanation published._
+Exposure limits are averaged over time. Transmitting only half the time (50% duty cycle) halves the average exposure, so the allowable power density during transmission doubles.
+
+_Standard radio theory, not a quoted rule._
+
+- [FCC OET Bulletin 65, Supplement B (amateur radio stations)](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf): “during any given six-minute period an amateur or a worker could be exposed to two times the applicable power density limit for three minutes as long as he or she were not exposed at all for the preceding or following three minutes.”
+- [FCC OET Bulletin 65, Supplement B (amateur radio stations)](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf): “The concept of power averaging includes both on and off times, and the “duty factor” of the transmitting mode being used.”
 
 ### T0C04
 
@@ -5833,7 +6234,10 @@ B. Distance from the antenna to a person
 C. Radiation pattern of the antenna  
 **D. All these choices are correct**  
 
-_No explanation published._
+All of these: exposure depends on the frequency and power, the distance from the antenna, and the antenna's radiation pattern.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T0C05
 
@@ -5844,7 +6248,11 @@ B. Lower frequency RF fields do not penetrate the human body
 C. Higher frequency RF fields are transient in nature  
 **D. The human body absorbs more RF energy at some frequencies than at others**  
 
-_No explanation published._
+Limits vary with frequency because the human body absorbs RF energy more efficiently at some frequencies than at others.
+
+_Standard radio theory, not a quoted rule._
+
+- [FCC OET Bulletin 65, Evaluating Compliance with FCC Guidelines for Human Exposure to Radiofrequency Electromagnetic Fields](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65.pdf): “absorbs RF energy at some frequencies more efficiently than at others.”
 
 ### T0C06
 
@@ -5855,7 +6263,11 @@ B. By calculation based on computer modeling
 C. By measurement of field strength using calibrated equipment  
 **D. All these choices are correct**  
 
-_No explanation published._
+All of these are acceptable: calculations using OET Bulletin 65, computer modeling, or measurements with calibrated equipment.
+
+_General operating practice, not a quoted rule._
+
+- [FCC OET Bulletin 65, Supplement B (amateur radio stations)](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf): “it may be necessary for the licensee to calculate the fields that are present by means of equations from this supplement, Bulletin 65, computer modelling, or direct measurements.”
 
 ### T0C07
 
@@ -5866,7 +6278,10 @@ A. Electrocution
 C. Exposure to ionizing radiation  
 D. All these choices are correct  
 
-_No explanation published._
+Touching an antenna while it's transmitting can cause an RF burn to the skin.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0C08
 
@@ -5877,7 +6292,10 @@ B. Relocate the transmitter
 C. Increase the duty cycle  
 D. All these choices are correct  
 
-_No explanation published._
+Moving antennas farther from people reduces RF exposure. Moving the transmitter alone doesn't help unless the antenna moves too, because the antenna does the radiating. Increasing the duty cycle would make exposure worse.
+
+_General operating practice, not a quoted rule._
+
 
 ### T0C09
 
@@ -5888,7 +6306,11 @@ A. By informing the FCC of any changes made in your station
 C. By making sure your antennas have low SWR  
 D. By using only Underwriter Laboratories approved transmitting equipment  
 
-_No explanation published._
+Re-evaluate your station whenever you change something in the transmitter or antenna system, since changes can affect exposure.
+
+_General operating practice, not a quoted rule._
+
+- [FCC OET Bulletin 65, Supplement B (amateur radio stations)](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf): “When completed, this worksheet may be retained in the station records so that if and when the setup is changed, it may more easily be re-evaluated.”
 
 ### T0C10
 
@@ -5899,7 +6321,11 @@ B. It affects the peak exposure to radiation
 C. It takes into account the antenna feed line loss  
 D. It takes into account the thermal effects of the final amplifier  
 
-_No explanation published._
+Duty cycle matters because exposure limits are based on average exposure over time, and duty cycle sets the average.
+
+_Standard radio theory, not a quoted rule._
+
+- [FCC OET Bulletin 65, Supplement B (amateur radio stations)](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf): “The concept of power averaging includes both on and off times, and the “duty factor” of the transmitting mode being used.”
 
 ### T0C11
 
@@ -5910,7 +6336,11 @@ B. The difference between the PEP and the average power output of a transmitter
 **C. The percentage of time that a transmitter is transmitting**  
 D. The percentage of time that a transmitter is not transmitting  
 
-_No explanation published._
+Duty cycle is the percentage of time the transmitter is actually transmitting during the averaging period.
+
+_Standard radio theory, not a quoted rule._
+
+- [FCC OET Bulletin 65, Supplement B (amateur radio stations)](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf): “The concept of power averaging includes both on and off times, and the “duty factor” of the transmitting mode being used.”
 
 ### T0C12
 
@@ -5921,7 +6351,11 @@ B. RF radiation can only be detected with an RF dosimeter
 C. RF radiation is limited in range to a few feet  
 D. RF radiation is perfectly safe  
 
-_No explanation published._
+RF radiation doesn't have enough energy to cause chemical changes in cells or damage DNA, unlike ionizing radiation such as X-rays. RF can still heat tissue at high levels, so it isn't "perfectly safe".
+
+_Standard radio theory, not a quoted rule._
+
+- [National Cancer Institute, Cell phones and cancer risk fact sheet](https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/cell-phones-fact-sheet): “These frequencies all fall in the nonionizing range of the spectrum, which is low frequency and low energy. The energy is too low to damage DNA.”
 
 ### T0C13
 
@@ -5932,4 +6366,7 @@ A. The FCC
 C. Anyone who is near an antenna  
 D. The local zoning board  
 
-_No explanation published._
+The station licensee is responsible for making sure no one is exposed to RF above the FCC limits.
+
+- [47 CFR §97.13](https://www.ecfr.gov/current/title-47/section-97.13): “the licensee must take action to prevent human exposure to such RF electromagnetic fields.”
+- [47 CFR §97.13](https://www.ecfr.gov/current/title-47/section-97.13): “(1) The licensee shall ensure compliance with the Commission's radio frequency exposure requirements”

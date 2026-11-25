@@ -1,4 +1,310 @@
 {
+ "T0A01": {
+  "why": "A 12-volt battery won't shock you through dry skin, but it can deliver huge currents. Shorting its terminals, for example with a wrench or wire, can cause burns, fire or even an explosion.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0A02": {
+  "why": "All of these: current through the body can burn tissue by heating it, disrupt the electrical signals of cells (including the heart), and cause involuntary muscle contractions.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T0A03": {
+  "why": "In US AC wiring, black is the hot (line) conductor, white is neutral, and green or bare is the equipment ground.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "neets04",
+    "quote": "The other side of the input is called the \"line,\" or hot side, and is color coded \"black\"."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0A04": {
+  "why": "A fuse removes power when there's an overload: it melts and opens the circuit before the wiring overheats.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets03",
+    "quote": "The wire was smaller than the conductor it was protecting and, therefore, would melt before the conductor it was protecting was harmed."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0A05": {
+  "why": "A 20-amp fuse in place of a 5-amp one would let four times the intended current flow before blowing, which can overheat wiring and start a fire. Always replace a fuse with the same rating.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "neets03",
+    "quote": "Never use a fuse with a higher current rating, a lower voltage rating, or a slower time delay rating than the specified fuse."
+   },
+   {
+    "doc": "neets03",
+    "quote": "The heat in the wire can char and burn the insulation of the wire"
+   }
+  ],
+  "status": "verified"
+ },
+ "T0A06": {
+  "why": "All of these guard against shock: three-wire grounded cords and plugs, a common safety ground for station equipment, and discharging high-voltage capacitors before working inside equipment.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "neets04",
+    "quote": "Always discharge the high voltage from components or terminals by using a safety probe."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0A07": {
+  "why": "Lightning arresters belong on a grounded entry panel where the feed lines come into the building, so surges go to ground outside before reaching your equipment.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0A08": {
+  "why": "A fuse or breaker goes in series with the hot conductor only, so it cuts off the live side. The neutral shouldn't be fused.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0A09": {
+  "why": "All ground rods and earth connections should be bonded together with heavy wire or strap, so they stay at the same potential and lightning or fault current can't flow between them through your equipment.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0A10": {
+  "why": "Charging or discharging an unprotected battery too fast can make it overheat or give off gas, which can be dangerous.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0A11": {
+  "why": "Filter capacitors can hold a dangerous charge after the power is turned off. Discharge them safely before touching anything inside.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "neets04",
+    "quote": "Always discharge the high voltage from components or terminals by using a safety probe."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0A12": {
+  "why": "For high voltages, make sure the voltmeter and its test leads are rated for the voltage you're measuring.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0B01": {
+  "why": "Lightning ground wires should be short and direct, without sharp bends, so the surge takes the easy path to ground.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0B02": {
+  "why": "All of these: get proper training in tower climbing, wear an approved climbing harness, and stay tied off to the tower at all times.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0B03": {
+  "why": "Never climb a tower without a helper or observer on the ground.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0B04": {
+  "why": "Look for overhead power lines and stay well clear of them. Contact with power lines is one of the deadliest antenna-installation hazards.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0B05": {
+  "why": "A safety wire through a turnbuckle keeps it from loosening (unscrewing) due to vibration.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0B06": {
+  "why": "Place the antenna so that if it falls, no part of it can come within 10 feet of power wires.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0B07": {
+  "why": "Never climb a crank-up tower unless it's fully retracted or mechanical safety locks are in place. The cables or mechanism could fail and drop the sections.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0B08": {
+  "why": "Use a separate eight-foot ground rod for each tower leg, bonded to the tower and to each other.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0B09": {
+  "why": "Utility poles carry high-voltage lines, so an antenna mounted on one could contact them. (It isn't allowed anyway without the utility's permission.)",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0B10": {
+  "why": "Avoid sharp bends in lightning grounding conductors: a lightning surge has very fast-changing current, and sharp bends add impedance and can make it jump off the conductor.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0B11": {
+  "why": "Grounding requirements for towers and antennas are set by local electrical codes (typically based on the National Electrical Code), not by Part 97.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0C01": {
+  "why": "Radio signals are non-ionizing radiation: they don't have enough energy per photon to knock electrons off atoms or damage DNA.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "nci-rf",
+    "quote": "These frequencies all fall in the nonionizing range of the spectrum, which is low frequency and low energy. The energy is too low to damage DNA."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0C02": {
+  "why": "The exposure limit is lowest (strictest) from 30 to 300 MHz, where the body absorbs RF most efficiently: 0.2 mW/cm² for the general public. Of the choices, 50 MHz falls in that range. At 3.5 MHz the limit is about 14.7 mW/cm², at 440 MHz about 0.29, and at 1296 MHz about 0.86.",
+  "basis": "theory",
+  "src": [
+   {
+    "sec": "1.1310",
+    "quote": "30-300 27.5 0.073 0.2"
+   },
+   {
+    "doc": "fcc-oet65",
+    "quote": "whole-body absorption of RF energy by human beings is most efficient."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0C03": {
+  "why": "Exposure limits are averaged over time. Transmitting only half the time (50% duty cycle) halves the average exposure, so the allowable power density during transmission doubles.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "fcc-oet65b",
+    "quote": "during any given six-minute period an amateur or a worker could be exposed to two times the applicable power density limit for three minutes as long as he or she were not exposed at all for the preceding or following three minutes."
+   },
+   {
+    "doc": "fcc-oet65b",
+    "quote": "The concept of power averaging includes both on and off times, and the “duty factor” of the transmitting mode being used."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0C04": {
+  "why": "All of these: exposure depends on the frequency and power, the distance from the antenna, and the antenna's radiation pattern.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T0C05": {
+  "why": "Limits vary with frequency because the human body absorbs RF energy more efficiently at some frequencies than at others.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "fcc-oet65",
+    "quote": "absorbs RF energy at some frequencies more efficiently than at others."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0C06": {
+  "why": "All of these are acceptable: calculations using OET Bulletin 65, computer modeling, or measurements with calibrated equipment.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "fcc-oet65b",
+    "quote": "it may be necessary for the licensee to calculate the fields that are present by means of equations from this supplement, Bulletin 65, computer modelling, or direct measurements."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0C07": {
+  "why": "Touching an antenna while it's transmitting can cause an RF burn to the skin.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0C08": {
+  "why": "Moving antennas farther from people reduces RF exposure. Moving the transmitter alone doesn't help unless the antenna moves too, because the antenna does the radiating. Increasing the duty cycle would make exposure worse.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T0C09": {
+  "why": "Re-evaluate your station whenever you change something in the transmitter or antenna system, since changes can affect exposure.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "fcc-oet65b",
+    "quote": "When completed, this worksheet may be retained in the station records so that if and when the setup is changed, it may more easily be re-evaluated."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0C10": {
+  "why": "Duty cycle matters because exposure limits are based on average exposure over time, and duty cycle sets the average.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "fcc-oet65b",
+    "quote": "The concept of power averaging includes both on and off times, and the “duty factor” of the transmitting mode being used."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0C11": {
+  "why": "Duty cycle is the percentage of time the transmitter is actually transmitting during the averaging period.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "fcc-oet65b",
+    "quote": "The concept of power averaging includes both on and off times, and the “duty factor” of the transmitting mode being used."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0C12": {
+  "why": "RF radiation doesn't have enough energy to cause chemical changes in cells or damage DNA, unlike ionizing radiation such as X-rays. RF can still heat tissue at high levels, so it isn't \"perfectly safe\".",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "nci-rf",
+    "quote": "These frequencies all fall in the nonionizing range of the spectrum, which is low frequency and low energy. The energy is too low to damage DNA."
+   }
+  ],
+  "status": "verified"
+ },
+ "T0C13": {
+  "why": "The station licensee is responsible for making sure no one is exposed to RF above the FCC limits.",
+  "src": [
+   {
+    "sec": "97.13",
+    "quote": "the licensee must take action to prevent human exposure to such RF electromagnetic fields."
+   },
+   {
+    "sec": "97.13",
+    "quote": "(1) The licensee shall ensure compliance with the Commission's radio frequency exposure requirements"
+   }
+  ],
+  "status": "verified"
+ },
  "T1A01": {
   "why": "Part 97 opens with five principles behind the amateur service. One is advancing operators' skills in both the communication and technical phases of the radio art. Serving as many citizens as possible and international contesting aren't among them.",
   "src": [
@@ -3283,6 +3589,596 @@
    {
     "doc": "neets03",
     "quote": "before the ohmmeter is used, power must be removed from the circuit"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8A01": {
+  "why": "Single sideband is a form of amplitude modulation: an AM signal with the carrier and one sideband removed. Spread spectrum, packet and PSK aren't AM.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T8A02": {
+  "why": "VHF packet radio is normally sent with FM (or the closely related PM): audio tones (AFSK) on an FM voice radio.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8A03": {
+  "why": "SSB (and CW) is used for weak-signal, long-distance VHF/UHF contacts, because its narrow bandwidth lets weak signals be heard above the noise.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8A04": {
+  "why": "VHF and UHF voice repeaters use FM (or PM).",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8A05": {
+  "why": "CW is the narrowest: about 100–150 Hz. SSB voice is about 3 kHz and FM about 10–16 kHz.",
+  "basis": "theory",
+  "src": [
+   {
+    "sec": "2.202",
+    "quote": "25 words per minute; B = 20, K = 5, Bandwidth: 100 Hz 100HA1A"
+   },
+   {
+    "sec": "2.202",
+    "quote": "lowest modulation frequency is 3000 Hz, 2700 Hz Bandwidth: 2700Hz = 2.7 kHz 2K70J3E"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8A06": {
+  "why": "By convention, upper sideband is used on 10 meters and on VHF and UHF (and on 20 meters and above). Lower sideband is the custom on 160, 80 and 40 meters; 60 meters is an exception, where USB is required.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8A07": {
+  "why": "SSB is much narrower than FM: about 3 kHz versus roughly 10–16 kHz.",
+  "basis": "theory",
+  "src": [
+   {
+    "sec": "2.202",
+    "quote": "lowest modulation frequency is 3000 Hz, 2700 Hz Bandwidth: 2700Hz = 2.7 kHz 2K70J3E"
+   },
+   {
+    "sec": "2.202",
+    "quote": "For an average case of commercial telephony, M = 3,000, Bandwidth: 16,000 Hz = 16 kHz 16K0F3E"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8A08": {
+  "why": "A typical SSB voice signal is about 3 kHz wide; the FCC's worked example gives 2.7 kHz.",
+  "basis": "theory",
+  "src": [
+   {
+    "sec": "2.202",
+    "quote": "lowest modulation frequency is 3000 Hz, 2700 Hz Bandwidth: 2700Hz = 2.7 kHz 2K70J3E"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8A09": {
+  "why": "A VHF FM voice signal (±5 kHz deviation) occupies roughly 10–15 kHz. The FCC's worked example uses Carson's rule, 2 × (5 kHz deviation + 3 kHz audio) = 16 kHz.",
+  "basis": "theory",
+  "src": [
+   {
+    "sec": "2.202",
+    "quote": "For an average case of commercial telephony, M = 3,000, Bandwidth: 16,000 Hz = 16 kHz 16K0F3E"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8A10": {
+  "why": "An AM fast-scan TV signal, like an old broadcast analog TV channel, is about 6 MHz wide.",
+  "basis": "theory",
+  "src": [
+   {
+    "sec": "2.202",
+    "quote": "Total bandwidth: 6 MHz 6M25C3F"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8A11": {
+  "why": "A CW signal needs only about 150 Hz or less: the FCC's example for 25 words per minute is 100 Hz.",
+  "basis": "theory",
+  "src": [
+   {
+    "sec": "2.202",
+    "quote": "25 words per minute; B = 20, K = 5, Bandwidth: 100 Hz 100HA1A"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8A12": {
+  "why": "FM receivers lock onto the strongest signal (the capture effect), so only one signal can be heard at a time. With SSB, several signals on the same frequency can be heard together.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T8B01": {
+  "why": "Satellite beacons usually send telemetry: information on the health and status of the satellite.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "amsat-primer",
+    "quote": "Most satellite telemetry signals, which consist primarily of transmissions about the health of the satellite, are also sent to ground controllers by way of the beacon."
+   }
+  ],
+  "status": "verified"
+ },
+ "T8B02": {
+  "why": "Too much uplink power hogs the satellite: on FM birds you capture the channel, and on linear transponders you take an unfair share of its power, blocking other users.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "amsat-primer",
+    "quote": "end up hogging the bird's FM uplink."
+   }
+  ],
+  "status": "verified"
+ },
+ "T8B03": {
+  "why": "Satellite tracking programs show maps of where the satellite is, when it will pass over you, and the Doppler shift to expect, among other things.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8B04": {
+  "why": "Amateur satellites use many modes: SSB, FM, CW and data.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8B05": {
+  "why": "A satellite beacon is a transmission from the satellite that carries status information, and helps you find it.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "amsat-primer",
+    "quote": "Most satellite beacons consist of one or more transmissions coming from the satellite that will assist you in your search as well as tell you other things about the satellite's health and the nature of its transponders."
+   }
+  ],
+  "status": "verified"
+ },
+ "T8B06": {
+  "why": "Tracking programs calculate a satellite's position from its Keplerian elements: orbital data published for each satellite.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "amsat-primer",
+    "quote": "orbital data called Keplerian elements."
+   }
+  ],
+  "status": "verified"
+ },
+ "T8B07": {
+  "why": "Doppler shift is the change in frequency you hear because the satellite is moving toward or away from you, like a passing train whistle.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "amsat-primer",
+    "quote": "signals passing through it will exhibit a pronounced Doppler shift, just like the changing pitch of a train whistle as it approaches and then passes."
+   }
+  ],
+  "status": "verified"
+ },
+ "T8B08": {
+  "why": "U/V means the uplink is UHF (70 cm) and the downlink is VHF (2 meters).",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "amsat-primer",
+    "quote": "the old \"Mode B\" has now been renamed \"Mode U/V\" because the satellite's uplink transponder is tuned to UHF and its downlink transmitter is set for the VHF bands."
+   }
+  ],
+  "status": "verified"
+ },
+ "T8B09": {
+  "why": "Satellites rotate (spin or tumble), so their antennas keep changing orientation. The signal fades as the polarization and pattern move relative to your antenna.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "amsat-primer",
+    "quote": "these satellites will be spinning and tumbling in orbit, so their uplink and downlink"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8B10": {
+  "why": "LEO means low Earth orbit. LEO satellites (like the ISS) circle the Earth in roughly 90–100 minutes.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "amsat-primer",
+    "quote": "most of our satellites are in what we call a low Earth orbit (LEO)."
+   }
+  ],
+  "status": "verified"
+ },
+ "T8B11": {
+  "why": "Anyone may receive and decode amateur satellite telemetry. It isn't secret, and you don't need a license to listen.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8B12": {
+  "why": "The beacon is sent at a fixed power, so it's a good reference: adjust your uplink until your signal on the downlink is about as strong as the beacon.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "amsat-primer",
+    "quote": "with a fixed amount of output power, they can also serve as a superb reference point for setting up and calibrating your station antennas and other equipment."
+   }
+  ],
+  "status": "verified"
+ },
+ "T8C01": {
+  "why": "Radio direction finding, using directional antennas to take bearings, is how hams track down noise sources and jammers.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8C02": {
+  "why": "A directional antenna, which picks up signals best from one direction, is the key tool for finding a hidden transmitter.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8C03": {
+  "why": "Contesting means contacting as many stations as possible in a set time period.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8C04": {
+  "why": "In a contest, keep it short: send only what's needed for identification and the contest exchange.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8C05": {
+  "why": "A grid locator (Maidenhead grid square, like FN42) is a letter-number code for a geographic location.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8C06": {
+  "why": "IRLP nodes are accessed over the air with DTMF (touch-tone) codes, sent from your radio's keypad.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8C07": {
+  "why": "VoIP is a way of sending voice over the internet using digital techniques.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T8C08": {
+  "why": "IRLP links amateur radio systems, such as repeaters, together over the internet.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8C09": {
+  "why": "EchoLink lets a licensed ham connect to a linked repeater or node from a computer or phone app, with no radio needed to start the transmission.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8C10": {
+  "why": "Before using EchoLink you register your call sign and send proof of license, so only licensed amateurs get access.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "echolink-val",
+    "quote": "Each new user of EchoLink must provide proof of license before access is granted."
+   }
+  ],
+  "status": "verified"
+ },
+ "T8C11": {
+  "why": "A gateway is a station that connects other amateur stations to the internet, for example an EchoLink or IRLP node.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8D01": {
+  "why": "Packet radio, IEEE 802.11 (Wi-Fi, used in amateur mesh networks) and FT8 are all digital modes.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T8D02": {
+  "why": "FT8 is a digital mode designed for contacts with very weak signals, below the noise you could hear by ear.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "wsjtx-intro",
+    "quote": "_WSJT-X_ is a computer program designed to facilitate basic amateur radio communication using very weak signals."
+   },
+   {
+    "doc": "wsjtx-intro",
+    "quote": "The first seven are designed for making reliable QSOs under weak-signal conditions."
+   }
+  ],
+  "status": "verified"
+ },
+ "T8D03": {
+  "why": "APRS (Automatic Packet Reporting System) carries GPS positions, text messages, weather station data and more.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8D04": {
+  "why": "NTSC is the analog fast-scan color TV standard formerly used for US broadcast TV, and still used for amateur TV.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T8D05": {
+  "why": "APRS gives real-time tactical digital communications along with a map showing where stations are. It's useful for events and emergencies.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T8D06": {
+  "why": "PSK stands for phase shift keying.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T8D07": {
+  "why": "DMR uses time-division multiplexing to carry two digital voice signals (two time slots) on one 12.5 kHz repeater channel.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "etsi-dmr",
+    "quote": "employs a Time Division Multiple Access (TDMA) technology with a 2-slot TDMA solution and RF carrier bandwidth of 12,5 kHz"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8D08": {
+  "why": "Packet radio (AX.25) frames include a header with the destination and source call signs and a checksum to detect errors, and connected-mode packet automatically re-sends frames with errors (ARQ).",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T8D09": {
+  "why": "CW (continuous wave) is another name for Morse code sent by turning a carrier on and off.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T8D10": {
+  "why": "WSJT-X supports all of these: EME (moonbounce), meteor scatter (MSK144), and weak-signal propagation beacons (WSPR).",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "wsjtx-intro",
+    "quote": "JT65 was designed for EME (\"`moonbounce`\") on VHF and higher bands"
+   },
+   {
+    "doc": "wsjtx-intro",
+    "quote": "ionized meteor trails, aircraft scatter, and other types of scatter propagation."
+   },
+   {
+    "doc": "wsjtx-intro",
+    "quote": "The WSPR protocol was designed for probing potential propagation paths using low-power transmissions."
+   }
+  ],
+  "status": "verified"
+ },
+ "T8D11": {
+  "why": "ARQ (automatic repeat request) is error correction where the receiver checks for errors and asks the sender to retransmit any bad data.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T8D12": {
+  "why": "An amateur mesh network (such as AREDN) uses commercial Wi-Fi equipment running modified firmware on amateur frequencies to build a data network.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T9A01": {
+  "why": "A beam antenna concentrates its signal in one direction (and hears best from that direction), like a Yagi.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The ratio between the amount of energy propagated in these directions compared to the energy that would be propagated if the antenna were not directional is known as its gain."
+   }
+  ],
+  "status": "verified"
+ },
+ "T9A02": {
+  "why": "Loading means changing an antenna's electrical length, for example adding inductors (loading coils) so a physically short antenna acts electrically longer.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "To change the electrical length, you can insert either an inductor or a capacitor in series with the antenna."
+   }
+  ],
+  "status": "verified"
+ },
+ "T9A03": {
+  "why": "An antenna's polarization is described by the orientation of its electric field: vertical or horizontal.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "Normally, the plane of polarization of a radio wave is the plane in which the E field propagates with respect to the Earth."
+   }
+  ],
+  "status": "verified"
+ },
+ "T9A04": {
+  "why": "A short flexible \"rubber duck\" antenna is much shorter than a quarter wavelength and relies on loading. It radiates less of the power fed to it (low efficiency) than a full-size quarter-wave antenna.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T9A05": {
+  "why": "Shortening a dipole raises its resonant frequency, because resonant length is inversely related to frequency.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "If the antenna is too short for the wavelength being used, it is resonant at a higher frequency than that at which it is being excited."
+   }
+  ],
+  "status": "verified"
+ },
+ "T9A06": {
+  "why": "Of these, a Yagi (a beam with parasitic director and reflector elements) has the most gain. Verticals radiate all around, and an isotropic antenna is the zero-gain reference.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "Parasitic arrays represent another method of achieving high antenna gains."
+   }
+  ],
+  "status": "verified"
+ },
+ "T9A07": {
+  "why": "A car's metal body shields radio signals, so a handheld used inside, with no outside antenna, gets out and hears much less.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T9A08": {
+  "why": "A quarter wavelength at 146 MHz is about 19 inches. Using the practical formula, 234 ÷ 146 ≈ 1.6 ft ≈ 19.2 in. So a 19-inch whip is a resonant quarter-wave on 2 meters.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T9A09": {
+  "why": "A 5/8-wavelength vertical concentrates more energy toward the horizon than a 1/4-wave whip, giving it a few dB more gain.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T9A10": {
+  "why": "A half-wave dipole radiates strongest broadside, at right angles to the wire, and weakest off its ends.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "maximum radiation comes from the doublet in a direction perpendicular to the antenna axis."
+   }
+  ],
+  "status": "verified"
+ },
+ "T9A11": {
+  "why": "Antenna gain is the increase in signal in a particular direction compared with a reference antenna, such as an isotropic radiator or a dipole.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The ratio between the amount of energy propagated in these directions compared to the energy that would be propagated if the antenna were not directional is known as its gain."
+   }
+  ],
+  "status": "verified"
+ },
+ "T9B01": {
+  "why": "None of the common coax connectors (PL-259, BNC, Type N) is reliably waterproof on its own outdoors. Seal and tape them all to keep water out of the connector and cable.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T9B02": {
+  "why": "Most amateur coax is 50 ohms, matching the 50-ohm output of typical transceivers.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T9B03": {
+  "why": "Coax is popular because it's easy to use: it can run next to metal or other cables, be buried, or be bent around obstacles with few special precautions. It isn't the lowest-loss, highest-power or cheapest line.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "in a coaxial line no electric or magnetic fields extend outside of the outer conductor."
+   }
+  ],
+  "status": "verified"
+ },
+ "T9B04": {
+  "why": "An antenna tuner (coupler) matches the antenna system's impedance to the transmitter's output impedance, so the transmitter sees a proper load.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T9B05": {
+  "why": "Coax loss rises as frequency rises, from skin effect in the conductors and from dielectric loss.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "power losses increase with an increase in frequency because of skin effect."
+   }
+  ],
+  "status": "verified"
+ },
+ "T9B06": {
+  "why": "Type N connectors keep a constant impedance well into the microwave range, so they suit frequencies above 400 MHz. PL-259/SO-239 connectors aren't constant-impedance, so their performance falls off above about 300–400 MHz.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T9B07": {
+  "why": "PL-259 connectors are the standard on HF and VHF equipment. They aren't watertight, aren't for microwaves, and screw on (not bayonet like BNC).",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T9B08": {
+  "why": "All of these add loss: water in connectors, high SWR (which increases loss in the line), and each extra connector.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T9B09": {
+  "why": "A loose connection in the antenna or feed line can make SWR jump around erratically as the contact changes.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T9B10": {
+  "why": "RG-213 is thicker than RG-58, so it has lower loss at a given frequency and handles more power.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T9B11": {
+  "why": "Air-insulated hardline has the lowest loss of these: air is an almost perfect dielectric, and the solid outer conductor confines the signal.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The spacers are made of Pyrex, polystyrene, or some other material that has good insulating characteristics and low dielectric losses at high frequencies."
+   }
+  ],
+  "status": "verified"
+ },
+ "T9B12": {
+  "why": "SWR measures how well a load, such as an antenna, is matched to its transmission line. 1:1 is a perfect match.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "STANDING-WAVE RATIO (SWR)—The ratio of the maximum (voltage, current) to the minimum (voltage, current) of a transmission line. Measures the perfection of the termination of the line."
    }
   ],
   "status": "verified"

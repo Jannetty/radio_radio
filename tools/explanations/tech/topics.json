@@ -1,4 +1,144 @@
 {
+ "T0A": {
+  "intro": "Electrical safety: shock hazards, fuses and breakers, AC wiring, grounding and bonding, lightning protection, batteries, and stored charge in power supplies.",
+  "facts": [
+   {
+    "text": "In US AC wiring, black is the hot (line) wire.",
+    "src": {
+     "doc": "neets04",
+     "quote": "The other side of the input is called the \"line,\" or hot side, and is color coded \"black\"."
+    }
+   },
+   {
+    "text": "White is the grounded (neutral) wire, and green connects to the equipment frame and ground.",
+    "src": {
+     "doc": "neets04",
+     "quote": "The green conductor is connected to ground and to the frame of the applicance or tool."
+    }
+   },
+   {
+    "text": "Never replace a fuse with a higher-rated one; excess current can overheat wiring and start a fire.",
+    "src": {
+     "doc": "neets03",
+     "quote": "Never use a fuse with a higher current rating, a lower voltage rating, or a slower time delay rating than the specified fuse."
+    }
+   },
+   {
+    "text": "Discharge high-voltage capacitors before working inside equipment: they hold a charge after power is off.",
+    "src": {
+     "doc": "neets04",
+     "quote": "Always discharge the high voltage from components or terminals by using a safety probe."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (fuses)",
+    "url": "https://archive.org/details/NEETSModules"
+   }
+  ],
+  "status": "verified"
+ },
+ "T0B": {
+  "intro": "Antenna and tower safety: climbing, power lines, guying, and grounding for lightning protection.",
+  "facts": [
+   {
+    "text": "Never work on high voltage alone; have a safety observer present. (The same goes for tower climbing: never climb without a helper on the ground.)",
+    "src": {
+     "doc": "neets04",
+     "quote": "Do NOT work with high voltage by yourself; have another person (safety observer), qualified in first aid for electrical shock, present at all times."
+    }
+   },
+   {
+    "text": "Always know where power lines are and stay well clear of them.",
+    "src": {
+     "doc": "neets04",
+     "quote": "Always be aware of the nearness of high-voltage lines or circuits."
+    }
+   }
+  ],
+  "reading": [],
+  "status": "verified"
+ },
+ "T0C": {
+  "intro": "RF exposure safety. RF is non-ionizing, but strong fields can heat tissue. The FCC sets exposure limits, and the station licensee must make sure no one is exposed above them.",
+  "diagrams": [
+   {
+    "file": "mpe.svg",
+    "caption": "FCC general-population exposure limits by frequency. The limit is strictest from 30 to 300 MHz, where the body absorbs RF most efficiently.",
+    "src": {
+     "sec": "1.1310",
+     "quote": "30-300 27.5 0.073 0.2"
+    }
+   }
+  ],
+  "facts": [
+   {
+    "text": "RF is non-ionizing: it lacks the energy to damage DNA, unlike X-rays.",
+    "src": {
+     "doc": "nci-rf",
+     "quote": "These frequencies all fall in the nonionizing range of the spectrum, which is low frequency and low energy. The energy is too low to damage DNA."
+    }
+   },
+   {
+    "text": "Limits vary with frequency because the body absorbs RF more efficiently at some frequencies.",
+    "src": {
+     "doc": "fcc-oet65",
+     "quote": "absorbs RF energy at some frequencies more efficiently than at others."
+    }
+   },
+   {
+    "text": "The general-population limit is lowest, 0.2 mW/cm², from 30 to 300 MHz.",
+    "src": {
+     "sec": "1.1310",
+     "quote": "30-300 27.5 0.073 0.2"
+    }
+   },
+   {
+    "text": "Exposure is averaged over time, so duty cycle matters: at 50% duty, twice the power density is allowed during transmission.",
+    "src": {
+     "doc": "fcc-oet65b",
+     "quote": "during any given six-minute period an amateur or a worker could be exposed to two times the applicable power density limit for three minutes as long as he or she were not exposed at all for the preceding or following three minutes."
+    }
+   },
+   {
+    "text": "You can evaluate by calculation (OET Bulletin 65), computer modeling, or measurement.",
+    "src": {
+     "doc": "fcc-oet65b",
+     "quote": "it may be necessary for the licensee to calculate the fields that are present by means of equations from this supplement, Bulletin 65, computer modelling, or direct measurements."
+    }
+   },
+   {
+    "text": "The licensee is responsible and must act if limits could be exceeded.",
+    "src": {
+     "sec": "97.13",
+     "quote": "the licensee must take action to prevent human exposure to such RF electromagnetic fields."
+    }
+   },
+   {
+    "text": "Keep your evaluation, and re-evaluate whenever you change the station.",
+    "src": {
+     "doc": "fcc-oet65b",
+     "quote": "When completed, this worksheet may be retained in the station records so that if and when the setup is changed, it may more easily be re-evaluated."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "FCC OET Bulletin 65, Supplement B (amateur radio stations)",
+    "url": "https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf"
+   },
+   {
+    "title": "47 CFR §1.1310, RF exposure limits (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/section-1.1310"
+   },
+   {
+    "title": "47 CFR §97.13, Restrictions on station location (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/section-97.13"
+   }
+  ],
+  "status": "verified"
+ },
  "T1A": {
   "intro": "The amateur service is a voluntary, noncommercial radio service regulated in the US by the FCC under Part 97. These questions cover its purpose, a few key definitions, interference, RACES, phonetics, frequency coordinators and beacons.",
   "facts": [
@@ -1798,6 +1938,288 @@
    },
    {
     "title": "US Navy, NEETS Module 4: Introduction to Electrical Conductors, Wiring Techniques, and Schematic Reading (soldering)",
+    "url": "https://archive.org/details/NEETSModules"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8A": {
+  "intro": "Choosing a mode. SSB is a narrow form of AM, good for weak signals. FM is used for repeaters and packet. Each mode takes up a different amount of spectrum.",
+  "diagrams": [
+   {
+    "file": "bandwidths.svg",
+    "caption": "Typical bandwidths, on a log scale. Narrower signals concentrate power and let more stations share a band.",
+    "src": {
+     "sec": "2.202",
+     "quote": "lowest modulation frequency is 3000 Hz, 2700 Hz Bandwidth: 2700Hz = 2.7 kHz 2K70J3E"
+    }
+   }
+  ],
+  "facts": [
+   {
+    "text": "CW needs only about 100–150 Hz; the FCC's example for 25 words per minute is 100 Hz.",
+    "src": {
+     "sec": "2.202",
+     "quote": "25 words per minute; B = 20, K = 5, Bandwidth: 100 Hz 100HA1A"
+    }
+   },
+   {
+    "text": "SSB voice is about 3 kHz wide (the FCC's example is 2.7 kHz).",
+    "src": {
+     "sec": "2.202",
+     "quote": "lowest modulation frequency is 3000 Hz, 2700 Hz Bandwidth: 2700Hz = 2.7 kHz 2K70J3E"
+    }
+   },
+   {
+    "text": "FM voice with ±5 kHz deviation is roughly 10–16 kHz wide.",
+    "src": {
+     "sec": "2.202",
+     "quote": "For an average case of commercial telephony, M = 3,000, Bandwidth: 16,000 Hz = 16 kHz 16K0F3E"
+    }
+   },
+   {
+    "text": "An analog fast-scan TV signal is about 6 MHz wide.",
+    "src": {
+     "sec": "2.202",
+     "quote": "Total bandwidth: 6 MHz 6M25C3F"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR §2.202, Bandwidths (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/section-2.202"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8B": {
+  "intro": "Amateur satellites act like repeaters in the sky, usually receiving on one band and transmitting on another. Their motion causes Doppler shift and fading.",
+  "facts": [
+   {
+    "text": "Tracking programs predict passes from a satellite's Keplerian elements.",
+    "src": {
+     "doc": "amsat-primer",
+     "quote": "orbital data called Keplerian elements."
+    }
+   },
+   {
+    "text": "Beacons send telemetry about the satellite's health and status.",
+    "src": {
+     "doc": "amsat-primer",
+     "quote": "Most satellite telemetry signals, which consist primarily of transmissions about the health of the satellite, are also sent to ground controllers by way of the beacon."
+    }
+   },
+   {
+    "text": "Because the beacon's power is fixed, it's a good reference for setting your uplink power: aim for a downlink signal about as strong as the beacon.",
+    "src": {
+     "doc": "amsat-primer",
+     "quote": "with a fixed amount of output power, they can also serve as a superb reference point for setting up and calibrating your station antennas and other equipment."
+    }
+   },
+   {
+    "text": "Mode names give the uplink band, then the downlink band: U/V means a 70 cm uplink and a 2 m downlink.",
+    "src": {
+     "doc": "amsat-primer",
+     "quote": "the old \"Mode B\" has now been renamed \"Mode U/V\" because the satellite's uplink transponder is tuned to UHF and its downlink transmitter is set for the VHF bands."
+    }
+   },
+   {
+    "text": "Doppler shift: frequencies appear higher as the satellite approaches and lower as it leaves.",
+    "src": {
+     "doc": "amsat-primer",
+     "quote": "signals passing through it will exhibit a pronounced Doppler shift, just like the changing pitch of a train whistle as it approaches and then passes."
+    }
+   },
+   {
+    "text": "Most amateur satellites are in low Earth orbit (LEO). (Such orbits take roughly 90–100 minutes.)",
+    "src": {
+     "doc": "amsat-primer",
+     "quote": "most of our satellites are in what we call a low Earth orbit (LEO)."
+    }
+   },
+   {
+    "text": "Satellites spin and tumble, so their antenna orientation keeps changing and causes spin fading.",
+    "src": {
+     "doc": "amsat-primer",
+     "quote": "these satellites will be spinning and tumbling in orbit, so their uplink and downlink"
+    }
+   },
+   {
+    "text": "Don't overpower the uplink: high-power stations hog the satellite.",
+    "src": {
+     "doc": "amsat-primer",
+     "quote": "end up hogging the bird's FM uplink."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "AMSAT, For Beginners: an amateur radio satellite primer",
+    "url": "https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf"
+   },
+   {
+    "title": "AMSAT, Station and operating hints",
+    "url": "https://www.amsat.org/station-and-operating-hints/"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8C": {
+  "intro": "Operating activities: direction finding (fox hunting), contesting, grid locators, and linking radio to the internet with IRLP, EchoLink and gateways.",
+  "facts": [
+   {
+    "text": "EchoLink connects licensed amateurs to repeaters and nodes over the internet; you must register and prove you're licensed first.",
+    "src": {
+     "doc": "echolink-val",
+     "quote": "Each new user of EchoLink must provide proof of license before access is granted."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "EchoLink, Validation",
+    "url": "https://www.echolink.org/validation/"
+   },
+   {
+    "title": "ARRL, Grid squares",
+    "url": "https://www.arrl.org/grid-squares"
+   }
+  ],
+  "status": "verified"
+ },
+ "T8D": {
+  "intro": "Digital and non-voice modes: CW, packet and APRS, PSK, DMR, the WSJT-X modes such as FT8, error correction, and amateur mesh networks.",
+  "facts": [
+   {
+    "text": "WSJT-X is built for communicating with very weak signals.",
+    "src": {
+     "doc": "wsjtx-intro",
+     "quote": "_WSJT-X_ is a computer program designed to facilitate basic amateur radio communication using very weak signals."
+    }
+   },
+   {
+    "text": "JT65 was designed for EME (moonbounce).",
+    "src": {
+     "doc": "wsjtx-intro",
+     "quote": "JT65 was designed for EME (\"`moonbounce`\") on VHF and higher bands"
+    }
+   },
+   {
+    "text": "MSK144 and similar fast modes use brief reflections from meteor trails.",
+    "src": {
+     "doc": "wsjtx-intro",
+     "quote": "ionized meteor trails, aircraft scatter, and other types of scatter propagation."
+    }
+   },
+   {
+    "text": "WSPR is used for low-power propagation beacons.",
+    "src": {
+     "doc": "wsjtx-intro",
+     "quote": "The WSPR protocol was designed for probing potential propagation paths using low-power transmissions."
+    }
+   },
+   {
+    "text": "DMR fits two digital voice channels (time slots) onto one 12.5 kHz channel.",
+    "src": {
+     "doc": "etsi-dmr",
+     "quote": "employs a Time Division Multiple Access (TDMA) technology with a 2-slot TDMA solution and RF carrier bandwidth of 12,5 kHz"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "WSJT-X User Guide, introduction (GitHub mirror)",
+    "url": "https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/introduction.adoc"
+   }
+  ],
+  "status": "verified"
+ },
+ "T9A": {
+  "intro": "Antennas: polarization, gain and beams, resonant length, loading, and the antennas used on handhelds and in cars.",
+  "diagrams": [
+   {
+    "file": "dipole-pattern.svg",
+    "caption": "A half-wave dipole seen from above (free-space pattern). It radiates best broadside to the wire and much less off the ends.",
+    "src": {
+     "doc": "neets10",
+     "quote": "maximum radiation comes from the doublet in a direction perpendicular to the antenna axis."
+    }
+   }
+  ],
+  "facts": [
+   {
+    "text": "Polarization follows the antenna's electric field: a vertical antenna is vertically polarized.",
+    "src": {
+     "doc": "neets10",
+     "quote": "Normally, the plane of polarization of a radio wave is the plane in which the E field propagates with respect to the Earth."
+    }
+   },
+   {
+    "text": "Gain is how much more signal an antenna sends in a particular direction compared with a reference antenna.",
+    "src": {
+     "doc": "neets10",
+     "quote": "The ratio between the amount of energy propagated in these directions compared to the energy that would be propagated if the antenna were not directional is known as its gain."
+    }
+   },
+   {
+    "text": "Beams such as the Yagi use parasitic elements (a director and a reflector) to get high gain in one direction.",
+    "src": {
+     "doc": "neets10",
+     "quote": "Parasitic arrays represent another method of achieving high antenna gains."
+    }
+   },
+   {
+    "text": "Loading coils make a short antenna electrically longer. A shorter antenna resonates at a higher frequency.",
+    "src": {
+     "doc": "neets10",
+     "quote": "If the antenna is too short for the wavelength being used, it is resonant at a higher frequency than that at which it is being excited."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (chapters 3–4)",
+    "url": "https://archive.org/details/NEETSModules"
+   }
+  ],
+  "status": "verified"
+ },
+ "T9B": {
+  "intro": "Feed lines and connectors: coax types and losses, SWR, antenna tuners, and keeping connections weatherproof.",
+  "facts": [
+   {
+    "text": "Coax losses rise with frequency (skin effect and dielectric loss).",
+    "src": {
+     "doc": "neets10",
+     "quote": "power losses increase with an increase in frequency because of skin effect."
+    }
+   },
+   {
+    "text": "Lost power turns into heat in the conductors and the dielectric.",
+    "src": {
+     "doc": "neets10",
+     "quote": "DIELECTRIC LOSSES result from the heating effect on the dielectric material between the conductors."
+    }
+   },
+   {
+    "text": "Coax keeps its fields inside the outer conductor, so it's easy to route near other objects.",
+    "src": {
+     "doc": "neets10",
+     "quote": "in a coaxial line no electric or magnetic fields extend outside of the outer conductor."
+    }
+   },
+   {
+    "text": "SWR measures how well the load (antenna) is matched to the line.",
+    "src": {
+     "doc": "neets10",
+     "quote": "STANDING-WAVE RATIO (SWR)—The ratio of the maximum (voltage, current) to the minimum (voltage, current) of a transmission line. Measures the perfection of the termination of the line."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (chapters 3–4)",
     "url": "https://archive.org/details/NEETSModules"
    }
   ],

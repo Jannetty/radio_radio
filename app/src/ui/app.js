@@ -149,6 +149,9 @@ function topicView() {
   header(p);
   const sec = p.sections.find(s => s.g.some(g => g.id === view.idx)), g = sec && sec.g.find(x => x.id === view.idx), t = ex && ex.topics[view.idx];
   if (!t) { $('#app').innerHTML = '<p class="note">Loading…</p>'; return; }
+  const order = p.sections.flatMap(s => s.g.filter(x => ex.topics[x.id])), at = order.findIndex(x => x.id === g.id);
+  const prev = order[at - 1], next = order[at + 1];
+  const nav = `<nav class="row topicnav" aria-label="Study guide topics">${prev ? `<button class="btn" data-topic="${esc(prev.id)}">← ${esc(prev.id)}</button>` : ''}<span class="k">Topic ${at + 1} of ${order.length}</span>${next ? `<button class="btn" data-topic="${esc(next.id)}">${esc(next.id)} →</button>` : ''}</nav>`;
   $('#app').innerHTML = `<div class="row" style="margin-bottom:12px"><button class="btn" data-act="topicback">← Back</button></div>
   <article class="qcard topic"><div class="qmeta"><span class="qid">${esc(p.gl)} ${esc(g.id)}</span><span>${esc(sec.id)} · ${esc(sec.t)}</span></div>
   <h2>${esc(g.t)}</h2><p class="lede">${esc(t.intro)}</p>
@@ -157,7 +160,8 @@ function topicView() {
   ${t.rules.length ? `<h3>The rules behind this topic</h3>${sourcesHtml(t.rules, esc)}` : ''}
   ${t.reading.length ? `<h3>Further reading</h3><ul class="why-src">${t.reading.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`).join('')}</ul>` : ''}
   <h3>Questions in this topic</h3><div class="list">${g.q.map(i => { const q = p.q[i]; return `<div class="item"><span class="qid">${esc(q[0])}</span><p>${esc(q[1])}</p><div class="ans r">${L[q[3]]}. ${esc(q[2][q[3]])}</div>${why(p, i, L[q[3]]) ? `<details class="whyd"><summary>Why ${L[q[3]]}?</summary>${why(p, i, L[q[3]])}</details>` : '<p class="note">No explanation yet.</p>'}</div>`; }).join('')}</div>
-  <p class="note" style="margin-top:16px">Explanations quote the current official text. Where today's rule differs from the exam's answer key, a “Heads up” note says so; the exam still grades on its key.</p></article>`;
+  <p class="note" style="margin-top:16px">Explanations quote the current official text. Where today's rule differs from the exam's answer key, a “Heads up” note says so; the exam still grades on its key.</p>
+  ${nav}</article>`;
 }
 
 /* ---------- learn ---------- */

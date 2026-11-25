@@ -499,6 +499,18 @@
   "15.5": {
    "head": "§ 15.5 General conditions of operation.",
    "url": "https://www.ecfr.gov/current/title-47/section-15.5"
+  },
+  "2.202": {
+   "head": "§ 2.202 Bandwidths.",
+   "url": "https://www.ecfr.gov/current/title-47/section-2.202"
+  },
+  "1.1310": {
+   "head": "§ 1.1310 Radiofrequency radiation exposure limits.",
+   "url": "https://www.ecfr.gov/current/title-47/section-1.1310"
+  },
+  "97.13": {
+   "head": "§ 97.13 Restrictions on station location.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.13"
   }
  },
  "docs": {
@@ -801,6 +813,26 @@
   "arrl-rfi-guide": {
    "title": "ARRL and CEA, What to do if you have an electronic interference problem",
    "url": "https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf"
+  },
+  "amsat-primer": {
+   "title": "AMSAT, For Beginners: an amateur radio satellite primer (K. Baker, compilation)",
+   "url": "https://www.amsat.org/wordpress/wp-content/uploads/2023/06/For_Beginners_Compilation.pdf"
+  },
+  "echolink-val": {
+   "title": "EchoLink, Validation",
+   "url": "https://www.echolink.org/validation/"
+  },
+  "wsjtx-intro": {
+   "title": "WSJT-X User Guide, introduction (source mirror on GitHub)",
+   "url": "https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/introduction.adoc"
+  },
+  "nci-rf": {
+   "title": "National Cancer Institute, Cell phones and cancer risk fact sheet",
+   "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/cell-phones-fact-sheet"
+  },
+  "fcc-oet65b": {
+   "title": "FCC OET Bulletin 65, Supplement B (amateur radio stations)",
+   "url": "https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf"
   }
  }
 }
