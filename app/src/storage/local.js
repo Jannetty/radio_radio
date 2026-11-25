@@ -8,7 +8,7 @@ const OWNER = 'radiostudy.owner';
 export function loadLocal(id) {
   try {
     const v = JSON.parse(localStorage.getItem(KEY + id));
-    if (v && v.st) return { ...blank(), ...v };
+    if (v && v.st) return { ...blank(), ...v, v: v.v || 1 };
   } catch { /* storage unavailable or corrupt: start fresh */ }
   return blank();
 }

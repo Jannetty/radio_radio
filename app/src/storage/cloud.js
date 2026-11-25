@@ -15,14 +15,17 @@ function loadScript(src) {
 }
 
 /**
- * store: { ids, get(id), put(id, p, fromServer) }  — the app's in-memory progress
+ * store: { ids, get(id), put(id, p, fromServer), normalize(id, p) }  — the app's in-memory progress;
+ *   normalize brings a record from the server up to the current format before merging
  * onState(state): called with { configured, user, status, message }
  *   status: 'signed-out' | 'syncing' | 'synced' | 'offline' | 'error'
  */
 export async function createCloud(config, store, onState) {
   if (!config.SUPABASE_URL || !config.SUPABASE_ANON_KEY) return null;
   await loadScript('vendor/supabase.js');
-  const sb = window.supabase.createClient(config.SUPABASE_URL, config.SUPABASE_ANON_KEY, {
+  // The project URL is the bare https://<ref>.supabase.co; tolerate a pasted API path after it.
+  const url = config.SUPABASE_URL.trim().replace(/\/(rest|auth)\/v1\/?$/, '').replace(/\/+$/, '');
+  const sb = window.supabase.createClient(url, config.SUPABASE_ANON_KEY.trim(), {
     auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true },
   });
 
@@ -59,7 +62,7 @@ export async function createCloud(config, store, onState) {
       // Progress on this device belongs to someone else: replace it instead of merging.
       const foreign = owner && owner !== state.user.id;
       for (const id of store.ids) {
-        const r = remote[id] || null;
+        const r = store.normalize(id, remote[id] || null);
         const merged = foreign ? merge(null, r) || null : merge(store.get(id), r);
         if (merged) store.put(id, merged, true);
         if (merged && merged.u && !same(merged, r)) await upsert(id, merged);
@@ -81,7 +84,7 @@ export async function createCloud(config, store, onState) {
     inflight[id] = true;
     emit({ status: 'syncing' });
     try {
-      const remote = (await fetchRows([id]))[id] || null;
+      const remote = store.normalize(id, (await fetchRows([id]))[id] || null);
       const merged = merge(store.get(id), remote);
       if (!same(merged, store.get(id))) store.put(id, merged, true);
       if (!same(merged, remote)) await upsert(id, merged);

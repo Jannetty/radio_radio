@@ -4,6 +4,8 @@ import { existsSync } from 'node:fs';
 import { pools } from './fixtures.js';
 
 const expected = {
+  tech: { n: 35, p: 26, q: 409 },
+  extra: { n: 50, p: 37, q: 599 },
   e1: { n: 24, p: 18, q: 144 },
   e3: { n: 100, p: 75, q: 600 },
   e7: { n: 100, p: 75, q: 600 },
@@ -46,6 +48,21 @@ test('spot checks against the official answer keys', () => {
   assert.equal(ans('e7', '62I3'), 'B');
   assert.equal(ans('e8', '8-24C6'), 'C');
   assert.equal(ans('gen', 'G1A01'), 'C');
+  assert.equal(ans('tech', 'T1A01'), 'C');
+  assert.equal(ans('tech', 'T1C01'), 'D');
+  assert.equal(ans('extra', 'E1A01'), 'D');
+});
+
+test('withdrawn Extra questions are gone, and the Technician errata are applied', () => {
+  const extra = pools.find(p => p.id === 'extra');
+  for (const id of ['E2A13', 'E4D05', 'E6D07', 'E9E10']) assert.ok(!extra.q.some(q => q[0] === id), id);
+  const tech = pools.find(p => p.id === 'tech');
+  assert.match(tech.q.find(q => q[0] === 'T1C01')[1], /currently issue new licenses/);
+});
+
+test('every pool is amateur or commercial', () => {
+  assert.deepEqual(pools.filter(p => p.cat === 'amateur').map(p => p.id), ['tech', 'gen', 'extra']);
+  assert.deepEqual(pools.filter(p => p.cat === 'commercial').map(p => p.id), ['e1', 'e3', 'e7', 'e8']);
 });
 
 test('withdrawn General questions are gone', () => {

@@ -10,7 +10,7 @@ const FILES = [
   'src/core/progress.js', 'src/core/merge.js', 'src/core/learn.js',
   'src/storage/local.js', 'src/storage/cloud.js',
   'src/ui/app.js', 'src/ui/flags.js',
-  'figs/3B1.png','figs/3B2.png','figs/3B3.png','figs/3C4.png','figs/3C5.png','figs/3D10.png','figs/3D11.png','figs/3D6.png','figs/3D7.png','figs/3D8.png','figs/3D9.png','figs/3E12.png','figs/3E13.png','figs/3E14.png','figs/3F15.png','figs/3F16.png','figs/3H17.png','figs/8A1.png','figs/8A2.png','figs/8A3.png','figs/8A4.png','figs/8A5.png','figs/8A6.png','figs/8A7.png','figs/8A8.png','figs/8C10.png','figs/8C11.png','figs/8C9.png','figs/8F12.png','figs/G7-1.png',
+  'figs/3B1.png', 'figs/3B2.png', 'figs/3B3.png', 'figs/3C4.png', 'figs/3C5.png', 'figs/3D10.png', 'figs/3D11.png', 'figs/3D6.png', 'figs/3D7.png', 'figs/3D8.png', 'figs/3D9.png', 'figs/3E12.png', 'figs/3E13.png', 'figs/3E14.png', 'figs/3F15.png', 'figs/3F16.png', 'figs/3H17.png', 'figs/8A1.png', 'figs/8A2.png', 'figs/8A3.png', 'figs/8A4.png', 'figs/8A5.png', 'figs/8A6.png', 'figs/8A7.png', 'figs/8A8.png', 'figs/8C10.png', 'figs/8C11.png', 'figs/8C9.png', 'figs/8F12.png', 'figs/E5-1.png', 'figs/E6-1.png', 'figs/E6-2.png', 'figs/E6-3.png', 'figs/E7-1.png', 'figs/E7-2.png', 'figs/E7-3.png', 'figs/E9-1.png', 'figs/E9-2.png', 'figs/E9-3.png', 'figs/G7-1.png', 'figs/T-1.png', 'figs/T-2.png', 'figs/T-3.png',
 ];
 
 self.addEventListener('install', e => {

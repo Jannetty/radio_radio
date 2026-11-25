@@ -1,7 +1,9 @@
 // Merge two copies of one pool's progress (this device and the server, or two devices).
 // Each question keeps whichever copy was answered most recently, exam history is the union,
 // and for each session slot (study, exam) the copy that changed last wins. A reset wipes everything older than it on both sides.
-import { HISTORY_LIMIT, SLOTS } from './progress.js';
+import { HISTORY_LIMIT, SLOTS, VERSION } from './progress.js';
+
+// Both copies must already be in the current format (see normalize in progress.js).
 
 export function merge(a, b) {
   if (!a) return clone(b);
@@ -32,7 +34,7 @@ export function merge(a, b) {
 
   const opts = clone(((b.u || 0) > (a.u || 0) ? b.opts ?? a.opts : a.opts ?? b.opts) ?? null);
 
-  return { u: Math.max(a.u || 0, b.u || 0), st, ...slots, hist, opts, resetAt };
+  return { v: VERSION, u: Math.max(a.u || 0, b.u || 0), st, ...slots, hist, opts, resetAt };
 }
 
 function newer(s, cur) {

@@ -3,6 +3,16 @@
 const B = '#1a47c2', R = '#c62a32', Y = '#f2c230', W = '#fff';
 
 export const FLAGS = {
+  tech: {
+    letter: 'G', name: 'Golf',
+    meaning: 'I require a pilot. Chosen for the first license.',
+    svg: [0, 1, 2, 3, 4, 5].map(i => `<rect x="${i * 10}" width="10" height="40" fill="${i % 2 ? B : Y}"/>`).join(''),
+  },
+  extra: {
+    letter: 'H', name: 'Hotel',
+    meaning: 'I have a pilot on board. Chosen for the top license.',
+    svg: `<rect width="30" height="40" fill="${W}"/><rect x="30" width="30" height="40" fill="${R}"/>`,
+  },
   e1: {
     letter: 'P', name: 'Papa',
     meaning: 'In harbour: all persons report on board, the vessel is about to put to sea.',

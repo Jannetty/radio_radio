@@ -1,6 +1,7 @@
 // The Learn session: rounds of questions; after each round, the misses come back in
 // retry rounds until every one is answered right, then the next round is drawn.
 // Sessions are plain JSON so they can be saved and resumed on another device.
+// Questions are referred to by id (e.g. "T1A01"), never by position in the pool.
 import { shuffle, keepsOrder } from './progress.js';
 
 export function startLearn(list, { size = 20, shuf = false } = {}) {
@@ -49,8 +50,8 @@ export const hasMore = s => s.qpos < s.queue.length;
 export const finished = s => s.phase === 'sum' && !s.miss.length && !hasMore(s);
 
 /** Display order of the four choices for a question (stable for the session). */
-export function choiceOrder(s, qi, q, rand = Math.random) {
+export function choiceOrder(s, id, q, rand = Math.random) {
   if (!s.shuf || keepsOrder(q)) return [0, 1, 2, 3];
-  if (!s.perm[qi]) s.perm[qi] = shuffle([0, 1, 2, 3], rand);
-  return s.perm[qi];
+  if (!s.perm[id]) s.perm[id] = shuffle([0, 1, 2, 3], rand);
+  return s.perm[id];
 }
