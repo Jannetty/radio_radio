@@ -1,8 +1,8 @@
 # GMDSS Radio Operator explanations, review copy
 
-Generated from `app/data/explanations/e7.json` by `tools/explanations/review.py`. 303 of 600 questions have an explanation. Each quote below appears word for word in the linked source. "Heads up" notes mark places where the current rule differs from the exam's answer key; "general practice" marks answers with no rule to quote.
+Generated from `app/data/explanations/e7.json` by `tools/explanations/review.py`. 458 of 600 questions have an explanation. Each quote below appears word for word in the linked source. "Heads up" notes mark places where the current rule differs from the exam's answer key; "general practice" marks answers with no rule to quote.
 
-Questions without an explanation: 6A4, 7B1, 7B2, 7B3, 7B4, 7B5, 7B6, 8B1, 8B2, 8B3, 8B4, 8B5, 8B6, 9B1, 9B2, 9B3, 9B4, 9B5, 9B6, 10B1, 10B2, 10B3, 10B4, 10B5, 10B6, 11B1, 11B2, 11B3, 11B4, 11B5, 11B6, 12B1, 12B2, 12B3, 12B4, 12B5, 12B6, 21D1, 21D5, 43F4, 48F4, 48F6, 49G5, 52H3, 55H6, 59I1, 59I2, 59I3, 59I4, 59I5, 59I6, 60I1, 60I2, 60I3, 60I4, 60I5, 60I6, 61I1, 61I2, 61I3, 61I4, 61I5, 61I6, 62I1, 62I2, 62I3, 62I4, 62I5, 62I6, 63I1, 63I2, 63I3, 63I4, 63I5, 63I6, 64I1, 64I2, 64I3, 64I4, 64I5, 64I6, 65I1, 65I2, 65I3, 65I4, 65I5, 65I6, 66I1, 66I2, 66I3, 66I4, 66I5, 66I6, 67I1, 67I2, 67I3, 67I4, 67I5, 67I6, 68I1, 68I2, 68I3, 68I4, 68I5, 68I6, 69I1, 69I2, 69I3, 69I4, 69I5, 69I6, 70I1, 70I2, 70I3, 70I4, 70I5, 70I6, 71I1, 71I2, 71I3, 71I4, 71I5, 71I6, 72I1, 72I2, 72I3, 72I4, 72I5, 72I6, 73I1, 73I2, 73I3, 73I4, 73I5, 73I6, 74I1, 74I2, 74I3, 74I4, 74I5, 74I6, 75I1, 75I2, 75I3, 75I4, 75I5, 75I6, 76I1, 76I2, 76I3, 76I4, 76I5, 76I6, 77I1, 77I2, 77I3, 77I4, 77I5, 77I6, 78I1, 78I2, 78I3, 78I4, 78I5, 78I6, 79I1, 79I2, 79I3, 79I4, 79I5, 79I6, 80J1, 80J2, 80J3, 80J4, 80J5, 80J6, 81J1, 81J2, 81J3, 81J4, 81J5, 81J6, 82J1, 82J2, 82J3, 82J4, 82J5, 82J6, 83J1, 83J2, 83J3, 83J4, 83J5, 83J6, 84J1, 84J2, 84J3, 84J4, 84J5, 84J6, 85J1, 85J2, 85J3, 85J4, 85J5, 85J6, 86J1, 86J2, 86J3, 86J4, 86J5, 86J6, 87J1, 87J2, 87J3, 87J4, 87J5, 87J6, 88J1, 88J2, 88J3, 88J4, 88J5, 88J6, 89J1, 89J2, 89J3, 89J4, 89J5, 89J6, 90J1, 90J2, 90J3, 90J4, 90J5, 90J6, 91J1, 91J2, 91J3, 91J4, 91J5, 91J6, 92J1, 92J2, 92J3, 92J4, 92J5, 92J6, 93J1, 93J2, 93J3, 93J4, 93J5, 93J6, 94J1, 94J2, 94J3, 94J4, 94J5, 94J6, 95J1, 95J2, 95J3, 95J4, 95J5, 95J6, 96J1, 96J2, 96J3, 96J4, 96J5, 96J6, 97J1, 97J2, 97J3, 97J4, 97J5, 97J6, 98J1, 98J2, 98J3, 98J4, 98J5, 98J6, 99J1, 99J2, 99J3, 99J4, 99J5, 99J6, 100J1, 100J2, 100J3, 100J4, 100J5, 100J6
+Questions without an explanation: 6A4, 21D1, 21D5, 43F4, 48F4, 48F6, 49G5, 52H3, 55H6, 59I1, 59I2, 59I3, 59I4, 59I5, 59I6, 60I1, 60I2, 60I3, 60I4, 60I5, 60I6, 61I1, 61I2, 61I3, 61I4, 61I5, 61I6, 62I1, 62I2, 62I3, 62I4, 62I5, 62I6, 63I1, 63I2, 63I3, 63I4, 63I5, 63I6, 64I1, 64I2, 64I3, 64I4, 64I5, 64I6, 65I1, 65I2, 65I3, 65I4, 65I5, 65I6, 66I1, 66I2, 66I3, 66I4, 66I5, 66I6, 67I1, 67I2, 67I3, 67I4, 67I5, 67I6, 68I1, 68I2, 68I3, 68I4, 68I5, 68I6, 69I1, 69I2, 69I3, 69I4, 69I5, 69I6, 70I1, 70I2, 70I3, 70I4, 70I5, 70I6, 71I1, 71I2, 71I3, 71I4, 71I5, 71I6, 72I1, 72I2, 72I3, 72I4, 72I5, 72I6, 73I1, 73I2, 73I3, 73I4, 73I5, 73I6, 74I1, 74I2, 74I3, 74I4, 74I5, 74I6, 75I1, 75I2, 75I3, 75I4, 75I5, 75I6, 76I1, 76I2, 76I3, 76I4, 76I5, 76I6, 77I1, 77I2, 77I3, 77I4, 77I5, 77I6, 78I1, 78I2, 78I3, 78I4, 78I5, 78I6, 79I1, 79I2, 79I3, 79I4, 79I5, 79I6, 86J3, 86J4, 87J1, 87J4, 91J1, 100J5, 100J6
 
 ## Topic 1. Fundamental Concepts
 
@@ -548,6 +548,11 @@ Ships in sea areas A1 and A2 need only one of the three maintenance methods: dup
 
 ## Topic 7. Radio Spectrum
 
+The radio spectrum is divided into bands by decades of frequency. GMDSS uses MF and HF for long range, VHF for short range, UHF for satellite links (406 MHz EPIRBs and Inmarsat around 1.5–1.6 GHz), and SHF for 9 GHz radar and SARTs.
+
+- MF is 300–3000 kHz, HF 3–30 MHz, VHF 30–300 MHz, UHF 300–3000 MHz and SHF 3–30 GHz. ([47 CFR §2.101](https://www.ecfr.gov/current/title-47/section-2.101))
+- Inmarsat ship earth stations transmit on 1626.5–1645.5 MHz, in the UHF band. ([47 CFR §80.1077](https://www.ecfr.gov/current/title-47/section-80.1077))
+
 ### 7B1
 
 What is the frequency range for Medium Frequency?
@@ -557,7 +562,9 @@ B. 1,000-10,000 kHz
 **C. 300-3,000 kHz**  
 D. 30-300 kHz  
 
-_No explanation published._
+Medium frequency (MF) is 300 to 3,000 kHz. That band includes the GMDSS MF frequencies such as 2182 and 2187.5 kHz.
+
+- [47 CFR §2.101](https://www.ecfr.gov/current/title-47/section-2.101): “6 MF 300 to 3 000 kHz Hectometric waves. 7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves. 10 SHF 3 to 30 GHz Centimetric waves.”
 
 ### 7B2
 
@@ -568,7 +575,9 @@ B. 30-300 MHz
 C. 10-30 MHz  
 **D. 3-30 MHz**  
 
-_No explanation published._
+High frequency (HF) is 3 to 30 MHz.
+
+- [47 CFR §2.101](https://www.ecfr.gov/current/title-47/section-2.101): “6 MF 300 to 3 000 kHz Hectometric waves. 7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves. 10 SHF 3 to 30 GHz Centimetric waves.”
 
 ### 7B3
 
@@ -579,7 +588,9 @@ B. 3-30 MHz
 C. 300-3,000 kHz  
 D. 10-30 MHz  
 
-_No explanation published._
+Very high frequency (VHF) is 30 to 300 MHz. Marine VHF channels are around 156–162 MHz.
+
+- [47 CFR §2.101](https://www.ecfr.gov/current/title-47/section-2.101): “6 MF 300 to 3 000 kHz Hectometric waves. 7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves. 10 SHF 3 to 30 GHz Centimetric waves.”
 
 ### 7B4
 
@@ -590,7 +601,9 @@ A. 3-30 MHz
 C. 30-300 MHz  
 D. 10-30 MHz  
 
-_No explanation published._
+Ultra high frequency (UHF) is 300 to 3,000 MHz.
+
+- [47 CFR §2.101](https://www.ecfr.gov/current/title-47/section-2.101): “6 MF 300 to 3 000 kHz Hectometric waves. 7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves. 10 SHF 3 to 30 GHz Centimetric waves.”
 
 ### 7B5
 
@@ -601,7 +614,9 @@ A. 30-300 GHz
 C. 300-3,000 MHz  
 D. 30-300 MHz  
 
-_No explanation published._
+Super high frequency (SHF) is 3 to 30 GHz. That includes the 9 GHz (X-band) radars that trigger SARTs.
+
+- [47 CFR §2.101](https://www.ecfr.gov/current/title-47/section-2.101): “6 MF 300 to 3 000 kHz Hectometric waves. 7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves. 10 SHF 3 to 30 GHz Centimetric waves.”
 
 ### 7B6
 
@@ -612,9 +627,18 @@ B. 30-300 MHz
 **C. 3-30 MHz**  
 D. 10-30 MHz  
 
-_No explanation published._
+Long-distance terrestrial communication by skywave (signals reflected from the ionosphere) is done mainly in the HF band, 3 to 30 MHz. MF works mostly by ground wave by day, and VHF and above generally pass through the ionosphere.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §2.101](https://www.ecfr.gov/current/title-47/section-2.101): “6 MF 300 to 3 000 kHz Hectometric waves. 7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves. 10 SHF 3 to 30 GHz Centimetric waves.”
 
 ## Topic 8. Frequency Bands
+
+Each band behaves differently: VHF is short range, MF reaches a hundred miles or so by ground wave, HF reaches far by skywave but fades and picks up static, and satellites avoid the ionosphere altogether.
+
+- VHF coast stations reach about 20–30 miles. ([IMO](https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf))
+- MF coast stations reach about 100 miles. ([IMO](https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf))
 
 ### 8B1
 
@@ -625,7 +649,10 @@ A. Inmarsat
 C. DSC on channel 70  
 D. VHF ARQ  
 
-_No explanation published._
+HF signals travel by skywave via the ionosphere, so HF systems such as SITOR (NBDP) are the most affected by fading and atmospheric static. Inmarsat (satellite) and VHF are largely free of these effects.
+
+_General operating practice, not a quoted rule._
+
 
 ### 8B2
 
@@ -636,7 +663,10 @@ B. Inmarsat
 **C. MF/HF radiotelephony**  
 D. SafetyNETTM  
 
-_No explanation published._
+MF/HF radiotelephony is the most affected by atmospheric disturbances: lightning static and changing ionospheric conditions affect these bands far more than VHF or satellite systems.
+
+_General operating practice, not a quoted rule._
+
 
 ### 8B3
 
@@ -647,7 +677,11 @@ B. MF-HF DSC Controller
 C. VHF ARQ  
 **D. Inmarsat**  
 
-_No explanation published._
+Inmarsat uses geostationary satellites at microwave frequencies, so it doesn't depend on the ionosphere and isn't affected by fading and static the way MF/HF systems are.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §80.1069](https://www.ecfr.gov/current/title-47/section-80.1069): “within the coverage of an INMARSAT geostationary satellite”
 
 ### 8B4
 
@@ -658,7 +692,10 @@ B. NAVTEX
 C. MF SITOR (NBDP)  
 D. HF SITOR (NBDP)  
 
-_No explanation published._
+Inmarsat is the least affected by atmospheric disturbances: its satellite links don't rely on ionospheric propagation. NAVTEX and MF/HF SITOR do.
+
+_General operating practice, not a quoted rule._
+
 
 ### 8B5
 
@@ -669,7 +706,12 @@ B. The High Frequency (HF) band.
 C. The Very High Frequency (VHF) band.  
 **D. The Medium Frequency (MF) band.**  
 
-_No explanation published._
+For about 100 miles, MF is the reliable choice: MF ground wave covers roughly that range, which is why MF coast stations define sea area A2 (about 100 miles). VHF reaches only about 20–30 miles, and HF skywave is suited to longer distances.
+
+_General operating practice, not a quoted rule._
+
+- [IMO, Shipping Emergencies: Search and Rescue and the GMDSS (1999)](https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf): “Area A2 Beyond area Al, but within range of MF coastal stations (about l00 miles)”
+- [IMO, Shipping Emergencies: Search and Rescue and the GMDSS (1999)](https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf): “Area A1 Within range of VHF coast stations (about 20-30 miles)”
 
 ### 8B6
 
@@ -680,9 +722,17 @@ B. HF SITOR (NBDP)
 C. MF SITOR (NBDP)  
 D. NAVTEX  
 
-_No explanation published._
+VHF DSC has the shortest range of these systems: roughly line of sight, about 20–30 miles to a coast station. NAVTEX and MF/HF SITOR reach hundreds or thousands of miles.
+
+- [IMO, Shipping Emergencies: Search and Rescue and the GMDSS (1999)](https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf): “Area A1 Within range of VHF coast stations (about 20-30 miles)”
 
 ## Topic 9. Modulation, Demodulation, AM, FM
+
+Modulation puts information onto a carrier; demodulation takes it off again. Emission codes say how: the first letter gives the modulation, the digit the kind of signal, and the last letter the type of information.
+
+- A is double sideband AM, H single sideband with full carrier, J single sideband with suppressed carrier, F frequency modulation. ([47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201))
+- E means telephony (voice). ([47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201))
+- MF/HF voice is J3E; VHF voice is F3E. ([47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201))
 
 ### 9B1
 
@@ -693,7 +743,10 @@ B. Changing mark-space to 1 and 0.
 C. Adjusting the frequency to the optimum band for long distance communications.  
 D. Converting the carrier from a low frequency to a higher frequency.  
 
-_No explanation published._
+Modulation means impressing the information (voice or data) onto a radio-frequency carrier so it can be transmitted.
+
+_General operating practice, not a quoted rule._
+
 
 ### 9B2
 
@@ -704,7 +757,10 @@ A. Detuning the receiver to remove interfering signals.
 C. Removing atmospheric noise from the signal.  
 D. Separating the TELEX signals from the voice signals.  
 
-_No explanation published._
+Demodulation is the reverse of modulation: the receiver extracts the information from the received carrier.
+
+_General operating practice, not a quoted rule._
+
 
 ### 9B3
 
@@ -715,7 +771,10 @@ B. The frequency is varied in synchronization with the modulating signal.
 **C. The amplitudes in the sideband(s) changes but the radio carrier frequency remains constant.**  
 D. The amplitude of the carrier is changed but there is still only a single frequency being transmitted.  
 
-_No explanation published._
+In amplitude modulation the carrier frequency stays fixed while the information appears as sidebands whose amplitudes vary with the signal. The frequency doesn't change (that's FM), and AM produces sidebands, so it's not a single frequency.
+
+_General operating practice, not a quoted rule._
+
 
 ### 9B4
 
@@ -726,7 +785,10 @@ B. J2B
 C. F3E  
 **D. J3E**  
 
-_No explanation published._
+MF/HF voice uses single sideband with suppressed carrier: J3E. In emission codes, J means single sideband with suppressed carrier, 3 a single analogue channel, and E telephony.
+
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “—Double-sideband A —Single-sideband, full carrier H —Single-sideband, reduced or variable level carrier R —Single-sideband, suppressed carrier J”
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “(6) Telephony (including sound broadcasting) E”
 
 ### 9B5
 
@@ -737,7 +799,11 @@ B. Both the amplitude and frequency are changed by the modulating signal.
 C. Frequency modulation is subject to interference by atmospheric noise.  
 D. High level mixing of the final amplifier signal and the information signal.  
 
-_No explanation published._
+In FM the information changes the carrier's frequency while its amplitude stays constant. That's also why FM is less affected by amplitude noise.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “Emission in which the main carrier is angle-modulated: —Frequency modulation F”
 
 ### 9B6
 
@@ -748,9 +814,19 @@ A. F3C
 C. J2B  
 D. H3E  
 
-_No explanation published._
+VHF marine voice is F3E: F for frequency modulation, 3 for a single analogue channel, and E for telephony.
+
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “Emission in which the main carrier is angle-modulated: —Frequency modulation F”
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “A single channel containing quantized or digital information with the use of a modulating sub-carrier, excluding time-division multiplex 2 (4) A single channel containing analogue information 3”
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “(6) Telephony (including sound broadcasting) E”
 
 ## Topic 10. Carrier and Sidebands
+
+An AM signal is a carrier plus sidebands. Single sideband keeps one sideband, with the carrier suppressed (J) or full (H). J2B sends data as two alternating audio tones through an SSB transmitter.
+
+- J3E is single sideband with suppressed carrier. ([47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201))
+- J2B feeds FSK audio tones into an SSB transmitter. ([Recommendation ITU-R M.493-16](https://www.itu.int/rec/R-REC-M.493/en))
+- Distress voice frequencies include 2182, 4125, 6215, 8291, 12290 and 16420 kHz. ([47 CFR §80.1077](https://www.ecfr.gov/current/title-47/section-80.1077))
 
 ### 10B1
 
@@ -761,7 +837,10 @@ B. The carrier is used to modulate the information signal.
 C. There are always sidebands on either side of the carrier.  
 **D. The carrier is a Radio Frequency (RF) signal that is modulated to carry intelligence.**  
 
-_No explanation published._
+The carrier is the radio-frequency signal that's modulated to carry the information.
+
+_General operating practice, not a quoted rule._
+
 
 ### 10B2
 
@@ -772,7 +851,9 @@ B. 2182.0, 2187.5 kHz or 8414.5 kHz.
 C. 8414.5 kHz, 8291.0 kHz or 8376.5 kHz.  
 D. 4125.0 kHz, 16420.0 kHz or 4177.5 kHz.  
 
-_No explanation published._
+J3E (SSB voice) is used on the radiotelephone distress frequencies: 2182 kHz, and HF frequencies such as 8291 and 16420 kHz. 2187.5, 8414.5 and 4207.5 kHz are DSC frequencies, and 8376.5 and 4177.5 kHz are NBDP.
+
+- [47 CFR §80.1077](https://www.ecfr.gov/current/title-47/section-80.1077): “Radiotelephony 2182 kHz, 4125 kHz, 6215 kHz, 8291 kHz, 12290 kHz, 16420 kHz, and 156.8 MHz.”
 
 ### 10B3
 
@@ -783,7 +864,11 @@ A. Two sidebands and a carrier.
 C. One lower sideband.  
 D. Two carriers and one sideband.  
 
-_No explanation published._
+J3E is single sideband with suppressed carrier. Marine SSB voice uses the upper sideband, so there's one upper sideband and no carrier.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “—Double-sideband A —Single-sideband, full carrier H —Single-sideband, reduced or variable level carrier R —Single-sideband, suppressed carrier J”
 
 ### 10B4
 
@@ -794,7 +879,9 @@ B. A reduced carrier and the lower sideband.
 **C. A full carrier and the upper sideband.**  
 D. A full carrier and both upper and lower sidebands.  
 
-_No explanation published._
+H3E is single sideband with full carrier: the full carrier plus one sideband (the upper sideband in marine use).
+
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “—Double-sideband A —Single-sideband, full carrier H —Single-sideband, reduced or variable level carrier R —Single-sideband, suppressed carrier J”
 
 ### 10B5
 
@@ -805,7 +892,10 @@ B. A full carrier and two sidebands.
 **C. An upper sideband of 2 alternating tones.**  
 D. An upper sideband of a single tone switched on and off.  
 
-_No explanation published._
+J2B is single sideband with suppressed carrier, carrying digital information on a modulating sub-carrier: the FSK audio tones that make the telex or DSC signal go out as an upper sideband signal of two alternating tones.
+
+- [Recommendation ITU-R M.493-16, Digital selective-calling system for use in the maritime mobile service](https://www.itu.int/rec/R-REC-M.493/en): “When frequency-shift keying is effected by applying audio signals to the input of single-sideband transmitters (J2B), the centre of the audio-frequency spectrum offered to the transmitter is 1 700 Hz.”
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “A single channel containing quantized or digital information with the use of a modulating sub-carrier, excluding time-division multiplex 2 (4) A single channel containing analogue information 3”
 
 ### 10B6
 
@@ -816,9 +906,19 @@ B. There is only a single tone used in J2B mode.
 C. There are a carrier and two sidebands in H3E mode.  
 **D. There are two tones used in J2B mode.**  
 
-_No explanation published._
+J2B uses two alternating tones (frequency-shift keying) fed into an SSB transmitter. The other statements are false: J3E has no carrier, J2B isn't a single tone, and H3E has one sideband, not two.
+
+- [Recommendation ITU-R M.493-16, Digital selective-calling system for use in the maritime mobile service](https://www.itu.int/rec/R-REC-M.493/en): “When frequency-shift keying is effected by applying audio signals to the input of single-sideband transmitters (J2B), the centre of the audio-frequency spectrum offered to the transmitter is 1 700 Hz.”
+- [Recommendation ITU-R M.493-16, Digital selective-calling system for use in the maritime mobile service](https://www.itu.int/rec/R-REC-M.493/en): “F1B or J2B 170 Hz and modulation rate of 100”
 
 ## Topic 11. Channel Spacing
+
+Channel spacing follows bandwidth: MF/HF voice channels are 3 kHz apart and NBDP telex channels 0.5 kHz apart.
+
+- HF voice channels step by 3 kHz. ([47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371))
+- NBDP channels step by 0.5 kHz. ([47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361))
+- NBDP (F1B/J2B) uses a 170 Hz frequency shift. ([Recommendation ITU-R M.476-5](https://www.itu.int/rec/R-REC-M.476/en))
+- It's sent at 100 baud. ([Recommendation ITU-R M.476-5](https://www.itu.int/rec/R-REC-M.476/en))
 
 ### 11B1
 
@@ -829,7 +929,9 @@ B. 2.8 kHz
 **C. 3.0 kHz**  
 D. 3.5 kHz  
 
-_No explanation published._
+MF/HF voice (SSB) channels are spaced 3 kHz apart. You can see this in the HF duplex channel tables, where channels step by 3 kHz.
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “404 4074 4366 x x x x 405 4077 4369”
 
 ### 11B2
 
@@ -840,7 +942,10 @@ B. 300 Hz
 C. 3.0 kHz  
 **D. 500 Hz**  
 
-_No explanation published._
+NBDP (F1B/J2B) channels are spaced 500 Hz (0.5 kHz) apart, as the NBDP channel tables show.
+
+- [47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361): “1 4210.5 4172.5”
+- [47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361): “2 4211.0 4173.0 6315.0 6263.5”
 
 ### 11B3
 
@@ -851,7 +956,10 @@ B. J3E SSB Voice
 C. F3E FM Voice  
 D. G3E FM Voice  
 
-_No explanation published._
+Frequencies ending in .0 or .5 kHz step in 500 Hz increments, the spacing used for NBDP (F1B/J2B, SITOR) channels. SSB voice channels are spaced 3 kHz apart, and F3E/G3E is VHF FM.
+
+- [47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361): “Ch. no. Paired frequencies for NBDP and data transmissions (kHz) 4 MHz 6 MHz 8 MHz 12 MHz 16 MHz 18/19 MHz 22 MHz 25/26 MHz Coast Ship Coast Ship Coast Ship Coast Ship Coast Ship Coast Ship Coast Ship Coast Ship 1 4210.5 4172.5”
+- [47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361): “2 4211.0 4173.0 6315.0 6263.5”
 
 ### 11B4
 
@@ -862,7 +970,10 @@ A. 10
 C. 4  
 D. 2  
 
-_No explanation published._
+A voice channel is 3 kHz wide and NBDP channels are 0.5 kHz apart, so six NBDP channels fit in the space of one voice channel (3 ÷ 0.5 = 6).
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “404 4074 4366 x x x x 405 4077 4369”
+- [47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361): “2 4211.0 4173.0 6315.0 6263.5”
 
 ### 11B5
 
@@ -873,7 +984,10 @@ A. J2B
 C. J3E  
 D. F1B  
 
-_No explanation published._
+F3E (VHF FM voice) uses the most bandwidth: marine VHF channels are 25 kHz apart, against 3 kHz for SSB voice and 0.5 kHz for J2B/F1B telex.
+
+_General operating practice, not a quoted rule._
+
 
 ### 11B6
 
@@ -884,9 +998,15 @@ B. A3E
 **C. J2B**  
 D. F3E  
 
-_No explanation published._
+J2B (narrow-band telex or DSC) uses the least bandwidth: a 170 Hz frequency shift at 100 bit/s, much narrower than any voice mode.
+
+- [Recommendation ITU-R M.493-16, Digital selective-calling system for use in the maritime mobile service](https://www.itu.int/rec/R-REC-M.493/en): “F1B or J2B 170 Hz and modulation rate of 100”
 
 ## Topic 12. Antennas
+
+The standard GMDSS MF/HF antenna is a vertical whip, which radiates equally in all directions. An antenna coupler matches its fixed length to each operating frequency.
+
+- The MF antenna must be as non-directional and efficient as practicable. ([47 CFR §80.863](https://www.ecfr.gov/current/title-47/section-80.863))
 
 ### 12B1
 
@@ -897,7 +1017,10 @@ A. A figure eight
 C. A cardioid  
 D. An ellipse  
 
-_No explanation published._
+A vertical whip radiates equally in all horizontal directions, so its horizontal radiation pattern is a circle (omnidirectional).
+
+_General operating practice, not a quoted rule._
+
 
 ### 12B2
 
@@ -908,7 +1031,10 @@ B. To ensure transmissions are restricted to legal marine frequencies.
 **C. The length of the physically-fixed antenna must be electrically matched to the intended frequency of operation.**  
 D. The antenna coupler/tuner indicates whether the ionosphere is ready to reflect a transmission properly.  
 
-_No explanation published._
+A ship's MF/HF whip has a fixed physical length but must work across a wide range of frequencies, so the coupler electrically matches the antenna to each operating frequency.
+
+_General operating practice, not a quoted rule._
+
 
 ### 12B3
 
@@ -919,7 +1045,11 @@ B. Not function due to being grounded.
 C. Only be used in Satellite communications.  
 **D. Radiate omni-directionally.**  
 
-_No explanation published._
+A vertical quarter-wave antenna over a good ground (or seawater) radiates equally in all horizontal directions (omnidirectionally). The ground connection is part of how it works.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §80.863](https://www.ecfr.gov/current/title-47/section-80.863): “An antenna system must be installed which is as nondirectional and as efficient as is practicable”
 
 ### 12B4
 
@@ -930,7 +1060,10 @@ B. Horizontally polarized long wire antenna.
 C. Horizontally polarized vertical whip antenna.  
 D. Satellite radome with vertical polarization.  
 
-_No explanation published._
+The usual GMDSS MF/HF antenna is a vertically polarized whip: it's omnidirectional and efficient for ground waves over seawater.
+
+_General operating practice, not a quoted rule._
+
 
 ### 12B5
 
@@ -941,7 +1074,10 @@ B. Changing the overall wavelength of the antenna system (in addition to the fix
 C. Enabling maximum transmitted signal on the band chosen by the operator.  
 **D. All of these answers are functions of the antenna coupler/tuner.**  
 
-_No explanation published._
+The antenna coupler matches the antenna electrically to the transmit frequency, in effect changing its electrical length, so the transmitter can deliver maximum signal on the band the operator chooses. All three describe what it does.
+
+_General operating practice, not a quoted rule._
+
 
 ### 12B6
 
@@ -952,7 +1088,10 @@ B. It radiates directionally for better propagation.
 C. It radiates a strong signal vertically.  
 D. It radiates more signal fore and aft.  
 
-_No explanation published._
+A vertical whip radiates equally well in all horizontal directions, whereas a long wire is somewhat directional.
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic 13. Inspections and Exemptions
 
@@ -6586,6 +6725,11 @@ _No explanation published._
 
 ## Topic 80. MF-HF Panel Controls
 
+The main MF/HF transceiver settings are frequency (typed in or recalled as an ITU channel), mode (J3E for voice, F1B or J2B for telex) and power (only as much as needed).
+
+- NBDP telex uses F1B or J2B with a 170 Hz shift. ([Recommendation ITU-R M.476-5](https://www.itu.int/rec/R-REC-M.476/en))
+- J3E is SSB voice with suppressed carrier. ([47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201))
+
 ### 80J1
 
 Which modes could be selected to receive vessel traffic lists from high seas coast radio stations:
@@ -6595,7 +6739,11 @@ A. AM and VHF-FM
 C. ARQ and FEC  
 D. VHF-FM and SSB  
 
-_No explanation published._
+Coast stations announce traffic lists by voice (SSB) and by telex broadcast (FEC). To receive them you'd use SSB voice or FEC telex. ARQ is a two-way link to one station, and VHF FM and AM aren't used on the high seas.
+
+_General operating practice, not a quoted rule._
+
+- [Recommendation ITU-R M.625-4, Direct-printing telegraph equipment employing automatic identification in the maritime mobile service](https://www.itu.int/rec/R-REC-M.625/en): “that for the broadcast mode a forward error-correcting (FEC) method should be used”
 
 ### 80J2
 
@@ -6606,7 +6754,10 @@ B. To the lowest possible level at all times regardless of whether communication
 **C. To the lowest level needed to achieve the necessary propagation radius and communications range.**  
 D. To the highest level possible so as to ensure other stations cannot "break-in" on the channel during use.  
 
-_No explanation published._
+Use the lowest power that reliably reaches the station you're working: enough for the range needed, but not so much that it causes unnecessary interference.
+
+_General operating practice, not a quoted rule._
+
 
 ### 80J3
 
@@ -6617,7 +6768,10 @@ B. All consoles ensure that manual keypad entries are checked for legal outcomes
 C. All consoles ensure that ITU channel recall from a database produces accurate and legal outcomes.  
 **D. Using the manufacturer’s database typically produces a more swift and certain result.**  
 
-_No explanation published._
+Recalling ITU channels from the manufacturer's database is usually faster and more reliable than typing frequencies by hand, though it isn't infallible: databases differ between makes and must be checked.
+
+_General operating practice, not a quoted rule._
+
 
 ### 80J4
 
@@ -6628,7 +6782,10 @@ B. Transmit and receive frequencies must always be manually entered from the key
 C. Transmit and receive frequencies must always be recalled from a database or memory.  
 D. Frequencies in the manufacturer’s databases are always accurate and legal for use.  
 
-_No explanation published._
+Many consoles let the operator either type frequencies on the keypad or recall ITU channels from a built-in database or memory. Neither method is mandatory, and databases aren't guaranteed to be accurate.
+
+_General operating practice, not a quoted rule._
+
 
 ### 80J5
 
@@ -6639,7 +6796,9 @@ B. Select F1B/J2B modes or J3E mode, depending on whether ARQ or FEC is preferre
 C. Select J3E mode for ARQ and H3E mode for FEC.  
 **D. Select F1B mode or J2B mode, depending on the equipment manufacturer.**  
 
-_No explanation published._
+Telex (SITOR/NBDP) uses frequency-shift keying, sent as F1B or, when the tones are fed into an SSB transmitter, J2B. Which one the console uses depends on the manufacturer. J3E and H3E are voice modes.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “The class of emission is F1B or J2B with a frequency shift on the radio link of 170 Hz.”
 
 ### 80J6
 
@@ -6650,9 +6809,17 @@ B. Select J3E mode for proper SITOR (NBDP) operations.
 C. Select F1B mode or J2B mode, depending on the equipment manufacturer.  
 D. Select F1B/J2B modes or J3E mode, depending on whether FEC or ARQ is preferred.  
 
-_No explanation published._
+MF/HF voice calls use J3E (single sideband, suppressed carrier). F1B and J2B are telex modes.
+
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “—Double-sideband A —Single-sideband, full carrier H —Single-sideband, reduced or variable level carrier R —Single-sideband, suppressed carrier J”
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “(6) Telephony (including sound broadcasting) E”
 
 ## Topic 81. MF-HF Frequency–Simplex, Duplex, Half-Duplex
+
+Simplex uses one frequency for both directions; duplex uses a pair. Public coast stations work on paired (duplex) frequencies; ship-to-ship and private stations use simplex.
+
+- HF public correspondence channels are ship/coast frequency pairs. ([47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371))
+- NBDP also has paired ship and coast frequencies. ([47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361))
 
 ### 81J1
 
@@ -6663,7 +6830,9 @@ B. These are normally used for FEC communications with coast radio stations.
 C. These are normally used only for Distress communications to limit channel interference.  
 D. These are normally used for DSC communications with coast radio stations.  
 
-_No explanation published._
+Paired (duplex) NBDP frequencies, a coast frequency and a ship frequency, are used for ARQ telex with public coast stations. FEC broadcasts are one-way, distress NBDP uses simplex frequencies, and DSC has its own frequencies.
+
+- [47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361): “The paired ship frequencies are available for use by authorized ship stations for NBDP and data transmissions.”
 
 ### 81J2
 
@@ -6674,7 +6843,9 @@ A. These are normally used for FEC communications with coast radio stations.
 C. These are normally used for ARQ communications with coast radio stations.  
 D. These are normally used for DSC communications with coast radio stations.  
 
-_No explanation published._
+Paired SSB frequencies (different ship and coast frequencies) are used for J3E voice with public coast stations.
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “Working Carrier Frequency Pairs in the 4000-27500 kHz Band Channel Ship transmit Coast transmit”
 
 ### 81J3
 
@@ -6685,7 +6856,9 @@ B. Normally used between ship stations.
 **C. Normally used with public coast stations.**  
 D. Normally used between private coast and ship stations.  
 
-_No explanation published._
+Paired (duplex) frequencies are normally used with public coast stations, for public correspondence. Ship-to-ship and private coast work uses simplex frequencies.
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “Working Carrier Frequency Pairs in the 4000-27500 kHz Band Channel Ship transmit Coast transmit”
 
 ### 81J4
 
@@ -6696,7 +6869,9 @@ B. Normally used between ship stations as well as public coast stations simultan
 C. Normally used with public coast stations for routine SITOR (NBDP) communications.  
 **D. Normally used between ship stations and private coast stations or for ship-ship communications.**  
 
-_No explanation published._
+Simplex frequencies are normally used for ship-to-ship communications and between ships and private coast stations. Public coast stations normally work on paired frequencies.
+
+- [47 CFR §80.373](https://www.ecfr.gov/current/title-47/section-80.373): “These simplex frequencies also are available for use by authorized ship stations for business and operational radiotelephone communications.”
 
 ### 81J5
 
@@ -6707,7 +6882,10 @@ B. Transmit and receive frequencies must be different.
 C. Transmit and receive frequencies may be different, depending on whether communications are ship-shore or ship to ship.  
 D. Transmit and receive frequencies are different regardless of emission mode.  
 
-_No explanation published._
+On a simplex channel, the transmit and receive frequencies are the same.
+
+_General operating practice, not a quoted rule._
+
 
 ### 81J6
 
@@ -6718,9 +6896,16 @@ A. Transmit and receive frequencies may be identical if communications are ship-
 C. Transmit and receive frequencies must be identical.  
 D. Transmit and receive frequencies may be different if communications are ship-ship.  
 
-_No explanation published._
+On a duplex channel, the transmit and receive frequencies are always different: one for ship transmit, one for coast transmit.
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “Working Carrier Frequency Pairs in the 4000-27500 kHz Band Channel Ship transmit Coast transmit”
 
 ## Topic 82. MF-HF ITU Channels
+
+HF ITU channel numbers combine the band and the channel: the leading digits give the band in MHz and the last two the channel.
+
+- Channel 1601 is channel 1 in the 16 MHz band (16360 / 17242 kHz). ([47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371))
+- Channel 2201 is channel 1 in the 22 MHz band. ([47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371))
 
 ### 82J1
 
@@ -6731,7 +6916,10 @@ B. Ch-1216 in the MF band.
 C. Ch-12 in the 16 kHz band.  
 **D. Ch-16 in the 12 MHz band.**  
 
-_No explanation published._
+HF ITU channel numbers are the band in MHz followed by a two-digit channel number. 1216 is channel 16 in the 12 MHz band, just as 1601 is channel 1 in the 16 MHz band.
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “1601 16360 17242”
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “1201 12230 13077”
 
 ### 82J2
 
@@ -6742,7 +6930,9 @@ B. VHF Ch-22
 C. Ch-22A VTS  
 D. Ch-70 (DSC only)  
 
-_No explanation published._
+A 22 MHz ITU channel number starts with 22, so 2206 is channel 6 in the 22 MHz band. The other choices are VHF channels.
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “2201 22000 22696”
 
 ### 82J3
 
@@ -6753,7 +6943,9 @@ A. This refers to a vessel's SELCAL number.
 C. This refers to VHF channels 1-28 and 60-88.  
 D. A series of frequency pairings used for ship-ship communications.  
 
-_No explanation published._
+A duplex ITU channel is one of a standard series of internationally agreed ship/coast frequency pairs, used in common by everyone.
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “Working Carrier Frequency Pairs in the 4000-27500 kHz Band Channel Ship transmit Coast transmit”
 
 ### 82J4
 
@@ -6764,7 +6956,9 @@ B. Ch-1604 in the MF band.
 **C. Ch-4 in the 16 MHz band.**  
 D. Ch-4 in the 6 MHz band.  
 
-_No explanation published._
+HF ITU channel numbers give the band first, then the channel. 1604 is channel 4 in the 16 MHz band.
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “1601 16360 17242”
 
 ### 82J5
 
@@ -6775,7 +6969,10 @@ B. Using the manufacturer’s frequency database to setup the transceiver typica
 **C. Different manufacturers use different database numbering systems to incorporate the ITU assignments into the transceiver and therefore a potential for confusion exists.**  
 D. Using the manufacturer’s frequency databases ensures that the transceiver is always restricted to the vessel’s licensed frequencies so that there is no danger.  
 
-_No explanation published._
+Manufacturers number their frequency databases in different ways, so the same channel can appear under different numbers on different equipment, and that can cause confusion. Databases aren't standardized or guaranteed.
+
+_General operating practice, not a quoted rule._
+
 
 ### 82J6
 
@@ -6786,9 +6983,16 @@ B. VHF-FM frequencies.
 C. International Traffic Utility frequencies.  
 **D. Internationally standardized assignments of frequency pairs for common use.**  
 
-_No explanation published._
+ITU duplex channels are internationally standardized pairs of ship and coast frequencies for common use.
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “Working Carrier Frequency Pairs in the 4000-27500 kHz Band Channel Ship transmit Coast transmit”
 
 ## Topic 83. MF-HF Voice and Telex Channel Separation
+
+Channel spacing follows bandwidth, so adjacent channels don't interfere: 0.5 kHz for NBDP and 3 kHz for SSB voice, and much wider for VHF FM.
+
+- Voice channels: 3 kHz apart. ([47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371))
+- NBDP channels: 0.5 kHz apart. ([47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361))
 
 ### 83J1
 
@@ -6799,7 +7003,12 @@ B. Channel spacing values are not a function of bandwidth values.
 **C. Channel spacing values are a function of bandwidth values.**  
 D. Bandwidth & channel values do not vary with emission mode.  
 
-_No explanation published._
+Channel spacing is set by the bandwidth of the emission: a wider signal needs channels spaced farther apart. That's why voice (3 kHz) channels are spaced wider than NBDP (0.5 kHz) channels.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “404 4074 4366 x x x x 405 4077 4369”
+- [47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361): “2 4211.0 4173.0 6315.0 6263.5”
 
 ### 83J2
 
@@ -6810,7 +7019,10 @@ B. To make most efficient use of the radio spectrum, by using voice channels rat
 C. To make most efficient use of the radio spectrum, by using TELEX channels rather than voice channels.  
 **D. To minimize the possibility of interference from adjacent channels.**  
 
-_No explanation published._
+Channel spacing keeps signals on adjacent channels from interfering with each other.
+
+_General operating practice, not a quoted rule._
+
 
 ### 83J3
 
@@ -6821,7 +7033,10 @@ B. Voice bandwidth is greater than TELEX bandwidth and therefore voice channel s
 C. TELEX bandwidth is greater than voice bandwidth and therefore TELEX channel spacing values are less than voice channel spacing values.  
 D. Both TELEX bandwidth and channel spacing values are greater than voice bandwidth and channel spacing values.  
 
-_No explanation published._
+Telex (NBDP) signals are narrower than voice, so both their bandwidth and their channel spacing (0.5 kHz) are smaller than voice (3 kHz).
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “404 4074 4366 x x x x 405 4077 4369”
+- [47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361): “2 4211.0 4173.0 6315.0 6263.5”
 
 ### 83J4
 
@@ -6832,7 +7047,12 @@ A. SSB voice, SITOR (NBDP), VHF-FM voice.
 C. VHF-FM voice, SITOR (NBDP), SSB-voice.  
 D. SITOR (NBDP), VHF-FM voice, SSB-voice.  
 
-_No explanation published._
+From narrowest to widest: SITOR/NBDP (0.5 kHz), SSB voice (3 kHz), VHF FM voice (25 kHz channels).
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “404 4074 4366 x x x x 405 4077 4369”
+- [47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361): “2 4211.0 4173.0 6315.0 6263.5”
 
 ### 83J5
 
@@ -6843,7 +7063,10 @@ A. 0.3 kHz
 C. 2.8 kHz  
 D. 3.0 kHz  
 
-_No explanation published._
+F1B/J2B (NBDP telex) channels are spaced 0.5 kHz apart.
+
+- [47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361): “1 4210.5 4172.5”
+- [47 CFR §80.361](https://www.ecfr.gov/current/title-47/section-80.361): “2 4211.0 4173.0 6315.0 6263.5”
 
 ### 83J6
 
@@ -6854,9 +7077,16 @@ B. 0.3 kHz
 **C. 3.0 kHz**  
 D. 2.8 kHz  
 
-_No explanation published._
+J3E (SSB voice) channels are spaced 3.0 kHz apart.
+
+- [47 CFR §80.371](https://www.ecfr.gov/current/title-47/section-80.371): “404 4074 4366 x x x x 405 4077 4369”
 
 ## Topic 84. MF-HF Modulation, Bandwidth and Emissions
+
+Emission codes describe a signal: A3E is AM voice, J3E SSB voice without carrier, H3E SSB with full carrier, F3E FM voice, and F1B direct-printing telex.
+
+- A, H and J are amplitude-modulated types; F is frequency modulation. ([47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201))
+- B means telegraphy for automatic reception, such as telex. ([47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201))
 
 ### 84J1
 
@@ -6867,7 +7097,10 @@ A. Using a single carrier frequency with the proper power level.
 C. Setting up the transceiver with the correct bandwidth to ensure proper communications.  
 D. The combination of the received frequency and oscillator frequency in the mixer.  
 
-_No explanation published._
+Modulation is combining the information (voice or data) with a radio carrier.
+
+_General operating practice, not a quoted rule._
+
 
 ### 84J2
 
@@ -6878,7 +7111,10 @@ B. The emission designation resulting from the desired modulation technique.
 **C. The portion of the radio spectrum consumed by a particular emission selection and modulation technique.**  
 D. The portion of the radio spectrum reserved for frequency allocations by the ITU.  
 
-_No explanation published._
+Bandwidth is the slice of radio spectrum a signal occupies, which depends on the emission and modulation used.
+
+_General operating practice, not a quoted rule._
+
 
 ### 84J3
 
@@ -6889,7 +7125,11 @@ B. Varying only the amplitude of the carrier, depending on Double or Single-Side
 C. Varying the amplitude of the carrier and employing both sidebands and the carrier.  
 **D. There is a carrier with constant amplitude and frequency with complex upper and lower sidebands varying in amplitude and frequency.**  
 
-_No explanation published._
+In ordinary AM (A3E), viewed as a spectrum, the carrier component stays at constant amplitude and frequency, and the voice appears as upper and lower sidebands that vary in amplitude and frequency. The overall waveform rises and falls, but that's the sidebands adding to the carrier. The carrier itself doesn't change, so D is the best description.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “—Double-sideband A —Single-sideband, full carrier H —Single-sideband, reduced or variable level carrier R —Single-sideband, suppressed carrier J”
 
 ### 84J4
 
@@ -6900,7 +7140,11 @@ B. Varying the amplitude or the frequency of the carrier, depending on Double or
 C. Varying only the frequency of the carrier, depending on Double or Single-Sideband operations.  
 D. Varying the amplitude of the carrier and keeping the frequencies in the sidebands constant.  
 
-_No explanation published._
+In FM, the information varies the frequency of the carrier.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “Emission in which the main carrier is angle-modulated: —Frequency modulation F”
 
 ### 84J5
 
@@ -6911,7 +7155,10 @@ B. J3E, H3E, A3E, F3E.
 C. H3E, A3E, J3E, F3E.  
 **D. A3E, J3E, H3E, F3E.**  
 
-_No explanation published._
+AM double sideband voice is A3E, SSB voice with suppressed carrier is J3E, SSB with full carrier is H3E, and FM voice is F3E.
+
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “—Double-sideband A —Single-sideband, full carrier H —Single-sideband, reduced or variable level carrier R —Single-sideband, suppressed carrier J”
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “Emission in which the main carrier is angle-modulated: —Frequency modulation F”
 
 ### 84J6
 
@@ -6922,9 +7169,19 @@ B. H3E, J3E, F3E, F1B.
 C. J3E, H3E, F1B, F3E.  
 D. H3E, J3E, F1B, F3E.  
 
-_No explanation published._
+SSB voice without carrier is J3E, SSB with carrier is H3E, FM voice is F3E, and SITOR/NBDP telex is F1B (digital, automatic reception).
+
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “—Double-sideband A —Single-sideband, full carrier H —Single-sideband, reduced or variable level carrier R —Single-sideband, suppressed carrier J”
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “Emission in which the main carrier is angle-modulated: —Frequency modulation F”
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “(3) Telegraphy—for automatic reception B”
 
 ## Topic 85. MF-HF Voice Operations–Calling a Coast Station
+
+To call a coast station by HF voice, listen first, then call on a channel it monitors using call signs and phonetics. Any properly licensed coast station worldwide can be used.
+
+- Don't interfere with transmissions already in progress. ([47 CFR §80.101](https://www.ecfr.gov/current/title-47/section-80.101))
+- Ships may use whatever frequency a foreign coast station designates. ([47 CFR §80.367](https://www.ecfr.gov/current/title-47/section-80.367))
+- The ITU List of Coast Stations is a required publication. ([47 CFR §80.401](https://www.ecfr.gov/current/title-47/section-80.401))
 
 ### 85J1
 
@@ -6935,7 +7192,9 @@ B. Choose the closest station to ensure a quick connection.
 C. Tune the transmitter on another frequency.  
 D. Wait until the coast station sends his traffic list.  
 
-_No explanation published._
+Before calling, always listen to make sure the frequency isn't already in use, so you don't interfere with traffic in progress.
+
+- [47 CFR §80.101](https://www.ecfr.gov/current/title-47/section-80.101): “The operator must not interfere with transmissions in progress.”
 
 ### 85J2
 
@@ -6946,7 +7205,10 @@ A. The vessel listens for "free signals" and calls the public correspondence sta
 C. The vessel calls the public correspondence station on VHF Channel 16, and the two stations then switch to the working channel.  
 D. Public Correspondence Stations operate SITOR (NBDP) only.  
 
-_No explanation published._
+To start an HF voice call, the ship calls the public coast station by voice on a channel the station is known to monitor. Once contact is made, they get on with their business. Coast stations aren't reached through Channel 16 on HF, and they're not NBDP-only.
+
+_General operating practice, not a quoted rule._
+
 
 ### 85J3
 
@@ -6957,7 +7219,10 @@ B. Instruct the nearest public correspondence station to add the desired ship's 
 **C. On a properly selected ITU channel, give the call sign of the ship being called three times using phonetics, then "this is" followed by the call sign of the ship initiating the call three times, using phonetics, and ending with "over."**  
 D. Notify the local vessel traffic service control station of your intention to contact a specific vessel and request the VTS operator place the call on channel 22A.  
 
-_No explanation published._
+On a properly chosen ITU channel, give the called ship's call sign three times (phonetically), "this is", your own call sign three times (phonetically), and "over". Call signs, not names, identify stations, and phonetics help when signals are weak.
+
+_General operating practice, not a quoted rule._
+
 
 ### 85J4
 
@@ -6968,7 +7233,10 @@ B. Contact the nearest U.S.C.G. station to add the desired ship's call sign to t
 C. Request the VTS operator place the call on channel 22A.  
 **D. On a correct ITU channel, give the call sign of the coast radio station three times using phonetics, the words "this is", followed by the ship’s call sign three times using phonetics and ending with "over".**  
 
-_No explanation published._
+On the correct ITU channel, give the coast station's call sign three times (phonetically), "this is", the ship's call sign three times (phonetically), and "over".
+
+_General operating practice, not a quoted rule._
+
 
 ### 85J5
 
@@ -6979,7 +7247,9 @@ B. Any coast radio station in the world that is licensed to provide such communi
 C. The U.S. Coast Guard coordinates the communications and assigns the working channel.  
 D. U.S. flag ships are licensed to communicate only with U.S. coast radio stations.  
 
-_No explanation published._
+A U.S. ship may work any coast station in the world that's licensed to provide that service. No prior authorization is needed, and ships may use whatever frequency the foreign coast station designates.
+
+- [47 CFR §80.367](https://www.ecfr.gov/current/title-47/section-80.367): “Ship stations communicating with foreign coast stations may operate on any frequency designated by that coast station.”
 
 ### 85J6
 
@@ -6990,9 +7260,15 @@ A. GMDSS Master Plan of Shore-Based Facilities.
 C. FCC Part 80, Subpart W Coast Radio Stations.  
 D. ITU List of Ship Stations and Maritime Mobile Service Identities. (List V)  
 
-_No explanation published._
+The ITU List of Coast Stations and Special Service Stations (List IV) gives each coast station's frequencies, watch hours and services, and it's a required publication. The Master Plan covers GMDSS shore facilities, and List V covers ship stations.
+
+- [47 CFR §80.401, table of required station documents](https://www.ecfr.gov/current/title-47/section-80.401): “List of Coast Stations R(5)”
 
 ## Topic 86. MF-HF DSC Controller Call Programming
+
+The MF/HF DSC controller composes, sends and stores DSC calls. Distress alert behaviour (frequencies and order) varies by manufacturer, so know your own equipment.
+
+- By default, an HF distress button alert goes out multi-frequency on all six bands. ([Recommendation ITU-R M.493-16](https://www.itu.int/rec/R-REC-M.493/en))
 
 ### 86J1
 
@@ -7003,7 +7279,11 @@ B. It permits control of transceiver operations in response to an incoming DSC c
 C. It provides for the formatting and transmission of outgoing DSC calls.  
 **D. It provides the scanning watch receiver capability on the 6 MF/HF DSC frequencies.**  
 
-_No explanation published._
+The DSC controller composes and sends DSC calls, stores received and sent calls, and can tune the transceiver in response to a call. The scanning watch receiver on the MF/HF DSC frequencies is separate equipment (it may be combined in one unit), so D isn't a primary purpose of the controller.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §80.1091](https://www.ecfr.gov/current/title-47/section-80.1091): “this equipment may be separate from, or combined with, the equipment required by paragraph (b)(1) of this section”
 
 ### 86J2
 
@@ -7014,7 +7294,9 @@ B. Will always be transmitted on 2187.5 kHz and 8414.5 kHz to trip DSC alarms on
 C. Will always be transmitted on 2187.5 kHz first to alert the nearest vessels and coast stations.  
 D. Will always be sent first on 16804.5 kHz to reach coast stations far away from the vessel.  
 
-_No explanation published._
+Where a distress-button alert goes depends on the equipment. ITU standards set multi-frequency on all six MF/HF bands as the default, and some sets use 2187.5 kHz. There's no universal fixed sequence.
+
+- [Recommendation ITU-R M.493-16, Digital selective-calling system for use in the maritime mobile service](https://www.itu.int/rec/R-REC-M.493/en): “on HF the transmission of the attempt uses the multi-frequency method including all six bands”
 
 ### 86J3
 
@@ -7047,7 +7329,10 @@ B. Select Routine priority, enter own vessel's MMSI, specify legal alternate fre
 **C. None of these answers is correct.**  
 D. Select Urgency priority, enter other vessel's MMSI, specify legal alternate frequency, F1B emission and transmit the properly formatted DSC call.  
 
-_No explanation published._
+None of the choices is right. A routine call to another ship about company business should use Routine priority, the other ship's MMSI, a proper working frequency, and J3E for voice. A uses J2B (telex), B uses your own MMSI, and D wrongly uses Urgency and F1B.
+
+_General operating practice, not a quoted rule._
+
 
 ### 86J6
 
@@ -7058,9 +7343,16 @@ B. Select Routine priority, enter own vessel's MMSI, specify legal alternate fre
 C. Select Routine priority, enter other vessel's SELCAL for TELEX, specify legal alternate frequency, F1B emission and transmit the properly formatted DSC call.  
 **D. Select Routine priority, enter other vessel's MMSI, specify legal alternate frequency, F1B emission and transmit the properly formatted DSC call.**  
 
-_No explanation published._
+For a telex call on company business: Routine priority, the other ship's MMSI, a legal working frequency, and F1B (telex) as the follow-on mode. Urgency is for safety, and DSC addresses ships by MMSI, not SELCAL.
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic 87. MF-HF SITOR (NBDP) - Definitions
+
+SITOR (NBDP) is narrow-band direct-printing telex over radio. ARQ (Automatic Repeat Request) is a two-way checked link; FEC (Forward Error Correction) is one-way.
+
+- NBDP has two modes: ARQ (Mode A) and FEC (Mode B). ([Recommendation ITU-R M.476-5](https://www.itu.int/rec/R-REC-M.476/en))
 
 ### 87J1
 
@@ -7082,7 +7374,9 @@ B. SITOR (NBDP)
 C. HF MSI  
 **D. SART**  
 
-_No explanation published._
+A SART is a radar transponder; it doesn't use telex at all. NAVTEX, SITOR (NBDP) and HF MSI all use narrow-band direct printing, in ARQ or FEC modes.
+
+- [Recommendation ITU-R M.628-5, Technical characteristics for search and rescue radar transponders](https://www.itu.int/rec/R-REC-M.628/en): “The response signal should consist of 12 sweeps.”
 
 ### 87J3
 
@@ -7093,7 +7387,9 @@ B. Field Effect Correction
 C. Forward Error Check  
 D. Forward Error Character  
 
-_No explanation published._
+FEC stands for Forward Error Correction: the B-mode of NBDP, where each character is sent twice.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “Mode B, forward error correction (FEC)”
 
 ### 87J4
 
@@ -7115,7 +7411,10 @@ A. Simplified Telephony Over Radio
 C. Simplified TELEX Over Radio  
 D. Simplex Telephony Over Radio  
 
-_No explanation published._
+SITOR is usually expanded as Simplex Telex (teletype) Over Radio, and is the common name for narrow-band direct-printing (NBDP) telegraphy.
+
+_General operating practice, not a quoted rule._
+
 
 ### 87J6
 
@@ -7126,9 +7425,19 @@ B. Automaton Repeat Request
 **C. Automatic Repeat Request**  
 D. Automatic Request Repeat  
 
-_No explanation published._
+ARQ stands for Automatic Repeat Request: the receiving station checks each block and automatically asks for a repeat if it's garbled.
+
+_General operating practice, not a quoted rule._
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “General (Mode A, ARQ and Mode B, FEC)”
 
 ## Topic 88. MF-HF SITOR (NBDP) Technical Characteristics
+
+ARQ sends three-character blocks that the receiver checks and acknowledges. FEC sends every character twice for time diversity. Both use a 7-unit code with a fixed mix of B and Y elements.
+
+- ARQ transmits blocks of three characters from the sending station to the receiving station. ([Recommendation ITU-R M.476-5](https://www.itu.int/rec/R-REC-M.476/en))
+- FEC sends every character twice, spaced apart in time. ([Recommendation ITU-R M.476-5](https://www.itu.int/rec/R-REC-M.476/en))
+- NBDP uses a 7-unit error-detecting code. ([Recommendation ITU-R M.476-5](https://www.itu.int/rec/R-REC-M.476/en))
 
 ### 88J1
 
@@ -7139,7 +7448,10 @@ A. ARQ transmissions are acknowledged by the Information Receiving Station only 
 C. ARQ communications rely upon error correction by time diversity transmission and reception.  
 D. Forward error correction is an interactive mode.  
 
-_No explanation published._
+ARQ sends data in blocks of three characters, each acknowledged (or rejected) by the receiving station. It doesn't wait to the end of the message, and it doesn't rely on time diversity (that's FEC).
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “A synchronous system, transmitting blocks of three characters from an information sending station (ISS) towards an information receiving station (IRS)”
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “after the reception of each block, emits one of the control signals of 70 ms duration”
 
 ### 88J2
 
@@ -7150,7 +7462,9 @@ B. FEC transmissions require a "phasing" or "handshaking" process prior to chara
 **C. FEC transmissions rely upon an error correction technique, which transmits each character twice.**  
 D. FEC transmissions rely upon parity and "repeat requests" to ensure error correction.  
 
-_No explanation published._
+FEC sends each character twice, separated in time, so the receiver can recover characters hit by noise. There's no handshake or repeat request. It's one-way.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “Emits each character twice: the first transmission (DX) of a specific character is followed by the transmission of four other characters, after which the retransmission (RX) of the first character takes place”
 
 ### 88J3
 
@@ -7161,7 +7475,10 @@ B. Error correction for one-way TELEX transmissions to a single other station.
 C. Error correction for one-way TELEX broadcasts of weather or navigation information.  
 **D. Error Correction with 2 stations are in direct & phased TELEX communications with each other.**  
 
-_No explanation published._
+ARQ is error correction between two stations in a direct, phased telex link: the receiver checks each block and requests repeats.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “A synchronous system, transmitting blocks of three characters from an information sending station (ISS) towards an information receiving station (IRS)”
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “after the reception of each block, emits one of the control signals of 70 ms duration”
 
 ### 88J4
 
@@ -7172,7 +7489,10 @@ B. Error Correction when 2 stations are in direct & phased telephone communicati
 C. Error Correction when 2 stations are in direct & phased TELEX communications with each other.  
 D. Error correction when 1 station sends a one-way TELEX to a single other station.  
 
-_No explanation published._
+BFEC (broadcast FEC, collective B-mode) is error correction for one-way telex broadcasts to many stations, such as weather and navigation information.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “B-mode (CBSS) to a number of stations receiving in the collective B-mode (CBRS), or from a station sending in the selective B-mode (SBSS) to one selected station receiving in the selective B-mode (SBRS).”
+- [Recommendation ITU-R M.625-4, Direct-printing telegraph equipment employing automatic identification in the maritime mobile service](https://www.itu.int/rec/R-REC-M.625/en): “that for the broadcast mode a forward error-correcting (FEC) method should be used”
 
 ### 88J5
 
@@ -7183,7 +7503,11 @@ B. Error correction in SFEC NAVTEX broadcasts, HF SFEC MSI broadcasts and two-wa
 C. Error correction in BFEC NAVTEX broadcasts, HF BFEC MSI broadcasts and one-way ARQ broadcasts.  
 **D. Error correction in HF BFEC MSI broadcasts, NAVTEX broadcasts and two-way ARQ exchanges.**  
 
-_No explanation published._
+NBDP characters use a fixed ratio of 1s and 0s, so a receiver can detect corrupted characters. That error checking is used in HF FEC MSI broadcasts, NAVTEX and two-way ARQ links alike.
+
+_General operating practice, not a quoted rule._
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “7-unit error-detecting code as listed in § 2 of this Annex.”
 
 ### 88J6
 
@@ -7194,9 +7518,18 @@ B. Consisting of 7 bits, with four ones and three zeroes.
 C. Consisting of 5 bits TELEX and 8 bits Fax.  
 D. Consisting of 5 bits for ship stations and 7 bits for shore stations.  
 
-_No explanation published._
+NBDP uses a 7-unit constant-ratio code: every character has four B elements and three Y elements, for example BBBYYYB. B is the higher tone and Y the lower. Using the ITU convention also used for DSC (Y = binary 1, B = binary 0), that's four zeros and three ones. A character with any other mix is known to be corrupted.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “7-unit error-detecting code as listed in § 2 of this Annex.”
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “ZZAAA BBBYYYB”
+- [Recommendation ITU-R M.493-16, Digital selective-calling system for use in the maritime mobile service](https://www.itu.int/rec/R-REC-M.493/en): “a Y element being a binary number 1 and a B element a binary number 0”
 
 ## Topic 89. MF-HF ARQ Operation – Calling a Coast Station
+
+To make an ARQ call, pick the coast station with the best free signals, check the channel is clear, and call its SELCAL. Distress and safety telex to coast stations uses ARQ.
+
+- Coast station NBDP identities are 4 digits; ship identities are 5. ([47 CFR §80.121](https://www.ecfr.gov/current/title-47/section-80.121))
+- Distress telex with coast stations on channels they guard uses ARQ; other distress telex uses broadcast FEC. ([47 CFR §80.1125](https://www.ecfr.gov/current/title-47/section-80.1125))
 
 ### 89J1
 
@@ -7207,7 +7540,9 @@ B. 212420 WHAQ X.
 C. Four marks (ones) and three spaces (zeroes) forming the binary signal "1001101".  
 D. This is established by the communications protocol used with the modem.  
 
-_No explanation published._
+Coast station NBDP identities (SELCALs) are 4 digits, so 1106 is a valid coast station SELCAL for an ARQ call.
+
+- [47 CFR §80.121](https://www.ecfr.gov/current/title-47/section-80.121): “the coast station must use the ship station selective calling number (5 digits) and its assigned coast station identification number (4 digits)”
 
 ### 89J2
 
@@ -7218,7 +7553,10 @@ A. The vessel then requests the coast radio station's SELCAL so that communicati
 C. Since communication has already shifted to the working channel, the vessel then transmits the subscriber number and text of the message to be sent for the coast radio station to store and forward.  
 D. The coast radio station will transmit a menu of commands such as DIRTLX+, OBS+ or AMV+ so the ship can select the desired action.  
 
-_No explanation published._
+Once the ARQ link is up, the answerbacks are exchanged and the coast station sends GA+? (go ahead), inviting the ship to send a command such as DIRTLX, OBS or AMV.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “In automatic operation the answer-back exchange is initiated and controlled by the coast station.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “< ≡ ↓ GA ↑ + ?”
 
 ### 89J3
 
@@ -7229,7 +7567,10 @@ B. Selecting a frequency in the MF band averts interference from severe static d
 **C. Monitor the coast radio station's "free signals" and call on the frequency on which the loudest and most consistent signals are heard.**  
 D. Re-position the antenna toward the coast radio station and press the "call request" button.  
 
-_No explanation published._
+Coast stations transmit "free signals" on their channels when they're available. Listening for the strongest and steadiest ones shows which station and frequency are most likely to give a good ARQ link.
+
+_General operating practice, not a quoted rule._
+
 
 ### 89J4
 
@@ -7240,7 +7581,11 @@ B. Tune the transmitter on another frequency.
 C. Wait until the coast station sends his traffic list.  
 **D. Make sure the frequency is not occupied with normal traffic.**  
 
-_No explanation published._
+Before calling, make sure the frequency isn't already in use, so you don't interfere with traffic in progress.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §80.101](https://www.ecfr.gov/current/title-47/section-80.101): “The operator must not interfere with transmissions in progress.”
 
 ### 89J5
 
@@ -7251,7 +7596,10 @@ B. Listen to each station's voice announcement and determine which channel(s) wi
 C. Listen to each station's MSI broadcast to determine which public correspondence station to contact.  
 D. Listen to the U.S. Coast Guard's traffic list to determine which Coast Guard station will handle commercial traffic.  
 
-_No explanation published._
+Listen to each station's free signals and call the one heard best. That's the practical test of which station you can reach at that moment.
+
+_General operating practice, not a quoted rule._
+
 
 ### 89J6
 
@@ -7262,9 +7610,17 @@ A. Distress communications other than directly to the Coast Guard or other coast
 C. The ARQ mode may not be used subsequently to the FEC mode even when it is advantageous to do so.  
 D. Distress communications other than directly to the Coast Guard or other coast stations on the channels that they normally guard, should be in the broadcast FEC or SSB mode.  
 
-_No explanation published._
+Direct-printing distress and safety traffic with the Coast Guard or other coast stations, on channels they normally guard, should be in ARQ mode. Other distress traffic (such as on simplex channels) uses broadcast FEC, and ARQ may be used later when it helps.
+
+- [47 CFR §80.1125](https://www.ecfr.gov/current/title-47/section-80.1125): “Distress communications by direct-printing telegraphy should be in the ARQ mode when ships are communicating directly to the Coast Guard or other coast stations on channels which they normally guard. Other distress communications, including those on simplex channels provided for that purpose, should be in the broadcast forward error correction mode.”
+- [47 CFR §80.1133](https://www.ecfr.gov/current/title-47/section-80.1133): “Safety communications by direct-printing telegraphy should be in the ARQ mode when communicating directly to the Coast Guard or other coast stations on channels which they normally guard.”
 
 ## Topic 90. MF-HF ARQ Operation - Answerbacks
+
+Once phased, the coast station runs the answerback exchange automatically, then sends GA+? (go ahead) and waits for a command. KKKK clears the telex connection but keeps the radio link.
+
+- In automatic operation the coast station controls the answerback exchange. ([Recommendation ITU-R M.492-6](https://www.itu.int/rec/R-REC-M.492/en))
+- KKKK clears the network connection but keeps the radio path. ([Recommendation ITU-R M.492-6](https://www.itu.int/rec/R-REC-M.492/en))
 
 ### 90J1
 
@@ -7275,7 +7631,10 @@ B. The vessel will request the shore station's answerback to confirm it has reac
 C. The ship will transmit the desired command (such as DIRTLX+, OBS+ or AMV+) to the coast radio station.  
 **D. After exchanging answer-backs (WRU/AAB) the coast station transmits GA+? and awaits a command.**  
 
-_No explanation published._
+After phasing, the answerbacks are exchanged automatically (WRU/AAB), and then the coast station sends GA+? and waits for the ship's command.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “In automatic operation the answer-back exchange is initiated and controlled by the coast station.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “< ≡ ↓ GA ↑ + ?”
 
 ### 90J2
 
@@ -7286,7 +7645,10 @@ B. Send a "WRU" then a "Here is" when requested to do so by the coast station.
 C. Send the necessary message file and then wait for time and charges.  
 D. Wait for the coast station to transmit a menu of possible commands and select the desired action.  
 
-_No explanation published._
+During the automatic answerback exchange, do nothing: the coast station controls it. Wait for GA+?, then send your command.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “In automatic operation the answer-back exchange is initiated and controlled by the coast station.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “< ≡ ↓ GA ↑ + ?”
 
 ### 90J3
 
@@ -7297,7 +7659,12 @@ A. Initiate call, observe phasing, wait for exchange of answer-backs (WRU-AAB), 
 C. Initiate call, observe exchange of answer-backs (WRU-AAB), send message, send KKKK to terminate radio link, receive MRN & time and charges.  
 D. Initiate call, observe phasing, exchange of answer-backs (WRU-AAB), send message, send KKKK to terminate radio link, receive MRN & time and charges.  
 
-_No explanation published._
+A complete direct-telex exchange: call, phasing, automatic answerback exchange, then DIRTLX with 0, the country code and telex number, then the message, then KKKK to clear the telex connection, then the message reference and time and charges.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “DIRTLX ↑ xy indicates that a direct telex connection is required.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “x is used where applicable to indicate the country code (ITU-T Recommendation F.69) preceded by 0 (when applicable).”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “indicates that any network connection should be cleared but that the radio path should be maintained”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “Message reference charged”
 
 ### 90J4
 
@@ -7308,7 +7675,10 @@ B. Transceiver setup, wait for exchange of answer-backs (WRU-AAB), OPR+, operato
 **C. Transceiver setup, SELCAL selection, Initiate Call, wait for exchange of answer-backs (WRU-AAB), GA+?, enter DIRTLX xy+, MOM, MSG+? and exchange of terminal answerbacks.**  
 D. Transceiver setup, wait for exchange of answer-backs (WRU-AAB), GA+? and then send message text.  
 
-_No explanation published._
+Set up the transceiver, select the station's SELCAL, start the call, let the answerbacks be exchanged, wait for GA+?, then send DIRTLX and the number. The coast station may send MOM (wait) while it connects and MSG+? (send your message). Once the distant terminal's answerback arrives, send the text.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “< ≡ ↓ GA ↑ + ?”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “DIRTLX ↑ xy indicates that a direct telex connection is required.”
 
 ### 90J5
 
@@ -7319,7 +7689,10 @@ B. If the error percentage of repeat requests becomes too high.
 **C. If the operator enters "KKKK" at the end of the message.**  
 D. If the BRK+? Command is transmitted after time and charges are received.  
 
-_No explanation published._
+KKKK clears the connection to the land telex network but keeps the radio link, so it's least likely to break the radio connection. Too many repeat requests, interrupting the answerback exchange, or BRK will break it.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “indicates that any network connection should be cleared but that the radio path should be maintained”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “BRK indicates that the use of the radio path is to be immediately discontinued”
 
 ### 90J6
 
@@ -7330,9 +7703,20 @@ B. If the operator enters "BRK+".
 C. If the automatic exchange of answerbacks is interrupted by keyboard entries.  
 **D. If the operator enters "NNNN" at the end of the message.**  
 
-_No explanation published._
+NNNN just marks the end of the message text, so it doesn't break the link. BRK+ deliberately ends the radio path, and a high error rate or interrupting the answerback exchange can drop the link.
+
+_General operating practice, not a quoted rule._
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “BRK indicates that the use of the radio path is to be immediately discontinued”
 
 ## Topic 91. MF-HF ARQ Operation – OP Codes & Procedures
+
+Coast station telex commands follow ITU-R M.492: DIRTLX for a direct connection, OBS for weather reports, AMV for AMVER, BRK to end the radio link.
+
+- DIRTLX requests a direct telex connection. ([Recommendation ITU-R M.492-6](https://www.itu.int/rec/R-REC-M.492/en))
+- OBS sends a message to the meteorological organization. ([Recommendation ITU-R M.492-6](https://www.itu.int/rec/R-REC-M.492/en))
+- AMV sends a message to AMVER. ([Recommendation ITU-R M.492-6](https://www.itu.int/rec/R-REC-M.492/en))
+- BRK ends the radio path immediately. ([Recommendation ITU-R M.492-6](https://www.itu.int/rec/R-REC-M.492/en))
 
 ### 91J1
 
@@ -7354,7 +7738,11 @@ B. KKKK, BRK+, AMV+
 C. BRK+, DIRTLX+, AMV+  
 **D. DIRTLX, BRK+, AMV+**  
 
-_No explanation published._
+DIRTLX requests a direct landline telex connection, BRK+ ends the radio link, and AMV+ sends an AMVER message.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “DIRTLX ↑ xy indicates that a direct telex connection is required.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “BRK indicates that the use of the radio path is to be immediately discontinued”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “AMV indicates that the following message is to be sent to the AMVER organization.”
 
 ### 91J3
 
@@ -7365,7 +7753,12 @@ B. OBS+, WRU then Here is, BRK+
 C. OBS+, GA+?, KKKK  
 D. AMV+, +?, KKKK  
 
-_No explanation published._
+OBS+ sends a weather observation to the meteorological service, +? passes control ("over") to the other station, and BRK+ ends the link.
+
+_General operating practice, not a quoted rule._
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “OBS indicates that the following message is to be sent to the meteorological organization.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “BRK indicates that the use of the radio path is to be immediately discontinued”
 
 ### 91J4
 
@@ -7376,7 +7769,11 @@ A. Initiate call with CS selcal, observe exchange of answer-backs (WRU-AAB), sen
 C. After phasing with the other vessel, observe exchange of answer-backs (WRU-AAB), send message and then KKKK to end the transmission.  
 D. After phasing with the other vessel then send GA+? to determine if they are ready to receive your message.  
 
-_No explanation published._
+For a manual ship-to-ship ARQ link, call using the other ship's SELCAL, then exchange identities by hand ("HERE IS" to send your answerback, WRU to ask for theirs), then send the message. There's no coast station to run an automatic exchange.
+
+_General operating practice, not a quoted rule._
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “The WRU (Who are you?) sequence”
 
 ### 91J5
 
@@ -7387,7 +7784,11 @@ A. WRU-AAB, DIRTLX, NNNN
 C. GA+?, DIRTLX, KKKK  
 D. WRU-AAB, DIRTLX, .....  
 
-_No explanation published._
+GA+? is the coast station inviting a command, DIRTLX requests a live connection to a land telex number, and BRK+ ends the ship's session with the coast station.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “< ≡ ↓ GA ↑ + ?”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “DIRTLX ↑ xy indicates that a direct telex connection is required.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “BRK indicates that the use of the radio path is to be immediately discontinued”
 
 ### 91J6
 
@@ -7398,9 +7799,16 @@ B. +
 **C. 0**  
 D. DIR  
 
-_No explanation published._
+Country codes sent over NBDP are preceded by 0.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “x is used where applicable to indicate the country code (ITU-T Recommendation F.69) preceded by 0 (when applicable).”
 
 ## Topic 92. MF-HF ARQ Operation–Technical Characteristics
+
+In ARQ, the sending station (ISS) sends a three-character block and the receiving station (IRS) answers with a control signal: next block, or repeat.
+
+- ARQ sends three-character blocks from ISS to IRS. ([Recommendation ITU-R M.476-5](https://www.itu.int/rec/R-REC-M.476/en))
+- After each block the receiver sends a short control signal. ([Recommendation ITU-R M.476-5](https://www.itu.int/rec/R-REC-M.476/en))
 
 ### 92J1
 
@@ -7411,7 +7819,10 @@ A. In ARQ, each character is transmitted twice, about 250 milliseconds apart.
 C. In ARQ, the "information sending station" transmits a block of three characters twice, about 250 milliseconds apart.  
 D. SITOR (NBDP) communications can be used to contact a NAVTEX transmitting station when requesting a repeat transmission of a missed NAVTEX message.  
 
-_No explanation published._
+In ARQ, the information sending station sends a block of three characters, and the receiving station acknowledges it or asks for it again. Sending characters twice is FEC, and NAVTEX stations can't be contacted.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “A synchronous system, transmitting blocks of three characters from an information sending station (ISS) towards an information receiving station (IRS)”
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “after the reception of each block, emits one of the control signals of 70 ms duration”
 
 ### 92J2
 
@@ -7422,7 +7833,10 @@ B. In ARQ, the "sending" station transmits a block of three characters and the "
 **C. In ARQ, the ISS transmits a block of 3 characters and the IRS checks for parity. If the received block is correct a one-character control signal is sent notifying the ISS to proceed with the next block. If the parity check fails the block must be resent.**  
 D. Broadcasts of Maritime Safety Information, traffic lists, etc. can be copied by the receiving station in ARQ mode.  
 
-_No explanation published._
+In ARQ, the ISS sends a 3-character block and the IRS checks it. If it's good, a one-character control signal tells the ISS to send the next block; if not, the block is resent.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “A synchronous system, transmitting blocks of three characters from an information sending station (ISS) towards an information receiving station (IRS)”
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “after the reception of each block, emits one of the control signals of 70 ms duration”
 
 ### 92J3
 
@@ -7433,7 +7847,9 @@ B. A continuous data stream is transmitted.
 C. Forward error correction reduces the number of errors.  
 **D. Each data block consists of three characters.**  
 
-_No explanation published._
+In ARQ mode each data block is three characters.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “A synchronous system, transmitting blocks of three characters from an information sending station (ISS) towards an information receiving station (IRS)”
 
 ### 92J4
 
@@ -7444,7 +7860,10 @@ B. Each character is repeated three times.
 C. Each character is transmitted twice.  
 D. This mode is generally used to broadcast messages.  
 
-_No explanation published._
+ARQ is interactive: the two stations take turns, with the receiver acknowledging every block. Broadcasting and sending each character twice are FEC features.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “A synchronous system, transmitting blocks of three characters from an information sending station (ISS) towards an information receiving station (IRS)”
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “after the reception of each block, emits one of the control signals of 70 ms duration”
 
 ### 92J5
 
@@ -7455,7 +7874,9 @@ B. The data link will break.
 C. The acknowledge light should illuminate.  
 **D. The last block will be resent.**  
 
-_No explanation published._
+If the check of a block fails, the receiving station asks for a repeat and the sending station resends the last block.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “emits a block of three “signal repetitions” on receipt of a mutilated signal”
 
 ### 92J6
 
@@ -7466,9 +7887,17 @@ B. The ship station sends a group of 3 characters twice and then waits for an "R
 C. The Ship station sends each character twice, using a time diversity system to ensure proper parity.  
 D. The ship station sends a group of 3 characters, the shore station checks for proper parity and then requests the same group be resent to enable error correction.  
 
-_No explanation published._
+In ARQ, the ship sends a block of three characters, the shore station checks it, and if it's good, signals that it's ready for the next three.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “A synchronous system, transmitting blocks of three characters from an information sending station (ISS) towards an information receiving station (IRS)”
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “after the reception of each block, emits one of the control signals of 70 ms duration”
 
 ## Topic 93. MF-HF Addressing Modes
+
+To get a live telex connection ashore, send DIRTLX followed by 0, the country code, the telex number and +, after the coast station's GA+?.
+
+- DIRTLX requests a direct telex connection. ([Recommendation ITU-R M.492-6](https://www.itu.int/rec/R-REC-M.492/en))
+- The country code is preceded by 0. ([Recommendation ITU-R M.492-6](https://www.itu.int/rec/R-REC-M.492/en))
 
 ### 93J1
 
@@ -7479,7 +7908,10 @@ B. MSG+
 C. GA+?  
 D. ENTER  
 
-_No explanation published._
+DIRTLX followed by 0, the country code, the telex number and + requests a direct telex connection to a shore subscriber.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “DIRTLX ↑ xy indicates that a direct telex connection is required.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “x is used where applicable to indicate the country code (ITU-T Recommendation F.69) preceded by 0 (when applicable).”
 
 ### 93J2
 
@@ -7490,7 +7922,10 @@ A. Immediately following the automatic exchange of answerbacks.
 C. After receipt of the Go Ahead indication followed by the automatic exchange of answerbacks.  
 D. Sent at the beginning of the message to request a direct TELEX connection.  
 
-_No explanation published._
+Send DIRTLX after the answerbacks have been exchanged and the coast station has sent GA+? (go ahead).
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “In automatic operation the answer-back exchange is initiated and controlled by the coast station.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “< ≡ ↓ GA ↑ + ?”
 
 ### 93J3
 
@@ -7501,7 +7936,9 @@ B. OBS+ then MSG+ to indicate weather report.
 **C. OBS+ and then send the weather report.**  
 D. GA+? then OBS+ and then send the weather report.  
 
-_No explanation published._
+OBS+ tells the coast station that the following message goes to the meteorological organization. Send OBS+ and then the weather report.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “OBS indicates that the following message is to be sent to the meteorological organization.”
 
 ### 93J4
 
@@ -7512,7 +7949,10 @@ B. DIRTLX23122445+.
 C. DIRTLX followed by GA+? and the TELEX number.  
 **D. DIRTLX023424998+.**  
 
-_No explanation published._
+A direct telex request is DIRTLX, then 0 and the country code, then the telex number, then +. DIRTLX023424998+ has that form; the other choices miss the 0 or the format.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “DIRTLX ↑ xy indicates that a direct telex connection is required.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “x is used where applicable to indicate the country code (ITU-T Recommendation F.69) preceded by 0 (when applicable).”
 
 ### 93J5
 
@@ -7523,7 +7963,10 @@ B. DIRTLX, 00, Ocean Area Code, TELEX number, +.
 C. DIRTLX, 0, Ocean Area, TELEX number, +.  
 D. DIRTLX, 00, Country code, TELEX number.  
 
-_No explanation published._
+The format is DIRTLX, then 0, the country code, the telex number, and +.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “DIRTLX ↑ xy indicates that a direct telex connection is required.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “x is used where applicable to indicate the country code (ITU-T Recommendation F.69) preceded by 0 (when applicable).”
 
 ### 93J6
 
@@ -7534,9 +7977,17 @@ A. DIRTLX0051440344+
 C. DIRTLX581440344+  
 D. DIRTLX05811500260+  
 
-_No explanation published._
+DIRTLX, then 0 + country code (here 51) + telex number, then +, gives DIRTLX051440344+. A double zero isn't used.
+
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “DIRTLX ↑ xy indicates that a direct telex connection is required.”
+- [Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.492/en): “x is used where applicable to indicate the country code (ITU-T Recommendation F.69) preceded by 0 (when applicable).”
 
 ## Topic 94. MF-HF FEC Operation-1
+
+FEC is one-way: collective (broadcast to all) or selective (to one station). Receivers don't transmit, so they can copy broadcasts passively.
+
+- FEC can be collective (to many stations) or selective (to one). ([Recommendation ITU-R M.476-5](https://www.itu.int/rec/R-REC-M.476/en))
+- The broadcast mode uses FEC. ([Recommendation ITU-R M.625-4](https://www.itu.int/rec/R-REC-M.625/en))
 
 ### 94J1
 
@@ -7547,7 +7998,9 @@ B. All of these answers are true.
 C. Weather broadcasts cannot be made in FEC because sending each character twice would cause the broadcast to be prohibitively long.  
 **D. Two-way communication with the coast radio station using FEC is not necessary to be able to receive the broadcasts.**  
 
-_No explanation published._
+FEC broadcasts are one-way, so you can receive them without any two-way contact with the coast station. Weather broadcasts are routinely sent in FEC.
+
+- [Recommendation ITU-R M.625-4, Direct-printing telegraph equipment employing automatic identification in the maritime mobile service](https://www.itu.int/rec/R-REC-M.625/en): “that for the broadcast mode a forward error-correcting (FEC) method should be used”
 
 ### 94J2
 
@@ -7558,7 +8011,9 @@ B. Data flow rate depends on signal propagation.
 C. Idle characters are sent upon request.  
 D. Transmitter and receiver do not synchronize.  
 
-_No explanation published._
+FEC sends every character twice, separated in time, so a character wiped out by a static crash can usually be recovered from its repeat.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “Emits each character twice: the first transmission (DX) of a specific character is followed by the transmission of four other characters, after which the retransmission (RX) of the first character takes place”
 
 ### 94J3
 
@@ -7569,7 +8024,9 @@ A. FEC requests are first acknowledged by the vessel's transmitter before broadc
 C. Weather broadcasts are always made in ARQ mode to ensure reception.  
 D. ARQ mode communications can be passively received without the transmitter being active.  
 
-_No explanation published._
+FEC broadcasts can be received passively, without switching on the transmitter. ARQ needs a two-way link.
+
+- [Recommendation ITU-R M.625-4, Direct-printing telegraph equipment employing automatic identification in the maritime mobile service](https://www.itu.int/rec/R-REC-M.625/en): “that for the broadcast mode a forward error-correcting (FEC) method should be used”
 
 ### 94J4
 
@@ -7580,7 +8037,10 @@ B. One-way communications to all stations, two-way communications, one-way commu
 **C. Two-way communications, one-way communications to all stations, one-way communications to a single station.**  
 D. Two-way communications, One-way communications to a single station, One-way communications to all stations.  
 
-_No explanation published._
+ARQ is two-way communication, FEC (collective) is a one-way broadcast to all stations, and SFEC (selective FEC) is one-way to a single selected station.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “A synchronous system, transmitting blocks of three characters from an information sending station (ISS) towards an information receiving station (IRS)”
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “B-mode (CBSS) to a number of stations receiving in the collective B-mode (CBRS), or from a station sending in the selective B-mode (SBSS) to one selected station receiving in the selective B-mode (SBRS).”
 
 ### 94J5
 
@@ -7591,7 +8051,10 @@ B. One-way communications to all stations, two-way communications, one-way commu
 **C. One-way communications to all stations, one-way communications to a single station, two-way communications.**  
 D. Two-way communications, one-way communications to all stations, two-way communications.  
 
-_No explanation published._
+BFEC is one-way to all stations, SFEC is one-way to a single selected station, and ARQ is two-way.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “B-mode (CBSS) to a number of stations receiving in the collective B-mode (CBRS), or from a station sending in the selective B-mode (SBSS) to one selected station receiving in the selective B-mode (SBRS).”
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “A synchronous system, transmitting blocks of three characters from an information sending station (ISS) towards an information receiving station (IRS)”
 
 ### 94J6
 
@@ -7602,9 +8065,16 @@ B. Multiple stations must receive communications by using their transmitters to 
 C. An individual station must receive communications by using their transmitter to achieve phasing and block other stations from breaking in.  
 **D. An individual station must receive communications without using any transmitters (Radio Silence).**  
 
-_No explanation published._
+Selective FEC sends one-way to a single selected station, which receives without transmitting at all. That's useful when the receiver must keep radio silence.
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “B-mode (CBSS) to a number of stations receiving in the collective B-mode (CBRS), or from a station sending in the selective B-mode (SBSS) to one selected station receiving in the selective B-mode (SBRS).”
 
 ## Topic 95. MF-HF FEC Operation-2
+
+Knowing FEC from ARQ matters in practice: MSI and NAVTEX broadcasts are FEC, and distress telex uses ARQ with coast stations or FEC broadcast otherwise.
+
+- There are eight HF NBDP MSI frequencies. ([47 CFR §80.1077](https://www.ecfr.gov/current/title-47/section-80.1077))
+- NAVTEX uses the collective B-mode (FEC). ([Recommendation ITU-R M.540-2](https://www.itu.int/rec/R-REC-M.540/en))
 
 ### 95J1
 
@@ -7615,7 +8085,12 @@ B. Request repairs of the Sat-C system and wait until within range of NAVTEX.
 **C. Select 518 kHz FEC TELEX on the MF/HF console to receive MSI.**  
 D. Select an HF MSI frequency and ARQ TELEX mode to receive MSI.  
 
-_No explanation published._
+If both the NAVTEX receiver and Inmarsat-C are out but the ship is within NAVTEX range, tune the MF/HF console to 518 kHz in FEC (broadcast) telex mode. NAVTEX is an FEC broadcast, so ARQ won't work.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §80.1077](https://www.ecfr.gov/current/title-47/section-80.1077): “International NAVTEX 518 kHz.”
+- [Recommendation ITU-R M.540-2, Operational and technical characteristics for an automated direct-printing telegraph system for promulgation of navigational and meteorological warnings and urgent information to ships](https://www.itu.int/rec/R-REC-M.540/en): “The signals transmitted should be in conformity with the collective B-mode of the direct-printing system”
 
 ### 95J2
 
@@ -7626,7 +8101,10 @@ B. Request repairs of the Sat-C system and wait until within range of NAVTEX.
 C. Select 518 kHz FEC TELEX on the MF/HF console to receive MSI.  
 **D. Select an HF MSI frequency and FEC TELEX mode to receive MSI.**  
 
-_No explanation published._
+Beyond NAVTEX range with Inmarsat-C down, use the HF MSI broadcasts: tune an HF MSI frequency in FEC telex mode.
+
+- [47 CFR §80.1077](https://www.ecfr.gov/current/title-47/section-80.1077): “NBDP 4210 kHz, 6314 kHz, 8416.5 kHz, 12579 kHz, 16806.5 kHz, 19680.5 kHz, 22376 kHz, 26100.5 kHz.”
+- [Recommendation ITU-R M.625-4, Direct-printing telegraph equipment employing automatic identification in the maritime mobile service](https://www.itu.int/rec/R-REC-M.625/en): “that for the broadcast mode a forward error-correcting (FEC) method should be used”
 
 ### 95J3
 
@@ -7637,7 +8115,11 @@ B. Select one of the 6 HF MSI frequencies and set-up the transceiver in ARQ TELE
 C. Select one of the 6 MF MSI frequencies and set-up the transceiver in FEC TELEX mode.  
 D. Select the MF MSI frequency dedicated to tropical MSI and set-up the transceiver in FEC TELEX mode.  
 
-_No explanation published._
+If tropical static ruins NAVTEX reception, use one of the eight HF NBDP MSI frequencies in FEC mode instead.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §80.1077](https://www.ecfr.gov/current/title-47/section-80.1077): “NBDP 4210 kHz, 6314 kHz, 8416.5 kHz, 12579 kHz, 16806.5 kHz, 19680.5 kHz, 22376 kHz, 26100.5 kHz.”
 
 ### 95J4
 
@@ -7648,7 +8130,9 @@ A. The proper mode of SFEC must be selected for reception of HF MSI and ARQ sele
 C. The ARQ TELEX mode must be selected for follow-on TELEX communications in a Distress situation and the BFEC TELEX mode selected for reception of HF MSI.  
 D. The BFEC TELEX mode must be selected for follow-on TELEX communications in a Distress situation and the ARQ TELEX mode selected for reception of HF MSI.  
 
-_No explanation published._
+Operators must choose the right NBDP mode for each job: ARQ or FEC for follow-on distress telex, depending on who they're working, and FEC for receiving HF MSI.
+
+- [47 CFR §80.1125](https://www.ecfr.gov/current/title-47/section-80.1125): “Distress communications by direct-printing telegraphy should be in the ARQ mode when ships are communicating directly to the Coast Guard or other coast stations on channels which they normally guard. Other distress communications, including those on simplex channels provided for that purpose, should be in the broadcast forward error correction mode.”
 
 ### 95J5
 
@@ -7659,7 +8143,10 @@ A. Receive Coast station traffic lists, NAVTEX and VHF MSI broadcasts.
 C. Receive weather messages or download ARQ Coast Station traffic lists.  
 D. Receive weather messages and send vessel weather OBS messages.  
 
-_No explanation published._
+Broadcast FEC is used for distress telex traffic other than direct ARQ links with coast stations, and for receiving HF MSI and NAVTEX broadcasts.
+
+- [47 CFR §80.1125](https://www.ecfr.gov/current/title-47/section-80.1125): “Distress communications by direct-printing telegraphy should be in the ARQ mode when ships are communicating directly to the Coast Guard or other coast stations on channels which they normally guard. Other distress communications, including those on simplex channels provided for that purpose, should be in the broadcast forward error correction mode.”
+- [Recommendation ITU-R M.540-2, Operational and technical characteristics for an automated direct-printing telegraph system for promulgation of navigational and meteorological warnings and urgent information to ships](https://www.itu.int/rec/R-REC-M.540/en): “The signals transmitted should be in conformity with the collective B-mode of the direct-printing system”
 
 ### 95J6
 
@@ -7670,9 +8157,16 @@ B. Receive weather messages, Coast Station traffic lists and company messages.
 **C. Receive HF MSI and NAVTEX.**  
 D. Receive company communications sent through coast stations.  
 
-_No explanation published._
+FEC is normally used to receive broadcasts such as HF MSI and NAVTEX. Company traffic through coast stations normally uses ARQ.
+
+- [Recommendation ITU-R M.625-4, Direct-printing telegraph equipment employing automatic identification in the maritime mobile service](https://www.itu.int/rec/R-REC-M.625/en): “that for the broadcast mode a forward error-correcting (FEC) method should be used”
+- [Recommendation ITU-R M.540-2, Operational and technical characteristics for an automated direct-printing telegraph system for promulgation of navigational and meteorological warnings and urgent information to ships](https://www.itu.int/rec/R-REC-M.540/en): “The signals transmitted should be in conformity with the collective B-mode of the direct-printing system”
 
 ## Topic 96. MF-HF Propagation-1; Day-Night-Winter-Summer
+
+HF rules of thumb: longer distance, higher frequency; daytime, higher frequency; nighttime, lower frequency. They're usually enough for routine band choice.
+
+- VHF coast stations reach only about 20–30 miles, so longer paths need MF or HF. ([IMO](https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf))
 
 ### 96J1
 
@@ -7683,7 +8177,10 @@ A. Shorter distance = Higher Frequency, Daytime = Higher Frequency.
 C. Shorter distance = Higher Frequency, Daytime = Lower Frequency.  
 D. Shorter distance = Lower Frequency, Daytime = Lower Frequency.  
 
-_No explanation published._
+Rule of thumb: shorter distances call for lower frequencies, and daytime calls for higher frequencies (the ionosphere is more strongly ionized by day).
+
+_General operating practice, not a quoted rule._
+
 
 ### 96J2
 
@@ -7694,7 +8191,10 @@ B. Longer distance = lower frequency, Shorter distance = lower frequency, Daytim
 **C. Longer distance = higher frequency, Shorter distance = lower frequency, Daytime = higher frequency, nighttime = lower frequency.**  
 D. Longer distance = higher frequency, Shorter distance = higher frequency, Daytime = lower frequency, nighttime = higher frequency.  
 
-_No explanation published._
+The HF rules of thumb: longer distance, higher frequency; shorter distance, lower frequency; daytime, higher frequency; nighttime, lower frequency.
+
+_General operating practice, not a quoted rule._
+
 
 ### 96J3
 
@@ -7705,7 +8205,10 @@ B. 8 MHz during daylight hours and 16 MHz during darkness.
 C. 6 MHz during daylight hours and 8 MHz during darkness.  
 **D. 16 or 22 MHz when daylight at each end and 8 MHz when dark at each end.**  
 
-_No explanation published._
+San Francisco to Taiwan or the Philippines is a very long path, so use high HF bands (16 or 22 MHz) when both ends are in daylight, and drop to about 8 MHz when both ends are dark.
+
+_General operating practice, not a quoted rule._
+
 
 ### 96J4
 
@@ -7716,7 +8219,10 @@ B. Sunspot cycle, distance & time of day, seasonal variations, solar flare alert
 C. Solar flare alerts, distance & time of day, sunspot cycle, seasonal variations.  
 D. Solar flare alerts, sunspot cycle, seasonal variations, distance & time of day.  
 
-_No explanation published._
+For routine band selection, distance and time of day matter most, then the season, then the sunspot cycle. Solar flares are occasional events you react to.
+
+_General operating practice, not a quoted rule._
+
 
 ### 96J5
 
@@ -7727,7 +8233,10 @@ B. Propagation rules, Sunspot cycle status and seasonal variations (winter & sum
 C. Propagation "rules of thumb" should be combined with Solar flare alerts to determine band selection.  
 **D. Propagation "rules of thumb" are usually sufficient for routine operations.**  
 
-_No explanation published._
+For routine work, the propagation rules of thumb (plus listening and past experience) are usually enough. Calculating MUF and similar figures isn't normal practice.
+
+_General operating practice, not a quoted rule._
+
 
 ### 96J6
 
@@ -7738,9 +8247,16 @@ B. Disregard the short rules of propagation selection and try different bands un
 C. Do not rely on previous successful communications on the selected frequency band – the ionosphere changes too rapidly and inconsistently.  
 D. Rely on the equipment calculations of Optimum Usable Frequency.  
 
-_No explanation published._
+Use the propagation rules of thumb, or what has worked before on similar paths and times. Blind trial and error wastes time, and GMDSS operators aren't expected to rely on equipment-calculated optimum frequencies.
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic 97. MF-HF Propagation-2; Day-Night-Winter-Summer
+
+Apply the rules of thumb: high HF bands for long daylight paths, lower HF at night, MF for a hundred miles or so, and listen to coast station free signals to confirm.
+
+- MF coast stations reach about 100 miles. ([IMO](https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf))
 
 ### 97J1
 
@@ -7751,7 +8267,10 @@ B. Communications should be maintained with slight improvement in the signal rec
 C. The gray line effect will prevent communications after dark.  
 D. Communications should improve and peak at night.  
 
-_No explanation published._
+16 MHz works well for long daylight paths. As evening comes, ionization drops and the band closes, so communications fade and become impossible at night. Switch to a lower band.
+
+_General operating practice, not a quoted rule._
+
 
 ### 97J2
 
@@ -7762,7 +8281,10 @@ A. Communications should be maintained with slight improvement in the signal rec
 C. Communications should slowly deteriorate but may be continued throughout the night.  
 D. Communications should gradually deteriorate and become impossible on this frequency by night.  
 
-_No explanation published._
+4 MHz over about 350 miles is limited by daytime absorption. As evening comes, absorption falls and the signal improves, typically peaking at night and in the early morning.
+
+_General operating practice, not a quoted rule._
+
 
 ### 97J3
 
@@ -7773,7 +8295,10 @@ B. Lower HF bands
 **C. Higher HF bands**  
 D. MF  
 
-_No explanation published._
+At mid-day over about 1,800 miles, the higher HF bands work best. Lower bands are absorbed by day, and MF and VHF can't cover that distance.
+
+_General operating practice, not a quoted rule._
+
 
 ### 97J4
 
@@ -7784,7 +8309,10 @@ B. Higher UHF bands
 C. Communications are impossible at this distance.  
 **D. HF bands**  
 
-_No explanation published._
+At midnight over about 800 miles, an HF band is needed (a lower one, since it's night). VHF and UHF are line of sight.
+
+_General operating practice, not a quoted rule._
+
 
 ### 97J5
 
@@ -7795,7 +8323,12 @@ B. VHF-FM
 C. 22 MHz band  
 D. 16 MHz band  
 
-_No explanation published._
+75 miles at mid-day is MF ground-wave territory: MF reaches about 100 miles, VHF only 20–30 miles, and 16 or 22 MHz skywave skips over short distances.
+
+_General operating practice, not a quoted rule._
+
+- [IMO, Shipping Emergencies: Search and Rescue and the GMDSS (1999)](https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf): “Area A2 Beyond area Al, but within range of MF coastal stations (about l00 miles)”
+- [IMO, Shipping Emergencies: Search and Rescue and the GMDSS (1999)](https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf): “Area A1 Within range of VHF coast stations (about 20-30 miles)”
 
 ### 97J6
 
@@ -7806,9 +8339,17 @@ A. By consulting propagation tables.
 C. If static interference is present, try lower bands first.  
 D. During nighttime, choose higher frequencies. Choose lower frequencies in the daytime.  
 
-_No explanation published._
+The practical way is to listen to the coast station's free signals on several bands and choose the band where they're strongest.
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic 98. MF-HF DSC Controller Alert/Call Response
+
+Incoming DSC calls raise alarms, are stored in the received calls directory, and may switch the transceiver automatically. Check that the frequency and mode it chose make sense.
+
+- Distress alerts set off a specific audible alarm. ([Recommendation ITU-R M.541-11](https://www.itu.int/rec/R-REC-M.541/en))
+- DSC frequencies aren't voice frequencies: 4207.5 kHz is DSC, and 4125 kHz is voice. ([47 CFR §80.1077](https://www.ecfr.gov/current/title-47/section-80.1077))
 
 ### 98J1
 
@@ -7819,7 +8360,10 @@ B. Examine the Transmitted Data Directory or the printer to recover the informat
 C. Call the Distress vessel on the DSC frequency and request a retransmission.  
 **D. Examine the Received Data Directory or the printer to recover the information.**  
 
-_No explanation published._
+If the alert details are no longer on screen, look in the DSC controller's received-calls directory (or the printout). The transmitted directory holds your own calls, and you don't ask a vessel in distress to resend.
+
+_General operating practice, not a quoted rule._
+
 
 ### 98J2
 
@@ -7830,7 +8374,10 @@ B. The DSC controller decoded the requested voice frequency as 4207.5 kHz simple
 C. The DSC call came in on 4 MHz DSC. You should set-up your transmitter and respond on the appropriate voice follow-on frequency of 4177.5 kHz.  
 D. The DSC call came in on 4 MHz DSC. You should set-up your transmitter and respond on the appropriate voice follow-on frequency of 4207.5 kHz.  
 
-_No explanation published._
+4207.5 kHz is a DSC distress frequency, not a voice frequency. If the transceiver has been set to J3E voice on 4207.5 kHz, the incoming call asked for an improper follow-on frequency. The 4 MHz distress voice frequency is 4125 kHz.
+
+- [47 CFR §80.1077](https://www.ecfr.gov/current/title-47/section-80.1077): “DSC 2187.5 kHz, 4207.5 kHz, 6312 kHz, 8414.5 kHz, 12577 kHz, 16804.5 kHz, and 156.525 MHz.”
+- [47 CFR §80.1077](https://www.ecfr.gov/current/title-47/section-80.1077): “Radiotelephony 2182 kHz, 4125 kHz, 6215 kHz, 8291 kHz, 12290 kHz, 16420 kHz, and 156.8 MHz.”
 
 ### 98J3
 
@@ -7841,7 +8388,10 @@ A. Incorrectly formatted DSC calls from other vessels result in a warning in the
 C. The automatic transceiver switching software always detects improper priorities, emissions & frequencies to ensure there is no danger.  
 D. The automatic transceiver switching feature always interrupting safe navigation of your own vessel and placing the unit on the GMDSS Distress, Urgency or Safety follow-on frequencies.  
 
-_No explanation published._
+Automatic switching can follow a badly formatted call: it may tune the transceiver outside the marine bands, or to a frequency that doesn't match the priority or emission. The software doesn't catch every error.
+
+_General operating practice, not a quoted rule._
+
 
 ### 98J4
 
@@ -7852,7 +8402,10 @@ B. The DSC controller decoded the contents of the DSC call and the requested fre
 **C. The DSC controller decoded the contents of the DSC call and the requested frequency is on the DUS table/placard in the J2B emission.**  
 D. The DSC controller decoded the contents of the DSC call and the requested frequency is not on the DUS table/placard, is not in the marine band or the other vessel requested a J3E emission.  
 
-_No explanation published._
+If the call requested a frequency that's on the distress, urgency and safety (DUS) table, with J2B (telex) matching a telex request, the automatic switch is correct. The other combinations involve off-table, out-of-band or mismatched emissions.
+
+_General operating practice, not a quoted rule._
+
 
 ### 98J5
 
@@ -7863,7 +8416,9 @@ B. 16696.5 kHz
 **C. 16420.0 kHz**  
 D. 16804.5 kHz  
 
-_No explanation published._
+A distress call on the 16 MHz DSC frequency requesting J3E voice would switch to the associated 16 MHz distress voice frequency, 16420.0 kHz. The units are kHz, not MHz.
+
+- [47 CFR §80.1077](https://www.ecfr.gov/current/title-47/section-80.1077): “Radiotelephony 2182 kHz, 4125 kHz, 6215 kHz, 8291 kHz, 12290 kHz, 16420 kHz, and 156.8 MHz.”
 
 ### 98J6
 
@@ -7874,9 +8429,16 @@ B. The particulars of the alert may be printed out.
 C. The Distress information contained in the alert will be sent to the data directory.  
 **D. All of these answers would typically occur.**  
 
-_No explanation published._
+A DSC distress alert normally sets off audible and visual alarms, can be printed, and is stored in the DSC controller's received data directory. All of these typically happen.
+
+- [Recommendation ITU-R M.541-11, Operational procedures for the use of digital selective-calling equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.541/en): “a specific audible alarm to indicate receipt of a distress or urgency call or a call having distress”
 
 ## Topic 99. Batteries
+
+GMDSS reserve power is usually lead-acid batteries: check charge regularly, read specific gravity with a hydrometer, and watch for charger faults.
+
+- Battery checks, including specific gravity, are logged. ([47 CFR §80.409](https://www.ecfr.gov/current/title-47/section-80.409))
+- Check charge at least every 30 days with the charger off. ([47 CFR §80.1099](https://www.ecfr.gov/current/title-47/section-80.1099))
 
 ### 99J1
 
@@ -7887,7 +8449,10 @@ B. 2.5 volts
 **C. 2.1 volts**  
 D. 1.2 volts  
 
-_No explanation published._
+A fully charged lead-acid cell is about 2.1 volts.
+
+_General operating practice, not a quoted rule._
+
 
 ### 99J2
 
@@ -7898,7 +8463,11 @@ B. 1.180 Voltmeter
 C. 1.210 Hydrometer  
 **D. 1.265 Hydrometer**  
 
-_No explanation published._
+A fully charged lead-acid cell has a specific gravity of about 1.265, measured with a hydrometer. A voltmeter measures voltage, not electrolyte density.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §80.409](https://www.ecfr.gov/current/title-47/section-80.409): “including specific gravity of lead-acid storage batteries”
 
 ### 99J3
 
@@ -7909,7 +8478,10 @@ B. Gel cell batteries are lead acid with a solid electrolyte; each cell is check
 C. Gel cell batteries are NICAD with a solid electrolyte; each cell is checked with a voltmeter.  
 D. Gel cell batteries are have special liquid electrolytes; they are charged with the NICAD charging rates and voltages.  
 
-_No explanation published._
+Gel cells are sealed lead-acid batteries with gelled electrolyte. They need no topping up but may need specific charging rates and voltages, so use a charger suited to them.
+
+_General operating practice, not a quoted rule._
+
 
 ### 99J4
 
@@ -7920,7 +8492,10 @@ A. High discharge rates without allowing for a cool down period.
 C. Insufficient charging which does not bring all of the cells up to full charge.  
 D. The charging circuits are connected in the correct polarity but all of the cells are equally charged.  
 
-_No explanation published._
+In a series string, if one cell becomes weaker than the rest during discharge, the current from the other cells can drive it into reverse, effectively charging it in reverse polarity.
+
+_General operating practice, not a quoted rule._
+
 
 ### 99J5
 
@@ -7931,7 +8506,10 @@ A. Higher temperature results in a higher specific gravity reading.
 C. Temperature has no effect on the specific gravity reading.  
 D. Lower temperature results in a lower specific gravity reading.  
 
-_No explanation published._
+Specific gravity readings fall as temperature rises (warm electrolyte is less dense), so hydrometer readings are temperature-corrected.
+
+_General operating practice, not a quoted rule._
+
 
 ### 99J6
 
@@ -7942,9 +8520,17 @@ B. After testing the station on battery power, a voltmeter reading of 30 volts f
 **C. A constant 30 volt reading on the GMDSS console voltmeter.**  
 D. After testing the station on battery power, the ammeter reading indicates a high rate of charge that then declines.  
 
-_No explanation published._
+On a 24 V system, a voltage briefly up near 30 V while the batteries recharge after a test is normal. A constant 30 V reading suggests the charger is stuck at a high charge voltage, which will overcharge the batteries.
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic 100. MF-HF Equipment Faults and Testing
+
+Know what normal looks like: J3E output follows your voice and is zero without it, and a 2182 kHz radiotelephone should reach about 150 nautical miles by day. Report real faults to the master.
+
+- A 2182 kHz radiotelephone transmitter under Part 80 must give clearly perceptible ship-to-ship signals over 150 nautical miles in daytime. ([47 CFR §80.855](https://www.ecfr.gov/current/title-47/section-80.855))
+- Malfunctions reported to the master are logged. ([47 CFR §80.409](https://www.ecfr.gov/current/title-47/section-80.409))
 
 ### 100J1
 
@@ -7955,7 +8541,10 @@ A. Much lower noise level observed during daytime operation.
 C. When testing a radiotelephone alarm on 2182 kHz into an artificial antenna, the Distress frequency watch receiver becomes unmuted, an improper testing procedure.  
 D. Failure to contact a shore station 600 nautical miles distant during daytime operation.  
 
-_No explanation published._
+A transmitter that shows no output power when you speak isn't transmitting: a real malfunction that must be reported to the master and logged. Lower daytime noise is normal, and 600 miles in daytime is well beyond the 150-nautical-mile ship-to-ship daytime range that Part 80 sets for a compulsory 2182 kHz radiotelephone transmitter, so failing to reach it isn't a fault.
+
+- [47 CFR §80.409](https://www.ecfr.gov/current/title-47/section-80.409): “When the master is notified about improperly operating radiotelephone equipment.”
+- [47 CFR §80.855](https://www.ecfr.gov/current/title-47/section-80.855): “during daytime under normal conditions over a range of 150 nautical miles”
 
 ### 100J2
 
@@ -7966,7 +8555,9 @@ B. Dramatic increase in noise level observed during night and early morning hour
 **C. Failure to contact another station 60 miles distant during daytime operation.**  
 D. The visual indication of power to the antenna fluctuates while testing the radiotelephone alarm signal generator into an artificial antenna.  
 
-_No explanation published._
+A 2182 kHz radiotelephone transmitter under Part 80 must give clearly perceptible ship-to-ship signals over 150 nautical miles in daytime, so failing to reach a station 60 miles away in daytime points to a fault. A quiet 2182 kHz, more noise at night, and some fluctuation of the output indicator while testing the alarm generator are all normal.
+
+- [47 CFR §80.855](https://www.ecfr.gov/current/title-47/section-80.855): “during daytime under normal conditions over a range of 150 nautical miles”
 
 ### 100J3
 
@@ -7977,7 +8568,9 @@ B. In SSB (J3E) mode, speaking into the microphone causes the power meter to flu
 C. A steady indication of transmitted energy on an RF power meter with no fluctuations when speaking into the microphone.  
 **D. In SSB (J3E) voice mode, with the transmitter keyed but without speaking into the microphone, no power output is indicated.**  
 
-_No explanation published._
+In J3E there's no carrier, so with the transmitter keyed but no speech there should be no output. Output that rises and falls with your voice, peaking at no more than the rated power, is normal. Choice A describes normal SITOR ARQ behaviour, but this question asks about J3E voice mode. Steady output while speaking, or readings well above 60 W, indicate a problem.
+
+- [47 CFR §2.201](https://www.ecfr.gov/current/title-47/section-2.201): “—Double-sideband A —Single-sideband, full carrier H —Single-sideband, reduced or variable level carrier R —Single-sideband, suppressed carrier J”
 
 ### 100J4
 
@@ -7988,7 +8581,12 @@ B. In SSB (J3E) voice mode, with the transmitter keyed but without speaking into
 C. In SSB (J3E) mode, speaking into the microphone causes power meter to fluctuate slightly around the 60 watt reading.  
 D. A steady indication of transmitted energy on an RF Power meter with no fluctuations when speaking into the microphone.  
 
-_No explanation published._
+In SITOR ARQ the transmitter sends short blocks and then pauses to listen, so the power meter swings regularly between zero and full output. In J3E with no speech, output should be zero.
+
+_General operating practice, not a quoted rule._
+
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “A synchronous system, transmitting blocks of three characters from an information sending station (ISS) towards an information receiving station (IRS)”
+- [Recommendation ITU-R M.476-5, Direct-printing telegraph equipment in the maritime mobile service](https://www.itu.int/rec/R-REC-M.476/en): “after the reception of each block, emits one of the control signals of 70 ms duration”
 
 ### 100J5
 

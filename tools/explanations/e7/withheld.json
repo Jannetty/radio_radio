@@ -7,5 +7,12 @@
  "48F4": "About how Inmarsat routes distress alerts by land earth station and network coordination station. No current public Inmarsat document found to support each statement.",
  "48F6": "About the Inmarsat-C distress alert update menu and land earth station selection. Terminal-specific; no public source found.",
  "52H3": "The keyed answer (operators may program receivers to reject categories A, B, D and L) conflicts with the current IMO NAVTEX Manual, which says these categories are mandatory and cannot be deselected.",
- "55H6": "Choice A (only unscheduled distress and urgency messages received when not logged in) isn't supported by the SafetyNET Services Manual, so 'all of these' can't be confirmed."
+ "55H6": "Choice A (only unscheduled distress and urgency messages received when not logged in) isn't supported by the SafetyNET Services Manual, so 'all of these' can't be confirmed.",
+ "86J3": "The keyed answer describes limits on what a distress-priority DSC call can contain ('nature of distress or alternate frequency but not both'). ITU-R M.493 doesn't describe the distress alert format that way, so it can't be confirmed.",
+ "86J4": "The keyed false statement ('may be transmitted in any order programmed by the operator') conflicts with ITU-R M.493, which lets the operator select the method and frequencies for a multi-frequency alert.",
+ "87J1": "'ATOR' isn't defined in the ITU-R recommendations or Part 80; no source found.",
+ "87J4": "'ATOR' isn't defined in the ITU-R recommendations or Part 80; no source found.",
+ "91J1": "No source found defining +? as 'manual over' or NNNN as end of message text.",
+ "100J5": "No official source found for the keyed emergency antenna length (about 30 ft). Same question as Element 1 1-18C5.",
+ "100J6": "No official source found for the keyed emergency wire antenna length (35–40 ft)."
 }

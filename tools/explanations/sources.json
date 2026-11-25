@@ -351,6 +351,18 @@
   "80.1127": {
    "head": "§ 80.1127 On-scene communications.",
    "url": "https://www.ecfr.gov/current/title-47/section-80.1127"
+  },
+  "2.101": {
+   "head": "§ 2.101 Frequency and wavelength bands.",
+   "url": "https://www.ecfr.gov/current/title-47/section-2.101"
+  },
+  "80.361": {
+   "head": "§ 80.361 Frequencies for narrow-band direct-printing (NBDP), radioprinter and data transmissions.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.361"
+  },
+  "80.367": {
+   "head": "§ 80.367 General uses—radiotelephony.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.367"
   }
  },
  "docs": {
@@ -485,6 +497,10 @@
   "nws-uscg-broadcasts": {
    "title": "National Weather Service, Marine products via U.S. Coast Guard broadcasts",
    "url": "https://www.weather.gov/marine/uscg_broadcasts"
+  },
+  "itu-m492": {
+   "title": "Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service",
+   "url": "https://www.itu.int/rec/R-REC-M.492/en"
   }
  }
 }
