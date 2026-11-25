@@ -116,3 +116,11 @@ test('normalize drops questions withdrawn from the pool and keeps everything els
   assert.deepEqual(p.hist[0].qs, ['Q0', 'Q4']);
   assert.deepEqual(p.hist[0].ans, [0, 0]);
 });
+
+test('keepsOrder: choices that refer to other letters stay in order', async () => {
+  const { keepsOrder } = await import('../app/src/core/progress.js');
+  assert.ok(keepsOrder(['x', 'q', ['p', 'Both a) and c)', 'r', 's'], 1]));
+  assert.ok(keepsOrder(['x', 'q', ['p', 'Answers a) and c) are both correct.', 'r', 's'], 1]));
+  assert.ok(keepsOrder(['x', 'q', ['p', 'All of these choices are correct', 'r', 's'], 1]));
+  assert.ok(!keepsOrder(['x', 'q', ['Category A, B, L and D', 'r', 's', 't'], 1]));
+});

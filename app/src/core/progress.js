@@ -149,7 +149,7 @@ export function scoreExam(pool, qs, ans) {
 
 /** Questions whose choices refer to each other ("all of these", "A and B") keep their printed order. */
 export function keepsOrder(q) {
-  return q[2].some(c => /\b(all|none|both) of (these|the above|the)\b|all these choices|\b[A-D] and [A-D]\b/i.test(c));
+  return q[2].some(c => /\b(all|none|both) of (these|the above|the)\b|all these choices|\b[A-D] and [A-D]\b|\b[a-d]\) (and|or) [a-d]\)/i.test(c));
 }
 
 /**

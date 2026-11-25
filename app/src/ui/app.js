@@ -172,7 +172,7 @@ function setupView() {
   <fieldset><legend>Subelements</legend><div class="seg">${p.sections.map((s, i) => `<label><input type="checkbox" name="sec" value="${i}" ${!o.secs || o.secs.includes(i) ? 'checked' : ''}><span><b>${esc(s.id)}</b>&nbsp;${esc(s.t)}</span></label>`).join('')}</div>
    <div class="row" style="margin-top:8px"><button type="button" class="btn" data-act="secall">Select all</button><button type="button" class="btn" data-act="secnone">Clear</button></div></fieldset>
   <fieldset><legend>Questions per round</legend><div class="seg">${['10', '20', '40', 'all'].map(v => r('size', v, v === 'all' ? 'Everything at once' : v)).join('')}</div></fieldset>
-  <fieldset><legend>Answer choices</legend><div class="seg"><label><input type="checkbox" name="shuf" ${o.shuf ? 'checked' : ''}><span>Shuffle A–D</span></label></div><p class="note">Real exams print choices in pool order. Shuffling helps you learn the answer instead of the letter; questions with “all of these” style choices stay in order.</p></fieldset>
+  <fieldset><legend>Answer choices</legend><div class="seg"><label><input type="checkbox" name="shuf" ${o.shuf ? 'checked' : ''}><span>Shuffle A–D</span></label></div><p class="note">The real exam may list choices in a different order from the pool, so shuffling helps you learn the answer instead of the letter. Questions with “all of these” or “both a) and c)” choices stay in order.</p></fieldset>
   <p class="note" id="cnt"></p>
   <div class="row"><button class="btn pri big" type="submit">Start</button><button class="btn" type="button" data-go="pool:${p.id}">Cancel</button></div>
   </form></div>`;
