@@ -1,0 +1,1771 @@
+{
+ "1-1A1": {
+  "id": "1-1A1",
+  "why": "Under the FCC's marine radio rules (Part 80), transmitters authorized in maritime stations must, with a few listed exceptions, be certified by the FCC for Part 80 operations. The Coast Guard and IMO set carriage and performance standards, but authorizing transmitters is the FCC's job.",
+  "src": [
+   {
+    "sec": "80.203",
+    "p": "(a)",
+    "quote": "must be certified by the Commission for part 80 operations"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-1A2": {
+  "id": "1-1A2",
+  "why": "Part 80 requires each transmitter in a maritime station to be certified by the FCC for Part 80 operations, with a few listed exceptions. That's why the answer says \"unless specifically excepted.\" Manufacturer self-certification, Coast Guard approval or ITU compliance don't replace FCC certification.",
+  "src": [
+   {
+    "sec": "80.203",
+    "p": "(a)",
+    "quote": "except as indicated in paragraphs (g), (h) and (i) of this section, must be certified by the Commission for part 80 operations"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-1A3": {
+  "id": "1-1A3",
+  "why": "Small passenger vessels that go beyond 20 nautical miles from land must add a medium-frequency single-sideband (J3E) radiotelephone to their VHF. Farther out, the rule requires an MF/HF single-sideband set or a GMDSS Inmarsat terminal. The MF-HF SSB transceiver is that added equipment.",
+  "note": "The current rule draws the lines at 20, 100 and 200 nautical miles, not the question's 20 to 150. The exam still expects MF-HF SSB.",
+  "src": [
+   {
+    "sec": "80.905",
+    "p": "(a)(2)",
+    "quote": "must be equipped with a MF-DSC frequency transmitter meeting the requirements of § 80.1101(c)(3) and capable of transmitting J3E emission"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-1A4": {
+  "id": "1-1A4",
+  "why": "Digital selective calling (DSC) is the automated system used to call a particular station or group of stations, and a distress alert is itself a DSC call in the distress format. The DSC controller is the part of the radio that sends both. NAVTEX only receives safety broadcasts, and GPS only supplies position.",
+  "src": [
+   {
+    "sec": "80.5",
+    "quote": "used to establish contact with a station or group of stations automatically by means of radio"
+   },
+   {
+    "sec": "80.5",
+    "quote": "The distress signal is a digital selective call using an internationally recognized distress call format"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-1A5": {
+  "id": "1-1A5",
+  "why": "Part 80 requires a compulsory ship's MF radiotelephone transmitter to reach 150 nautical miles in daytime, and it meets that requirement if it delivers at least 60 watts peak envelope power (PEP) on 2182 kHz. PEP is the usual way to rate single-sideband transmitters.",
+  "src": [
+   {
+    "sec": "80.855",
+    "quote": "during daytime under normal conditions over a range of 150 nautical miles"
+   },
+   {
+    "sec": "80.855",
+    "p": "(d)(2)",
+    "quote": "The output power is not less than 60 watts peak envelope power for H3E and J3E emission on the frequency 2182 kHz"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-1A6": {
+  "id": "1-1A6",
+  "why": "F3E is FM voice, which is what marine VHF radios use in the 156–162 MHz band. Part 80 limits a ship's VHF carrier power to between 8 and 25 watts (portable radios excepted).",
+  "src": [
+   {
+    "sec": "80.215",
+    "p": "(g)",
+    "quote": "The carrier power of ship station radiotelephone transmitters, except portable transmitters, operating in the 156-162 MHz band must be at least 8 but not more than 25 watts."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-2A1": {
+  "id": "1-2A1",
+  "why": "Part 80 lists the cases where no operator license is needed. One is a ship radar whose frequency is fixed (for example, set by a non-tunable magnetron) and that is operated only by external controls.",
+  "src": [
+   {
+    "sec": "80.177",
+    "p": "(a)",
+    "quote": "No radio operator authorization is required to operate:"
+   },
+   {
+    "sec": "80.177",
+    "p": "(a)(3)(i)",
+    "quote": "The radar frequency is determined by a nontunable, pulse type magnetron or other fixed tuned device"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-2A2": {
+  "id": "1-2A2",
+  "why": "The aviation rules (Part 87) set the minimum license for aircraft stations by frequency. Below 30 MHz on frequencies not set aside exclusively for aeronautical mobile use, the minimum is \"MP,\" the Marine Radio Operator Permit. Below 30 MHz on exclusively aeronautical frequencies, a Restricted Radiotelephone Operator Permit is enough.",
+  "src": [
+   {
+    "sec": "87.89",
+    "p": "(b)",
+    "quote": "Frequencies below 30 MHz not allocated exclusively to aeronautical mobile services MP or higher"
+   },
+   {
+    "sec": "87.87",
+    "quote": "MP Marine Radio Operator Permit"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-2A3": {
+  "id": "1-2A3",
+  "why": "The FCC's commercial operator rules say no one can be issued a commercial radio operator license if they can't send and receive spoken messages in English by telephone (radiotelephone). The other choices describe people the rules don't exclude.",
+  "src": [
+   {
+    "sec": "13.9",
+    "p": "(a)(4)(iii)",
+    "quote": "complete inability for any other reason to transmit correctly and to receive correctly by telephone spoken messages in English"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-2A4": {
+  "id": "1-2A4",
+  "why": "A passenger ship with a GMDSS installation must carry at least two people holding a GMDSS Radio Operator License. If it operates only within 20 nautical miles of shore, the two may hold either that license or a Restricted GMDSS Radio Operator License. So the requirement depends on where the ship operates.",
+  "src": [
+   {
+    "sec": "80.159",
+    "p": "(d)",
+    "quote": "shall carry at least two persons holding an appropriate GMDSS Radio Operator License"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-2A5": {
+  "id": "1-2A5",
+  "why": "Ships subject to the Great Lakes rules (Part 80, subpart T) must have an officer or crew member on board who holds at least a Marine Radio Operator Permit.",
+  "src": [
+   {
+    "sec": "80.161",
+    "quote": "must have on board an officer or member of the crew who holds a marine radio operator permit or higher class license"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-2A6": {
+  "id": "1-2A6",
+  "why": "When a commercial operator is on duty and in charge of a transmitting system, their license (or a photocopy) must be posted or carried on them, ready to show an FCC representative.",
+  "src": [
+   {
+    "sec": "13.19",
+    "p": "(c)",
+    "quote": "must be posted or in the operator's personal possession, and available for inspection upon request by a FCC representative"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-3A1": {
+  "id": "1-3A1",
+  "why": "Compulsory vessels must keep a watch on VHF Channel 16 (156.800 MHz), the VHF distress, safety and calling channel, whenever they're underway and not using the radio for other traffic. 500 kHz was the old radiotelegraph (Morse) distress frequency, and 121.5 MHz is an aviation frequency.",
+  "src": [
+   {
+    "sec": "80.148",
+    "quote": "Each compulsory vessel, while underway, must maintain a watch for radiotelephone distress calls on 156.800 MHz whenever such station is not being used for exchanging communications."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-3A2": {
+  "id": "1-3A2",
+  "why": "A U.S. cargo ship equipped with a radiotelephone station under the Communications Act or SOLAS must, outside a harbor or port, keep a continuous watch on 2182 kHz (if it doesn't carry MF-DSC equipment) and on VHF Channel 16 (156.800 MHz). So the answer is both frequencies, not just one.",
+  "src": [
+   {
+    "sec": "80.305",
+    "quote": "If it is not carrying MF-DSC radio equipment, keep a continuous watch on 2182 kHz in the room from which the vessel is normally steered while at sea"
+   },
+   {
+    "sec": "80.305",
+    "quote": "Keep a continuous watch on 156.800 MHz from the room from which the vessel is normally steered."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-3A3": {
+  "id": "1-3A3",
+  "why": "Channel 16 (156.800 MHz) is the VHF distress, safety and calling channel, and compulsory vessels must monitor it while underway. The watch also gives ships without DSC a way to call GMDSS ships. Channel 70 is for DSC data only, Channel 6 is the intership safety channel, and Channel 8 is a commercial intership working channel.",
+  "src": [
+   {
+    "sec": "80.148",
+    "quote": "the watch on 156.800 MHz is provided so that ships not fitted with DSC will be able to call GMDSS ships"
+   },
+   {
+    "sec": "80.373",
+    "quote": "Intership Safety 06 156.300"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-3A4": {
+  "id": "1-3A4",
+  "why": "Ships using radiotelephony in the 1605–3500 kHz band must listen on 2182 kHz for 3 minutes twice an hour, starting at the top and bottom of the hour (UTC). Only distress, urgency and safety messages may be sent during those silence periods.",
+  "src": [
+   {
+    "sec": "80.304",
+    "quote": "This watch must be maintained at least twice each hour for 3 minutes commencing at x h.00 and x h.30 Coordinated Universal Time (UTC)"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-3A5": {
+  "id": "1-3A5",
+  "why": "Part 80 requires compulsory vessels to watch Channel 16 while underway, and it requires every GMDSS ship at sea to keep a continuous Channel 16 listening watch when practicable. One exception is a ship subject to the Bridge-to-Bridge Act that is taking part in a Vessel Traffic Service and keeps watch on both the bridge-to-bridge channel (usually 13) and its VTS channel. Each choice describes part of that, so the answer is all of them.",
+  "note": "The rule text doesn't list sea areas A2, A3 and A4 separately. The Channel 16 watch (kept when practicable under the GMDSS rules) applies at sea everywhere, which includes those areas.",
+  "src": [
+   {
+    "sec": "80.148",
+    "quote": "For vessels subject to the Bridge-to-Bridge Act and participating in a Vessel Traffic Service (VTS) system when the watch is maintained on both the bridge-to-bridge frequency and a separately assigned VTS frequency."
+   },
+   {
+    "sec": "80.1123",
+    "quote": "Every ship while at sea must maintain, when practicable, a continuous listening watch on VHF Channel 16."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-3A6": {
+  "id": "1-3A6",
+  "why": "A GMDSS ship with MF/HF equipment must keep a continuous DSC watch on 2187.5 kHz (MF) and 8414.5 kHz (8 MHz HF), plus at least one other HF DSC frequency chosen for the time of day and position. A ship with VHF equipment must also watch DSC Channel 70.",
+  "src": [
+   {
+    "sec": "80.1123",
+    "quote": "On the distress and safety DSC frequencies 2187.5 kHz and 8414.5 kHz also on at least one of the distress and safety DSC frequencies 4207.5 kHz, 6312 kHz, 12577 kHz, or 16804.5 kHz"
+   },
+   {
+    "sec": "80.1123",
+    "quote": "On VHF DSC channel 70"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-4A1": {
+  "id": "1-4A1",
+  "why": "The FCC's operator rules say that wherever a station log or service and maintenance log is required, the operator responsible for operating or maintaining the station makes the entries. That responsibility can't be handed off to someone else.",
+  "src": [
+   {
+    "sec": "13.19",
+    "quote": "the operator responsible for the station operation or maintenance shall make the required entries in the station log"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-4A2": {
+  "id": "1-4A2",
+  "why": "Part 80 puts responsibility for station logs on two parties together: the station licensee and the radio operator in charge of the station.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "The station licensee and the radio operator in charge of the station are responsible for the maintenance of station logs."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-4A3": {
+  "id": "1-4A3",
+  "why": "Ship radiotelephone logs must be kept at the principal radiotelephone operating position while the vessel is under way. That way, whoever is on watch can make entries and the log is available for inspection.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "must be kept at the principal radiotelephone operating location while the vessel is being navigated"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-4A4": {
+  "id": "1-4A4",
+  "why": "Logs can't be erased. Only the person who made the original entry may correct it, by striking out the error, initialing the correction and noting the date it was corrected.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "Corrections may be made only by the person originating the entry by striking out the error, initialing the correction and indicating the date of correction."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-4A5": {
+  "id": "1-4A5",
+  "why": "Logs are normally kept for two years, but any log relating to a distress situation or disaster must be kept for three years from the date of entry. Logs the FCC is investigating must be kept until the FCC authorizes their destruction in writing.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "Logs relating to a distress situation or disaster must be retained for three years from the date of entry."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-4A6": {
+  "id": "1-4A6",
+  "why": "The standard retention period for station logs is two years from the date of entry. Longer periods apply in special cases: three years for distress or disaster, until the FCC authorizes destruction when it is investigating, and until a claim or complaint is settled or barred.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "Logs must be retained by the licensee for a period of two years from the date of entry"
+   },
+   {
+    "sec": "80.409",
+    "quote": "Logs relating to any claim or complaint of which the station licensee has notice must be retained until the claim or complaint has been satisfied or barred"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-5A1": {
+  "id": "1-5A1",
+  "why": "A station log has to show what happened, when, and who was involved. Part 80's log rules call for the date and time of each entry, which operator was on duty, and which stations were worked: coast station logs need ON DUTY and OFF DUTY entries, and radiotelegraph logs record the call letters of stations communicated with. Ship logs must also identify the vessel. The exam treats all three as required log content, so the answer is all of them.",
+  "note": "Today's rule for ship radiotelephone logs (§80.409(e)) mostly lists distress, safety and equipment-test entries. The operator and call-sign details quoted here come from the coast-station and radiotelegraph log rules in the same section.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "The date and time of making an entry must be shown opposite the entry."
+   },
+   {
+    "sec": "80.409",
+    "quote": "“ON DUTY” must be entered by the operator beginning a duty period"
+   },
+   {
+    "sec": "80.409",
+    "quote": "call letters of the station communicated with or heard"
+   },
+   {
+    "sec": "80.409",
+    "quote": "Ship station logs must identify the vessel name, country of registry, and official number of the vessel."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-5A2": {
+  "id": "1-5A2",
+  "why": "Part 80's ship log rules rule out the other two choices. Radiotelephone equipment needs a daily log statement, not a weekly one, and reserve batteries need a check entry at least once every 30 days, not daily. That leaves the EPIRB choice.",
+  "note": "Part 80 asks for a weekly log entry that the EPIRBs have been inspected. The exam's key says EPIRB tests are logged monthly, which matches the common monthly EPIRB self-test. Expect \"monthly\" on the exam.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "A daily statement about the condition of the required radiotelephone equipment"
+   },
+   {
+    "sec": "80.409",
+    "quote": "An entry at least once every thirty days that the batteries or other reserve power sources have been checked and are functioning properly."
+   },
+   {
+    "sec": "80.409",
+    "quote": "The EPIRBs have been inspected."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-5A3": {
+  "id": "1-5A3",
+  "why": "The radio log has to be where the radio watch is kept. Part 80 requires ship radiotelephone and GMDSS logs to be kept at the principal radiotelephone operating location, the GMDSS operating position, while the vessel is under way.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "must be kept at the principal radiotelephone operating location while the vessel is being navigated"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-5A4": {
+  "id": "1-5A4",
+  "why": "Abbreviations and key letters are allowed in station logs, as long as their meaning is explained somewhere in the same log.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "Key letters or abbreviations may be used if their proper meaning or explanation is contained elsewhere in the same log."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-5A5": {
+  "id": "1-5A5",
+  "why": "Statement a) is true: Part 80 requires an entry that pre-departure equipment checks were satisfactory, plus daily entries of satisfactory GMDSS equipment tests. Statement c) is also true: the ship radiotelephone log must contain a summary of distress and urgency communications affecting your own ship, and a summary of safety communications on other than VHF channels that affect your own ship. So the answer is “both a) and c).”",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "An entry that pre-departure equipment checks were satisfactory and that required publications are on hand. Daily entries of satisfactory tests to ensure the continued proper functioning of GMDSS equipment shall be made."
+   },
+   {
+    "sec": "80.409",
+    "quote": "A summary of all distress and urgency communications affecting the station's own ship"
+   },
+   {
+    "sec": "80.409",
+    "quote": "A summary of safety communications on other than VHF channels affecting the station's own ship"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-5A6": {
+  "id": "1-5A6",
+  "why": "Safety communications only have to be logged when they're on channels other than VHF and affect your own ship. So \"all safety communications received on VHF must be logged\" is the false statement. Required equipment tests, by contrast, must be logged.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "A summary of safety communications on other than VHF channels affecting the station's own ship."
+   },
+   {
+    "sec": "80.409",
+    "quote": "Results of required equipment tests"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-6A1": {
+  "id": "1-6A1",
+  "why": "U.S. ship stations are governed by the FCC's Part 80 rules plus the international Radio Regulations and other radio agreements the United States has joined. The IMO and the radio officers' union don't issue binding radio regulations for these stations.",
+  "src": [
+   {
+    "sec": "80.86",
+    "quote": "In addition to being regulated by these rules, the use and operation of stations subject to this part are governed by the Radio Regulations and the radio provisions of all other international agreements in force to which the United States is a party."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-6A2": {
+  "id": "1-6A2",
+  "why": "On ships that must carry a licensed operator, the operator may let an unlicensed person talk on the radio, with the station licensee's or master's authorization. Morse code radiotelegraphy is the one exception. The licensed operator stays responsible, which is why the answer is \"under the supervision of the licensed operator.\"",
+  "src": [
+   {
+    "sec": "80.156",
+    "quote": "may, if authorized by the station licensee or master, permit an unlicensed person to modulate the transmitting apparatus for all modes of communication except Morse code radiotelegraphy"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-6A3": {
+  "id": "1-6A3",
+  "why": "The exam's answer reflects the older procedure, when you asked the FCC's local field office (its Engineer-in-Charge) to inspect a ship's radio station.",
+  "note": "This has changed. The FCC now says it will not normally inspect these ships. The required inspection is done by an FCC-licensed technician (for example, a GMDSS Radio Maintainer or GROL holder) who isn't connected to the vessel. Expect the 2009 answer on the exam.",
+  "src": [
+   {
+    "sec": "80.59",
+    "quote": "The FCC will not normally conduct the required inspections of ships"
+   },
+   {
+    "sec": "80.59",
+    "quote": "The mandatory inspection of U.S. vessels must be conducted by an FCC-licensed technician"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-6A4": {
+  "id": "1-6A4",
+  "why": "The master always has ultimate control of a ship's radio station, and must make sure every operator follows the Radio Regulations.",
+  "src": [
+   {
+    "sec": "80.114",
+    "quote": "The service of each ship station must at all times be under the ultimate control of the master"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-6A5": {
+  "id": "1-6A5",
+  "why": "The principal operating position of a ship's radiotelephone station must be in the room from which the ship is normally steered at sea, so the watch is kept where the ship is navigated. On some older small cargo ships (300 to 500 gross tons, keel laid before 1965), the rule allows it in a room adjoining and opening into the steering room, which is why the answer mentions an adjoining room.",
+  "src": [
+   {
+    "sec": "80.853",
+    "quote": "The principal operating position of the radiotelephone station must be in the room from which the ship is normally steered while at sea."
+   },
+   {
+    "sec": "80.853",
+    "quote": "may be in a room adjoining and opening into the room from which the vessel is normally steered while at sea"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-6A6": {
+  "id": "1-6A6",
+  "why": "Under the Safety of Life at Sea (SOLAS) Convention, a passenger ship is one carrying more than 12 passengers, and the radio requirements apply to passenger ships of any size and to cargo ships of 300 gross tons and up.",
+  "src": [
+   {
+    "sec": "80.5",
+    "quote": "a ship is a passenger ship if it carries or is licensed or certificated to carry more than twelve passengers"
+   },
+   {
+    "sec": "80.871",
+    "quote": "All passenger ships irrespective of size and all cargo ships of 300 gross tons and upwards subject to part II of title III of the Communications Act or to the Safety Convention"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-7B1": {
+  "id": "1-7B1",
+  "why": "A Vessel Traffic Service (VTS) is a Coast Guard service that manages vessel traffic in designated waterways. Its purpose is to reduce collisions, rammings and groundings and to protect the environment. The other choices are made-up agency names.",
+  "src": [
+   {
+    "sec": "33:161.2",
+    "quote": "Vessel Traffic Services (VTS) means a service implemented by the United States Coast Guard designed to improve the safety and efficiency of vessel traffic and to protect the environment."
+   },
+   {
+    "sec": "33:161.1",
+    "quote": "reducing the potential for collisions, rammings, and groundings"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-7B2": {
+  "id": "1-7B2",
+  "why": "Part 80 defines a bridge-to-bridge station as a VHF station on a ship's navigational bridge or main control station, used only for navigational communications in the 156–162 MHz band.",
+  "src": [
+   {
+    "sec": "80.5",
+    "quote": "Bridge-to-bridge station. A radio station located on a ship's navigational bridge or main control station operating on a specified frequency which is used only for navigational communications, in the 156-162 MHz band."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-7B3": {
+  "id": "1-7B3",
+  "why": "Bridge-to-bridge transmissions are normally limited to 1 watt. More power is allowed only in an emergency, when the called vessel hasn't answered a second call at low power, or for a broadcast in a blind situation like rounding a bend in a river. The answer names two of those situations, distress (an emergency) and rounding a bend.",
+  "src": [
+   {
+    "sec": "80.331",
+    "quote": "Use of power greater than 1 watt in a bridge-to-bridge station shall be limited to the following three situations:"
+   },
+   {
+    "sec": "80.331",
+    "quote": "A broadcast call as in paragraph (a)(1) of this section in a blind situation, e.g., rounding a bend in a river."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-7B4": {
+  "id": "1-7B4",
+  "why": "Part 80 lists exactly three situations where a bridge-to-bridge station may use more than 1 watt: an emergency, a vessel that doesn't respond to a second call at low power, and a broadcast in a blind situation such as rounding a bend. All three choices are on that list.",
+  "src": [
+   {
+    "sec": "80.331",
+    "quote": "Failure of the vessel being called to respond to a second call at low power."
+   },
+   {
+    "sec": "80.331",
+    "quote": "Emergency."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-7B5": {
+  "id": "1-7B5",
+  "why": "On a VHF bridge-to-bridge channel such as Channel 13, a ship may identify by its name instead of its call sign. Other ships can see the name, so it's more useful for navigation.",
+  "src": [
+   {
+    "sec": "80.102",
+    "quote": "Ship stations transmitting on any authorized VHF bridge-to-bridge channel may be identified by the name of the ship in lieu of the call sign."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-7B6": {
+  "id": "1-7B6",
+  "why": "Bridge-to-bridge communications exist for navigation. Coast Guard rules say the designated bridge-to-bridge frequency may carry only information needed for the safe navigation of vessels, or necessary tests.",
+  "src": [
+   {
+    "sec": "33:26.04",
+    "quote": "No person may use the frequency designated by the Federal Communications Commission under section 8 of the Act, 33 U.S.C. 1207(a), to transmit any information other than information necessary for the safe navigation of vessels or necessary tests."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-8B1": {
+  "id": "1-8B1",
+  "why": "The basic rule for avoiding interference is to listen first. Before transmitting, the operator must check that the frequency isn't in use. The only exception is distress, which never has to wait.",
+  "src": [
+   {
+    "sec": "80.92",
+    "quote": "The station operator must determine that the frequency is not in use by monitoring the frequency before transmitting, except for transmission of signals of distress."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-8B2": {
+  "id": "1-8B2",
+  "why": "Coast stations normally have to call the particular station they want. The exception is a general call to all stations announcing or preceding distress, urgency or safety messages.",
+  "src": [
+   {
+    "sec": "80.111",
+    "quote": "Except when transmitting a general call to all stations for announcing or preceding the transmission of distress, urgency, or safety messages, a coast station must call the particular station(s) with which it intends to communicate."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-8B3": {
+  "id": "1-8B3",
+  "why": "When a ship works a coast station or a government station, the shore station is in charge. The ship must follow its instructions on the order and timing of transmissions, the frequency, and the type of traffic. Distress is the only exception.",
+  "src": [
+   {
+    "sec": "80.94",
+    "quote": "ship stations must comply with the instruction given by the coast station or Government station relative to the order and time of transmission"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-8B4": {
+  "id": "1-8B4",
+  "why": "2182 kHz and Channel 16 are for calling and distress, so they have to be kept clear. Once two ships make contact there, they must move to a working frequency to pass their messages.",
+  "src": [
+   {
+    "sec": "80.116",
+    "quote": "After establishing communication with another station by call and reply on 2182 kHz or 156.800 MHz stations on board ship must change to an authorized working frequency for the transmission of messages."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-8B5": {
+  "id": "1-8B5",
+  "why": "Coast stations announce waiting messages by broadcasting \"traffic lists\" at scheduled times. A traffic list gives, in alphabetical order, the call signs of the ships the station has traffic for. Ships listen for their call sign, then call in.",
+  "src": [
+   {
+    "doc": "itu-m1171",
+    "quote": "of “traffic lists” consisting of the call signs or other identification in alphabetical order of all ship"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-8B6": {
+  "id": "1-8B6",
+  "why": "Maritime communications have a fixed order of priority: distress first, then urgency, then safety, then everything else.",
+  "src": [
+   {
+    "sec": "80.91",
+    "quote": "Distress calls, distress messages, and distress traffic."
+   },
+   {
+    "sec": "80.91",
+    "quote": "Urgency communications."
+   },
+   {
+    "sec": "80.91",
+    "quote": "Safety communications."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-9B1": {
+  "id": "1-9B1",
+  "why": "Ships and aircraft must not interfere with public coast stations, and must stop or change frequency at the coast station's first request. A distress situation is the one exception.",
+  "src": [
+   {
+    "sec": "80.92",
+    "quote": "Except in cases of distress, communications between ship stations or between ship and aircraft stations must not interfere with public coast stations."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-9B2": {
+  "id": "1-9B2",
+  "why": "Stations using voice must give their call sign at the beginning and end of each communication, and every 15 minutes during a long transmission.",
+  "src": [
+   {
+    "sec": "80.102",
+    "quote": "At the beginning and end of each communication with any other station."
+   },
+   {
+    "sec": "80.102",
+    "quote": "At 15 minute intervals when transmission is sustained for more than 15 minutes."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-9B3": {
+  "id": "1-9B3",
+  "why": "A ship's call on 2182 kHz or Channel 16 can't last more than 30 seconds. If there's no answer, wait 2 minutes before calling again. Once contact is made, both stations must move to a working frequency. All three statements are rules, so the answer is all of them.",
+  "src": [
+   {
+    "sec": "80.116",
+    "quote": "Calling a particular station must not continue for more than 30 seconds in each instance. If the called station does not reply, the station must not again be called until after an interval of 2 minutes."
+   },
+   {
+    "sec": "80.116",
+    "quote": "stations on board ship must change to an authorized working frequency for the transmission of messages"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-9B4": {
+  "id": "1-9B4",
+  "why": "Before transmitting, the operator must listen to make sure the frequency isn't in use. Distress calls are the one exception.",
+  "src": [
+   {
+    "sec": "80.92",
+    "quote": "The station operator must determine that the frequency is not in use by monitoring the frequency before transmitting, except for transmission of signals of distress."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-9B5": {
+  "id": "1-9B5",
+  "why": "Ships are allowed to call coast stations on 2182 kHz or Channel 16, but the rules say such calls should be made on the coast station's appropriate ship-to-shore working frequency. That keeps the distress and calling frequencies clear.",
+  "src": [
+   {
+    "sec": "80.116",
+    "quote": "Use by ship stations of the frequency 2182 kHz for calling coast stations and for replying to calls from coast stations is authorized. However, such calls and replies should be on the appropriate ship-shore working frequency."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-10B1": {
+  "id": "1-10B1",
+  "why": "A radiotelephone distress call must include who you are (call sign or vessel name), where you are, the nature of the distress, and the kind of help you need. The answer is all of these.",
+  "src": [
+   {
+    "sec": "80.314",
+    "quote": "The call sign (or name, if no call sign assigned) of the mobile station in distress, spoken three times;"
+   },
+   {
+    "sec": "80.314",
+    "quote": "Particulars of the station's position;"
+   },
+   {
+    "sec": "80.314",
+    "quote": "The nature of the distress;"
+   },
+   {
+    "sec": "80.314",
+    "quote": "The kind of assistance desired; and"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-10B2": {
+  "id": "1-10B2",
+  "why": "Distress has absolute priority, followed by urgency (PAN PAN), then safety (SECURITE), then all other traffic.",
+  "src": [
+   {
+    "sec": "80.312",
+    "quote": "The distress call has absolute priority over all other transmissions."
+   },
+   {
+    "sec": "80.327",
+    "quote": "The urgency signal has priority over all other communications except distress."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-10B3": {
+  "id": "1-10B3",
+  "why": "A distress signal means a station is threatened by grave and imminent danger and requests immediate assistance. A very urgent message about safety is an urgency call, and navigation or weather warnings are safety messages.",
+  "src": [
+   {
+    "sec": "80.314",
+    "quote": "These distress signals indicate that a mobile station is threatened by grave and imminent danger and requests immediate assistance."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-10B4": {
+  "id": "1-10B4",
+  "why": "Maritime communications follow a fixed priority order: distress first, then urgency, then safety, then all other communications.",
+  "src": [
+   {
+    "sec": "80.91",
+    "quote": "Distress calls, distress messages, and distress traffic."
+   },
+   {
+    "sec": "80.91",
+    "quote": "Other communications."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-10B5": {
+  "id": "1-10B5",
+  "why": "The radiotelephone distress call is MAYDAY spoken three times, \"this is,\" and the vessel's call sign or name spoken three times. It then gives the position, the nature of the distress, the help needed, and anything else that would help rescuers, such as the vessel's length, color and type and how many people are aboard. Every choice is part of it.",
+  "src": [
+   {
+    "sec": "80.314",
+    "quote": "The distress signal MAYDAY spoken three times;"
+   },
+   {
+    "sec": "80.314",
+    "quote": "Any other information which might facilitate rescue, for example, the length, color, and type of vessel, or number of persons on board."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-10B6": {
+  "id": "1-10B6",
+  "why": "Distress traffic is all of the messages about the immediate help needed by a person, ship, aircraft or other vehicle in distress. That includes search and rescue and on-scene communications. The word \"Mayday\" by itself is the distress signal, not the traffic.",
+  "src": [
+   {
+    "sec": "80.5",
+    "quote": "Distress traffic consists of all messages relating to the immediate assistance required by a person, ship, aircraft, or other vehicle in distress, including search and rescue communications and on-scene communications."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-11B1": {
+  "id": "1-11B1",
+  "why": "The urgency signal (PAN PAN) is for a very urgent message about the safety of a ship, aircraft, vehicle or person, short of grave and imminent danger. A request for medical help that isn't a life-or-death emergency is the classic example. A grave and imminent threat would be distress (MAYDAY), and a weather or navigation warning would be safety (SECURITE).",
+  "src": [
+   {
+    "sec": "80.327",
+    "quote": "The urgency signal indicates that the calling station has a very urgent message to transmit concerning the safety of a ship, aircraft, or other vehicle, or the safety of a person."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-11B2": {
+  "id": "1-11B2",
+  "why": "In radiotelephony, the urgency signal is PAN PAN said three times before the call. (TTT is the radiotelegraph safety signal, and MAYDAY is the distress signal.)",
+  "src": [
+   {
+    "sec": "80.327",
+    "quote": "In radiotelephony, the urgency signal consists of three oral repetitions of the group of words PAN PAN transmitted before the call."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-11B3": {
+  "id": "1-11B3",
+  "why": "The safety signal means a station is about to send a message about the safety of navigation or an important weather warning. In radiotelephony, it's the word SECURITE.",
+  "src": [
+   {
+    "sec": "80.329",
+    "quote": "The safety signal indicates that the station is about to transmit a message concerning the safety of navigation or giving important meteorological warnings."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-11B4": {
+  "id": "1-11B4",
+  "why": "Like a distress call, the urgency signal may be sent only on the authority of the master or the person responsible for the mobile station. Either one can authorize it.",
+  "src": [
+   {
+    "sec": "80.327",
+    "quote": "The urgency signal must be sent only on the authority of the master or person responsible for the mobile station."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-11B5": {
+  "id": "1-11B5",
+  "why": "Urgency has priority over all other communications except distress.",
+  "src": [
+   {
+    "sec": "80.327",
+    "quote": "The urgency signal has priority over all other communications except distress."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-11B6": {
+  "id": "1-11B6",
+  "why": "The radiotelephone safety signal is SECURITE, pronounced as in French and spoken three times before the call. It is used for warnings about weather, ice, wrecks and other dangers to navigation.",
+  "src": [
+   {
+    "sec": "80.329",
+    "quote": "In radiotelephony, the safety signal consists of the word SECURITE, pronounced as in French, spoken three times and transmitted before the call."
+   },
+   {
+    "sec": "80.329",
+    "quote": "Messages about meteorological warnings, of cyclones, dangerous ice, dangerous wrecks, or any other imminent danger to marine navigation must be preceded by the safety signal."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-9B6": {
+  "id": "1-9B6",
+  "why": "The international phonetic alphabet (the same one ICAO and the ITU use) spells E, M and S as Echo, Mike and Sierra.",
+  "src": [
+   {
+    "doc": "faa-aim",
+    "quote": "Echo (ECK-OH)"
+   },
+   {
+    "doc": "faa-aim",
+    "quote": "Mike (MIKE)"
+   },
+   {
+    "doc": "faa-aim",
+    "quote": "Sierra (SEE-AIR-RAH)"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-12B1": {
+  "id": "1-12B1",
+  "why": "The GMDSS is an IMO system for getting distress messages quickly from a vessel in distress to whoever can best help. It does this with standardized equipment and procedures at short, medium and long range, and automates and improves emergency communications at sea. It isn't a cost-saving commercial system or a collision-avoidance system.",
+  "src": [
+   {
+    "sec": "80.5",
+    "quote": "designed to provide the rapid transfer of distress messages from vessels in distress to units best suited for giving or coordinating assistance"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-12B2": {
+  "id": "1-12B2",
+  "why": "The GMDSS exists to improve emergency (distress and safety) communications for shipping worldwide. It moves distress messages quickly to the units best able to help, using standardized equipment and procedures.",
+  "src": [
+   {
+    "sec": "80.5",
+    "quote": "An International Maritime Organization (IMO) worldwide coordinated maritime distress system designed to provide the rapid transfer of distress messages from vessels in distress to units best suited for giving or coordinating assistance."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-12B3": {
+  "id": "1-12B3",
+  "why": "The GMDSS links shore-based search and rescue authorities with ships near a vessel in distress. Distress alerts go ship-to-shore to rescue coordination centers and ship-to-ship to nearby vessels, and shore stations can relay alerts back out to ships. So all three choices are part of the basic concept.",
+  "src": [
+   {
+    "sec": "80.1113",
+    "quote": "Ship-to-shore distress alerts are used to alert Rescue Coordination Centers via coast stations or coast earth stations that a ship is in distress."
+   },
+   {
+    "sec": "80.1113",
+    "quote": "Ship-to-ship distress alerts are used to alert other ships in the vicinity of the ship in distress"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-12B4": {
+  "id": "1-12B4",
+  "why": "The core idea of the GMDSS is connecting search and rescue authorities ashore with the ships near a vessel in distress, so both can respond quickly. Radiotelephony, VHF DSC and NBDP are just some of the tools it uses.",
+  "src": [
+   {
+    "sec": "80.1113",
+    "quote": "Shore-to-ship distress alert relays are used by a station or Rescue Coordination Center to relay information about a ship in distress to, as appropriate, all ships, a selected group of ships, or a specific ship"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-12B5": {
+  "id": "1-12B5",
+  "why": "Every GMDSS ship must be able to perform the essential communication functions on its own. These include sending and receiving distress alerts, search and rescue and on-scene communications, and receiving maritime safety information. That way it can look after its own safety and help other ships.",
+  "src": [
+   {
+    "sec": "80.1081",
+    "quote": "Ships, while at sea, must be capable:"
+   },
+   {
+    "sec": "80.1081",
+    "quote": "Of transmitting and receiving ship-to-ship distress alerts;"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-12B6": {
+  "id": "1-12B6",
+  "why": "The GMDSS rules apply to all passenger ships regardless of size and to cargo ships of 300 gross tons and up, which are the ships covered by the SOLAS Convention.",
+  "src": [
+   {
+    "sec": "80.1065",
+    "quote": "The regulations contained within this subpart apply to all passenger ships regardless of size and cargo ships of 300 tons gross tonnage and upwards."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-13C1": {
+  "id": "1-13C1",
+  "why": "Some internationally duplex VHF channels are used in the U.S. as simplex channels, where both stations transmit on the ship frequency. This is shown by an \"A\" after the channel number, as in 22A. The INT/USA switch picks the U.S. simplex version or the international duplex version of those channels.",
+  "src": [
+   {
+    "sec": "80.373",
+    "quote": "the letter “A” following the channel designator indicates simplex operation on a channel designated internationally as a duplex channel."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-13C2": {
+  "id": "1-13C2",
+  "why": "Ship VHF transmitters must be able to drop their carrier power to 1 watt or less. Low power is the norm for short-range traffic like bridge-to-bridge calls.",
+  "src": [
+   {
+    "sec": "80.215",
+    "quote": "All transmitters and remote control units must be capable of reducing the carrier power to one watt or less;"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-13C3": {
+  "id": "1-13C3",
+  "why": "Dual watch lets you listen on a working channel while the radio checks Channel 16 every second or so, so you don't miss a distress call. It only toggles between your channel and 16. Scanning several channels is a different function.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "1-13C4": {
+  "id": "1-13C4",
+  "why": "Squelch mutes the receiver when no signal is present. If it's set too high, weak signals (possibly a distant distress call) get muted too. The right setting is the lowest level that just silences the background noise. Part 80 requires a squelch control on VHF sets.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "80.877",
+    "quote": "The receiver must have a manual volume control and a squelch control."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-13C5": {
+  "id": "1-13C5",
+  "why": "Scan steps the receiver through all channels, or a selected set, stopping when it hears activity. That's different from dual watch, which only alternates between one channel and Channel 16.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "1-13C6": {
+  "id": "1-13C6",
+  "why": "On a simplex channel, everyone transmits and receives on the same frequency, so every station in range hears both sides of the conversation. For distress, urgency, safety and VTS traffic, nearby ships need to hear the whole exchange to help or stay clear. Channel 16 is a single-frequency channel: ship and coast stations both use 156.800 MHz.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "80.373",
+    "quote": "16 156.800 156.800"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-14C1": {
+  "id": "1-14C1",
+  "why": "Channel 16 (156.800 MHz) is the VHF distress, safety and calling channel, and compulsory vessels must monitor it while underway.",
+  "src": [
+   {
+    "sec": "80.148",
+    "quote": "Each compulsory vessel, while underway, must maintain a watch for radiotelephone distress calls on 156.800 MHz"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-14C2": {
+  "id": "1-14C2",
+  "why": "121.500 MHz is the aeronautical emergency and distress frequency, and it uses A3E, which is AM voice. Aviation stays on AM, unlike marine VHF, which is FM (F3E).",
+  "src": [
+   {
+    "sec": "87.187",
+    "quote": "The frequencies 121.500 MHz and 243.000 MHz are emergency and distress frequences available for use by survival craft stations, emergency locator transmitters and equipment used for survival pruposes."
+   },
+   {
+    "sec": "80.355",
+    "quote": "EPIRB stations may be assigned 121.500 MHz and 243 MHz using A3E"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-14C3": {
+  "id": "1-14C3",
+  "why": "Channel 70 (156.525 MHz) is reserved for digital selective calling. Voice isn't allowed on it. GMDSS ships keep a dedicated, non-scanning watch on it.",
+  "src": [
+   {
+    "sec": "80.373",
+    "quote": "Digital Selective Calling 70 15 156.525 156.525"
+   },
+   {
+    "sec": "80.1085",
+    "quote": "A dedicated, non-scanning radio installation capable of maintaining a continuous DSC watch on VHF channel 70"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-14C4": {
+  "id": "1-14C4",
+  "why": "On U.S. navigable waters, the designated bridge-to-bridge channel is Channel 13 (156.65 MHz). Channel 67 is used instead in one specific area.",
+  "src": [
+   {
+    "sec": "33:26.04",
+    "quote": "On the navigable waters of the United States, channel 13 (156.65 MHz) is the designated frequency required to be monitored in accordance with § 26.05(a) except that in the area prescribed in § 26.03(e), channel 67 (156.375 MHz) is the designated frequency."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-14C5": {
+  "id": "1-14C5",
+  "why": "Channel 08 (156.400 MHz) is a commercial intership-only channel, which makes it the typical choice for routine ship-to-ship traffic. Channel 16 is for distress and calling, Channel 70 is DSC only, and 22A is the Coast Guard liaison channel.",
+  "src": [
+   {
+    "sec": "80.373",
+    "quote": "08 156.400 Do."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-14C6": {
+  "id": "1-14C6",
+  "why": "Calls to shore telephones go through a public coast station on a public correspondence channel. Channel 28 is one of these duplex channel pairs: the ship transmits on 157.400 MHz and the coast station transmits on 162.000 MHz.",
+  "src": [
+   {
+    "sec": "80.371",
+    "quote": "Working frequencies in the marine VHF 156-162 MHz band. (1)(i) The frequency pairs listed in this paragraph are available for assignment to public coast stations for communications with ship stations and units on land."
+   },
+   {
+    "sec": "80.371",
+    "quote": "28 157.400"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-15C1": {
+  "id": "1-15C1",
+  "why": "High-seas coast stations send traffic lists by voice on single sideband (SSB) and by radiotelex in FEC mode. FEC is the one-way broadcast mode of narrow-band direct printing, so any number of ships can copy it. ARQ is a two-way, one-to-one mode, and VHF-FM doesn't reach the high seas.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "1-15C2": {
+  "id": "1-15C2",
+  "why": "Distress, urgency and safety traffic stays on the designated distress frequencies in simplex mode so that every station listening hears it. For ships without DSC, that means anyone monitoring the frequency. For DSC ships, it means everyone who just received the DSC call and switched to the matching voice frequency. That's why a) and c) are both correct. Being heard only by the rescue center would defeat the purpose.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "80.369",
+    "quote": "may be used by coast and ship stations on a simplex basis for distress and safety communications"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-15C3": {
+  "id": "1-15C3",
+  "why": "J3E is single-sideband, suppressed-carrier telephony (voice), the standard mode for MF/HF voice calls. In the emission code, J means single sideband with suppressed carrier, 3 means a single analog channel, and E means telephony. F1B and J2B are telegraphy (telex) modes.",
+  "src": [
+   {
+    "sec": "2.201",
+    "quote": "Telephony (including sound broadcasting) E"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-15C4": {
+  "id": "1-15C4",
+  "why": "Good practice is to use only as much power as you need. More power only adds interference to other stations sharing the band, and it can't stop others from \"breaking in.\" Channels are shared, and Part 80 requires licensees to minimize interference.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "80.87",
+    "quote": "Station licensees must cooperate in the use of their respective frequency assignments in order to minimize interference"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-15C5": {
+  "id": "1-15C5",
+  "why": "Radiotelex (SITOR/NBDP) is telegraphy for automatic reception, the \"B\" in the emission code. Depending on the manufacturer, a radio produces it as F1B (direct frequency-shift keying) or J2B (single sideband with an audio tone). J3E is voice.",
+  "src": [
+   {
+    "sec": "2.201",
+    "quote": "Telegraphy—for automatic reception B"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-15C6": {
+  "id": "1-15C6",
+  "why": "The clarifier, or Receiver Incremental Tuning (RIT), shifts only the receive frequency slightly so you can make a mistuned single-sideband voice sound natural. Your transmit frequency stays where it is.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "1-16C1": {
+  "id": "1-16C1",
+  "why": "Ships normally call other ships on 2182 kHz (or Channel 16 on VHF), then move to a working frequency. You can call directly on an intership working frequency only when you know the other ship is also watching it.",
+  "src": [
+   {
+    "sec": "80.116",
+    "quote": "must first establish communications with other ship stations by call and reply on 2182 kHz. Calls may be initiated on an intership working frequency when it is known that the called vessel maintains a simultaneous watch on the working frequency and on 2182 kHz."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-16C2": {
+  "id": "1-16C2",
+  "why": "2182 kHz is the international MF radiotelephone distress, urgency and safety frequency, and it's also the MF calling frequency.",
+  "src": [
+   {
+    "sec": "80.369",
+    "quote": "the frequency 2182 is an international radiotelephony distress, urgency and safety frequency for ship stations, public and private coast stations, and survival craft stations. It is also used for call and reply"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-16C3": {
+  "id": "1-16C3",
+  "why": "Paired (duplex) frequencies are mainly used with public coast stations: the ship transmits on one frequency and the coast station on the other, so you can talk like on a telephone. Part 80's public correspondence rules assign these frequency pairs to public coast stations.",
+  "src": [
+   {
+    "sec": "80.371",
+    "quote": "The frequency pairs listed in this paragraph are available for assignment to public coast stations for communications with ship stations and units on land."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-16C4": {
+  "id": "1-16C4",
+  "why": "On 2182 kHz, ships transmit J3E, which is single-sideband suppressed-carrier telephony. The rules allow H3E for talking with foreign stations, and A3E only for survival craft or very old equipment.",
+  "src": [
+   {
+    "sec": "80.143",
+    "quote": "must be able to receive and transmit J3E emission on the frequency 2182 kHz"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-16C5": {
+  "id": "1-16C5",
+  "why": "HF maritime channel numbers combine the band and the channel: the first digits give the band in MHz and the last two give the channel number. For example, Part 80's table lists channel 401 at 4065 kHz in the 4 MHz band. So 1212 is channel 12 in the 12 MHz band.",
+  "src": [
+   {
+    "sec": "80.371",
+    "quote": "401 4065 4357"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-16C6": {
+  "id": "1-16C6",
+  "why": "Simplex frequencies, where both stations use the same frequency, are used for intership traffic and for traffic between ships and private coast stations. Public coast stations normally use paired frequencies, so the answer is \"a) and c).\"",
+  "src": [
+   {
+    "sec": "80.373",
+    "quote": "available for assignment for intership safety and operational simplex radiotelephone communications"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-17C1": {
+  "id": "1-17C1",
+  "why": "Before a test transmission, the station must announce its call sign followed by the word \"test\" on the channel being tested. It must also make sure it isn't interfering with traffic already in progress.",
+  "src": [
+   {
+    "sec": "80.101",
+    "quote": "The testing station's call sign, followed by the word “test”, must be announced on the radio-channel being used for the test."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-17C2": {
+  "id": "1-17C2",
+  "why": "Test signals can't last more than 10 seconds or repeat within one minute, and on 2182 kHz or Channel 16 they must be at least five minutes apart. So no test may run more than 10 seconds in any 5-minute period.",
+  "src": [
+   {
+    "sec": "80.101",
+    "quote": "Test signals must not exceed ten seconds"
+   },
+   {
+    "sec": "80.101",
+    "quote": "On the frequency 2182 kHz or 156.800 MHz, the time between tests must be a minimum of five minutes."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-17C3": {
+  "id": "1-17C3",
+  "why": "Ship logs must record daily tests confirming that the GMDSS equipment, including the VHF-DSC radiotelephone, is working, along with a daily statement about the radiotelephone equipment.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "Daily entries of satisfactory tests to ensure the continued proper functioning of GMDSS equipment shall be made."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-17C4": {
+  "id": "1-17C4",
+  "why": "In ARQ mode, the two stations exchange answerbacks automatically before any text goes through. Getting the coast station's answerback proves your NBDP transmitter, receiver and antenna all work. An FEC broadcast is one-way, so it doesn't confirm anything was received.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "1-18C1": {
+  "id": "1-18C1",
+  "why": "If a transmitter malfunctions, for example by going off frequency or distorting, you must stop transmitting until it's fixed. The one exception is a transmission about the immediate safety of life or property.",
+  "src": [
+   {
+    "sec": "80.90",
+    "quote": "Transmission must be suspended immediately upon detection of a transmitter malfunction and must remain suspended until the malfunction is corrected"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-18C2": {
+  "id": "1-18C2",
+  "why": "SITOR (radiotelex) in ARQ mode sends in short bursts and then listens, so the power meter swings from zero up to the full output reading over and over. That's normal. In J3E voice mode, by contrast, a working transmitter shows output only while you speak, so steady power with no speech, or no change when you speak, would point to a fault.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "1-18C3": {
+  "id": "1-18C3",
+  "why": "A distorted signal is a transmitter malfunction, and the rule is to stop transmitting until it's fixed. Turning down power or audio doesn't fix the fault. The only exception is a transmission about the immediate safety of life or property.",
+  "src": [
+   {
+    "sec": "80.90",
+    "quote": "Transmission must be suspended immediately upon detection of a transmitter malfunction and must remain suspended until the malfunction is corrected"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-18C6": {
+  "id": "1-18C6",
+  "why": "A 2182 kHz transmitter that shows no output power when you speak isn't transmitting, which is a real malfunction. The master must be told about improperly operating radiotelephone equipment, and the failure and the notification are logged. Changes in background noise, or failing to reach a station 600 miles away in daytime (well beyond the 150-mile daytime range the rules require), come from propagation and noise conditions, not equipment faults.",
+  "src": [
+   {
+    "sec": "80.409",
+    "quote": "When the master is notified about improperly operating radiotelephone equipment."
+   },
+   {
+    "sec": "80.855",
+    "quote": "during daytime under normal conditions over a range of 150 nautical miles"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-19D1": {
+  "id": "1-19D1",
+  "why": "Part 80 requires voice transmissions in the 30–200 MHz range, which includes marine VHF, to be vertically polarized. That's why marine VHF antennas are vertical.",
+  "src": [
+   {
+    "sec": "80.81",
+    "quote": "All telephony emissions of a ship station or a marine utility station on board ship within the frequency band 30-200 MHz must be vertically polarized."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-19D2": {
+  "id": "1-19D2",
+  "why": "The required MF radiotelephone antenna must be as non-directional and efficient as practical for radio ground waves over seawater, and built to keep working in an emergency.",
+  "src": [
+   {
+    "sec": "80.863",
+    "quote": "An antenna system must be installed which is as nondirectional and as efficient as is practicable for the transmission and reception of radio ground waves over seawater."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-19D3": {
+  "id": "1-19D3",
+  "why": "Marine VHF antennas must be vertically polarized, and the usual GMDSS VHF antenna is a vertical whip. Neither a horizontally polarized antenna nor a long wire is used, so the answer is \"none of the above.\"",
+  "src": [
+   {
+    "sec": "80.81",
+    "quote": "within the frequency band 30-200 MHz must be vertically polarized"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-19D4": {
+  "id": "1-19D4",
+  "why": "An antenna tuner doesn't change the antenna's physical length. It adds inductance and capacitance so the antenna's electrical impedance matches the transmitter at the frequency in use, which lets one antenna work across many MF/HF frequencies.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "1-19D5": {
+  "id": "1-19D5",
+  "why": "A vertical whip radiates equally in all horizontal directions, which matters on a ship that's always changing heading. A long wire tends to favor certain directions depending on its length and orientation.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "1-19D6": {
+  "id": "1-19D6",
+  "why": "Seen from above, a vertical whip's radiation pattern is a circle: it radiates equally in every compass direction. A figure-eight belongs to a horizontal dipole, and a cardioid is a directional pattern.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "1-20D2": {
+  "id": "1-20D2",
+  "why": "The reserve source of energy (RSE) has to work when the ship's own power has failed. So the rules require it to be independent of both the propulsion and the ship's electrical system, and it doesn't have to run the MF and HF installations at the same time.",
+  "src": [
+   {
+    "sec": "80.1099",
+    "quote": "The reserve sources of energy must be independent of the propelling power of the ship and the ship's electrical system."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-20D3": {
+  "id": "1-20D3",
+  "why": "A reserve source of energy powers the radio installations for distress and safety communications when the ship's main and emergency sources of electrical power have failed.",
+  "src": [
+   {
+    "sec": "80.1099",
+    "quote": "A reserve source of energy to supply radio installations must be provided on every ship for the purpose of conducting distress and safety radiocommunications, in the event of failure of the ship's main and emergency sources of electrical power."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-20D4": {
+  "id": "1-20D4",
+  "why": "The source that keeps the GMDSS radios working after both the main and the emergency generators fail is called the reserve source of energy.",
+  "src": [
+   {
+    "sec": "80.1099",
+    "quote": "in the event of failure of the ship's main and emergency sources of electrical power"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-20D5": {
+  "id": "1-20D5",
+  "why": "Newly constructed GMDSS ships need both: an emergency source of electrical power (required under SOLAS) that backs up main power, and in addition a reserve source of energy that runs the radios for distress and safety communications if both the main and emergency sources fail. One doesn't replace the other, and a second EPIRB doesn't substitute for either.",
+  "src": [
+   {
+    "sec": "80.1099",
+    "quote": "A reserve source of energy to supply radio installations must be provided on every ship"
+   },
+   {
+    "sec": "80.1099",
+    "quote": "in the event of failure of the ship's main and emergency sources of electrical power"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-20D6": {
+  "id": "1-20D6",
+  "why": "\"Reserve source of energy\" is the electrical supply that can run the radio installations for distress and safety communications after the ship's main and emergency power have both failed. It has nothing to do with food or fuel for survival craft.",
+  "src": [
+   {
+    "sec": "80.1099",
+    "quote": "A reserve source of energy to supply radio installations must be provided on every ship for the purpose of conducting distress and safety radiocommunications, in the event of failure of the ship's main and emergency sources of electrical power."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-21D1": {
+  "id": "1-21D1",
+  "why": "An EPIRB (emergency position-indicating radio beacon) is a battery-powered beacon whose signal helps search and rescue find you. A GMDSS satellite EPIRB must be able to float free if the ship sinks and switch on automatically when afloat, and it can also be activated by hand.",
+  "src": [
+   {
+    "sec": "80.5",
+    "quote": "A station in the maritime mobile service the emissions of which are intended to facilitate search and rescue operations."
+   },
+   {
+    "sec": "80.1085",
+    "quote": "capable of floating free if the ship sinks and of being automatically activated when afloat, and capable of being activated manually"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-21D3": {
+  "id": "1-21D3",
+  "why": "The device built to float free of a sinking ship, switch on by itself and send a distress signal is the EPIRB. The other choices name the wrong frequencies or equipment.",
+  "src": [
+   {
+    "sec": "80.1085",
+    "quote": "capable of floating free if the ship sinks and of being automatically activated when afloat"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-21D4": {
+  "id": "1-21D4",
+  "why": "An EPIRB alert goes by satellite to search and rescue authorities, not to nearby ships, so a radio broadcast can't cancel it. Turn the beacon off and call the Coast Guard (for an EPIRB) or the rescue coordination center right away.",
+  "src": [
+   {
+    "doc": "sarsat-false",
+    "quote": "please call the U . S . Coast Guard if the beacon is an EPIRB"
+   },
+   {
+    "sec": "80.335",
+    "quote": "ships may use additional appropriate means available to them to inform the nearest appropriate U.S. Coast Guard rescue coordination center that a false distress alert has been transmitted"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-21D5": {
+  "id": "1-21D5",
+  "why": "COSPAS-SARSAT is the international satellite system that detects 406 MHz distress beacons (EPIRBs, ELTs and PLBs) and passes their alerts to search and rescue authorities. NOAA runs the U.S. part of it.",
+  "src": [
+   {
+    "sec": "80.1061",
+    "quote": "the United States Program Manager for the 406.0-406.1 MHz COSPAS/SARSAT satellite system"
+   },
+   {
+    "doc": "sarsat-false",
+    "quote": "This is the first marine rescue thanks to location data from a Cospas-Sarsat satellite."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-21D6": {
+  "id": "1-21D6",
+  "why": "406 MHz EPIRBs work with the COSPAS-SARSAT satellites and meet the GMDSS rules. Each one sends a unique digital identification code, registered with NOAA, that tells rescuers which vessel it belongs to. They also carry a 121.5 MHz homing beacon so rescuers can find them. All of the choices are advantages.",
+  "src": [
+   {
+    "sec": "80.1061",
+    "quote": "must be programmed in each EPIRB unit to establish a unique identification for each EPIRB station"
+   },
+   {
+    "sec": "80.1061",
+    "quote": "The 406.0-406.1 EPIRB must contain as an integral part a “homing” beacon operating only on 121.500 MHz"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-22D1": {
+  "id": "1-22D1",
+  "why": "A search and rescue transponder (SART) works in the 9 GHz (X-band) radar band, specifically 9,200–9,500 MHz.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "Frequency: 9 200-9 500 MHz."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-22D2": {
+  "id": "1-22D2",
+  "why": "When a SART is triggered by a radar, it replies with 12 sweeps. These show on the radar screen as a line of 12 evenly spaced dots running outward from the SART's position. Survivors are at the dot closest to the radar's center.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "The response signal should consist of 12 sweeps."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-22D4": {
+  "id": "1-22D4",
+  "why": "A SART is a 9 GHz transponder, so it shows up on X-band (3 cm, 9 GHz) navigational radars. S-band radars, at 3 GHz, won't trigger it.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "radars operating in the frequency band 9 200-9 500 MHz"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-22D5": {
+  "id": "1-22D5",
+  "why": "A SART that's switched on waits in standby, listening. It transmits only when a 9 GHz radar pulse hits it, which is why it can last 96 hours on standby and still respond for 8 hours.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "96 h in stand-by condition followed by 8 h of transponder"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-22D6": {
+  "id": "1-22D6",
+  "why": "Radar range depends on height, so the higher the SART, the farther away radars can detect it. The ITU standard calls for an antenna height of at least 1 meter. Tests show that height gives roughly 8 nautical miles of detection range, compared with less at 0.5 m.",
+  "src": [
+   {
+    "doc": "itu-m628",
+    "quote": "the height of the installed SART antenna should be at least 1 m"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-23D4": {
+  "id": "1-23D4",
+  "why": "Under GMDSS, survival craft two-way VHF radios must work on Channel 16 (156.800 MHz) plus at least one other single-frequency voice channel. The FCC's general survival craft rule (§80.271) also allows 457.525 MHz instead of 156.800 MHz, which is why 457.525 appears as a choice, but GMDSS equipment needs Channel 16.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "The two-way radiotelephone should be capable of operation on the frequency 156.800 MHz (VHF channel 16) and on at least one additional channel."
+   },
+   {
+    "sec": "80.1101",
+    "quote": "Two-Way VHF radiotelephone: (i) IMO Resolution A.809(19)"
+   },
+   {
+    "sec": "80.271",
+    "quote": "The transceivers must receive and transmit either on 457.525 MHz or on 156.800 MHz;"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-23D5": {
+  "id": "1-23D5",
+  "why": "Under the GMDSS standard (IMO A.809), survival craft radios must work on Channel 16 and be watertight to a depth of 1 m for at least 5 minutes. FCC rules add that the antenna must be permanently attached (or need a special tool to remove). The answer is all of these.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "The two-way radiotelephone should be capable of operation on the frequency 156.800 MHz (VHF channel 16)"
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "be watertight to a depth of 1 m for at least 5 min"
+   },
+   {
+    "sec": "80.271",
+    "quote": "The antenna must be permanently attached to the device or its removal must require the use of a special tool."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-24D1": {
+  "id": "1-24D1",
+  "why": "NAVTEX messages are grouped by subject, and each group is identified by a single letter called the B2 subject indicator. The receiver uses that letter to sort messages and reject subjects you don't need.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "Information is grouped by subject in the NAVTEX broadcast and each subject group"
+   },
+   {
+    "doc": "imo-navtex",
+    "quote": "is allocated a B2 subject indicator character."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-24D2": {
+  "id": "1-24D2",
+  "why": "Maritime safety information (MSI) reaches ships in several ways: NAVTEX on MF, HF narrow-band direct printing, and satellite services such as Inmarsat SafetyNET. The answer is all of these.",
+  "src": [
+   {
+    "doc": "nws-gmdss",
+    "quote": "preparing meteorological forecasts and warnings for broadcast via NAVTEX , HF Narrow Band Direct Printing (NBDP) and approved satellite providers SafetyNET and Safetycast"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-24D3": {
+  "id": "1-24D3",
+  "why": "518 kHz is the international NAVTEX frequency, broadcast in English. 490 kHz and 4209.5 kHz are used for national or supplementary NAVTEX services.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "automatic reception on 518 kHz of maritime safety information by means of"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-24D4": {
+  "id": "1-24D4",
+  "why": "NAVTEX receivers can be set to reject message subjects you don't need, using the B2 subject indicator letters. Ice reports, for example, can be turned off. The receiver rejects them automatically, so you don't have to schedule listening times.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "Some subject indicator characters can be used to reject messages concerning certain"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-24D5": {
+  "id": "1-24D5",
+  "why": "Medium-frequency signals like NAVTEX's 518 kHz carry much farther after dark. In daytime the lower ionosphere absorbs them, and at night that absorption fades. The IMO NAVTEX Manual reflects this: the needed range normally takes about 60% less transmitter power at night.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "than 1 kW during daylight with a 60% reduction during night conditions."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-24D6": {
+  "id": "1-24D6",
+  "why": "Most NAVTEX stations cover a few hundred nautical miles. The IMO NAVTEX Manual cites a required range of 250 to 400 nautical miles and a designed maximum range of about 400, and the National Weather Service describes coverage within about 200 nautical miles of shore. That fits the 200–400 nautical mile answer.",
+  "src": [
+   {
+    "doc": "imo-navtex",
+    "quote": "Experience indicates that the required range of 250 to 400"
+   },
+   {
+    "doc": "imo-navtex",
+    "quote": "NAVTEX transmissions have a designed maximum range of about 400 nautical miles."
+   },
+   {
+    "doc": "nws-gmdss",
+    "quote": "within approximately 200 nautical miles of shore"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-17C5": {
+  "id": "1-17C5",
+  "why": "Sending a short message to your own Inmarsat-C terminal tests the whole path: your terminal sends it up through the satellite to the land earth station, and it comes back down to you. When it arrives, you know both transmitting and receiving work. A blinking \"send\" light proves nothing about the link.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "1-17C6": {
+  "id": "1-17C6",
+  "why": "Part 80 allows test transmissions whenever they're needed to make sure the equipment works, as long as you follow the testing procedure: no interfering with traffic, announce your call sign and \"test,\" and keep it short. You may not test during the 2182 kHz silence periods, which are reserved for distress, urgency and safety traffic.",
+  "src": [
+   {
+    "sec": "80.101",
+    "quote": "The operator must not interfere with transmissions in progress."
+   },
+   {
+    "sec": "80.304",
+    "quote": "Except for distress, urgency or safety messages, ship stations must not transmit during the silence periods on 2182 kHz."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-18C4": {
+  "id": "1-18C4",
+  "why": "A 24-volt battery bank reads several volts above 24 while charging, and the reading settles back when charging ends. A voltage stuck at 30 volts means the charger isn't regulating, which overcharges and damages the batteries. The other choices describe normal behavior after the batteries have powered the station during a test.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "1-22D3": {
+  "id": "1-22D3",
+  "why": "A SART must have a visual or audible indicator, or both, that shows it's working and tells survivors when a radar has triggered it. That means a searching ship or aircraft is nearby.",
+  "src": [
+   {
+    "doc": "imo-a802",
+    "quote": "to indicate correct operation and to alert survivors to the fact that a radar has triggered"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-23D1": {
+  "id": "1-23D1",
+  "why": "Under the IMO standard, survival craft VHF radios must work on Channel 16 and at least one other channel, and every channel must be for single-frequency voice only. Channel 70 is reserved for digital selective calling, so \"operates on Ch-70\" is the false statement. The other choices are real requirements: watertight to 1 meter for 5 minutes, and at least 0.25 watt effective radiated power.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "(VHF channel 16) and on at least one additional channel."
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "All channels fitted should be for single-frequency voice communication only."
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "be watertight to a depth of 1 m for at least 5 min;"
+   }
+  ],
+  "status": "verified"
+ },
+ "1-23D2": {
+  "id": "1-23D2",
+  "why": "The IMO standard requires survival craft VHF radios to work on Channel 16 plus at least one additional channel, for single-frequency (simplex) voice only, with at least 0.25 watt effective radiated power. Channel 13 isn't a requirement, so \"operation on Ch-13\" is the false statement.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "(VHF channel 16) and on at least one additional channel."
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "The effective radiated power should be a minimum of 0.25 W."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-23D3": {
+  "id": "1-23D3",
+  "why": "Survival craft VHF radios are for on-scene communication between survival craft, between survival craft and a ship, and between survival craft and a rescue unit. The answer is all of these.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "between survival craft, between survival craft and ship and between survival craft and rescue unit."
+   }
+  ],
+  "status": "verified"
+ },
+ "1-23D6": {
+  "id": "1-23D6",
+  "why": "The exam's key says \"one watt.\" Under the IMO performance standard, 1 watt is the level a survival craft radio must be able to reduce to: above 1 W, it needs a switch to bring power down to 1 W or less.",
+  "note": "The IMO standard sets the minimum effective radiated power at 0.25 W, as other questions in this pool say. This question's key (one watt) doesn't match that minimum. Expect \"one watt\" on the exam.",
+  "src": [
+   {
+    "doc": "imo-a809",
+    "quote": "The effective radiated power should be a minimum of 0.25 W. Where the effective radiated"
+   },
+   {
+    "doc": "imo-a809",
+    "quote": "power exceeds 1 W, a power reduction switch to reduce the power to 1 W or less is required."
+   }
+  ],
+  "status": "verified"
+ }
+}

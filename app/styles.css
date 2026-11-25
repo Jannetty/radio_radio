@@ -130,3 +130,20 @@ footer{padding:20px max(4vw,16px) 40px;font-size:13px;color:var(--mute)}
 .flags{display:grid;gap:8px;margin-top:8px}
 .flags div{display:flex;gap:10px;align-items:center}
 .flags .flag{width:30px;height:20px}
+.why{margin-top:14px;padding:14px 16px;border-radius:10px;background:var(--panel);border-left:4px solid var(--blue)}
+.why-h{font-family:"Barlow Condensed",sans-serif;font-size:19px;font-weight:600;margin-bottom:4px}
+.why p{margin:6px 0}
+.why-note{background:light-dark(#fff6d6,#3a3112);border-radius:8px;padding:8px 10px;font-size:15px}
+.why-basis{font-size:14px;color:var(--mute)}
+.why-src{margin:8px 0 4px;padding-left:18px;font-size:14px;color:var(--mute)}
+.why-src li{margin:4px 0}
+.why-src q{color:var(--ink)}
+details.whyd{margin-top:8px}
+details.whyd summary{cursor:pointer;color:var(--blue);font-size:15px;min-height:32px;display:flex;align-items:center}
+.guide{margin:10px 0}
+.guide .row{gap:8px;margin-top:6px}
+.guide .btn{min-height:40px;padding:7px 12px;font-size:14px}
+.topic h2{margin:4px 0 8px}.topic h3{margin:22px 0 8px}
+.topic .lede{font-size:18px}
+.facts{padding-left:20px}.facts li{margin:8px 0}
+.cite{font-size:13px;white-space:nowrap;margin-left:4px}

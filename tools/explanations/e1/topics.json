@@ -1,0 +1,1002 @@
+{
+ "1": {
+  "intro": "Transmitters used in the maritime services must, with a few exceptions, be FCC-certified, and how much radio a vessel must carry depends on what kind of vessel it is and how far from land it goes.",
+  "facts": [
+   {
+    "text": "With a few exceptions, maritime transmitters must be FCC-certified for Part 80 use.",
+    "src": {
+     "quote": "must be certified by the Commission for part 80 operations",
+     "sec": "80.203"
+    }
+   },
+   {
+    "text": "Small passenger vessels add an MF single-sideband radiotelephone once they go more than 20 nautical miles out.",
+    "src": {
+     "quote": "must be equipped with a MF-DSC frequency transmitter meeting the requirements of § 80.1101(c)(3) and capable of transmitting J3E emission",
+     "sec": "80.905"
+    }
+   },
+   {
+    "text": "A compulsory ship's MF transmitter meets its 150-nautical-mile daytime range requirement with at least 60 W peak envelope power on 2182 kHz.",
+    "src": {
+     "quote": "The output power is not less than 60 watts peak envelope power for H3E and J3E emission on the frequency 2182 kHz",
+     "sec": "80.855"
+    }
+   },
+   {
+    "text": "Non-portable ship VHF transmitters run 8 to 25 W carrier power.",
+    "src": {
+     "quote": "except portable transmitters, operating in the 156-162 MHz band must be at least 8 but not more than 25 watts",
+     "sec": "80.215"
+    }
+   },
+   {
+    "text": "DSC calls stations automatically, and a DSC distress alert is how GMDSS radios call for help.",
+    "src": {
+     "quote": "The distress signal is a digital selective call using an internationally recognized distress call format",
+     "sec": "80.5"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "2": {
+  "intro": "Who needs a commercial operator license, which one, and what an operator has to do while on duty.",
+  "facts": [
+   {
+    "text": "Fixed-tuned ship radars operated only by external controls need no operator license.",
+    "src": {
+     "quote": "No radio operator authorization is required to operate:",
+     "sec": "80.177"
+    }
+   },
+   {
+    "text": "You can't get a commercial license if you can't send and receive spoken English by radiotelephone.",
+    "src": {
+     "quote": "complete inability for any other reason to transmit correctly and to receive correctly by telephone spoken messages in English",
+     "sec": "13.9"
+    }
+   },
+   {
+    "text": "GMDSS passenger ships carry at least two GMDSS-licensed operators.",
+    "src": {
+     "quote": "shall carry at least two persons holding an appropriate GMDSS Radio Operator License",
+     "sec": "80.159"
+    }
+   },
+   {
+    "text": "Great Lakes (subpart T) ships need someone with at least a Marine Radio Operator Permit.",
+    "src": {
+     "quote": "must have on board an officer or member of the crew who holds a marine radio operator permit or higher class license",
+     "sec": "80.161"
+    }
+   },
+   {
+    "text": "On duty, your license (or a photocopy) must be posted or on you.",
+    "src": {
+     "quote": "must be posted or in the operator's personal possession, and available for inspection upon request by a FCC representative",
+     "sec": "13.19"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 13, Commercial Radio Operators (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-13"
+   },
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   },
+   {
+    "title": "47 CFR Part 87, Aviation Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-87"
+   }
+  ],
+  "status": "verified"
+ },
+ "3": {
+  "intro": "Which frequencies a ship must listen to, and when.",
+  "facts": [
+   {
+    "text": "Compulsory vessels watch Channel 16 while underway.",
+    "src": {
+     "quote": "Each compulsory vessel, while underway, must maintain a watch for radiotelephone distress calls on 156.800 MHz whenever such station is not being used for exchanging communications.",
+     "sec": "80.148"
+    }
+   },
+   {
+    "text": "Cargo ships without MF-DSC also keep a continuous watch on 2182 kHz.",
+    "src": {
+     "quote": "If it is not carrying MF-DSC radio equipment, keep a continuous watch on 2182 kHz in the room from which the vessel is normally steered while at sea",
+     "sec": "80.305"
+    }
+   },
+   {
+    "text": "2182 kHz silence periods: 3 minutes at the top and bottom of each hour (UTC).",
+    "src": {
+     "quote": "This watch must be maintained at least twice each hour for 3 minutes commencing at x h.00 and x h.30 Coordinated Universal Time (UTC)",
+     "sec": "80.304"
+    }
+   },
+   {
+    "text": "GMDSS ships with MF/HF keep DSC watch on 2187.5 kHz, 8414.5 kHz and one more HF DSC frequency, plus Channel 70 on VHF.",
+    "src": {
+     "quote": "On the distress and safety DSC frequencies 2187.5 kHz and 8414.5 kHz also on at least one of the distress and safety DSC frequencies 4207.5 kHz, 6312 kHz, 12577 kHz, or 16804.5 kHz",
+     "sec": "80.1123"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "4": {
+  "intro": "Who keeps the station log, where it's kept, how it's corrected and how long it's kept.",
+  "facts": [
+   {
+    "text": "The station licensee and the operator in charge are both responsible for the logs.",
+    "src": {
+     "quote": "The station licensee and the radio operator in charge of the station are responsible for the maintenance of station logs.",
+     "sec": "80.409"
+    }
+   },
+   {
+    "text": "Only the person who made an entry may correct it: strike out, initial and date. No erasing.",
+    "src": {
+     "quote": "Corrections may be made only by the person originating the entry by striking out the error, initialing the correction and indicating the date of correction.",
+     "sec": "80.409"
+    }
+   },
+   {
+    "text": "Keep logs for 2 years, or 3 years if they involve distress or disaster.",
+    "src": {
+     "quote": "Logs relating to a distress situation or disaster must be retained for three years from the date of entry.",
+     "sec": "80.409"
+    }
+   },
+   {
+    "text": "Ship radiotelephone logs stay at the principal operating position while under way.",
+    "src": {
+     "quote": "must be kept at the principal radiotelephone operating location while the vessel is being navigated",
+     "sec": "80.409"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "5": {
+  "intro": "What goes into a ship's radio (and GMDSS) log.",
+  "facts": [
+   {
+    "text": "Log daily equipment checks and GMDSS tests, plus a pre-departure check entry.",
+    "src": {
+     "quote": "An entry that pre-departure equipment checks were satisfactory and that required publications are on hand. Daily entries of satisfactory tests to ensure the continued proper functioning of GMDSS equipment shall be made.",
+     "sec": "80.409"
+    }
+   },
+   {
+    "text": "Summarize distress and urgency traffic that affects your own ship.",
+    "src": {
+     "quote": "A summary of all distress and urgency communications affecting the station's own ship",
+     "sec": "80.409"
+    }
+   },
+   {
+    "text": "Log safety traffic only when it's on channels other than VHF and affects your ship.",
+    "src": {
+     "quote": "A summary of safety communications on other than VHF channels affecting the station's own ship.",
+     "sec": "80.409"
+    }
+   },
+   {
+    "text": "Check reserve batteries and log it at least every 30 days.",
+    "src": {
+     "quote": "An entry at least once every thirty days that the batteries or other reserve power sources have been checked and are functioning properly.",
+     "sec": "80.409"
+    }
+   },
+   {
+    "text": "Abbreviations are fine if they're explained in the same log.",
+    "src": {
+     "quote": "Key letters or abbreviations may be used if their proper meaning or explanation is contained elsewhere in the same log.",
+     "sec": "80.409"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "6": {
+  "intro": "General rules: what governs ship stations, who is in charge, and where the radio has to be.",
+  "facts": [
+   {
+    "text": "Ship stations follow Part 80 plus the international Radio Regulations.",
+    "src": {
+     "quote": "In addition to being regulated by these rules, the use and operation of stations subject to this part are governed by the Radio Regulations and the radio provisions of all other international agreements in force to which the United States is a party.",
+     "sec": "80.86"
+    }
+   },
+   {
+    "text": "The master has ultimate control of the station.",
+    "src": {
+     "quote": "The service of each ship station must at all times be under the ultimate control of the master",
+     "sec": "80.114"
+    }
+   },
+   {
+    "text": "The principal operating position is where the ship is steered.",
+    "src": {
+     "quote": "The principal operating position of the radiotelephone station must be in the room from which the ship is normally steered while at sea.",
+     "sec": "80.853"
+    }
+   },
+   {
+    "text": "Ship inspections are now done by FCC-licensed technicians, not the FCC itself.",
+    "src": {
+     "quote": "The mandatory inspection of U.S. vessels must be conducted by an FCC-licensed technician",
+     "sec": "80.59"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "7": {
+  "intro": "Bridge-to-bridge radio (usually Channel 13) lets vessels talk directly about navigation, and Vessel Traffic Services manage traffic in busy waterways.",
+  "facts": [
+   {
+    "text": "Bridge-to-bridge stations are for navigational communications only.",
+    "src": {
+     "quote": "Bridge-to-bridge station. A radio station located on a ship's navigational bridge or main control station operating on a specified frequency which is used only for navigational communications, in the 156-162 MHz band.",
+     "sec": "80.5"
+    }
+   },
+   {
+    "text": "Channel 13 is the designated bridge-to-bridge channel on U.S. navigable waters (67 in one area).",
+    "src": {
+     "quote": "On the navigable waters of the United States, channel 13 (156.65 MHz) is the designated frequency required to be monitored in accordance with § 26.05(a) except that in the area prescribed in § 26.03(e), channel 67 (156.375 MHz) is the designated frequency.",
+     "sec": "33:26.04"
+    }
+   },
+   {
+    "text": "More than 1 W only for an emergency, no answer to a second low-power call, or a blind broadcast.",
+    "src": {
+     "quote": "Use of power greater than 1 watt in a bridge-to-bridge station shall be limited to the following three situations:",
+     "sec": "80.331"
+    }
+   },
+   {
+    "text": "On bridge-to-bridge channels you may identify by ship name.",
+    "src": {
+     "quote": "Ship stations transmitting on any authorized VHF bridge-to-bridge channel may be identified by the name of the ship in lieu of the call sign.",
+     "sec": "80.102"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "33 CFR Part 26, Vessel Bridge-to-Bridge Radiotelephone Regulations (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-33/part-26"
+   },
+   {
+    "title": "33 CFR Part 161, Vessel Traffic Management (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-33/part-161"
+   },
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "8": {
+  "intro": "Everyday operating courtesy: listen first, obey the coast station, keep calling channels clear.",
+  "facts": [
+   {
+    "text": "Listen before you transmit, except for distress.",
+    "src": {
+     "quote": "The station operator must determine that the frequency is not in use by monitoring the frequency before transmitting, except for transmission of signals of distress.",
+     "sec": "80.92"
+    }
+   },
+   {
+    "text": "Follow the coast or government station's instructions.",
+    "src": {
+     "quote": "ship stations must comply with the instruction given by the coast station or Government station relative to the order and time of transmission",
+     "sec": "80.94"
+    }
+   },
+   {
+    "text": "After contact on 2182 or Channel 16, move to a working frequency.",
+    "src": {
+     "quote": "After establishing communication with another station by call and reply on 2182 kHz or 156.800 MHz stations on board ship must change to an authorized working frequency for the transmission of messages.",
+     "sec": "80.116"
+    }
+   },
+   {
+    "text": "Priority: distress, urgency, safety, then everything else.",
+    "src": {
+     "quote": "Distress calls, distress messages, and distress traffic.",
+     "sec": "80.91"
+    }
+   },
+   {
+    "text": "Coast stations announce waiting traffic with traffic lists of call signs in alphabetical order.",
+    "src": {
+     "quote": "of “traffic lists” consisting of the call signs or other identification in alphabetical order of all ship",
+     "doc": "itu-m1171"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   },
+   {
+    "title": "ITU-R M.1171, Radiotelephony procedures for routine calls in the maritime mobile service",
+    "url": "https://www.itu.int/rec/R-REC-M.1171/en"
+   }
+  ],
+  "status": "verified"
+ },
+ "9": {
+  "intro": "How to call, identify and spell over the radio.",
+  "facts": [
+   {
+    "text": "Calls last no more than 30 seconds, then wait 2 minutes before trying again.",
+    "src": {
+     "quote": "Calling a particular station must not continue for more than 30 seconds in each instance. If the called station does not reply, the station must not again be called until after an interval of 2 minutes.",
+     "sec": "80.116"
+    }
+   },
+   {
+    "text": "Identify at the beginning and end of each communication, and every 15 minutes during long ones.",
+    "src": {
+     "quote": "At the beginning and end of each communication with any other station.",
+     "sec": "80.102"
+    }
+   },
+   {
+    "text": "Call coast stations on their working frequency when you can.",
+    "src": {
+     "quote": "Use by ship stations of the frequency 2182 kHz for calling coast stations and for replying to calls from coast stations is authorized. However, such calls and replies should be on the appropriate ship-shore working frequency.",
+     "sec": "80.116"
+    }
+   },
+   {
+    "text": "Spell with the international phonetic alphabet (Echo, Mike, Sierra …).",
+    "src": {
+     "quote": "Echo (ECK-OH)",
+     "doc": "faa-aim"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   },
+   {
+    "title": "ITU-R M.1171, Radiotelephony procedures for routine calls in the maritime mobile service",
+    "url": "https://www.itu.int/rec/R-REC-M.1171/en"
+   },
+   {
+    "title": "FAA Aeronautical Information Manual 4-2: radio communications phraseology and the phonetic alphabet",
+    "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_2.html"
+   }
+  ],
+  "status": "verified"
+ },
+ "10": {
+  "intro": "MAYDAY: the highest-priority call there is.",
+  "facts": [
+   {
+    "text": "Distress means grave and imminent danger requiring immediate assistance.",
+    "src": {
+     "quote": "These distress signals indicate that a mobile station is threatened by grave and imminent danger and requests immediate assistance.",
+     "sec": "80.314"
+    }
+   },
+   {
+    "text": "The call: MAYDAY ×3, THIS IS, name or call sign ×3, then position, nature of distress, help needed and other details.",
+    "src": {
+     "quote": "The distress signal MAYDAY spoken three times;",
+     "sec": "80.314"
+    }
+   },
+   {
+    "text": "Distress has absolute priority; everyone else stops transmitting and listens.",
+    "src": {
+     "quote": "The distress call has absolute priority over all other transmissions.",
+     "sec": "80.312"
+    }
+   },
+   {
+    "text": "Only the master or person responsible can authorize a distress call.",
+    "src": {
+     "quote": "A distress call and message, however, must be transmitted only on the authority of the master or person responsible for the mobile station.",
+     "sec": "80.311"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   },
+   {
+    "title": "ITU-R M.541, Operational procedures for digital selective calling",
+    "url": "https://www.itu.int/rec/R-REC-M.541/en"
+   }
+  ],
+  "status": "verified"
+ },
+ "11": {
+  "intro": "PAN PAN (urgency) and SECURITE (safety): the two levels below distress.",
+  "facts": [
+   {
+    "text": "Urgency (PAN PAN ×3): a very urgent message about the safety of a vessel or person.",
+    "src": {
+     "quote": "The urgency signal indicates that the calling station has a very urgent message to transmit concerning the safety of a ship, aircraft, or other vehicle, or the safety of a person.",
+     "sec": "80.327"
+    }
+   },
+   {
+    "text": "Urgency outranks everything except distress, and needs the master's authority.",
+    "src": {
+     "quote": "The urgency signal has priority over all other communications except distress.",
+     "sec": "80.327"
+    }
+   },
+   {
+    "text": "Safety (SECURITE ×3): navigation and weather warnings.",
+    "src": {
+     "quote": "In radiotelephony, the safety signal consists of the word SECURITE, pronounced as in French, spoken three times and transmitted before the call.",
+     "sec": "80.329"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "12": {
+  "intro": "The Global Maritime Distress and Safety System links ships in distress with rescue authorities ashore and with nearby ships.",
+  "facts": [
+   {
+    "text": "GMDSS moves distress messages quickly to whoever can best help.",
+    "src": {
+     "quote": "designed to provide the rapid transfer of distress messages from vessels in distress to units best suited for giving or coordinating assistance",
+     "sec": "80.5"
+    }
+   },
+   {
+    "text": "It applies to all passenger ships and to cargo ships of 300 gross tons and up.",
+    "src": {
+     "quote": "The regulations contained within this subpart apply to all passenger ships regardless of size and cargo ships of 300 tons gross tonnage and upwards.",
+     "sec": "80.1065"
+    }
+   },
+   {
+    "text": "Alerts go ship-to-shore (to rescue centers) and ship-to-ship (to nearby vessels).",
+    "src": {
+     "quote": "Ship-to-ship distress alerts are used to alert other ships in the vicinity of the ship in distress",
+     "sec": "80.1113"
+    }
+   },
+   {
+    "text": "Every ship must be able to perform the core communication functions itself.",
+    "src": {
+     "quote": "Ships, while at sea, must be capable:",
+     "sec": "80.1081"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   },
+   {
+    "title": "ITU-R M.541, Operational procedures for digital selective calling",
+    "url": "https://www.itu.int/rec/R-REC-M.541/en"
+   }
+  ],
+  "status": "verified"
+ },
+ "13": {
+  "intro": "The controls on a marine VHF radio and why they exist.",
+  "facts": [
+   {
+    "text": "VHF sets must be able to drop to 1 watt.",
+    "src": {
+     "quote": "All transmitters and remote control units must be capable of reducing the carrier power to one watt or less;",
+     "sec": "80.215"
+    }
+   },
+   {
+    "text": "An \"A\" channel is the U.S. simplex use of an international duplex channel, which is what INT/USA switches.",
+    "src": {
+     "quote": "the letter “A” following the channel designator indicates simplex operation on a channel designated internationally as a duplex channel.",
+     "sec": "80.373"
+    }
+   },
+   {
+    "text": "VHF sets must have a squelch control. Set it just high enough to quiet the noise.",
+    "src": {
+     "quote": "The receiver must have a manual volume control and a squelch control.",
+     "sec": "80.877"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "14": {
+  "intro": "Which VHF channel is used for what.",
+  "facts": [
+   {
+    "text": "Channel 16: distress, safety and calling.",
+    "src": {
+     "quote": "Each compulsory vessel, while underway, must maintain a watch for radiotelephone distress calls on 156.800 MHz",
+     "sec": "80.148"
+    }
+   },
+   {
+    "text": "Channel 70: DSC only.",
+    "src": {
+     "quote": "Digital Selective Calling 70 15 156.525 156.525",
+     "sec": "80.373"
+    }
+   },
+   {
+    "text": "Channel 13: bridge-to-bridge.",
+    "src": {
+     "quote": "channel 13 (156.65 MHz) is the designated frequency required to be monitored",
+     "sec": "33:26.04"
+    }
+   },
+   {
+    "text": "Channel 08: commercial intership.",
+    "src": {
+     "quote": "08 156.400 Do.",
+     "sec": "80.373"
+    }
+   },
+   {
+    "text": "121.5 MHz (AM): aeronautical emergency frequency.",
+    "src": {
+     "quote": "The frequencies 121.500 MHz and 243.000 MHz are emergency and distress frequences available for use by survival craft stations, emergency locator transmitters and equipment used for survival pruposes.",
+     "sec": "87.187"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   },
+   {
+    "title": "33 CFR Part 26, Vessel Bridge-to-Bridge Radiotelephone Regulations (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-33/part-26"
+   }
+  ],
+  "status": "verified"
+ },
+ "15": {
+  "intro": "Setting up an MF/HF transceiver for voice and telex.",
+  "facts": [
+   {
+    "text": "J3E is single-sideband voice: the E stands for telephony.",
+    "src": {
+     "quote": "Telephony (including sound broadcasting) E",
+     "sec": "2.201"
+    }
+   },
+   {
+    "text": "Radiotelex is F1B or J2B: the B means telegraphy for automatic reception.",
+    "src": {
+     "quote": "Telegraphy—for automatic reception B",
+     "sec": "2.201"
+    }
+   },
+   {
+    "text": "Channels are shared, so use only the power you need.",
+    "src": {
+     "quote": "Station licensees must cooperate in the use of their respective frequency assignments in order to minimize interference",
+     "sec": "80.87"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "16": {
+  "intro": "MF/HF frequencies, channel numbers and emissions.",
+  "facts": [
+   {
+    "text": "2182 kHz is the MF voice distress and calling frequency.",
+    "src": {
+     "quote": "the frequency 2182 is an international radiotelephony distress, urgency and safety frequency for ship stations, public and private coast stations, and survival craft stations. It is also used for call and reply",
+     "sec": "80.369"
+    }
+   },
+   {
+    "text": "Ships use J3E on 2182 kHz.",
+    "src": {
+     "quote": "must be able to receive and transmit J3E emission on the frequency 2182 kHz",
+     "sec": "80.143"
+    }
+   },
+   {
+    "text": "Paired (duplex) frequencies go with public coast stations.",
+    "src": {
+     "quote": "The frequency pairs listed in this paragraph are available for assignment to public coast stations for communications with ship stations and units on land.",
+     "sec": "80.371"
+    }
+   },
+   {
+    "text": "HF channel numbers are band + channel (401 = channel 1 in the 4 MHz band).",
+    "src": {
+     "quote": "401 4065 4357",
+     "sec": "80.371"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "17": {
+  "intro": "How and when to test radio equipment without interfering.",
+  "facts": [
+   {
+    "text": "Announce your call sign and \"test\" on the test channel.",
+    "src": {
+     "quote": "The testing station's call sign, followed by the word “test”, must be announced on the radio-channel being used for the test.",
+     "sec": "80.101"
+    }
+   },
+   {
+    "text": "Tests last 10 seconds max, and at least 5 minutes apart on 2182 or Channel 16.",
+    "src": {
+     "quote": "On the frequency 2182 kHz or 156.800 MHz, the time between tests must be a minimum of five minutes.",
+     "sec": "80.101"
+    }
+   },
+   {
+    "text": "GMDSS equipment is tested and logged daily.",
+    "src": {
+     "quote": "Daily entries of satisfactory tests to ensure the continued proper functioning of GMDSS equipment shall be made.",
+     "sec": "80.409"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "18": {
+  "intro": "What to do when equipment misbehaves.",
+  "facts": [
+   {
+    "text": "Stop transmitting until a malfunction is fixed (except for immediate safety of life or property).",
+    "src": {
+     "quote": "Transmission must be suspended immediately upon detection of a transmitter malfunction and must remain suspended until the malfunction is corrected",
+     "sec": "80.90"
+    }
+   },
+   {
+    "text": "Tell the master about faulty radiotelephone equipment, and log it.",
+    "src": {
+     "quote": "When the master is notified about improperly operating radiotelephone equipment.",
+     "sec": "80.409"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "19": {
+  "intro": "Antenna rules and basics.",
+  "facts": [
+   {
+    "text": "VHF (30–200 MHz) voice antennas must be vertically polarized.",
+    "src": {
+     "quote": "All telephony emissions of a ship station or a marine utility station on board ship within the frequency band 30-200 MHz must be vertically polarized.",
+     "sec": "80.81"
+    }
+   },
+   {
+    "text": "A compulsory ship's required MF radiotelephone antenna must be as non-directional and efficient as practicable for ground waves over seawater.",
+    "src": {
+     "quote": "An antenna system must be installed which is as nondirectional and as efficient as is practicable for the transmission and reception of radio ground waves over seawater.",
+     "sec": "80.863"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "20": {
+  "intro": "Keeping the radios powered when the ship's power fails.",
+  "facts": [
+   {
+    "text": "A reserve source of energy powers distress and safety radio when main and emergency power fail.",
+    "src": {
+     "quote": "A reserve source of energy to supply radio installations must be provided on every ship for the purpose of conducting distress and safety radiocommunications, in the event of failure of the ship's main and emergency sources of electrical power.",
+     "sec": "80.1099"
+    }
+   },
+   {
+    "text": "It must be independent of propulsion and the ship's electrical system.",
+    "src": {
+     "quote": "The reserve sources of energy must be independent of the propelling power of the ship and the ship's electrical system.",
+     "sec": "80.1099"
+    }
+   },
+   {
+    "text": "Check reserve batteries at least every 30 days.",
+    "src": {
+     "quote": "Battery charge levels should be checked at intervals of 30 days or less with equipment turned ON and the battery charger turned OFF.",
+     "sec": "80.1099"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "21": {
+  "intro": "Emergency position-indicating radio beacons and the satellite system that hears them.",
+  "facts": [
+   {
+    "text": "GMDSS satellite EPIRBs float free and switch on automatically.",
+    "src": {
+     "quote": "capable of floating free if the ship sinks and of being automatically activated when afloat, and capable of being activated manually",
+     "sec": "80.1085"
+    }
+   },
+   {
+    "text": "Each 406 MHz EPIRB has a unique ID and must be registered with NOAA.",
+    "src": {
+     "quote": "To enhance protection of life and property it is mandatory that each 406.0-406.1 MHz EPIRB be registered with NOAA before installation and that information be kept up-to-date.",
+     "sec": "80.1061"
+    }
+   },
+   {
+    "text": "406 MHz EPIRBs include a 121.5 MHz homing beacon.",
+    "src": {
+     "quote": "The 406.0-406.1 EPIRB must contain as an integral part a “homing” beacon operating only on 121.500 MHz",
+     "sec": "80.1061"
+    }
+   },
+   {
+    "text": "Accidental activation? Call the Coast Guard (for an EPIRB).",
+    "src": {
+     "quote": "please call the U . S . Coast Guard if the beacon is an EPIRB",
+     "doc": "sarsat-false"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   },
+   {
+    "title": "NOAA SARSAT: Preventing False Alerts",
+    "url": "https://www.sarsat.noaa.gov/false.html"
+   },
+   {
+    "title": "NOAA 406 MHz beacon registration",
+    "url": "https://www.beaconregistration.noaa.gov"
+   }
+  ],
+  "status": "verified"
+ },
+ "22": {
+  "intro": "Search and rescue radar transponders: how survivors show up on a rescuer's radar.",
+  "facts": [
+   {
+    "text": "SARTs work at 9 GHz (X-band).",
+    "src": {
+     "quote": "Frequency: 9 200-9 500 MHz.",
+     "doc": "itu-m628"
+    }
+   },
+   {
+    "text": "The reply is 12 sweeps, seen on radar as a line of 12 dots.",
+    "src": {
+     "quote": "The response signal should consist of 12 sweeps.",
+     "doc": "itu-m628"
+    }
+   },
+   {
+    "text": "Keep the antenna at least 1 m up for range.",
+    "src": {
+     "quote": "the height of the installed SART antenna should be at least 1 m",
+     "doc": "itu-m628"
+    }
+   },
+   {
+    "text": "A light or sound tells survivors a radar has triggered it.",
+    "src": {
+     "quote": "to indicate correct operation and to alert survivors to the fact that a radar has triggered",
+     "doc": "imo-a802"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "ITU-R M.628, Technical characteristics for search and rescue radar transponders",
+    "url": "https://www.itu.int/rec/R-REC-M.628/en"
+   },
+   {
+    "title": "IMO Resolution A.802(19): survival craft radar transponders (SARTs)",
+    "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.802(19).pdf"
+   },
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "23": {
+  "intro": "Portable two-way VHF radios for survival craft.",
+  "facts": [
+   {
+    "text": "Channel 16 plus at least one other channel, simplex voice only.",
+    "src": {
+     "quote": "(VHF channel 16) and on at least one additional channel.",
+     "doc": "imo-a809"
+    }
+   },
+   {
+    "text": "Watertight to 1 m for 5 minutes.",
+    "src": {
+     "quote": "be watertight to a depth of 1 m for at least 5 min;",
+     "doc": "imo-a809"
+    }
+   },
+   {
+    "text": "At least 0.25 W effective radiated power.",
+    "src": {
+     "quote": "The effective radiated power should be a minimum of 0.25 W.",
+     "doc": "imo-a809"
+    }
+   },
+   {
+    "text": "For on-scene talk between survival craft, ships and rescue units.",
+    "src": {
+     "quote": "between survival craft, between survival craft and ship and between survival craft and rescue unit.",
+     "doc": "imo-a809"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "IMO Resolution A.809(19): survival craft two-way VHF radiotelephones",
+    "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.809(19).pdf"
+   },
+   {
+    "title": "47 CFR Part 80, Stations in the Maritime Services (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/part-80"
+   }
+  ],
+  "status": "verified"
+ },
+ "24": {
+  "intro": "NAVTEX: automatic, printed maritime safety information near the coast.",
+  "facts": [
+   {
+    "text": "International NAVTEX is on 518 kHz.",
+    "src": {
+     "quote": "automatic reception on 518 kHz of maritime safety information by means of",
+     "doc": "imo-navtex"
+    }
+   },
+   {
+    "text": "Messages are grouped by subject letter (B2), and receivers can reject subjects.",
+    "src": {
+     "quote": "Some subject indicator characters can be used to reject messages concerning certain",
+     "doc": "imo-navtex"
+    }
+   },
+   {
+    "text": "Range is typically a few hundred nautical miles.",
+    "src": {
+     "quote": "Experience indicates that the required range of 250 to 400",
+     "doc": "imo-navtex"
+    }
+   },
+   {
+    "text": "MSI also arrives by HF NBDP and satellite (SafetyNET).",
+    "src": {
+     "quote": "preparing meteorological forecasts and warnings for broadcast via NAVTEX , HF Narrow Band Direct Printing (NBDP) and approved satellite providers SafetyNET and Safetycast",
+     "doc": "nws-gmdss"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "IMO Revised NAVTEX Manual (MSC.1/Circ.1403/Rev.1)",
+    "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/MSC.1-Circ.1403-Rev.1%20-%20REVISED%20NAVTEX%20MANUAL%20(Secretariat).pdf"
+   },
+   {
+    "title": "U.S. Coast Guard Navigation Center: NAVTEX in the United States",
+    "url": "https://www.navcen.uscg.gov/node/228"
+   },
+   {
+    "title": "National Weather Service: marine products via GMDSS (NAVTEX, SafetyNET)",
+    "url": "https://www.weather.gov/marine/gmdss"
+   }
+  ],
+  "status": "verified"
+ }
+}

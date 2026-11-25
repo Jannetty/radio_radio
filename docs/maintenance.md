@@ -11,6 +11,7 @@ handles accounts. The dated items below are what will actually need doing.
 | The site | GitHub Pages, from the `Jannetty/radio_radio` repo | Deployed by `.github/workflows/pages.yml` on every push to `main` |
 | Accounts and synced progress | Supabase project `rrwqdawubtkskxdydapd` (Free plan) | One table, `public.progress`, plus Supabase's built-in auth |
 | Question pools | `app/data/pools.json` and `app/figs/` in the repo | Built from the official FCC and NCVEC pools; see `tools/pools/README.md` |
+| Explanations | `app/data/explanations/` (Element 1 only) | Built from `tools/explanations/`; every claim quotes a current rule or official document |
 | supabase-js | `app/vendor/supabase.js` (v2.118.0) | Vendored, so the site doesn't depend on a CDN |
 
 The site works without Supabase: if the project is paused or down, progress is still saved on
@@ -179,6 +180,23 @@ old pool's id. Old stats would attach to the wrong questions.
 The FCC commercial pools change rarely, and only by public notice on the FCC's
 [commercial operator examinations page](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/commercial-radio-operator-license-program/examinations).
 Treat a revision the same way.
+
+## Explanations
+
+Element 1 questions have a "Why" panel (shown automatically after a wrong answer) and each key
+topic has a study-guide page. The source files and the full workflow are in
+`tools/explanations/README.md`; a readable list of every explanation with its quoted sources is
+in `docs/explanations/e1-review.md`.
+
+- **Accuracy rule**: every explanation quotes the official text it relies on, and only entries
+  marked `"status": "verified"` after an independent check are published. `npm test` enforces it.
+- **Once a year**, with the pool calendar: re-download the cited CFR sections and re-run the quote
+  check. A quote that no longer matches means the rule was amended, so review that entry.
+- **If the FCC replaces the Element 1 pool**, the explanations no longer apply. Remove `e1` from
+  `EXPLAINED` in `app/src/ui/explain.js` until new ones are written for the new pool.
+- **Someone reports a wrong explanation**: set its `status` to anything other than `verified`,
+  rebuild with `python3 tools/explanations/build.py e1`, and push. It disappears from the site
+  until it's fixed and re-checked.
 
 ## Keeping dependencies current
 

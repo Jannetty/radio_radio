@@ -7,6 +7,7 @@ import * as learn from '../core/learn.js';
 import { loadLocal, saveLocal } from '../storage/local.js';
 import { createCloud } from '../storage/cloud.js';
 import { FLAGS, flagSvg } from './flags.js';
+import { EXPLAINED, warm, loaded, whyHtml, sourcesHtml } from './explain.js';
 
 const $ = s => document.querySelector(s);
 const $$ = s => [...document.querySelectorAll(s)];
@@ -23,6 +24,16 @@ const secCache = {};
 
 const pool = id => D.pools.find(p => p.id === id);
 const secOf = p => (secCache[p.id] ||= sectionIndex(p));
+/** The key topic / group each question belongs to: { sec, g } by position in pool.q. */
+const grpCache = {};
+const groupOf = (p, qi) => {
+  if (!grpCache[p.id]) {
+    grpCache[p.id] = [];
+    p.sections.forEach(sec => sec.g.forEach(g => g.q.forEach(i => { grpCache[p.id][i] = { sec, g }; })));
+  }
+  return grpCache[p.id][qi];
+};
+const why = (p, qi, letter) => whyHtml(loaded(p.id), p.q[qi][0], letter, groupOf(p, qi).g, esc);
 /** Position in pool.q of a question id. */
 const ix = (p, id) => idIndex(p).get(id);
 
@@ -120,8 +131,31 @@ function poolView() {
     <button class="action" data-act="browse"><b>Read the pool</b><span>Every question with its correct answer, searchable. Hide answers to self-check.</span></button>
   </div>
   <section class="sec"><h2>By subelement</h2><div class="scroll"><table><thead><tr><th>Subelement</th><th class="n">Exam Qs</th><th>Progress</th><th class="n">Mastered</th></tr></thead><tbody>${rows}</tbody></table></div></section>
+  ${guideHtml(p)}
   <section class="sec"><h2>Practice exams</h2>${hist ? `<div class="scroll"><table><thead><tr><th>Taken</th><th class="n">Score</th><th>Result</th><th class="n">Time</th><th></th></tr></thead><tbody>${hist}</tbody></table></div>` : `<p class="note">No practice exams yet. Passing takes ${p.p} of ${p.n} (${Math.round(p.p / p.n * 100)}%).</p>`}</section>
   <section class="sec"><button class="btn" data-act="reset">Reset progress for this exam</button></section>`;
+}
+
+function guideHtml(p) {
+  const ex = loaded(p.id);
+  if (!ex) return '';
+  return `<section class="sec"><h2>Study guide</h2><p class="note" style="margin:0 0 12px">A short page for each key topic: the rules behind it, with links to the official text and further reading.</p>
+  ${p.sections.map(sec => `<div class="guide"><div class="k"><b>${esc(sec.id)}</b> ${esc(sec.t)}</div><div class="row">${sec.g.filter(g => ex.topics[g.id]).map(g => `<button class="btn" data-topic="${esc(g.id)}">${esc(g.t)}</button>`).join('')}</div></div>`).join('')}</section>`;
+}
+
+function topicView() {
+  const p = pool(view.pool), ex = loaded(p.id);
+  header(p);
+  const sec = p.sections.find(s => s.g.some(g => g.id === view.idx)), g = sec && sec.g.find(x => x.id === view.idx), t = ex && ex.topics[view.idx];
+  if (!t) { $('#app').innerHTML = '<p class="note">Loading…</p>'; return; }
+  $('#app').innerHTML = `<div class="row" style="margin-bottom:12px"><button class="btn" data-act="topicback">← Back</button></div>
+  <article class="qcard topic"><div class="qmeta"><span class="qid">${esc(p.gl)} ${esc(g.id)}</span><span>${esc(sec.id)} · ${esc(sec.t)}</span></div>
+  <h2>${esc(g.t)}</h2><p class="lede">${esc(t.intro)}</p>
+  <h3>Key facts</h3><ul class="facts">${t.facts.map(f => `<li>${esc(f.text)} <a href="${esc(f.url)}" target="_blank" rel="noopener" class="cite">${esc(f.cite)}</a></li>`).join('')}</ul>
+  <h3>The rules behind this topic</h3>${sourcesHtml(t.rules, esc)}
+  ${t.reading.length ? `<h3>Further reading</h3><ul class="why-src">${t.reading.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`).join('')}</ul>` : ''}
+  <h3>Questions in this topic</h3><div class="list">${g.q.map(i => { const q = p.q[i]; return `<div class="item"><span class="qid">${esc(q[0])}</span><p>${esc(q[1])}</p><div class="ans r">${L[q[3]]}. ${esc(q[2][q[3]])}</div>${why(p, i, L[q[3]]) ? `<details class="whyd"><summary>Why ${L[q[3]]}?</summary>${why(p, i, L[q[3]])}</details>` : '<p class="note">No explanation yet.</p>'}</div>`; }).join('')}</div>
+  <p class="note" style="margin-top:16px">Explanations quote the current official text. Where today's rule differs from the 2009 exam key, a “Heads up” note says so; the exam still grades on its key.</p></article>`;
 }
 
 /* ---------- learn ---------- */
@@ -181,9 +215,10 @@ function learnView() {
     if (answered) { if (o === q[3]) c = 'right'; else if (o === s.pick) c = 'wrong'; }
     return `<button class="ch ${c}" data-pick="${o}" ${answered ? 'disabled' : ''}><span class="L">${L[k]}</span><span>${esc(q[2][o])}</span></button>`;
   }).join('')}</div>
-  ${answered ? `<div class="fb ${s.pick === q[3] ? 'ok' : 'no'}"><span>${s.pick === q[3] ? 'Correct.' : `Not quite. The answer is ${L[ord.indexOf(q[3])]}.${s.retry ? '' : ' You’ll get it again in the retry round.'}`}</span><button class="btn pri" data-act="next">Continue</button></div>` : ''}
+  ${answered ? `<div class="fb ${s.pick === q[3] ? 'ok' : 'no'}"><span>${s.pick === q[3] ? 'Correct.' : `Not quite. The answer is ${L[ord.indexOf(q[3])]}.${s.retry ? '' : ' You’ll get it again in the retry round.'}`}</span><span class="row">${s.pick === q[3] && why(p, qi, L[ord.indexOf(q[3])]) && view.why !== id ? '<button class="btn" data-act="showwhy">Why?</button>' : ''}<button class="btn pri" data-act="next">Continue</button></span></div>
+  ${s.pick !== q[3] || view.why === id ? why(p, qi, L[ord.indexOf(q[3])]) : ''}` : ''}
   </div>
-  <div class="bar"><button class="btn" data-act="endlearn">End session</button><span class="kbd">Keys: 1–4 or A–D to answer, Enter to continue</span></div>`;
+  <div class="bar"><button class="btn" data-act="pauselearn">Save and exit</button><span class="kbd">Keys: 1–4 or A–D to answer, Enter to continue</span></div>`;
   if (answered) $('[data-act=next]').focus();
 }
 
@@ -193,7 +228,8 @@ function learnSummary(p, s) {
   <p class="note" style="margin-top:8px">${miss ? `Retry the ${miss} you missed until each one sticks.` : more ? `${s.queue.length - s.qpos} questions left in this session.` : `That's every question in this session. ${s.first[0]} of ${s.first[1]} were right on the first try.`}</p>
   ${miss ? `<div class="list">${s.miss.map(id => { const q = p.q[ix(p, id)]; return `<div class="item"><span class="qid">${esc(q[0])}</span><p>${esc(q[1])}</p><div class="ans r">${esc(q[2][q[3]])}</div></div>`; }).join('')}</div>` : ''}
   <div class="row" style="margin-top:18px">${miss ? `<button class="btn pri big" data-act="retry">Retry ${miss} missed</button>` : more ? `<button class="btn pri big" data-act="nextround">Next ${Math.min(s.size, s.queue.length - s.qpos)} questions</button>` : ''}
-  <button class="btn" data-act="endlearn">${more || miss ? 'Stop for now' : 'Finish'}</button></div></div>`;
+  <button class="btn" data-act="endlearn">${more || miss ? 'Stop for now' : 'Finish'}</button></div>
+  ${more || miss ? '<p class="note" style="margin-top:12px">Stopping ends this session. Your answers are saved, and anything you missed is under “Missed before” next time.</p>' : ''}</div>`;
 }
 
 function pickLearn(o) {
@@ -207,6 +243,7 @@ function pickLearn(o) {
 }
 
 function nextLearn() {
+  view.why = null;
   const p = pool(view.pool), s = P[p.id].learn;
   learn.advance(s);
   save(p.id, 'learn');
@@ -273,7 +310,7 @@ function resultView() {
   <div class="row" style="margin-top:18px">${miss.length ? `<button class="btn pri" data-act="learnmiss">Learn the ${miss.length} I missed</button>` : ''}<button class="btn" data-act="exam">New practice exam</button><button class="btn" data-go="pool:${p.id}">Back</button></div></div>
   <section class="sec"><h2>${miss.length ? 'Missed questions' : 'No misses'}</h2><div class="list">${miss.map(([qi, a]) => {
     const q = p.q[qi];
-    return `<div class="item"><span class="qid">${esc(q[0])}</span><p>${esc(q[1])}</p>${figure(q[4], true)}${q[2].map((c, o) => `<div class="ans ${o === q[3] ? 'r' : o === a ? 'y' : ''}">${L[o]}. ${esc(c)}${o === a ? ' <span class="tag w">your answer</span>' : ''}</div>`).join('')}${a < 0 ? '<div class="note">Not answered</div>' : ''}</div>`;
+    return `<div class="item"><span class="qid">${esc(q[0])}</span><p>${esc(q[1])}</p>${figure(q[4], true)}${q[2].map((c, o) => `<div class="ans ${o === q[3] ? 'r' : o === a ? 'y' : ''}">${L[o]}. ${esc(c)}${o === a ? ' <span class="tag w">your answer</span>' : ''}</div>`).join('')}${a < 0 ? '<div class="note">Not answered</div>' : ''}${why(p, qi, L[q[3]])}</div>`;
   }).join('')}</div></section>`;
 }
 
@@ -299,7 +336,7 @@ function browseView() {
         if (!qs.length) return;
         out.push(`<h3 style="margin-top:22px">${esc(s.id)} · ${esc(g.id)} ${esc(g.t)}</h3>` + qs.map(i => {
           const q = p.q[i], ss = stat(st, q[0]);
-          return `<div class="item"><span class="qid">${esc(q[0])}</span>${isMastered(ss) ? '<span class="tag g">mastered</span>' : isMissed(ss) ? `<span class="tag w">missed ${ss[1]}×</span>` : ''}<p>${esc(q[1])}</p>${figure(q[4], true)}${q[2].map((c, k) => `<div class="ans ${k === q[3] ? 'r' : ''}" ${k === q[3] ? 'data-reveal' : ''}>${L[k]}. ${esc(c)}</div>`).join('')}</div>`;
+          return `<div class="item"><span class="qid">${esc(q[0])}</span>${isMastered(ss) ? '<span class="tag g">mastered</span>' : isMissed(ss) ? `<span class="tag w">missed ${ss[1]}×</span>` : ''}<p>${esc(q[1])}</p>${figure(q[4], true)}${q[2].map((c, k) => `<div class="ans ${k === q[3] ? 'r' : ''}" ${k === q[3] ? 'data-reveal' : ''}>${L[k]}. ${esc(c)}</div>`).join('')}${why(p, i, L[q[3]]) ? `<details class="whyd"><summary>Why ${L[q[3]]}?</summary>${why(p, i, L[q[3]])}</details>` : ''}</div>`;
         }).join(''));
       });
     });
@@ -355,7 +392,8 @@ function accountModal(msg = '', kind = '') {
 
 /* ---------- routing, modal, events ---------- */
 function go(name, id, idx) {
-  view = { name, pool: id, idx };
+  const back = name === 'topic' ? (view.name === 'topic' ? view.back : { name: view.name, pool: view.pool, idx: view.idx, b: view.b }) : null;
+  view = { name, pool: id, idx, back };
   if (name !== 'exam') clearInterval(tick);
   const want = name === 'home' ? '' : '#' + id;
   if (want !== location.hash && !/access_token|error_description/.test(location.hash)) history.replaceState(null, '', want || location.pathname + location.search);
@@ -363,16 +401,21 @@ function go(name, id, idx) {
   window.scrollTo(0, 0);
 }
 
+let warming = null;
 function render() {
   acctButton();
-  ({ home, pool: poolView, setup: setupView, learn: learnView, exam: examView, result: resultView, browse: browseView })[view.name]();
+  if (view.pool && EXPLAINED.includes(view.pool) && !loaded(view.pool) && warming !== view.pool) {
+    warming = view.pool;
+    warm(view.pool).then(v => { if (v && view.pool === warming) render(); });
+  }
+  ({ home, pool: poolView, setup: setupView, learn: learnView, exam: examView, result: resultView, browse: browseView, topic: topicView })[view.name]();
 }
 
 function modal(html) { $('#modal').innerHTML = `<div class="modal" data-act="bg"><div class="box" role="dialog" aria-modal="true">${html}</div></div>`; $('#modal input,#modal button')?.focus(); }
 function closeModal() { $('#modal').innerHTML = ''; }
 
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-go],[data-act],[data-pick],[data-jump],[data-fig],[data-review],.hidden-ans .item');
+  const t = e.target.closest('[data-go],[data-act],[data-pick],[data-jump],[data-fig],[data-review],[data-topic],.hidden-ans .item');
   if (!t) return;
   const p = view.pool ? pool(view.pool) : null, st = p && P[p.id];
   const slot = t.dataset.slot || (view.name === 'exam' ? 'exam' : 'learn'), s = st && st[slot];
@@ -383,6 +426,7 @@ document.addEventListener('click', e => {
     return;
   }
   if (t.dataset.review) { go('result', p.id, +t.dataset.review); return; }
+  if (t.dataset.topic) { go('topic', p.id, t.dataset.topic); return; }
   if (t.dataset.pick !== undefined) {
     const o = +t.dataset.pick;
     if (view.name === 'learn') pickLearn(o);
@@ -410,9 +454,13 @@ document.addEventListener('click', e => {
     secall: () => { $$('[name=sec]').forEach(c => { c.checked = true; }); $('#setup').dispatchEvent(new Event('change')); },
     secnone: () => { $$('[name=sec]').forEach(c => { c.checked = false; }); $('#setup').dispatchEvent(new Event('change')); },
     next: nextLearn,
+    showwhy: () => { view.why = learn.current(s); render(); },
+    topicback: () => { const b = view.back; if (b && b.name) { const keepB = b.b; go(b.name, b.pool, b.idx); if (keepB) { view.b = keepB; render(); } } else go('pool', p.id); },
     retry: () => { learn.retryMissed(s); save(p.id, 'learn'); render(); },
     nextround: () => { learn.nextRound(s); save(p.id, 'learn'); render(); },
-    endlearn: () => { if (learn.finished(s)) setSession(st, 'learn', null); save(p.id, 'learn'); go('pool', p.id); },
+    // From a round summary: the session is over. Mid-question: keep it to resume later.
+    endlearn: () => { setSession(st, 'learn', null); save(p.id, 'learn'); go('pool', p.id); },
+    pauselearn: () => { save(p.id, 'learn'); go('pool', p.id); },
     prev: () => { s.cur--; save(p.id, 'exam'); render(); },
     nextq: () => { s.cur++; save(p.id, 'exam'); render(); },
     flag: () => { s.flag[s.cur] = !s.flag[s.cur]; save(p.id, 'exam'); render(); },

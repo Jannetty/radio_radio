@@ -1,0 +1,282 @@
+{
+ "sections": {
+  "13.19": {
+   "head": "§ 13.19 Operator's responsibility.",
+   "url": "https://www.ecfr.gov/current/title-47/section-13.19"
+  },
+  "13.9": {
+   "head": "§ 13.9 Eligibility and application for new license or endorsement.",
+   "url": "https://www.ecfr.gov/current/title-47/section-13.9"
+  },
+  "2.201": {
+   "head": "§ 2.201 Emission, modulation, and transmission characteristics.",
+   "url": "https://www.ecfr.gov/current/title-47/section-2.201"
+  },
+  "33:161.1": {
+   "head": "§ 161.1 Purpose and Intent.",
+   "url": "https://www.ecfr.gov/current/title-33/section-161.1"
+  },
+  "33:161.2": {
+   "head": "§ 161.2 Definitions.",
+   "url": "https://www.ecfr.gov/current/title-33/section-161.2"
+  },
+  "33:26.04": {
+   "head": "§ 26.04 Use of the designated frequency.",
+   "url": "https://www.ecfr.gov/current/title-33/section-26.04"
+  },
+  "80.101": {
+   "head": "§ 80.101 Radiotelephone testing procedures.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.101"
+  },
+  "80.102": {
+   "head": "§ 80.102 Radiotelephone station identification.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.102"
+  },
+  "80.1061": {
+   "head": "§ 80.1061 Special requirements for 406.0-406.1 MHz EPIRB stations.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1061"
+  },
+  "80.1065": {
+   "head": "§ 80.1065 Applicability.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1065"
+  },
+  "80.1081": {
+   "head": "§ 80.1081 Functional requirements.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1081"
+  },
+  "80.1085": {
+   "head": "§ 80.1085 Ship radio equipment—General.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1085"
+  },
+  "80.1099": {
+   "head": "§ 80.1099 Ship sources of energy.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1099"
+  },
+  "80.111": {
+   "head": "§ 80.111 Radiotelephone operating procedures for coast stations.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.111"
+  },
+  "80.1113": {
+   "head": "§ 80.1113 Transmission of a distress alert.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1113"
+  },
+  "80.1123": {
+   "head": "§ 80.1123 Watch requirements for ship stations.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1123"
+  },
+  "80.114": {
+   "head": "§ 80.114 Authority of the master.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.114"
+  },
+  "80.116": {
+   "head": "§ 80.116 Radiotelephone operating procedures for ship stations.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.116"
+  },
+  "80.143": {
+   "head": "§ 80.143 Required frequencies for radiotelephony.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.143"
+  },
+  "80.148": {
+   "head": "§ 80.148 Watch on 156.8 MHz (Channel 16).",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.148"
+  },
+  "80.156": {
+   "head": "§ 80.156 Control by operator.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.156"
+  },
+  "80.159": {
+   "head": "§ 80.159 Operator requirements of Title III of the Communications Act and the Safety Convention.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.159"
+  },
+  "80.161": {
+   "head": "§ 80.161 Operator requirements for subpart T vessels on the Great Lakes.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.161"
+  },
+  "80.177": {
+   "head": "§ 80.177 When operator license is not required.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.177"
+  },
+  "80.203": {
+   "head": "§ 80.203 Authorization of transmitters for licensing.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.203"
+  },
+  "80.215": {
+   "head": "§ 80.215 Transmitter power.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.215"
+  },
+  "80.271": {
+   "head": "§ 80.271 Technical requirements for portable survival craft radiotelephone transceivers.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.271"
+  },
+  "80.304": {
+   "head": "§ 80.304 Watch requirement during silence periods.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.304"
+  },
+  "80.305": {
+   "head": "§ 80.305 Watch requirements of the Communications Act and the Safety Convention.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.305"
+  },
+  "80.311": {
+   "head": "§ 80.311 Authority for distress transmission.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.311"
+  },
+  "80.312": {
+   "head": "§ 80.312 Priority of distress transmissions.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.312"
+  },
+  "80.314": {
+   "head": "§ 80.314 Distress communications.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.314"
+  },
+  "80.327": {
+   "head": "§ 80.327 Urgency signals and messages.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.327"
+  },
+  "80.329": {
+   "head": "§ 80.329 Safety signals and messages.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.329"
+  },
+  "80.331": {
+   "head": "§ 80.331 Bridge-to-bridge communication procedure.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.331"
+  },
+  "80.335": {
+   "head": "§ 80.335 Procedures for canceling false distress alerts.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.335"
+  },
+  "80.355": {
+   "head": "§ 80.355 Distress, urgency, safety, call and reply Morse code frequencies.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.355"
+  },
+  "80.359": {
+   "head": "§ 80.359 Frequencies for digital selective calling (DSC).",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.359"
+  },
+  "80.369": {
+   "head": "§ 80.369 Distress, urgency, safety, call and reply frequencies.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.369"
+  },
+  "80.371": {
+   "head": "§ 80.371 Public correspondence frequencies.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.371"
+  },
+  "80.373": {
+   "head": "§ 80.373 Private communications frequencies.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.373"
+  },
+  "80.409": {
+   "head": "§ 80.409 Station logs.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.409"
+  },
+  "80.5": {
+   "head": "§ 80.5 Definitions.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.5"
+  },
+  "80.59": {
+   "head": "§ 80.59 Compulsory ship inspections.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.59"
+  },
+  "80.81": {
+   "head": "§ 80.81 Antenna requirements for ship stations.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.81"
+  },
+  "80.853": {
+   "head": "§ 80.853 Radiotelephone station.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.853"
+  },
+  "80.855": {
+   "head": "§ 80.855 Radiotelephone transmitter.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.855"
+  },
+  "80.86": {
+   "head": "§ 80.86 International regulations applicable.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.86"
+  },
+  "80.863": {
+   "head": "§ 80.863 Antenna system.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.863"
+  },
+  "80.87": {
+   "head": "§ 80.87 Cooperative use of frequency assignments.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.87"
+  },
+  "80.871": {
+   "head": "§ 80.871 VHF radiotelephone station.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.871"
+  },
+  "80.877": {
+   "head": "§ 80.877 Controls and indicators required for VHF radiotelephone installation.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.877"
+  },
+  "80.90": {
+   "head": "§ 80.90 Suspension of transmission.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.90"
+  },
+  "80.905": {
+   "head": "§ 80.905 Vessel radio equipment.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.905"
+  },
+  "80.91": {
+   "head": "§ 80.91 Order of priority of communications.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.91"
+  },
+  "80.92": {
+   "head": "§ 80.92 Prevention of interference.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.92"
+  },
+  "80.94": {
+   "head": "§ 80.94 Control by coast or Government station.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.94"
+  },
+  "87.187": {
+   "head": "§ 87.187 Frequencies.",
+   "url": "https://www.ecfr.gov/current/title-47/section-87.187"
+  },
+  "87.87": {
+   "head": "§ 87.87 Classification of operator licenses and endorsements.",
+   "url": "https://www.ecfr.gov/current/title-47/section-87.87"
+  },
+  "87.89": {
+   "head": "§ 87.89 Minimum operator requirements.",
+   "url": "https://www.ecfr.gov/current/title-47/section-87.89"
+  },
+  "80.1101": {
+   "head": "§ 80.1101 Performance standards.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1101"
+  }
+ },
+ "docs": {
+  "faa-aim": {
+   "title": "FAA Aeronautical Information Manual, 4-2-7 Phonetic Alphabet",
+   "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_2.html"
+  },
+  "imo-a802": {
+   "title": "IMO Resolution A.802(19), Performance standards for survival craft radar transponders",
+   "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.802(19).pdf"
+  },
+  "imo-a809": {
+   "title": "IMO Resolution A.809(19), Performance standards for survival craft two-way VHF radiotelephone apparatus",
+   "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.809(19).pdf"
+  },
+  "imo-navtex": {
+   "title": "IMO MSC.1/Circ.1403/Rev.1, Revised NAVTEX Manual",
+   "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/MSC.1-Circ.1403-Rev.1%20-%20REVISED%20NAVTEX%20MANUAL%20(Secretariat).pdf"
+  },
+  "itu-m1171": {
+   "title": "Recommendation ITU-R M.1171-1, Radiotelephony procedures for routine calls in the maritime mobile service",
+   "url": "https://www.itu.int/rec/R-REC-M.1171/en"
+  },
+  "itu-m628": {
+   "title": "Recommendation ITU-R M.628-5, Technical characteristics for search and rescue radar transponders",
+   "url": "https://www.itu.int/rec/R-REC-M.628/en"
+  },
+  "nws-gmdss": {
+   "title": "National Weather Service, Marine products via GMDSS",
+   "url": "https://www.weather.gov/marine/gmdss"
+  },
+  "sarsat-false": {
+   "title": "NOAA SARSAT, Preventing False Alerts",
+   "url": "https://www.sarsat.noaa.gov/false.html"
+  }
+ }
+}
