@@ -1,0 +1,500 @@
+{
+ "T1A": {
+  "intro": "The amateur service is a voluntary, noncommercial radio service regulated in the US by the FCC under Part 97. These questions cover its purpose, a few key definitions, interference, RACES, phonetics, frequency coordinators and beacons.",
+  "facts": [
+   {
+    "text": "Part 97's purposes include emergency communications, advancing the radio art, building operators' communication and technical skills, training operators and technicians, and international goodwill.",
+    "src": {
+     "sec": "97.1",
+     "quote": "Recognition and enhancement of the value of the amateur service to the public as a voluntary noncommercial communication service, particularly with respect to providing emergency communications."
+    }
+   },
+   {
+    "text": "A space station is any amateur station more than 50 km above the Earth's surface.",
+    "src": {
+     "sec": "97.3",
+     "quote": "(41) Space station. An amateur station located more than 50 km above the Earth's surface."
+    }
+   },
+   {
+    "text": "Frequency coordinators recommend channels for repeater and auxiliary stations. Local amateurs recognize them; the FCC doesn't appoint them.",
+    "src": {
+     "sec": "97.3",
+     "quote": "An entity, recognized in a local or regional area by amateur operators whose stations are eligible to be auxiliary or repeater stations, that recommends transmit/receive channels"
+    }
+   },
+   {
+    "text": "Willful or malicious interference is prohibited.",
+    "src": {
+     "sec": "97.101",
+     "quote": "(d) No amateur operator shall willfully or maliciously interfere with or cause interference to any radio communication or signal."
+    }
+   },
+   {
+    "text": "A RACES control operator needs an FCC amateur license and certification of enrollment in a civil defense organization.",
+    "src": {
+     "sec": "97.407",
+     "quote": "is certified by a civil defense organization as enrolled in that organization"
+    }
+   },
+   {
+    "text": "Phonetics are encouraged, not required, when identifying by voice.",
+    "src": {
+     "sec": "97.119",
+     "quote": "Use of a phonetic alphabet as an aid for correct station identification is encouraged;"
+    }
+   },
+   {
+    "text": "On HF, beacons may run under automatic control only between 28.20 and 28.30 MHz.",
+    "src": {
+     "sec": "97.203",
+     "quote": "(d) A beacon may be automatically controlled while it is transmitting on the 28.20-28.30 MHz"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 97 Subpart A, General Provisions (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart B, Station Operation Standards (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart C, Special Operations (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-C"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart E, Providing Emergency Communications (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-E"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B": {
+  "intro": "Which frequencies, modes and power levels a Technician may use. Technicians have all amateur bands from 6 meters up, plus limited HF segments: CW on parts of 80, 40 and 15 meters, and CW, data and SSB voice on part of 10 meters.",
+  "facts": [
+   {
+    "text": "Technician HF segments: 3.525–3.600, 7.025–7.125, 21.025–21.200 and 28.0–28.5 MHz.",
+    "src": {
+     "sec": "97.301",
+     "quote": "80 m 3.525-3.600 3.525-3.600 3.525-3.600 (a) 40 m 7.025-7.125 7.025-7.125 7.025-7.125 (i) 15 m 21.025-21.200 21.025-21.200 21.025-21.200 10 m 28.0-28.5 28.0-28.5 28.0-28.5"
+    }
+   },
+   {
+    "text": "On 80, 40 and 15 meters, Technicians may use CW only.",
+    "src": {
+     "sec": "97.307",
+     "quote": "(9) A station having a control operator holding a Novice or Technician Class operator license may only transmit a CW emission using the international Morse code."
+    }
+   },
+   {
+    "text": "On 10 meters, data is allowed from 28.0 to 28.3 MHz and phone from 28.3 to 28.5 MHz, where Technicians may use SSB voice.",
+    "src": {
+     "sec": "97.305",
+     "quote": "(xvii) 10 m 28.0-28.3 MHz RTTY, data (f)(3). (xviii) 10 m 28.3-28.5 MHz Phone, image"
+    }
+   },
+   {
+    "text": "6 meters is 50–54 MHz and 2 meters is 144–148 MHz in the US.",
+    "src": {
+     "sec": "97.301",
+     "quote": "6 m 50-54 50-54 (a). 2 m 144-146 144-148 144-148"
+    }
+   },
+   {
+    "text": "50.0–50.1 MHz is CW only, because other modes on 6 meters start at 50.1 MHz.",
+    "src": {
+     "sec": "97.305",
+     "quote": "(i) 6 m 50.1-51.0 MHz MCW, phone, image, RTTY, data"
+    }
+   },
+   {
+    "text": "Likewise 144.0–144.1 MHz is CW only, because other modes on 2 meters start at 144.1 MHz.",
+    "src": {
+     "sec": "97.305",
+     "quote": "(iii) 2 m 144.1-148.0 MHz MCW, phone, image, RTTY, data, test"
+    }
+   },
+   {
+    "text": "Where amateurs are secondary, they must not interfere with primary users and must accept interference from them.",
+    "src": {
+     "sec": "97.303",
+     "quote": "A station in a secondary service must not cause harmful interference to, and must accept interference from, stations in a primary service."
+    }
+   },
+   {
+    "text": "Your signal, including its sidebands, must stay inside your band or segment, so don't set your frequency right at the edge.",
+    "src": {
+     "sec": "97.307",
+     "quote": "(b) Emissions resulting from modulation must be confined to the band or segment available to the control operator."
+    }
+   },
+   {
+    "text": "Technicians are limited to 200 W PEP in their HF segments.",
+    "src": {
+     "sec": "97.313",
+     "quote": "(2) On the 3.525-3.60 MHz, 7.025-7.125 MHz, 21.025-21.20 MHz, and 28.0-28.5 MHz segment when the control operator is a Novice Class operator or a Technician Class operator"
+    }
+   },
+   {
+    "text": "Above 30 MHz the limit is 1500 W PEP, apart from some band-specific limits.",
+    "src": {
+     "sec": "97.313",
+     "quote": "(b) No station may transmit with a transmitter power exceeding 1.5 kW PEP."
+    }
+   },
+   {
+    "text": "Always use the minimum power needed.",
+    "src": {
+     "sec": "97.313",
+     "quote": "(a) An amateur station must use the minimum transmitter power necessary to carry out the desired communications."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 97 Subpart D, Technical Standards (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-D"
+   },
+   {
+    "title": "ARRL, US amateur radio bands",
+    "url": "https://www.arrl.org/frequency-allocations"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C": {
+  "intro": "Licensing rules: which classes are issued, call sign systems, where your license is valid, keeping your contact details current, the license term and renewal, and what you may say to stations in other countries.",
+  "facts": [
+   {
+    "text": "New licenses are issued only as Technician, General and Amateur Extra.",
+    "src": {
+     "sec": "97.17",
+     "quote": "No new license grant will be issued for a Novice or Advanced Class operator/primary station."
+    }
+   },
+   {
+    "text": "Any licensee may apply for a vanity call sign. Technicians may choose from Groups C (1-by-3) and D (2-by-3).",
+    "src": {
+     "doc": "arrl-vanity",
+     "quote": "General or Technician class licensees can seek a 1x3 call sign (beginning with prefix N, K or W), or 2x3 call sign (beginning with prefix letter K or W) -- FCC call sign Groups C or D."
+    }
+   },
+   {
+    "text": "A license normally lasts 10 years.",
+    "src": {
+     "sec": "97.25",
+     "quote": "An amateur service license is normally granted for a 10-year term."
+    }
+   },
+   {
+    "text": "You may apply to renew no sooner than 90 days before expiration.",
+    "src": {
+     "sec": "1.949",
+     "quote": "no sooner than 90 days prior to the expiration date"
+    }
+   },
+   {
+    "text": "After expiration there is a 2-year grace period to renew, but you may not transmit until it is renewed.",
+    "src": {
+     "sec": "97.21",
+     "quote": "during a 2 year filing grace period. The application must be received at the address specified above prior to the end of the grace period. Unless and until the license grant is renewed, no privileges in this part are conferred."
+    }
+   },
+   {
+    "text": "Your license must show your correct name, mailing address and email address.",
+    "src": {
+     "sec": "97.23",
+     "quote": "Each license grant must show the grantee's correct name, mailing address, and email address."
+    }
+   },
+   {
+    "text": "If FCC email to you bounces because your address is wrong, your license can be revoked or suspended.",
+    "src": {
+     "sec": "97.23",
+     "quote": "Revocation of the station license or suspension of the operator license may result when correspondence from the FCC is returned as undeliverable because the grantee failed to provide the correct email address."
+    }
+   },
+   {
+    "text": "You may transmit as soon as your license grant appears in the FCC's ULS database.",
+    "src": {
+     "sec": "97.7",
+     "quote": "For whom an amateur operator/primary station license grant appears on the ULS consolidated licensee database"
+    }
+   },
+   {
+    "text": "Your FCC license is good aboard any US-documented or US-registered vessel.",
+    "src": {
+     "sec": "97.5",
+     "quote": "aboard any vessel or craft that is documented or registered in the United States"
+    }
+   },
+   {
+    "text": "Operating on a ship needs the master's approval.",
+    "src": {
+     "sec": "97.11",
+     "quote": "(a) The installation and operation of an amateur station on a ship or aircraft must be approved by the master of the ship or pilot in command of the aircraft."
+    }
+   },
+   {
+    "text": "International contacts are limited to matters incidental to amateur radio and remarks of a personal character.",
+    "src": {
+     "sec": "97.117",
+     "quote": "shall be limited to communications incidental to the purposes of the amateur service and to remarks of a personal character"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 97 Subpart A, General Provisions (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart B, Station Operation Standards (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B"
+   },
+   {
+    "title": "47 CFR §1.949, Application for renewal of authorization (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/section-1.949"
+   },
+   {
+    "title": "ARRL, License update, change, or renewal",
+    "url": "https://www.arrl.org/call-sign-renewals-or-changes"
+   },
+   {
+    "title": "ARRL, Vanity call signs",
+    "url": "https://www.arrl.org/vanity-call-signs"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D": {
+  "intro": "What amateurs may and may not transmit. The service is noncommercial and two-way: no broadcasting, no business, no codes or ciphers, and no music, with a few narrow exceptions.",
+  "facts": [
+   {
+    "text": "No contacts with countries whose administration has told the ITU it objects to them.",
+    "src": {
+     "sec": "97.111",
+     "quote": "except those in any country whose administration has notified the ITU that it objects to such communications"
+    }
+   },
+   {
+    "text": "Broadcasting (transmissions intended for the general public) is prohibited.",
+    "src": {
+     "sec": "97.113",
+     "quote": "(b) An amateur station shall not engage in any form of broadcasting"
+    }
+   },
+   {
+    "text": "Some one-way transmissions are allowed: brief tests and adjustments, telecommand, emergency communications, Morse practice, information bulletins and telemetry.",
+    "src": {
+     "sec": "97.111",
+     "quote": "(1) Brief transmissions necessary to make adjustments to the station;"
+    }
+   },
+   {
+    "text": "No messages encoded to obscure their meaning, except special codes used to command a space station.",
+    "src": {
+     "sec": "97.211",
+     "quote": "(b) A telecommand station may transmit special codes intended to obscure the meaning of telecommand messages to the station in space operation."
+    }
+   },
+   {
+    "text": "Control signals for model craft aren't considered codes meant to obscure meaning.",
+    "src": {
+     "sec": "97.215",
+     "quote": "(b) The control signals are not considered codes or ciphers intended to obscure the meaning of the communication."
+    }
+   },
+   {
+    "text": "No obscene or indecent language.",
+    "src": {
+     "sec": "97.113",
+     "quote": "obscene or indecent words or language"
+    }
+   },
+   {
+    "text": "No music, except incidental music in authorized retransmissions of manned spacecraft communications.",
+    "src": {
+     "sec": "97.113",
+     "quote": "communications, including incidental music, originating on United States Government frequencies between a manned spacecraft and its associated Earth stations"
+    }
+   },
+   {
+    "text": "No pay for operating, with narrow exceptions such as teachers using a station in classroom instruction.",
+    "src": {
+     "sec": "97.113",
+     "quote": "(iii) A control operator may accept compensation as an incident of a teaching position"
+    }
+   },
+   {
+    "text": "You may occasionally advertise amateur gear for sale or trade, but not on a regular basis.",
+    "src": {
+     "sec": "97.113",
+     "quote": "provided that such activity is not conducted on a regular basis"
+    }
+   },
+   {
+    "text": "Model craft control signals don't need on-air identification if the transmitter carries a label with your call sign, name and address.",
+    "src": {
+     "sec": "97.215",
+     "quote": "a label indicating the station call sign and the station licensee's name and address is affixed to the station transmitter"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 97 Subpart B, Station Operation Standards (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart C, Special Operations (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-C"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E": {
+  "intro": "Every amateur station needs a control operator when it transmits. The control operator is responsible for the station following the rules, and their license class decides the station's privileges.",
+  "facts": [
+   {
+    "text": "A station must have a control operator whenever it transmits.",
+    "src": {
+     "sec": "97.7",
+     "quote": "When transmitting, each amateur station must have a control operator."
+    }
+   },
+   {
+    "text": "The station licensee designates the control operator and is presumed to be the control operator unless records show otherwise.",
+    "src": {
+     "sec": "97.103",
+     "quote": "The FCC will presume that the station licensee is also the control operator, unless documentation to the contrary is in the station records."
+    }
+   },
+   {
+    "text": "When the control operator isn't the licensee, both are equally responsible.",
+    "src": {
+     "sec": "97.103",
+     "quote": "both persons are equally responsible for proper operation of the station"
+    }
+   },
+   {
+    "text": "The station operates with the privileges of the control operator's license class.",
+    "src": {
+     "sec": "97.9",
+     "quote": "with the privileges authorized to the operator class specified on the license grant"
+    }
+   },
+   {
+    "text": "The control point is where the control operator function is performed.",
+    "src": {
+     "sec": "97.3",
+     "quote": "(14) Control point. The location at which the control operator function is performed."
+    }
+   },
+   {
+    "text": "Local and remote control need the control operator at the control point; any station may be remotely controlled, for example over the internet.",
+    "src": {
+     "sec": "97.109",
+     "quote": "(c) When a station is being remotely controlled, the control operator must be at the control point. Any station may be remotely controlled."
+    }
+   },
+   {
+    "text": "Under automatic control (repeaters, for example) the control operator need not be at the control point.",
+    "src": {
+     "sec": "97.109",
+     "quote": "(d) When a station is being automatically controlled, the control operator need not be at the control point."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 97 Subpart A, General Provisions (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart B, Station Operation Standards (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F": {
+  "intro": "Station identification, repeaters, third-party traffic, club stations and FCC inspections.",
+  "facts": [
+   {
+    "text": "Give your call sign at least every 10 minutes during a communication and at the end of it, even when using tactical calls.",
+    "src": {
+     "sec": "97.119",
+     "quote": "at the end of each communication, and at least every 10 minutes during a communication"
+    }
+   },
+   {
+    "text": "Identify by voice in English, or by CW. Phonetics are encouraged.",
+    "src": {
+     "sec": "97.119",
+     "quote": "(2) By a phone emission in the English language."
+    }
+   },
+   {
+    "text": "Indicators are separated from your call sign by a slant mark or a word that means it, like \"stroke\", \"slant\" or \"slash\".",
+    "src": {
+     "sec": "97.119",
+     "quote": "Each indicator must be separated from the call sign by the slant mark (/) or by any suitable word that denotes the slant mark."
+    }
+   },
+   {
+    "text": "Third-party communications are messages sent on behalf of another person.",
+    "src": {
+     "sec": "97.3",
+     "quote": "(47) Third party communications. A message from the control operator (first party) of an amateur station to another amateur station control operator (second party) on behalf of another person (third party)."
+    }
+   },
+   {
+    "text": "International third-party traffic is allowed only with countries that have an arrangement with the US, apart from emergency or disaster relief traffic.",
+    "src": {
+     "sec": "97.115",
+     "quote": "whose administration has made arrangements with the United States to allow amateur stations to be used for transmitting international communications on behalf of third parties"
+    }
+   },
+   {
+    "text": "A repeater retransmits another station on a different channel. Its control operator isn't accountable for rule violations it passes along inadvertently.",
+    "src": {
+     "sec": "97.205",
+     "quote": "(g) The control operator of a repeater that retransmits inadvertently communications that violate the rules in this part is not accountable for the violative communications."
+    }
+   },
+   {
+    "text": "A club station license requires a club of at least four people.",
+    "src": {
+     "sec": "97.5",
+     "quote": "The club must be composed of at least four persons"
+    }
+   },
+   {
+    "text": "The licensee must make the station and its records available whenever an FCC representative asks.",
+    "src": {
+     "sec": "97.103",
+     "quote": "(c) The station licensee must make the station and the station records available for inspection upon request by an FCC representative."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 97 Subpart A, General Provisions (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart B, Station Operation Standards (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart C, Special Operations (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-C"
+   }
+  ],
+  "status": "verified"
+ }
+}

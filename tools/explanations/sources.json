@@ -363,6 +363,134 @@
   "80.367": {
    "head": "§ 80.367 General uses—radiotelephony.",
    "url": "https://www.ecfr.gov/current/title-47/section-80.367"
+  },
+  "97.1": {
+   "head": "§ 97.1 Basis and purpose.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.1"
+  },
+  "97.5": {
+   "head": "§ 97.5 Station license required.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.5"
+  },
+  "97.103": {
+   "head": "§ 97.103 Station licensee responsibilities.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.103"
+  },
+  "97.119": {
+   "head": "§ 97.119 Station identification.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.119"
+  },
+  "97.23": {
+   "head": "§ 97.23 Mailing and email addresses.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.23"
+  },
+  "97.7": {
+   "head": "§ 97.7 Control operator required.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.7"
+  },
+  "97.203": {
+   "head": "§ 97.203 Beacon station.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.203"
+  },
+  "97.3": {
+   "head": "§ 97.3 Definitions.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.3"
+  },
+  "97.407": {
+   "head": "§ 97.407 Radio amateur civil emergency service.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.407"
+  },
+  "97.101": {
+   "head": "§ 97.101 General standards.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.101"
+  },
+  "97.301": {
+   "head": "§ 97.301 Authorized frequency bands.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.301"
+  },
+  "97.305": {
+   "head": "§ 97.305 Authorized emission types.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.305"
+  },
+  "97.307": {
+   "head": "§ 97.307 Emission standards.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.307"
+  },
+  "97.209": {
+   "head": "§ 97.209 Earth station.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.209"
+  },
+  "97.303": {
+   "head": "§ 97.303 Frequency sharing requirements.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.303"
+  },
+  "97.313": {
+   "head": "§ 97.313 Transmitter power standards.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.313"
+  },
+  "97.17": {
+   "head": "§ 97.17 Application for new license grant.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.17"
+  },
+  "97.21": {
+   "head": "§ 97.21 Application for a modified or renewed license grant.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.21"
+  },
+  "97.19": {
+   "head": "§ 97.19 Application for a vanity call sign.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.19"
+  },
+  "97.117": {
+   "head": "§ 97.117 International communications.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.117"
+  },
+  "97.11": {
+   "head": "§ 97.11 Stations aboard ships or aircraft.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.11"
+  },
+  "1.949": {
+   "head": "§ 1.949 Application for renewal of authorization.",
+   "url": "https://www.ecfr.gov/current/title-47/section-1.949"
+  },
+  "97.25": {
+   "head": "§ 97.25 License term.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.25"
+  },
+  "97.111": {
+   "head": "§ 97.111 Authorized transmissions.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.111"
+  },
+  "97.113": {
+   "head": "§ 97.113 Prohibited transmissions.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.113"
+  },
+  "97.211": {
+   "head": "§ 97.211 Space telecommand station.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.211"
+  },
+  "97.215": {
+   "head": "§ 97.215 Telecommand of model craft.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.215"
+  },
+  "97.201": {
+   "head": "§ 97.201 Auxiliary station.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.201"
+  },
+  "97.109": {
+   "head": "§ 97.109 Station control.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.109"
+  },
+  "97.9": {
+   "head": "§ 97.9 Operator license grant.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.9"
+  },
+  "97.205": {
+   "head": "§ 97.205 Repeater station.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.205"
+  },
+  "97.115": {
+   "head": "§ 97.115 Third party communications.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.115"
   }
  },
  "docs": {
@@ -505,6 +633,14 @@
   "itu-iridium-2016": {
    "title": "Iridium Communications presentation, ITU Global Forum on Emergency Telecommunications (2016)",
    "url": "https://www.itu.int/en/ITU-D/Emergency-Telecommunications/Documents/2016/GET/D2S4/D2S3-GET2016-Hamad.pdf"
+  },
+  "arrl-renewals": {
+   "title": "ARRL, License update, change, or renewal",
+   "url": "https://www.arrl.org/call-sign-renewals-or-changes"
+  },
+  "arrl-vanity": {
+   "title": "ARRL, Vanity call signs",
+   "url": "https://www.arrl.org/vanity-call-signs"
   }
  }
 }

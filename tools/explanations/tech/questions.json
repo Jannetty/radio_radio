@@ -1,0 +1,834 @@
+{
+ "T1A01": {
+  "why": "Part 97 opens with five principles behind the amateur service. One is advancing operators' skills in both the communication and technical phases of the radio art. Serving as many citizens as possible and international contesting aren't among them.",
+  "src": [
+   {
+    "sec": "97.1",
+    "quote": "(c) Encouragement and improvement of the amateur service through rules which provide for advancing skills in both the communication and technical phases of the art."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1A02": {
+  "why": "In the United States the FCC regulates the amateur service through Part 97 of its rules, and FCC representatives may inspect amateur stations. The ARRL is a private national organization of amateurs, not a regulator.",
+  "src": [
+   {
+    "sec": "97.5",
+    "quote": "at a place where the amateur service is regulated by the FCC"
+   },
+   {
+    "sec": "97.103",
+    "quote": "(c) The station licensee must make the station and the station records available for inspection upon request by an FCC representative."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1A03": {
+  "why": "The rule says a phonetic alphabet is encouraged as an aid to correct identification by voice. It isn't required in any situation.",
+  "src": [
+   {
+    "sec": "97.119",
+    "quote": "(2) By a phone emission in the English language. Use of a phonetic alphabet as an aid for correct station identification is encouraged;"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1A04": {
+  "why": "The FCC no longer issues paper licenses. When your license is granted, the FCC emails you a link to the official electronic copy. That's why every license must list an email address where you can receive FCC correspondence.",
+  "src": [
+   {
+    "doc": "arrl-renewals",
+    "quote": "Applicants will receive an email directly from the FCC with a link to the official electronic copy of their license whenever a license is issued or changed. The FCC no longer provides paper license documents."
+   },
+   {
+    "sec": "97.23",
+    "quote": "The email address must be an address where the grantee can receive electronic correspondence."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1A05": {
+  "why": "Your license exists when the grant appears in the FCC's ULS database: that's what the rules check before you may be a control operator. A CSCE from the exam session isn't a license, and the NCVEC doesn't grant licenses.",
+  "src": [
+   {
+    "sec": "97.7",
+    "quote": "When transmitting, each amateur station must have a control operator. The control operator must be a person: (a) For whom an amateur operator/primary station license grant appears on the ULS consolidated licensee database"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1A06": {
+  "why": "Beacons may run under automatic control only in certain segments. On HF the only such segment is 28.20 to 28.30 MHz on 10 meters.",
+  "src": [
+   {
+    "sec": "97.203",
+    "quote": "(d) A beacon may be automatically controlled while it is transmitting on the 28.20-28.30 MHz"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1A07": {
+  "why": "Part 97 defines a space station as an amateur station more than 50 km above the Earth's surface. What counts is that it's an amateur station at that height, not whether it orbits or carries a crew: a non-amateur satellite isn't one, and an amateur station aboard the ISS is.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(41) Space station. An amateur station located more than 50 km above the Earth's surface."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1A08": {
+  "why": "A frequency coordinator recommends channels for repeater and auxiliary stations. It is recognized by local amateurs, not appointed by the FCC or the ITU.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(22) Frequency coordinator. An entity, recognized in a local or regional area by amateur operators whose stations are eligible to be auxiliary or repeater stations, that recommends transmit/receive channels and associated operating and technical parameters for such stations in order to avoid or minimize potential interference."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1A09": {
+  "why": "The coordinator is whoever the amateurs in the area recognize, specifically those whose stations are eligible to be repeater or auxiliary stations. The FCC doesn't select it.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(22) Frequency coordinator. An entity, recognized in a local or regional area by amateur operators whose stations are eligible to be auxiliary or repeater stations, that recommends transmit/receive channels and associated operating and technical parameters for such stations in order to avoid or minimize potential interference."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1A10": {
+  "why": "To be control operator of a station transmitting in RACES you need an FCC amateur license and certification that you're enrolled in a civil defense organization. ARRL and ARES membership aren't the requirement.",
+  "src": [
+   {
+    "sec": "97.407",
+    "quote": "No person may be the control operator of an amateur station transmitting in RACES unless that person holds a FCC-issued amateur operator license and is certified by a civil defense organization as enrolled in that organization."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1A11": {
+  "why": "Willful or malicious interference is flatly prohibited. International contacts on VHF and up, and third-party traffic by digital modes, are allowed within the rules.",
+  "src": [
+   {
+    "sec": "97.101",
+    "quote": "(d) No amateur operator shall willfully or maliciously interfere with or cause interference to any radio communication or signal."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B01": {
+  "why": "Technicians have 28.0 to 28.5 MHz on 10 meters. Phone is authorized in the 28.3 to 28.5 MHz part, where Technicians may use single sideband voice (J3E or R3E).",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "10 m 28.0-28.5 28.0-28.5 28.0-28.5"
+   },
+   {
+    "sec": "97.305",
+    "quote": "(xviii) 10 m 28.3-28.5 MHz Phone, image"
+   },
+   {
+    "sec": "97.307",
+    "quote": "(10) A station having a control operator holding a Novice Class operator license or a Technician Class operator license may only transmit a CW emission using the international Morse code or phone emissions J3E and R3E."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B02": {
+  "why": "A station contacting the ISS is an Earth station, which a holder of any license class may operate within their privileges. Earth stations may use 144 to 146 MHz, and Technicians have full 2-meter privileges, so any Technician or higher may contact the ISS there. The rules don't require NASA approval for such a contact.",
+  "src": [
+   {
+    "sec": "97.209",
+    "quote": "(a) Any amateur station may be an Earth station. A holder of any class operator license may be the control operator of an Earth station"
+   },
+   {
+    "sec": "97.209",
+    "quote": "144-146 MHz"
+   },
+   {
+    "sec": "97.301",
+    "quote": "(a) For a station having a control operator who has been granted a Technician, General, Advanced, or Amateur Extra Class operator license"
+   },
+   {
+    "sec": "97.301",
+    "quote": "2 m 144-146 144-148 144-148"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B03": {
+  "why": "The 6-meter band runs from 50 to 54 MHz, so 52.525 MHz is inside it. 49.00 MHz is below the band, 28.50 MHz is on 10 meters, and 222.15 MHz is on 1.25 meters.",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "6 m 50-54 50-54 (a)."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B04": {
+  "why": "In the US the 2-meter band is 144 to 148 MHz, so 146.52 MHz is a 2-meter frequency.",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "2 m 144-146 144-148 144-148"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B05": {
+  "why": "FT8 is a data mode. Technicians may use data on 10 meters between 28.0 and 28.3 MHz, and on 6 and 2 meters, where they have full privileges.",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "10 m 28.0-28.5 28.0-28.5 28.0-28.5"
+   },
+   {
+    "sec": "97.305",
+    "quote": "(xvii) 10 m 28.0-28.3 MHz RTTY, data"
+   },
+   {
+    "sec": "97.305",
+    "quote": "(i) 6 m 50.1-51.0 MHz MCW, phone, image, RTTY, data"
+   },
+   {
+    "sec": "97.305",
+    "quote": "(iii) 2 m 144.1-148.0 MHz MCW, phone, image, RTTY, data, test"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B06": {
+  "why": "Technicians have HF privileges on 80, 40, 15 and 10 meters, but on 80, 40 and 15 they may use only CW. Phone is allowed only on 10 meters, from 28.3 to 28.5 MHz.",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "(e) For a station having a control operator who has been granted an operator license of Novice Class or Technician Class:"
+   },
+   {
+    "sec": "97.307",
+    "quote": "(9) A station having a control operator holding a Novice or Technician Class operator license may only transmit a CW emission using the international Morse code."
+   },
+   {
+    "sec": "97.307",
+    "quote": "(10) A station having a control operator holding a Novice Class operator license or a Technician Class operator license may only transmit a CW emission using the international Morse code or phone emissions J3E and R3E."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B07": {
+  "why": "CW is allowed anywhere you have privileges. Other modes on 6 meters start at 50.1 MHz and on 2 meters at 144.1 MHz, which leaves 50.0 to 50.1 and 144.0 to 144.1 MHz for CW only. 219 to 220 MHz is for data, and 420 and 902 MHz allow other modes.",
+  "src": [
+   {
+    "sec": "97.305",
+    "quote": "(a) Except as specified elsewhere in this part, an amateur station may transmit a CW emission on any frequency authorized to the control operator."
+   },
+   {
+    "sec": "97.305",
+    "quote": "(i) 6 m 50.1-51.0 MHz MCW, phone, image, RTTY, data"
+   },
+   {
+    "sec": "97.305",
+    "quote": "(iii) 2 m 144.1-148.0 MHz MCW, phone, image, RTTY, data, test"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B08": {
+  "why": "Where amateurs are a secondary service, stations of the primary service have priority. You may hear them there, and you must not interfere with them and must accept interference from them.",
+  "src": [
+   {
+    "sec": "97.303",
+    "quote": "A station in a secondary service must not cause harmful interference to, and must accept interference from, stations in a primary service."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B09": {
+  "why": "Your whole signal, not just the carrier frequency, must stay inside your privileges. Sidebands spread on either side of the dial frequency, and displays can be miscalibrated and transmitters can drift. So stay a little way inside the edge.",
+  "src": [
+   {
+    "sec": "97.307",
+    "quote": "(b) Emissions resulting from modulation must be confined to the band or segment available to the control operator."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B10": {
+  "why": "Every amateur band above 50 MHz has at least one segment where phone, including SSB, is permitted. There is no 25-watt or repeater-only condition.",
+  "src": [
+   {
+    "sec": "97.305",
+    "quote": "(i) 6 m 50.1-51.0 MHz MCW, phone, image, RTTY, data"
+   },
+   {
+    "sec": "97.305",
+    "quote": "(iii) 2 m 144.1-148.0 MHz MCW, phone, image, RTTY, data, test"
+   },
+   {
+    "sec": "97.305",
+    "quote": "(i) 70 cm Entire band MCW, phone, image, RTTY, data, SS, test"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B11": {
+  "why": "In their HF segments (on 80, 40, 15 and 10 meters) Technicians are limited to 200 watts PEP output.",
+  "src": [
+   {
+    "sec": "97.313",
+    "quote": "(c) No station may transmit with a transmitter power output exceeding 200 W PEP:"
+   },
+   {
+    "sec": "97.313",
+    "quote": "(2) On the 3.525-3.60 MHz, 7.025-7.125 MHz, 21.025-21.20 MHz, and 28.0-28.5 MHz segment when the control operator is a Novice Class operator or a Technician Class operator"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1B12": {
+  "why": "Above 30 MHz, Technicians have the same general power limit as everyone else: 1500 watts (1.5 kW) PEP, apart from a few band-specific limits. You should still use only the minimum power needed.",
+  "src": [
+   {
+    "sec": "97.313",
+    "quote": "(b) No station may transmit with a transmitter power exceeding 1.5 kW PEP."
+   },
+   {
+    "sec": "97.313",
+    "quote": "(a) An amateur station must use the minimum transmitter power necessary to carry out the desired communications."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C01": {
+  "why": "The FCC now issues new licenses only in the Technician, General and Amateur Extra classes. Novice and Advanced licenses can still be renewed but aren't issued new, and Technician Plus renewals are processed as Technician.",
+  "src": [
+   {
+    "sec": "97.17",
+    "quote": "No new license grant will be issued for a Novice or Advanced Class operator/primary station."
+   },
+   {
+    "sec": "97.21",
+    "quote": "Application for renewal of a Technician Plus Class operator/primary station license will be processed as an application for renewal of a Technician Class operator/primary station license."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C02": {
+  "why": "Any licensee with an operator/primary station license, of any class, may apply for a vanity call sign. Your class only limits which call sign groups you may choose from.",
+  "src": [
+   {
+    "sec": "97.19",
+    "quote": "(a) The person named in an operator/primary station license grant or in a club station license grant is eligible to make application for modification of the license grant, or the renewal thereof, to show a call sign selected by the vanity call sign system."
+   },
+   {
+    "doc": "arrl-vanity",
+    "quote": "General or Technician class licensees can seek a 1x3 call sign (beginning with prefix N, K or W), or 2x3 call sign (beginning with prefix letter K or W) -- FCC call sign Groups C or D."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C03": {
+  "why": "Contacts with other countries are limited to communications incidental to the purposes of the amateur service, plus remarks of a personal character. Business communications aren't allowed.",
+  "src": [
+   {
+    "sec": "97.117",
+    "quote": "Transmissions to a different country, where permitted, shall be limited to communications incidental to the purposes of the amateur service and to remarks of a personal character."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C04": {
+  "why": "Your license must show a working email address. If FCC correspondence bounces because you didn't keep it correct, the FCC may revoke the station license or suspend the operator license.",
+  "src": [
+   {
+    "sec": "97.23",
+    "quote": "Revocation of the station license or suspension of the operator license may result when correspondence from the FCC is returned as undeliverable because the grantee failed to provide the correct email address."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C05": {
+  "why": "Group D call signs are the 2-by-3 format: a two-letter prefix starting with K or W, a digit, then three letters, as in KF1XXX (where XXX stands for any three letters). Technicians may hold Group C or D calls. KA1X (2-by-1) and W1XX (1-by-2) are short formats reserved for Amateur Extra licensees.",
+  "src": [
+   {
+    "doc": "arrl-vanity",
+    "quote": "General or Technician class licensees can seek a 1x3 call sign (beginning with prefix N, K or W), or 2x3 call sign (beginning with prefix letter K or W) -- FCC call sign Groups C or D."
+   },
+   {
+    "doc": "arrl-vanity",
+    "quote": "cannot seek the special 1x2, 2x1 or 2x2 (beginning with letter \"A\") Extra class type call signs"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C06": {
+  "why": "Your FCC license covers operating from any vessel documented or registered in the United States, even in international waters. The master of the ship must approve the station.",
+  "src": [
+   {
+    "sec": "97.5",
+    "quote": "(2) Within 50 km of the Earth's surface and aboard any vessel or craft that is documented or registered in the United States"
+   },
+   {
+    "sec": "97.11",
+    "quote": "(a) The installation and operation of an amateur station on a ship or aircraft must be approved by the master of the ship or pilot in command of the aircraft."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C07": {
+  "why": "FCC renewal rules, which apply to amateur licenses, accept a renewal no sooner than 90 days before the license expires.",
+  "src": [
+   {
+    "sec": "97.21",
+    "quote": "May apply to the FCC for renewal of the license grant for another term in accordance with §§ 1.913 and 1.949 of this chapter."
+   },
+   {
+    "sec": "1.949",
+    "quote": "Applications for renewal of authorizations in the Wireless Radio Services must be filed no later than the expiration date of the authorization, and no sooner than 90 days prior to the expiration date."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C08": {
+  "why": "An amateur license is normally granted for a 10-year term.",
+  "src": [
+   {
+    "sec": "97.25",
+    "quote": "An amateur service license is normally granted for a 10-year term."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C09": {
+  "why": "After a license expires there is a 2-year grace period during which you can still apply to renew it. After that it can't be renewed.",
+  "src": [
+   {
+    "sec": "97.21",
+    "quote": "may apply to the FCC for renewal of the license grant for another term during a 2 year filing grace period"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C10": {
+  "why": "You may transmit once your license grant appears in the FCC's ULS database. Passing the exam (your CSCE) isn't enough for a first license, and the FCC no longer mails licenses.",
+  "src": [
+   {
+    "sec": "97.7",
+    "quote": "When transmitting, each amateur station must have a control operator. The control operator must be a person: (a) For whom an amateur operator/primary station license grant appears on the ULS consolidated licensee database"
+   },
+   {
+    "doc": "arrl-renewals",
+    "quote": "The FCC no longer provides paper license documents."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1C11": {
+  "why": "The grace period only lets you apply to renew. An expired license gives no operating privileges until it has actually been renewed.",
+  "src": [
+   {
+    "sec": "97.21",
+    "quote": "may apply to the FCC for renewal of the license grant for another term during a 2 year filing grace period"
+   },
+   {
+    "sec": "97.21",
+    "quote": "Unless and until the license grant is renewed, no privileges in this part are conferred."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D01": {
+  "why": "US amateurs may contact amateurs in other countries except those whose administration has notified the ITU that it objects to such communications. The ARRL and IARU don't set these bans.",
+  "src": [
+   {
+    "sec": "97.111",
+    "quote": "except those in any country whose administration has notified the ITU that it objects to such communications"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D02": {
+  "why": "Broadcasting is prohibited outright. Some one-way transmissions are allowed, including Morse code practice, telecommand and telemetry, and information bulletins.",
+  "src": [
+   {
+    "sec": "97.113",
+    "quote": "(b) An amateur station shall not engage in any form of broadcasting, nor may an amateur station transmit one-way communications except as specifically provided in these rules"
+   },
+   {
+    "sec": "97.111",
+    "quote": "(5) Transmissions necessary to assisting persons learning, or improving proficiency in, the international Morse code; and (6) Transmissions necessary to disseminate information bulletins. (7) Transmissions of telemetry."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D03": {
+  "why": "Messages encoded to obscure their meaning are banned, with two exceptions: telecommand stations may use special codes when controlling a space station, and control signals to model craft aren't treated as codes meant to obscure meaning.",
+  "src": [
+   {
+    "sec": "97.113",
+    "quote": "messages encoded for the purpose of obscuring their meaning, except as otherwise provided herein"
+   },
+   {
+    "sec": "97.211",
+    "quote": "(b) A telecommand station may transmit special codes intended to obscure the meaning of telecommand messages to the station in space operation."
+   },
+   {
+    "sec": "97.215",
+    "quote": "(b) The control signals are not considered codes or ciphers intended to obscure the meaning of the communication."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D04": {
+  "why": "Music by phone is prohibited except for incidental music in an authorized retransmission of communications between a manned spacecraft and its Earth stations, such as NASA audio.",
+  "src": [
+   {
+    "sec": "97.113",
+    "quote": "(4) Music using a phone emission except as specifically provided elsewhere in this section"
+   },
+   {
+    "sec": "97.113",
+    "quote": "communications, including incidental music, originating on United States Government frequencies between a manned spacecraft and its associated Earth stations"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D05": {
+  "why": "You may let other amateurs know you have amateur equipment for sale or trade, as long as you don't do it on a regular basis.",
+  "src": [
+   {
+    "sec": "97.113",
+    "quote": "(ii) An amateur operator may notify other amateur operators of the availability for sale or trade of apparatus normally used in an amateur station, provided that such activity is not conducted on a regular basis."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D06": {
+  "why": "Obscene or indecent language is prohibited. There is no official list of banned words: the rule simply bans such language.",
+  "src": [
+   {
+    "sec": "97.113",
+    "quote": "obscene or indecent words or language"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D07": {
+  "why": "An auxiliary station carries point-to-point traffic within a system of cooperating amateur stations, and may transmit one-way. A link from a remote repeater receiver to the main repeater transmitter is the classic example.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(7) Auxiliary station. An amateur station, other than in a message forwarding system, that is transmitting communications point-to-point within a system of cooperating amateur stations."
+   },
+   {
+    "sec": "97.201",
+    "quote": "(e) An auxiliary station may transmit one-way communications."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D08": {
+  "why": "A teacher who uses an amateur station as part of classroom instruction at an educational institution may be paid for that teaching time. Communications for your employer's sales, or gathering news for a broadcaster, don't qualify.",
+  "src": [
+   {
+    "sec": "97.113",
+    "quote": "(iii) A control operator may accept compensation as an incident of a teaching position during periods of time when an amateur station is used by that teacher as a part of classroom instruction at an educational institution."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D09": {
+  "why": "Amateurs may not take part in news gathering or program production for broadcasting. The one exception is communications directly related to the immediate safety of human life or protection of property, when no other means is reasonably available.",
+  "src": [
+   {
+    "sec": "97.113",
+    "quote": "except that communications directly related to the immediate safety of human life or the protection of property may be provided by amateur stations to broadcasters for dissemination to the public where no other means of communication is reasonably available before or at the time of the event"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D10": {
+  "why": "Broadcasting means transmissions intended for reception by the general public. Messages meant for other amateurs aren't broadcasting.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(10) Broadcasting. Transmissions intended for reception by the general public, either direct or relayed."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D11": {
+  "why": "Transmissions directed only to a model craft don't need on-air identification, as long as a label with your call sign, name and address is on the transmitter. Brief tuning transmissions and low-power signals must still be identified.",
+  "src": [
+   {
+    "sec": "97.215",
+    "quote": "(a) The station identification procedure is not required for transmissions directed only to the model craft, provided that a label indicating the station call sign and the station licensee's name and address is affixed to the station transmitter."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1D12": {
+  "why": "Test transmissions follow the normal identification rule: give your call sign at least every 10 minutes and at the end. No special hours or FCC notice are required.",
+  "src": [
+   {
+    "sec": "97.119",
+    "quote": "No station may transmit unidentified communications or signals"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E01": {
+  "why": "Every amateur station must have a control operator whenever it transmits. Even under automatic control, such as a repeater, there is still a control operator; they just don't need to be at the control point.",
+  "src": [
+   {
+    "sec": "97.7",
+    "quote": "When transmitting, each amateur station must have a control operator."
+   },
+   {
+    "sec": "97.109",
+    "quote": "(d) When a station is being automatically controlled, the control operator need not be at the control point."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E02": {
+  "why": "A station communicating through a satellite is an Earth station, and a holder of any license class may be its control operator, within their own privileges. So any amateur whose privileges include the uplink frequency may operate. No special certification or membership is needed.",
+  "src": [
+   {
+    "sec": "97.209",
+    "quote": "(a) Any amateur station may be an Earth station. A holder of any class operator license may be the control operator of an Earth station, subject to the privileges of the class of operator license held by the control operator."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E03": {
+  "why": "The station licensee designates the control operator. Unless the station records show otherwise, the FCC assumes the licensee is the control operator.",
+  "src": [
+   {
+    "sec": "97.103",
+    "quote": "(b) The station licensee must designate the station control operator. The FCC will presume that the station licensee is also the control operator, unless documentation to the contrary is in the station records."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E04": {
+  "why": "The station may transmit with the privileges of the control operator's license class. A Technician at the controls has Technician privileges, whoever owns the station or is in the room.",
+  "src": [
+   {
+    "sec": "97.9",
+    "quote": "The person named in the operator license grant is authorized to be the control operator of an amateur station with the privileges authorized to the operator class specified on the license grant."
+   },
+   {
+    "sec": "97.301",
+    "quote": "(a) For a station having a control operator who has been granted a Technician, General, Advanced, or Amateur Extra Class operator license"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E05": {
+  "why": "The control point is the place where the control operator function is performed, not where the antenna or transmitter is.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(14) Control point. The location at which the control operator function is performed."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E06": {
+  "why": "A Technician has no privileges in Amateur Extra-only segments, and the station may only use the privileges of its control operator. Being designated by an Extra, or using an Extra's club station, doesn't change that.",
+  "src": [
+   {
+    "sec": "97.9",
+    "quote": "The person named in the operator license grant is authorized to be the control operator of an amateur station with the privileges authorized to the operator class specified on the license grant."
+   },
+   {
+    "sec": "97.301",
+    "quote": "(e) For a station having a control operator who has been granted an operator license of Novice Class or Technician Class:"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E07": {
+  "why": "When the control operator isn't the station licensee, both are equally responsible for the station's proper operation.",
+  "src": [
+   {
+    "sec": "97.103",
+    "quote": "When the control operator is a different amateur operator than the station licensee, both persons are equally responsible for proper operation of the station."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E08": {
+  "why": "Repeaters may operate under automatic control: devices keep the station within the rules without the control operator at a control point. Controlling a station over the internet is remote control, and automatic CW or ID isn't automatic control of the station.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(6) Automatic control. The use of devices and procedures for control of a station when it is transmitting so that compliance with the FCC Rules is achieved without the control operator being present at a control point."
+   },
+   {
+    "sec": "97.205",
+    "quote": "(d) A repeater may be automatically controlled."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E09": {
+  "why": "Any amateur station may be remotely controlled, provided the control operator is at the control point.",
+  "src": [
+   {
+    "sec": "97.109",
+    "quote": "(c) When a station is being remotely controlled, the control operator must be at the control point. Any station may be remotely controlled."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E10": {
+  "why": "Remote control means the control operator adjusts the station indirectly through a control link. Operating your station over the internet is an example. Controlling a model aircraft is telecommand, not remote control of a station.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(39) Remote control. The use of a control operator who indirectly manipulates the operating adjustments in the station through a control link to achieve compliance with the FCC Rules."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1E11": {
+  "why": "A control operator is an amateur designated by the station licensee to be responsible for that station's transmissions complying with the FCC rules.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(13) Control operator. An amateur operator designated by the licensee of a station to be responsible for the transmissions from that station to assure compliance with the FCC Rules."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F01": {
+  "why": "The station licensee must make the station and its records available for inspection whenever an FCC representative asks. The rule doesn't call for advance or written notice first.",
+  "src": [
+   {
+    "sec": "97.103",
+    "quote": "(c) The station licensee must make the station and the station records available for inspection upon request by an FCC representative."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F02": {
+  "why": "Tactical call signs like \"Race Headquarters\" are fine for clarity, but you still give your FCC call sign at least every 10 minutes during a communication and at the end of it.",
+  "src": [
+   {
+    "sec": "97.119",
+    "quote": "must transmit its assigned call sign on its transmitting channel at the end of each communication, and at least every 10 minutes during a communication"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F03": {
+  "why": "You must give your assigned call sign at least every 10 minutes during a communication and at the end of each communication. You don't have to give it at the start.",
+  "src": [
+   {
+    "sec": "97.119",
+    "quote": "must transmit its assigned call sign on its transmitting channel at the end of each communication, and at least every 10 minutes during a communication"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F04": {
+  "why": "When identifying by voice, you must give your call sign in English.",
+  "src": [
+   {
+    "sec": "97.119",
+    "quote": "(2) By a phone emission in the English language. Use of a phonetic alphabet as an aid for correct station identification is encouraged;"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F05": {
+  "why": "A phone station may identify either by voice or by CW, using an emission authorized on that channel. RPT and R aren't required indicators.",
+  "src": [
+   {
+    "sec": "97.119",
+    "quote": "(b) The call sign must be transmitted with an emission authorized for the transmitting channel in one of the following ways:"
+   },
+   {
+    "sec": "97.119",
+    "quote": "(1) By a CW emission."
+   },
+   {
+    "sec": "97.119",
+    "quote": "(2) By a phone emission in the English language. Use of a phonetic alphabet as an aid for correct station identification is encouraged;"
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F06": {
+  "why": "An indicator must be separated from the call sign by a slant mark (/) or any suitable word for it. By voice, \"stroke\", \"slant\" and \"slash\" all work.",
+  "src": [
+   {
+    "sec": "97.119",
+    "quote": "Each indicator must be separated from the call sign by the slant mark (/) or by any suitable word that denotes the slant mark."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F07": {
+  "why": "Third-party traffic (letting an unlicensed person speak) with a foreign station is allowed only to countries that have a third-party agreement with the US, apart from emergency or disaster relief traffic. The person doesn't need to be a US citizen.",
+  "src": [
+   {
+    "sec": "97.115",
+    "quote": "No station shall transmit messages for a third party to any station within the jurisdiction of any foreign government whose administration has not made such an arrangement."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F08": {
+  "why": "Third-party communications are messages a control operator sends to another station's control operator on behalf of another person: the third party.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(47) Third party communications. A message from the control operator (first party) of an amateur station to another amateur station control operator (second party) on behalf of another person (third party)."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F09": {
+  "why": "A repeater simultaneously retransmits another amateur station's signal on a different channel or channels.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(40) Repeater. An amateur station that simultaneously retransmits the transmission of another amateur station on a different channel or channels."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F10": {
+  "why": "The repeater's control operator isn't accountable for violations it retransmits inadvertently. Responsibility rests with the station that originated the transmission.",
+  "src": [
+   {
+    "sec": "97.103",
+    "quote": "(a) The station licensee is responsible for the proper operation of the station in accordance with the FCC Rules."
+   },
+   {
+    "sec": "97.205",
+    "quote": "(g) The control operator of a repeater that retransmits inadvertently communications that violate the rules in this part is not accountable for the violative communications."
+   }
+  ],
+  "status": "verified"
+ },
+ "T1F11": {
+  "why": "A club needs at least four members, plus a name, a document of organization, management, and a primary purpose devoted to amateur radio. The trustee only needs an operator/primary license of any class, and ARRL registration isn't required.",
+  "src": [
+   {
+    "sec": "97.5",
+    "quote": "The club must be composed of at least four persons and must have a name, a document of organization, management, and a primary purpose devoted to amateur service activities consistent with this part."
+   },
+   {
+    "sec": "97.5",
+    "quote": "The trustee must be a person who holds an operator/primary station license grant."
+   }
+  ],
+  "status": "verified"
+ }
+}

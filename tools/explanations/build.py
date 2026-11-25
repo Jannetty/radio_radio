@@ -28,7 +28,7 @@ for qid, e in Q.items():
     if e.get('note'): item['note'] = e['note']
     if e.get('basis') == 'practice': item['basis'] = 'practice'
     out['q'][qid] = item
-    m = re.match(r'^(?:\d+-)?(\d+)[A-Z]\d+$', qid)
+    m = re.match(r'^([TGE]\d[A-Z])\d+$', qid) or re.match(r'^(?:\d+-)?(\d+)[A-Z]\d+$', qid)
     topic_secs.setdefault(m.group(1), []).extend(s['sec'] for s in e['src'] if 'sec' in s)
 
 for tid, t in T.items():
