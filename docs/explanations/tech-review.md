@@ -1,8 +1,8 @@
 # Technician Class explanations, review copy
 
-Generated from `app/data/explanations/tech.json` by `tools/explanations/review.py`. 68 of 409 questions have an explanation. Each quote below appears word for word in the linked source. "Heads up" notes mark places where the current rule differs from the exam's answer key; "general practice" marks answers with no rule to quote.
+Generated from `app/data/explanations/tech.json` by `tools/explanations/review.py`. 303 of 409 questions have an explanation. Each quote below appears word for word in the linked source. "Heads up" notes mark places where the current rule differs from the exam's answer key; "general practice" marks answers with no rule to quote.
 
-Questions without an explanation: T2A01, T2A02, T2A03, T2A04, T2A05, T2A06, T2A07, T2A08, T2A09, T2A10, T2A11, T2B01, T2B02, T2B03, T2B04, T2B05, T2B06, T2B07, T2B08, T2B09, T2B10, T2B11, T2B12, T2B13, T2B14, T2C01, T2C02, T2C03, T2C04, T2C05, T2C06, T2C07, T2C08, T2C09, T2C10, T2C11, T2C12, T3A01, T3A02, T3A03, T3A04, T3A05, T3A06, T3A07, T3A08, T3A09, T3A10, T3A11, T3A12, T3B01, T3B02, T3B03, T3B04, T3B05, T3B06, T3B07, T3B08, T3B09, T3B10, T3B11, T3B12, T3C01, T3C02, T3C03, T3C04, T3C05, T3C06, T3C07, T3C08, T3C09, T3C10, T3C11, T4A01, T4A02, T4A03, T4A04, T4A05, T4A06, T4A07, T4A08, T4A09, T4A10, T4A11, T4A12, T4B01, T4B02, T4B03, T4B04, T4B05, T4B06, T4B07, T4B08, T4B09, T4B10, T4B11, T5A01, T5A02, T5A03, T5A04, T5A05, T5A06, T5A07, T5A08, T5A09, T5A10, T5A11, T5B01, T5B02, T5B03, T5B04, T5B05, T5B06, T5B07, T5B08, T5B09, T5B10, T5B11, T5B12, T5B13, T5C01, T5C02, T5C03, T5C04, T5C05, T5C06, T5C07, T5C08, T5C09, T5C10, T5C11, T5C12, T5D01, T5D02, T5D03, T5D04, T5D05, T5D06, T5D07, T5D08, T5D09, T5D10, T5D11, T5D12, T5D13, T5D14, T6A01, T6A02, T6A03, T6A04, T6A05, T6A06, T6A07, T6A08, T6A09, T6A10, T6A11, T6B01, T6B02, T6B03, T6B04, T6B05, T6B06, T6B07, T6B08, T6B09, T6B10, T6B11, T6B12, T6C01, T6C02, T6C03, T6C04, T6C05, T6C06, T6C07, T6C08, T6C09, T6C10, T6C11, T6C12, T6D01, T6D02, T6D03, T6D04, T6D05, T6D06, T6D07, T6D08, T6D09, T6D10, T6D11, T7A01, T7A02, T7A03, T7A04, T7A05, T7A06, T7A07, T7A08, T7A09, T7A10, T7A11, T7B01, T7B02, T7B03, T7B04, T7B05, T7B06, T7B07, T7B08, T7B09, T7B10, T7B11, T7C01, T7C02, T7C03, T7C04, T7C05, T7C06, T7C07, T7C08, T7C09, T7C10, T7C11, T7D01, T7D02, T7D03, T7D04, T7D05, T7D06, T7D07, T7D08, T7D09, T7D10, T7D11, T8A01, T8A02, T8A03, T8A04, T8A05, T8A06, T8A07, T8A08, T8A09, T8A10, T8A11, T8A12, T8B01, T8B02, T8B03, T8B04, T8B05, T8B06, T8B07, T8B08, T8B09, T8B10, T8B11, T8B12, T8C01, T8C02, T8C03, T8C04, T8C05, T8C06, T8C07, T8C08, T8C09, T8C10, T8C11, T8D01, T8D02, T8D03, T8D04, T8D05, T8D06, T8D07, T8D08, T8D09, T8D10, T8D11, T8D12, T9A01, T9A02, T9A03, T9A04, T9A05, T9A06, T9A07, T9A08, T9A09, T9A10, T9A11, T9B01, T9B02, T9B03, T9B04, T9B05, T9B06, T9B07, T9B08, T9B09, T9B10, T9B11, T9B12, T0A01, T0A02, T0A03, T0A04, T0A05, T0A06, T0A07, T0A08, T0A09, T0A10, T0A11, T0A12, T0B01, T0B02, T0B03, T0B04, T0B05, T0B06, T0B07, T0B08, T0B09, T0B10, T0B11, T0C01, T0C02, T0C03, T0C04, T0C05, T0C06, T0C07, T0C08, T0C09, T0C10, T0C11, T0C12, T0C13
+Questions without an explanation: T8A01, T8A02, T8A03, T8A04, T8A05, T8A06, T8A07, T8A08, T8A09, T8A10, T8A11, T8A12, T8B01, T8B02, T8B03, T8B04, T8B05, T8B06, T8B07, T8B08, T8B09, T8B10, T8B11, T8B12, T8C01, T8C02, T8C03, T8C04, T8C05, T8C06, T8C07, T8C08, T8C09, T8C10, T8C11, T8D01, T8D02, T8D03, T8D04, T8D05, T8D06, T8D07, T8D08, T8D09, T8D10, T8D11, T8D12, T9A01, T9A02, T9A03, T9A04, T9A05, T9A06, T9A07, T9A08, T9A09, T9A10, T9A11, T9B01, T9B02, T9B03, T9B04, T9B05, T9B06, T9B07, T9B08, T9B09, T9B10, T9B11, T9B12, T0A01, T0A02, T0A03, T0A04, T0A05, T0A06, T0A07, T0A08, T0A09, T0A10, T0A11, T0A12, T0B01, T0B02, T0B03, T0B04, T0B05, T0B06, T0B07, T0B08, T0B09, T0B10, T0B11, T0C01, T0C02, T0C03, T0C04, T0C05, T0C06, T0C07, T0C08, T0C09, T0C10, T0C11, T0C12, T0C13
 
 ## Topic T1A. Purpose and permissible use of the Amateur Radio Service; Operator/primary station license grant; Meanings of basic terms used in FCC rules; Interference; RACES rules; Phonetics; Frequency Coordinator; Beacon
 
@@ -1012,6 +1012,21 @@ A club needs at least four members, plus a name, a document of organization, man
 
 ## Topic T2A. Station operation: choosing an operating frequency, calling another station, test transmissions; Band plans: calling frequencies, repeater offsets
 
+Everyday operating: picking a frequency, calling and answering, and how repeaters and band plans organize the VHF and UHF bands. None of this is FCC law; it's the shared practice that keeps the bands usable.
+
+- A band plan is a voluntary agreement on which modes go where within a band, beyond what the FCC rules require. ([ARRL](https://www.arrl.org/band-plan))
+- 146.52 MHz is the national FM simplex calling frequency on 2 meters. ([ARRL](https://www.arrl.org/band-plan))
+- 446.00 MHz is the national FM simplex frequency on 70 cm. ([ARRL](https://www.arrl.org/band-plan))
+- Simplex means both stations transmit and receive on the same frequency. ([ARRL Technical Information Service](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf))
+- A repeater's input and output are separated by a set amount for each band, called the offset. ([ARRL Technical Information Service](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf))
+- Typical offsets are 600 kHz on 2 meters (e.g. output 145.110, input 144.510 MHz). ([Connecticut Spectrum Management Association](https://www.ctspectrum.com/band%20plans/144%20-%20148%20mhz/CSMA%20144-148%20MHz%20Frequency%20Utilization%20Plan.pdf))
+- On 70 cm the typical offset is 5 MHz. ([Connecticut Spectrum Management Association](https://www.ctspectrum.com/band%20plans/420-mhz/CSMA%20420%20-%20450%20MHz%20Band%20Plan%2010%2018%202017.pdf))
+- On 1.25 meters it is 1.6 MHz. ([ARRL Technical Information Service](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf))
+- To call a station on a repeater, give their call and then yours. To announce you're available, give your call, perhaps with "listening". ([ARRL Technical Information Service](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf))
+- Off the repeaters (on HF, for instance), call CQ a few times, say "this is" and your call, then listen. CQ means a general call to all stations. ([Recommendation ITU-R M.1172](https://www.itu.int/rec/R-REC-M.1172/en))
+- When answering, give the other station's call first, then "this is" and yours. ([Recommendation ITU-R M.1171-1](https://www.itu.int/rec/R-REC-M.1171/en))
+
+- Diagram: A repeater receives on its input and retransmits on its output. Your radio's offset setting handles the switch for you. The example is a real 2-meter pair from the ARRL band plan's input and output ranges.
 ### T2A01
 
 What is a common repeater frequency offset in the 2-meter band?
@@ -1021,7 +1036,12 @@ A. Plus or minus 5 MHz
 C. Plus or minus 500 kHz  
 D. Plus or minus 1 MHz  
 
-_No explanation published._
+On 2 meters, repeater input and output frequencies are normally 600 kHz apart. Frequency coordinators' published pairs show it, for example output 145.110 MHz with input 144.510 MHz. Whether the input is above or below the output depends on the part of the band.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “The input and output frequencies are separated by a predetermined amount that is different for each band. This separation is called the offset.”
+- [Connecticut Spectrum Management Association, 144–148 MHz frequency utilization plan](https://www.ctspectrum.com/band%20plans/144%20-%20148%20mhz/CSMA%20144-148%20MHz%20Frequency%20Utilization%20Plan.pdf): “145.110 144.510”
 
 ### T2A02
 
@@ -1032,7 +1052,12 @@ B. 145.000 MHz
 C. 432.100 MHz  
 D. 446.000 MHz  
 
-_No explanation published._
+146.520 MHz is the national FM simplex calling frequency on 2 meters. 446.000 MHz is the 70 cm national simplex frequency, and 432.100 MHz is the 70 cm SSB/CW calling frequency.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL, Band plan](https://www.arrl.org/band-plan): “146.52 National Simplex Calling Frequency”
+- [ARRL, Band plan](https://www.arrl.org/band-plan): “446.00 National simplex frequency”
 
 ### T2A03
 
@@ -1043,7 +1068,11 @@ B. Plus or minus 600 kHz
 C. Plus or minus 500 kHz  
 D. Plus or minus 1 MHz  
 
-_No explanation published._
+On 70 cm, repeater inputs and outputs are normally 5 MHz apart, for example 442.000 and 447.000 MHz.
+
+_General operating practice, not a quoted rule._
+
+- [Connecticut Spectrum Management Association, 420–450 MHz band plan (2017)](https://www.ctspectrum.com/band%20plans/420-mhz/CSMA%20420%20-%20450%20MHz%20Band%20Plan%2010%2018%202017.pdf): “77 - Repeater Pairs, 25 KHz spacing 5 MHz split Low Output, High Input”
 
 ### T2A04
 
@@ -1054,7 +1083,12 @@ A. Say "break, break," then the other station’s call sign, followed by your ca
 C. Say "CQ" three times, then the other station's call sign, followed by your call sign  
 D. Wait for the station to call CQ, then answer with your call sign  
 
-_No explanation published._
+On a quiet repeater, just give the other station's call sign and then yours, for example "N1II, this is N1BKE". CQ isn't used to start a repeater contact, and "break break" is reserved for emergencies.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “To call another station when the repeater is not in use, just give both calls. For example, "N1II, this is N1BKE''”
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “To make a distress call over a repeater, say "break break" and then your call sign”
 
 ### T2A05
 
@@ -1065,7 +1099,11 @@ B. Transmit your call sign followed by the other station’s call sign
 **C. Transmit the other station’s call sign followed by your call sign**  
 D. Transmit a signal report followed by your call sign  
 
-_No explanation published._
+When answering a CQ, give the calling station's call sign first and then your own. The standard call format is: the station called, "this is", then the station calling.
+
+_General operating practice, not a quoted rule._
+
+- [Recommendation ITU-R M.1171-1, Radiotelephony procedures for routine calls in the maritime mobile service](https://www.itu.int/rec/R-REC-M.1171/en): “the call sign or other identification of the station called, not more than three times; – the words “THIS IS”;”
 
 ### T2A06
 
@@ -1076,7 +1114,11 @@ B. Say “QTC,” followed by “this is” and your call sign; if there is no a
 C. Transmit an unmodulated carrier for approximately 10 seconds, followed by “this is” and your call sign, and pause to listen; repeat as necessary  
 **D. Repeat “CQ” a few times, followed by “this is,” and your call sign, then pause to listen; repeat as necessary**  
 
-_No explanation published._
+CQ means a general call to any station. Say "CQ" a few times, then "this is" and your call sign, then listen for an answer. An unmodulated carrier would just cause interference, and QTC is about messages to send.
+
+_General operating practice, not a quoted rule._
+
+- [Recommendation ITU-R M.1172, Miscellaneous abbreviations and signals (Q code)](https://www.itu.int/rec/R-REC-M.1172/en): “CQ General call to all stations.”
 
 ### T2A07
 
@@ -1087,7 +1129,11 @@ B. The repeater has a time delay to prevent interference
 C. The approximately half-second delay to allow for the “squelch tail” to be removed  
 D. The fee charged by the repeater owner or club to provide for maintenance  
 
-_No explanation published._
+A repeater listens on one frequency (its input) and transmits on another (its output). The difference between them is the offset.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “The input and output frequencies are separated by a predetermined amount that is different for each band. This separation is called the offset.”
 
 ### T2A08
 
@@ -1098,7 +1144,11 @@ B. “Communication Quality,” used to indicate transmitted audio clarity
 C. Only the called station should transmit  
 **D. Calling any station**  
 
-_No explanation published._
+CQ is a general call: you're calling any station that hears you.
+
+_General operating practice, not a quoted rule._
+
+- [Recommendation ITU-R M.1172, Miscellaneous abbreviations and signals (Q code)](https://www.itu.int/rec/R-REC-M.1172/en): “CQ General call to all stations.”
 
 ### T2A09
 
@@ -1109,7 +1159,11 @@ A. “CQ CQ” followed by the repeater’s call sign
 C. The repeater’s call sign followed by the station’s call sign  
 D. “QSY” followed by your call sign  
 
-_No explanation published._
+On a repeater, you announce you're available by giving your call sign, often followed by "listening". Calling CQ isn't the custom on repeaters.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “If the repeater is quiet, just say "N1GZO" or "N1GZO listening" -- to attract someone's attention.”
 
 ### T2A10
 
@@ -1120,7 +1174,11 @@ B. A list of operating schedules
 C. A list of available net frequencies  
 D. A plan devised by a club to indicate frequency band usage  
 
-_No explanation published._
+A band plan is a voluntary agreement on which parts of a band to use for which modes or activities. It goes beyond the FCC rules, which only set what you may do, to avoid interference between incompatible modes.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL, Band plan](https://www.arrl.org/band-plan): “A band plan refers to a voluntary division of a band to avoid interference between incompatible modes.”
 
 ### T2A11
 
@@ -1131,9 +1189,24 @@ B. Diplex
 **C. Simplex**  
 D. Multiplex  
 
-_No explanation published._
+Simplex means transmitting and receiving on the same frequency, so stations talk to each other directly. Duplex uses two different frequencies, as a repeater does.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “Simplex operation means the stations are talking to each other directly, on the same frequency.”
 
 ## Topic T2B. VHF/UHF operating practices: FM repeater, simplex, reverse splits; Access tones: CTCSS, DTMF; DMR operation; Resolving operating problems; Q signals
+
+Practical VHF/UHF operating: getting into repeaters with access tones, using the reverse function and simplex, DMR digital voice (talkgroups and color codes), the squelch control, sharing frequencies, and the common Q signals.
+
+- Many repeaters only respond to signals carrying the right sub-audible CTCSS (PL) tone. ([ARRL Technical Information Service](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf))
+- If you can hear a repeater but can't access it, check your offset, CTCSS tone or DCS code. ([ARRL Technical Information Service](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf))
+- DTMF (the telephone keypad tones) sends two tones at once for each key, and is used for repeater control and autopatch. ([Recommendation ITU-T Q.23](https://www.itu.int/rec/T-REC-Q.23-198811-I/en))
+- The reverse function lets you listen on the repeater's input. If you can hear the other station there, move to simplex. ([ARRL Technical Information Service](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf))
+- DMR radios join a talkgroup by having its ID programmed in; calls to other talkgroups are ignored. ([ETSI TS 102 361-1 V2.6.1](https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf))
+- A DMR radio must match the repeater's color code to use it. ([ETSI TS 102 361-1 V2.6.1](https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf))
+- No station has exclusive rights to a frequency; stations must cooperate in sharing. ([47 CFR §97.101](https://www.ecfr.gov/current/title-47/section-97.101))
+- Common Q signals: QRM (interference from other stations), QRN (static), QSB (fading), QSY (change frequency), QRZ (who is calling me?), QTH (location), QSL (receipt acknowledged). ([ARRL](https://www.arrl.org/operating-aids))
 
 ### T2B01
 
@@ -1144,7 +1217,11 @@ B. To increase power output
 **C. To listen on a repeater’s input frequency**  
 D. To listen on a repeater’s output frequency  
 
-_No explanation published._
+The reverse function swaps your transmit and receive frequencies, so you listen on the repeater's input. If you can hear the other station there, you can talk to them directly on simplex.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “The easiest way to determine if you are able to communicate with the other station on simplex is to listen to the repeater input frequency.”
 
 ### T2B02
 
@@ -1155,7 +1232,12 @@ B. Tone burst
 C. DTMF  
 **D. CTCSS**  
 
-_No explanation published._
+CTCSS (continuous tone-coded squelch system, also called PL) sends a steady sub-audible tone with your voice. A receiver or repeater set to that tone opens its squelch only when it hears it.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “These are called CTCSS (continuous tone-coded squelch system) or PL (Private Line PL is a Motorola trademark) tones.”
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “Such closed repeaters require the transmission of a continuous subaudible tone or a short "burst" of tones for access.”
 
 ### T2B03
 
@@ -1166,7 +1248,10 @@ B. A single repeater with more than one receiver
 C. Multiple repeaters with the same control operator  
 D. A system of repeaters linked by APRS  
 
-_No explanation published._
+In a linked repeater network, a signal received by any one repeater is retransmitted by all the repeaters in the network, so you can reach a much wider area.
+
+_General operating practice, not a quoted rule._
+
 
 ### T2B04
 
@@ -1177,7 +1262,12 @@ B. You are using the wrong CTCSS tone
 C. You are using the wrong DCS code  
 **D. All these choices are correct**  
 
-_No explanation published._
+If you can hear a repeater but can't get in, check your settings. A wrong offset puts your signal on the wrong input frequency. And if the repeater requires a CTCSS tone or DCS code, it ignores signals without the right one. Any of these will do it.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “To use a repeater, you must have a transceiver that can transmit on the repeater's input frequency and receive on the repeater's output frequency.”
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “closed repeaters require the transmission of a continuous subaudible tone or a short "burst" of tones for access”
 
 ### T2B05
 
@@ -1188,7 +1278,10 @@ B. Your FM deviation is too low
 **C. You are talking too loudly**  
 D. Your transmit power is too high  
 
-_No explanation published._
+Talking too loudly into the microphone overdeviates the FM signal: it swings wider than the receiver or repeater is set up for, so the loud peaks are clipped or drop out. Speak at a normal level with the mic a few inches from your mouth.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T2B06
 
@@ -1199,7 +1292,11 @@ B. CTCSS
 C. GMRS  
 D. D-STAR  
 
-_No explanation published._
+DTMF (dual-tone multi-frequency) is the telephone keypad signaling system. Each key sends two tones at once, one from a low group and one from a high group. Repeaters use DTMF for control and autopatch.
+
+_General operating practice, not a quoted rule._
+
+- [Recommendation ITU-T Q.23, Technical features of push-button telephone sets](https://www.itu.int/rec/T-REC-Q.23-198811-I/en): “the dialling signal is composed of two frequencies emitted simultaneously when a button is pressed”
 
 ### T2B07
 
@@ -1210,7 +1307,11 @@ B. Register with the digital repeater control operator
 **C. Program your radio with the group’s ID or code**  
 D. Program your radio with the DTMF tone used by the talkgroup  
 
-_No explanation published._
+On DMR you join a talkgroup by programming its ID into your radio. Your radio only joins calls whose talkgroup ID matches one it's set for.
+
+_General operating practice, not a quoted rule._
+
+- [ETSI TS 102 361-1 V2.6.1, Digital Mobile Radio (DMR) air interface protocol](https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf): “Others_Call: An MS transitions to this state when the received talk group(s) or individual ID does not match the talk group(s) or individual ID of the MS.”
 
 ### T2B08
 
@@ -1221,7 +1322,11 @@ B. Both stations should choose another frequency to avoid conflict
 C. Whichever station was on the frequency first has preemptive rights to the frequency  
 D. Use subaudible tones so both stations can share the frequency  
 
-_No explanation published._
+No one owns an amateur frequency, so neither station has a right to it. The stations should work it out between themselves and cooperate on who uses it.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §97.101](https://www.ecfr.gov/current/title-47/section-97.101): “(b) Each station licensee and each control operator must cooperate in selecting transmitting channels and in making the most effective use of the amateur service frequencies. No frequency will be assigned for the exclusive use of any station.”
 
 ### T2B09
 
@@ -1232,7 +1337,11 @@ B. For contest operation
 C. For working DX only  
 D. So stations with simple transmitters can access the repeater without automated offset  
 
-_No explanation published._
+Simplex channels let stations that can hear each other directly talk without tying up a repeater, leaving it free for stations that need it.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL Technical Information Service, Repeaters: what are they and how to use them](https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf): “It follows that stations able to communicate without a repeater should not use one. That way, the repeater is available for stations that need it.”
 
 ### T2B10
 
@@ -1243,7 +1352,13 @@ B. QRN
 C. QTH  
 D. QSB  
 
-_No explanation published._
+QRM is interference from other stations. QRN is static (natural noise), QTH is your location, and QSB is fading.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL, Operating aids](https://www.arrl.org/operating-aids): “QRM -- Is my transmission being interfered with?”
+- [ARRL, Operating aids](https://www.arrl.org/operating-aids): “QRN -- Are you troubled by static?”
+- [ARRL, Operating aids](https://www.arrl.org/operating-aids): “QSB -- Are my signals fading?”
 
 ### T2B11
 
@@ -1254,7 +1369,12 @@ A. QRU
 C. QSL  
 D. QRZ  
 
-_No explanation published._
+QSY means to change frequency. QSL means acknowledging receipt, QRZ means "who is calling me?", and QRU means "I have nothing for you".
+
+_General operating practice, not a quoted rule._
+
+- [ARRL, Operating aids](https://www.arrl.org/operating-aids): “QSY -- Shall I change frequency?”
+- [ARRL, Operating aids](https://www.arrl.org/operating-aids): “QRZ -- Who is calling me?”
 
 ### T2B12
 
@@ -1265,7 +1385,12 @@ B. A code which automatically programs the repeater offset to a frequency chosen
 C. A code which identifies the specific CODEC being used so that the repeater can properly decode the audio  
 D. A code transmitted by the repeater to indicate health and status of the equipment  
 
-_No explanation published._
+A DMR repeater uses a color code, a number from 0 to 15. Your radio must be programmed with the same color code to use the repeater. The DMR standard uses it to tell overlapping sites on the same frequency apart.
+
+_General operating practice, not a quoted rule._
+
+- [ETSI TS 102 361-1 V2.6.1, Digital Mobile Radio (DMR) air interface protocol](https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf): “A Colour Code (CC) is present in the embedded signalling field and general data burst to provide a simple means of distinguishing overlapping sites, in order to detect co-channel interference.”
+- [ETSI TS 102 361-1 V2.6.1, Digital Mobile Radio (DMR) air interface protocol](https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf): “The MS shall first sync to the outbound, match the Colour Code and determine the slotting structure.”
 
 ### T2B13
 
@@ -1276,7 +1401,10 @@ A. Reduce a CW transmitter's key clicks
 C. Eliminate parasitic oscillations in an RF amplifier  
 D. Reduce interference from impulse noise  
 
-_No explanation published._
+Squelch mutes the receiver's audio when no signal is present, so you don't hear constant background noise between transmissions.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T2B14
 
@@ -1287,9 +1415,26 @@ A. A group of amateur radio operators who share email on a specific amateur radi
 C. The members of a net organized for amateur radio operators with a specific common interest  
 D. A method of automatically alerting all group members to the frequency where any member is transmitting  
 
-_No explanation published._
+A talkgroup is a DMR identifier that sorts traffic into groups. Your radio plays only the talkgroups it's set for, so you aren't bothered by other traffic.
+
+_General operating practice, not a quoted rule._
+
+- [ETSI TS 102 361-1 V2.6.1, Digital Mobile Radio (DMR) air interface protocol](https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf): “Others_Call: An MS transitions to this state when the received talk group(s) or individual ID does not match the talk group(s) or individual ID of the MS.”
 
 ## Topic T2C. Public service: emergency operations, applicability of FCC rules, RACES and ARES, net and traffic procedures, operating restrictions during emergencies, use of phonetics in message handling
+
+Public service and emergency communications: RACES and ARES, how nets run, formal message traffic, and what the rules allow in a real emergency.
+
+- The FCC rules always apply, including during RACES and ARES operations. ([47 CFR §97.103](https://www.ecfr.gov/current/title-47/section-97.103))
+- RACES is an amateur service for civil defense communications. ([47 CFR §97.3](https://www.ecfr.gov/current/title-47/section-97.3))
+- RACES control operators must be certified as enrolled in a civil defense organization. ([47 CFR §97.407](https://www.ecfr.gov/current/title-47/section-97.407))
+- ARES is a volunteer group of licensed amateurs registered for public service communications. ([ARRL](https://www.arrl.org/ares))
+- In an emergency involving immediate safety of life or property, with normal communications unavailable, a station may use any means of radio communication at its disposal, even outside its normal privileges. ([47 CFR §97.403](https://www.ecfr.gov/current/title-47/section-97.403))
+- The net control station directs the net. On a directed net, transmit only when net control recognizes you, except to report an emergency. ([ARRL](https://www.arrl.org/files/file/Public%20Service/MPG404A.pdf))
+- "Traffic" means formal messages. A radiogram has a preamble (tracking information), address, text and signature. ([ARRL](https://www.arrl.org/files/file/Public%20Service/fsd218.pdf))
+- The check in the preamble is the number of words in the message text. ([ARRL](https://www.arrl.org/files/file/Public%20Service/fsd218.pdf))
+- Spell unusual words with the phonetic alphabet (Alpha, Bravo, Charlie...). ([ARRL](https://www.arrl.org/operating-aids))
+- Winlink is a radio email system; your address is your call sign at winlink.org. ([Winlink](https://winlink.org/sites/default/files/download/wl2k_faq_9.pdf))
 
 ### T2C01
 
@@ -1300,7 +1445,10 @@ B. When operating under FEMA rules
 C. When operating under ARES rules  
 **D. FCC rules always apply**  
 
-_No explanation published._
+The FCC rules always apply. RACES itself is governed by Part 97, and ARES and FEMA plans don't override the FCC rules.
+
+- [47 CFR §97.103](https://www.ecfr.gov/current/title-47/section-97.103): “(a) The station licensee is responsible for the proper operation of the station in accordance with the FCC Rules.”
+- [47 CFR §97.407](https://www.ecfr.gov/current/title-47/section-97.407): “No station may transmit in RACES unless it is an FCC-licensed primary, club, or military recreation station”
 
 ### T2C02
 
@@ -1311,7 +1459,11 @@ B. Ensure that all stations checking into the net are properly licensed for oper
 **C. Call the net to order and direct communications between stations checking in**  
 D. All these choices are correct  
 
-_No explanation published._
+The net control station runs the net on the air: it calls the net to order, takes check-ins, and directs who transmits and when.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL, NTS Methods and Practices Guidelines, chapter 5 (net control)](https://www.arrl.org/files/file/Public%20Service/MPG504A.pdf): “The NCS makes the net “happen”, directing all activities and managing the sequence of traffic dispatching to achieve an efficient and orderly net”
 
 ### T2C03
 
@@ -1322,7 +1474,11 @@ B. Use the Q-code “QSR” to ask the receiving station to repeat the words bac
 **C. Spell the words using a standard phonetic alphabet**  
 D. All these choices are correct  
 
-_No explanation published._
+Spell unusual words with a standard phonetic alphabet (Alpha, Bravo, Charlie...) so each letter is heard correctly.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL, Operating aids](https://www.arrl.org/operating-aids): “Alpha (AL fah)”
 
 ### T2C04
 
@@ -1333,7 +1489,9 @@ B. An international radio experimentation society
 C. A radio contest held in a short period, sometimes called a “sprint”  
 **D. An FCC Part 97 amateur radio service for civil defense communications during national emergencies**  
 
-_No explanation published._
+RACES (Radio Amateur Civil Emergency Service) uses amateur stations for civil defense communications during local, regional or national civil emergencies, under Part 97. It isn't open to CB, and it isn't a contest.
+
+- [47 CFR §97.3](https://www.ecfr.gov/current/title-47/section-97.3): “(38) RACES (radio amateur civil emergency service). A radio service using amateur stations for civil defense communications during periods of local, regional or national civil emergencies.”
 
 ### T2C05
 
@@ -1344,7 +1502,11 @@ B. The number of stations checking in and out of a net
 C. Operation by mobile or portable stations  
 D. A count of the number of activations of the net each month  
 
-_No explanation published._
+In net operation, "traffic" means formal messages passed between stations.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL, FSD-218 Pocket guide to message handling](https://www.arrl.org/files/file/Public%20Service/fsd218.pdf): “Every formal radiogram message originated and handled should contain the following component parts in the order given”
 
 ### T2C06
 
@@ -1355,7 +1517,11 @@ B. A group of licensed amateurs who are members of the military and who voluntar
 C. A training program that provides licensing courses for those interested in obtaining an amateur license to use during emergencies  
 D. A training program that certifies amateur operators for membership in the Radio Amateur Civil Emergency Service  
 
-_No explanation published._
+ARES is made up of licensed amateurs who have voluntarily registered their qualifications and equipment for public service communications when disaster strikes.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL, Amateur Radio Emergency Service (ARES)](https://www.arrl.org/ares): “The Amateur Radio Emergency Service (ARES) consists of licensed amateurs who have voluntarily registered their qualifications and equipment, with their local ARES leadership, for communications duty in the public service when disaster strikes.”
 
 ### T2C07
 
@@ -1366,7 +1532,11 @@ B. Record the time of each of your transmissions
 **C. Unless you are reporting an emergency, transmit only when directed by the net control station**  
 D. All these choices are correct  
 
-_No explanation published._
+On a directed net, everything goes through net control: transmit only when the NCS asks you to, except to report an emergency.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL, NTS Methods and Practices Guidelines, chapter 4 (net operating)](https://www.arrl.org/files/file/Public%20Service/MPG404A.pdf): “All communications on a directed net are under the direction of the net control. Stations must seek recognition from the NCS prior to making comments or other interruptions.”
 
 ### T2C08
 
@@ -1377,7 +1547,11 @@ B. FT8
 C. PSK31  
 D. AMTOR  
 
-_No explanation published._
+Winlink is a radio email system. Each user's address is their call sign at winlink.org (for example, YOURCALL@winlink.org). FT8, PSK31 and AMTOR are digital modes, not email systems.
+
+_General operating practice, not a quoted rule._
+
+- [Winlink, Frequently asked questions about Winlink 2000 (2020)](https://winlink.org/sites/default/files/download/wl2k_faq_9.pdf): “Your radio email address is YOURCALL@winlink.org.”
 
 ### T2C09
 
@@ -1388,7 +1562,9 @@ B. Yes, but only when part of a FEMA emergency plan
 C. Yes, but only when part of a RACES emergency plan  
 **D. Yes, but only in situations involving the immediate safety of human life or protection of property**  
 
-_No explanation published._
+Yes, but only when needed for the immediate safety of human life or protection of property and normal communications aren't available. Then a station may use any means of radio communication at its disposal.
+
+- [47 CFR §97.403](https://www.ecfr.gov/current/title-47/section-97.403): “No provision of these rules prevents the use by an amateur station of any means of radiocommunication at its disposal to provide essential communication needs in connection with the immediate safety of human life and immediate protection of property when normal communication systems are not available.”
 
 ### T2C10
 
@@ -1399,7 +1575,12 @@ B. The address of the intended recipient
 C. The telephone number of the addressee  
 **D. Information needed to track the message**  
 
-_No explanation published._
+The preamble holds the information needed to track the message: its number, precedence, station of origin, check, place of origin, time and date. The recipient's address comes after the preamble.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL, FSD-218 Pocket guide to message handling](https://www.arrl.org/files/file/Public%20Service/fsd218.pdf): “a. Number (begin with 1 each month or year) b. Precedence (R, W, P or EMERGENCY)”
+- [ARRL, FSD-218 Pocket guide to message handling](https://www.arrl.org/files/file/Public%20Service/fsd218.pdf): “d. Station of Origin (first amateur handler) e. Check (number of words/groups in text only)”
 
 ### T2C11
 
@@ -1410,7 +1591,11 @@ B. The call sign of the originating station
 C. A list of stations that have relayed the message  
 D. A box on the message form that indicates that the message was received and/or relayed  
 
-_No explanation published._
+The check is the number of words or word groups in the text of the message. Receiving stations use it to confirm they copied the whole text.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL, FSD-218 Pocket guide to message handling](https://www.arrl.org/files/file/Public%20Service/fsd218.pdf): “e. Check (number of words/groups in text only)”
 
 ### T2C12
 
@@ -1421,10 +1606,27 @@ A. ARES
 C. MARS  
 D. SKYWARN  
 
-_No explanation published._
+RACES control operators must be certified by a civil defense organization as enrolled in it. ARES, MARS and SKYWARN have no such FCC requirement.
+
+- [47 CFR §97.407](https://www.ecfr.gov/current/title-47/section-97.407): “No person may be the control operator of an amateur station transmitting in RACES unless that person holds a FCC-issued amateur operator license and is certified by a civil defense organization as enrolled in that organization.”
 
 ## Topic T3A. Radio wave characteristics: how a radio signal travels, fading, multipath, polarization, wavelength vs absorption; Antenna orientation
 
+Why signals get stronger, weaker or flutter: radio waves reflect, scatter and get absorbed, and often reach you by more than one path at once. How antennas are oriented (polarization) matters too.
+
+- Multipath means a signal arriving by more than one route, such as direct and reflected. ([US Navy](https://archive.org/details/NEETSModules))
+- Over distances of just a few wavelengths, multipath makes signal strength vary: strong and weak spots are about half a wavelength apart (roughly 3 feet on 2 meters). On a moving vehicle this shows up as rapid flutter, called "picket fencing". ([Recommendation ITU-R P.1406-2](https://www.itu.int/rec/R-REC-P.1406/en))
+- Fading on ionospheric (HF) paths is mainly caused by multipath. ([US Navy](https://archive.org/details/NEETSModules))
+- Digital signals are especially sensitive to multipath, which raises error rates. ([Recommendation ITU-R P.1406-2](https://www.itu.int/rec/R-REC-P.1406/en))
+- For best reception, the receiving antenna should match the wave's polarization. Over a direct VHF/UHF path, cross-polarized antennas lose much of the signal. ([US Navy](https://archive.org/details/NEETSModules))
+- Signals that pass through the ionosphere come back with random, mixed (elliptical) polarization, so on HF either antenna orientation works. ([US Navy](https://archive.org/details/NEETSModules))
+- The ionosphere is the region of the upper atmosphere that bends HF signals back to Earth. ([NOAA Space Weather Prediction Center](https://www.swpc.noaa.gov/phenomena/ionosphere))
+- Rain absorbs and scatters signals at microwave frequencies; at HF and low VHF (like 10 and 6 meters) it has little effect. ([US Navy](https://archive.org/details/NEETSModules))
+- Trees and foliage weaken VHF, UHF and microwave signals. ([Recommendation ITU-R P.833-10](https://www.itu.int/rec/R-REC-P.833/en))
+- Radio waves reflect off large objects, so a blocked path can sometimes be worked by aiming at a reflection. ([US Navy](https://archive.org/details/NEETSModules))
+
+- Diagram: Multipath. The same signal reaches you directly and after a reflection. Depending on the difference in path length, the two add or cancel, which is why moving a VHF antenna a few feet, or driving along a street, can change the signal so much.
+- Diagram: Polarization is the orientation of the electric field. Over a direct path, receiving and transmitting antennas should match.
 ### T3A01
 
 Why do VHF signal strengths sometimes vary greatly when the antenna is moved only a few feet?
@@ -1434,7 +1636,12 @@ B. VHF ionospheric propagation is very sensitive to path length
 **C. Multipath propagation cancels or reinforces signals**  
 D. The Doppler effect causes slight frequency shifts which result in changes in signal strength  
 
-_No explanation published._
+Signals often arrive both directly and reflected off buildings and the ground. Where the paths arrive in phase they add, and where out of phase they cancel. Strong and weak spots are about half a wavelength apart, roughly 3 feet on 2 meters, so moving the antenna a few feet can change the signal a lot.
+
+_Standard radio theory, not a quoted rule._
+
+- [Recommendation ITU-R P.1406-2, Propagation effects relating to terrestrial land mobile and broadcasting services in the VHF and UHF bands](https://www.itu.int/rec/R-REC-P.1406/en): “On a scale of a few wavelengths, signal variability is determined by multipath effects.”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Radio waves that are received in phase reinforce each other and produce a stronger signal at the receiving site. Conversely, those that are received out of phase produce a weak or fading signal.”
 
 ### T3A02
 
@@ -1445,7 +1652,11 @@ A. Causes knife-edge diffraction, distorting voice peaks
 C. Amplifies signals, improving reception of weak signals  
 D. Has no effect  
 
-_No explanation published._
+Leaves, branches and trees weaken (attenuate) UHF and microwave signals, absorbing and scattering their energy. Weak signals passing through foliage may become unreadable.
+
+_Standard radio theory, not a quoted rule._
+
+- [Recommendation ITU-R P.833-10, Attenuation in vegetation](https://www.itu.int/rec/R-REC-P.833/en): “Attenuation in vegetation can be important in some circumstances, for both terrestrial and Earth-space systems.”
 
 ### T3A03
 
@@ -1456,7 +1667,10 @@ B. Left-hand circular
 **C. Horizontal**  
 D. Vertical  
 
-_No explanation published._
+By convention, VHF and UHF weak-signal operators (long-distance CW and SSB) use horizontal polarization, so their antennas match each other. FM and repeater stations mostly use vertical.
+
+_General operating practice, not a quoted rule._
+
 
 ### T3A04
 
@@ -1467,7 +1681,11 @@ A. Modulation sidebands might become inverted
 C. Signals have an echo effect  
 D. Nothing significant will happen  
 
-_No explanation published._
+Over a direct (line-of-sight) path the polarization doesn't change much, so a vertical antenna receiving a horizontal signal, or the reverse, picks up much less of it. The received signal is much weaker.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “For maximum absorption of energy from the electromagnetic fields, the receiving antenna must be located in the plane of polarization.”
 
 ### T3A05
 
@@ -1478,7 +1696,10 @@ A. Change from vertical to horizontal polarization
 C. Try the long path  
 D. Increase the antenna SWR  
 
-_No explanation published._
+If the direct path is blocked, try aiming your directional antenna at something that reflects the signal toward the repeater, such as a large building or hillside. VHF and UHF signals reflect well off large objects.
+
+_General operating practice, not a quoted rule._
+
 
 ### T3A06
 
@@ -1489,7 +1710,11 @@ A. Alternating transmissions during a net operation
 C. A type of ground system used with vertical antennas  
 D. Interference from cable TV in the form of carriers at fixed intervals across the band  
 
-_No explanation published._
+"Picket fencing" is the rapid flutter you hear on a mobile VHF/UHF signal as the vehicle moves through the pattern of reinforcing and cancelling multipath signals, like running a stick along a picket fence.
+
+_Standard radio theory, not a quoted rule._
+
+- [Recommendation ITU-R P.1406-2, Propagation effects relating to terrestrial land mobile and broadcasting services in the VHF and UHF bands](https://www.itu.int/rec/R-REC-P.1406/en): “On a scale of a few wavelengths, signal variability is determined by multipath effects.”
 
 ### T3A07
 
@@ -1500,7 +1725,11 @@ B. Low barometric pressure
 **C. Precipitation**  
 D. Colder temperatures  
 
-_No explanation published._
+Rain, and other precipitation, absorbs and scatters microwave signals, so range at microwave frequencies drops in wet weather. Wind, air pressure and cold don't have this effect.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “For example, rain has a pronounced effect on waves at microwave frequencies.”
 
 ### T3A08
 
@@ -1511,7 +1740,12 @@ B. Interference from thunderstorms
 C. Intermodulation distortion  
 **D. Random combining of signals arriving via different paths**  
 
-_No explanation published._
+Ionospheric signals often reach you by more than one path (different hops or layers). As the ionosphere shifts, these arrive randomly in and out of phase, so the combined signal fades irregularly.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Usually, however, fading on ionospheric circuits is mainly a result of multipath propagation.”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Radio waves that are received in phase reinforce each other and produce a stronger signal at the receiving site. Conversely, those that are received out of phase produce a weak or fading signal.”
 
 ### T3A09
 
@@ -1522,7 +1756,11 @@ A. Digital modes are unusable
 C. FM voice is unusable  
 D. Both the transmitting and receiving antennas must be of the same polarization  
 
-_No explanation published._
+The ionosphere changes the polarization of signals passing through it, so by the time they arrive they're elliptically polarized: they have both vertical and horizontal components. Either a vertical or a horizontal antenna can receive them, and the transmitting and receiving antennas don't have to match.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “When a radio wave is refracted by the ionosphere or reflected from the Earth's surface, random changes in the polarization of the wave may occur.”
 
 ### T3A10
 
@@ -1533,7 +1771,12 @@ B. Transmission rates must be decreased by a factor equal to the number of separ
 C. No significant changes will occur if the signals are transmitted using FM  
 **D. Error rates are likely to increase**  
 
-_No explanation published._
+With multipath, copies of the signal arrive at slightly different times and with different phases, smearing and distorting the data. That makes errors more likely.
+
+_Standard radio theory, not a quoted rule._
+
+- [Recommendation ITU-R P.1406-2, Propagation effects relating to terrestrial land mobile and broadcasting services in the VHF and UHF bands](https://www.itu.int/rec/R-REC-P.1406/en): “Many types of radio system, particularly those using digital techniques, are sensitive to multipath propagation introduced to the signal by the path characteristics.”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “This fading causes severe distortion of the signal”
 
 ### T3A11
 
@@ -1544,7 +1787,11 @@ B. The troposphere
 **C. The ionosphere**  
 D. The electrosphere  
 
-_No explanation published._
+The ionosphere, an upper layer of the atmosphere ionized by the Sun, bends (refracts) HF signals back to Earth, allowing long-distance contacts. The troposphere and stratosphere lie below it.
+
+_Standard radio theory, not a quoted rule._
+
+- [NOAA Space Weather Prediction Center, Ionosphere](https://www.swpc.noaa.gov/phenomena/ionosphere): “the ionosphere is important because it reflects and modifies radio waves used for communication and navigation.”
 
 ### T3A12
 
@@ -1555,10 +1802,27 @@ A. Absorption
 C. Deflection  
 D. Increased range  
 
-_No explanation published._
+Fog and rain have little effect on 10- and 6-meter signals. Precipitation only absorbs much at much higher, microwave, frequencies.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “with decreases in frequency, precipitation has little attenuation effect.”
 
 ## Topic T3B. Electromagnetic wave properties: wavelength vs frequency, nature and velocity of electromagnetic waves, relationship of wavelength and frequency; Electromagnetic spectrum definitions: UHF, VHF, HF
 
+The basic physics of radio waves. A radio wave is an electromagnetic wave, an electric field and a magnetic field traveling together at the speed of light. Its frequency and wavelength are tied together by that speed.
+
+- A radio wave has two parts: an electric field and a magnetic field, at right angles to each other. ([US Navy](https://archive.org/details/NEETSModules))
+- Polarization is set by the direction of the electric field. ([US Navy](https://archive.org/details/NEETSModules))
+- In free space, all radio waves travel at the speed of light. ([FCC OET Bulletin 65](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65.pdf))
+- That is exactly 299,792,458 meters per second; use 300,000,000 m/s for exam math. ([NIST](https://physics.nist.gov/cgi-bin/cuu/Value?c))
+- Higher frequency means shorter wavelength. ([US Navy](https://archive.org/details/NEETSModules))
+- Wavelength in meters ≈ 300 ÷ frequency in MHz (and frequency in MHz ≈ 300 ÷ wavelength in meters). Example: 300 ÷ 146 ≈ 2.05 m, so 146 MHz is in the 2-meter band. ([US Navy](https://archive.org/details/NEETSModules))
+- HF is 3–30 MHz, VHF 30–300 MHz, UHF 300–3000 MHz. ([47 CFR §2.101](https://www.ecfr.gov/current/title-47/section-2.101))
+- Amateur bands are usually named by approximate wavelength ("2 meters", "70 centimeters"), as in the FCC's own tables. ([47 CFR §97.301](https://www.ecfr.gov/current/title-47/section-97.301))
+
+- Diagram: A radio wave's electric (E) and magnetic (H) fields are at right angles to each other and to the direction of travel. Polarization is named for the E field: this wave is vertically polarized.
+- Diagram: The HF, VHF and UHF ranges, with the amateur bands from 10 meters up. Each tenfold step up in frequency is a tenfold step down in wavelength.
 ### T3B01
 
 What is the relationship between the electric and magnetic fields of an electromagnetic wave?
@@ -1568,7 +1832,12 @@ B. They are in parallel
 C. They revolve in opposite directions  
 **D. They are at right angles**  
 
-_No explanation published._
+A radio wave's electric and magnetic fields are at right angles to each other (and both are at right angles to the direction of travel).
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “it is easier to picture electromagnetic radiation in space as horizontal and vertical lines of force oriented at right angles to each other.”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “These lines of force are made up of an electric field (E) and a magnetic field (H), which together make up the electromagnetic field in space.”
 
 ### T3B02
 
@@ -1579,7 +1848,11 @@ B. The orientation of the magnetic field
 C. The ratio of the energy in the magnetic field to the energy in the electric field  
 D. The ratio of the velocity to the wavelength  
 
-_No explanation published._
+Polarization is defined by the orientation of the electric (E) field: vertical if the E field is vertical, horizontal if it's horizontal.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Normally, the plane of polarization of a radio wave is the plane in which the E field propagates with respect to the Earth.”
 
 ### T3B03
 
@@ -1590,7 +1863,11 @@ B. Voltage and current
 **C. Electric and magnetic fields**  
 D. Ionizing and non-ionizing radiation  
 
-_No explanation published._
+A radio wave is made of an electric field and a magnetic field traveling together.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “An electromagnetic wave consists of two primary components—an ELECTRIC FIELD and a MAGNETIC FIELD.”
 
 ### T3B04
 
@@ -1601,7 +1878,11 @@ B. Speed of sound
 C. 0.86 times the speed of light  
 D. 1.86 times the speed of sound  
 
-_No explanation published._
+In free space, radio waves travel at the speed of light: they are electromagnetic waves, just like light.
+
+_Standard radio theory, not a quoted rule._
+
+- [FCC OET Bulletin 65, Evaluating Compliance with FCC Guidelines for Human Exposure to Radiofrequency Electromagnetic Fields](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65.pdf): “In free space the velocity of an electromagnetic wave is equal to the speed of light”
 
 ### T3B05
 
@@ -1612,7 +1893,11 @@ A. Wavelength gets longer as frequency increases
 C. Wavelength is constant at all frequencies  
 D. Wavelength and frequency increase as path length increases  
 
-_No explanation published._
+Wavelength and frequency are inversely related: as frequency goes up, wavelength gets shorter.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “This illustrates the principle that the HIGHER THE FREQUENCY, the SHORTER THE WAVELENGTH.”
 
 ### T3B06
 
@@ -1623,7 +1908,12 @@ B. Wavelength in meters equals frequency in hertz divided by 300
 C. Wavelength in meters equals frequency in megahertz divided by 300  
 **D. Wavelength in meters equals 300 divided by frequency in megahertz**  
 
-_No explanation published._
+Since radio waves travel about 300,000,000 meters per second, wavelength in meters is about 300 divided by the frequency in megahertz. For example, 146 MHz is about 2 meters.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “the wavelength divided into 300 yields the frequency in megahertz.”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Wavelength-to-frequency conversions of radio waves are really quite simple because wavelength and frequency are reciprocals”
 
 ### T3B07
 
@@ -1634,7 +1924,11 @@ B. Traditional letter/number designators
 C. Channel numbers  
 D. All these choices are correct  
 
-_No explanation published._
+Amateur bands are commonly named by their approximate wavelength, such as 2 meters for 144–148 MHz or 70 centimeters for 420–450 MHz. The FCC's own band tables use these names.
+
+_Standard radio theory, not a quoted rule._
+
+- [47 CFR §97.301](https://www.ecfr.gov/current/title-47/section-97.301): “Wavelength band ITU Region 1 ITU Region 2 ITU Region 3”
 
 ### T3B08
 
@@ -1645,7 +1939,11 @@ A. 30 kHz to 300 kHz
 C. 300 kHz to 3000 kHz  
 D. 300 MHz to 3000 MHz  
 
-_No explanation published._
+VHF (very high frequency) is 30 to 300 MHz.
+
+_Standard radio theory, not a quoted rule._
+
+- [47 CFR §2.101](https://www.ecfr.gov/current/title-47/section-2.101): “7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves.”
 
 ### T3B09
 
@@ -1656,7 +1954,11 @@ B. 30 to 300 MHz
 C. 300 to 3000 kHz  
 **D. 300 to 3000 MHz**  
 
-_No explanation published._
+UHF (ultra high frequency) is 300 to 3000 MHz.
+
+_Standard radio theory, not a quoted rule._
+
+- [47 CFR §2.101](https://www.ecfr.gov/current/title-47/section-2.101): “7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves.”
 
 ### T3B10
 
@@ -1667,7 +1969,11 @@ B. 30 to 300 MHz
 **C. 3 to 30 MHz**  
 D. 300 to 3000 kHz  
 
-_No explanation published._
+HF (high frequency) is 3 to 30 MHz.
+
+_Standard radio theory, not a quoted rule._
+
+- [47 CFR §2.101](https://www.ecfr.gov/current/title-47/section-2.101): “7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves.”
 
 ### T3B11
 
@@ -1678,7 +1984,12 @@ A. 150,000,000 meters per second
 C. 300,000,000 miles per hour  
 D. 150,000,000 miles per hour  
 
-_No explanation published._
+Radio waves in free space travel at the speed of light, 299,792,458 meters per second, or about 300,000,000 m/s.
+
+_Standard radio theory, not a quoted rule._
+
+- [NIST, CODATA value: speed of light in vacuum](https://physics.nist.gov/cgi-bin/cuu/Value?c): “299 792 458 m s-1”
+- [FCC OET Bulletin 65, Evaluating Compliance with FCC Guidelines for Human Exposure to Radiofrequency Electromagnetic Fields](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65.pdf): “In free space the velocity of an electromagnetic wave is equal to the speed of light”
 
 ### T3B12
 
@@ -1689,10 +2000,29 @@ B. UHF
 C. VHF  
 **D. All radio frequencies travel at the same velocity**  
 
-_No explanation published._
+All radio waves, whatever their frequency, travel at the same speed in free space: the speed of light.
+
+_Standard radio theory, not a quoted rule._
+
+- [FCC OET Bulletin 65, Evaluating Compliance with FCC Guidelines for Human Exposure to Radiofrequency Electromagnetic Fields](https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65.pdf): “In free space the velocity of an electromagnetic wave is equal to the speed of light”
 
 ## Topic T3C. Propagation modes: sporadic E, meteor scatter, auroral propagation, tropospheric ducting; F region skip; Line of sight and radio horizon
 
+How signals get beyond the horizon. VHF and UHF normally travel in straight lines a little past the visible horizon, while HF can skip off the ionosphere around the world. Several special modes let VHF go much farther now and then.
+
+- The atmosphere bends VHF and UHF waves slightly, so the radio horizon is beyond the straight-line (geometric) horizon. ([Recommendation ITU-R P.310-11](https://www.itu.int/rec/R-REC-P.310/en))
+- Engineers model this bending as an Earth 4/3 its real size. Horizon distance grows with the square root of Earth's radius, and √(4/3) ≈ 1.15, so the radio horizon is about 15% farther away. ([Recommendation ITU-R P.834-9](https://www.itu.int/rec/R-REC-P.834/en))
+- Waves too high in frequency for an ionospheric layer to bend back pass through it into space. That's why UHF rarely goes beyond the horizon. ([US Navy](https://archive.org/details/NEETSModules))
+- The F2 region carries most long-distance HF; it changes with time of day, season and sunspots. ([US Navy](https://archive.org/details/NEETSModules))
+- The Sun ionizes the ionosphere, so the daytime side is much more ionized than the night side. 10 meters is best from about dawn to just after sunset. ([NOAA Space Weather Prediction Center](https://www.swpc.noaa.gov/phenomena/ionosphere))
+- Near the sunspot maximum, ionization rises enough for F-region skip on 10 and even 6 meters. ([US Navy](https://archive.org/details/NEETSModules))
+- Sporadic E: patches of dense ionization in the E region that can reflect unusually high frequencies, bringing occasional strong signals on 10, 6 and 2 meters. ([US Navy](https://archive.org/details/NEETSModules))
+- Tropospheric ducting: a temperature inversion (warm air over cool) traps VHF/UHF signals, carrying them hundreds of miles. ([US Navy](https://archive.org/details/NEETSModules))
+- Meteor scatter uses ionized meteor trails; it works best around 30–100 MHz, which makes 6 meters the best amateur band for it. ([Recommendation ITU-R P.843-1](https://www.itu.int/rec/R-REC-P.843/en))
+- Auroral VHF signals sound raspy or hissing because of rapid fading. In the Northern Hemisphere, point your antenna north toward the aurora. ([G. Lange-Hesse](https://ntrs.nasa.gov/citations/19650029499))
+- Knife-edge diffraction: waves bend around a sharp obstruction's edge and reach stations behind it. ([US Navy](https://archive.org/details/NEETSModules))
+
+- Diagram: Not to scale. HF signals are bent back to Earth by the ionosphere's F region (skip). VHF and UHF usually pass straight through into space, so they're limited to about the radio horizon, except via special modes like sporadic E.
 ### T3C01
 
 Why are simplex UHF signals rarely heard beyond their radio horizon?
@@ -1702,7 +2032,11 @@ B. FCC regulations prohibit them from going more than 50 miles
 **C. UHF signals are usually not propagated by the ionosphere**  
 D. UHF signals are absorbed by the ionospheric D region  
 
-_No explanation published._
+UHF frequencies are far above the highest frequency the ionosphere can bend back to Earth, so they pass through it into space. Without ionospheric skip, UHF signals rarely go much beyond the radio horizon.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Radio waves transmitted at frequencies higher than the critical frequency of a given layer will pass through the layer and be lost in space”
 
 ### T3C02
 
@@ -1713,7 +2047,12 @@ B. HF accommodates wider bandwidth signals
 **C. Long-distance ionospheric propagation is far more common on HF**  
 D. There is less atmospheric interference (static) on HF  
 
-_No explanation published._
+Long-distance contacts by ionospheric skip are routine on HF, but much rarer on VHF and above, where frequencies are usually too high for the ionosphere to return.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “The F2 layer is the most important layer for long distance hf communications. It is a very variable layer and its height and density change with time of day, season, and sunspot activity.”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Radio waves transmitted at frequencies higher than the critical frequency of a given layer will pass through the layer and be lost in space”
 
 ### T3C03
 
@@ -1724,7 +2063,12 @@ A. They are often received from 10,000 miles or more
 C. They occur only during winter nighttime hours  
 D. They are generally strongest when your antenna is aimed west  
 
-_No explanation published._
+VHF signals scattered by the aurora flutter very rapidly, giving them a distinctive raspy, hissing or growling sound. Phone signals are badly garbled; slow CW gets through best. In the Northern Hemisphere, contacts are made by pointing antennas north, toward the aurora.
+
+_Standard radio theory, not a quoted rule._
+
+- [G. Lange-Hesse, VHF bistatic aurora communications (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19650029499): “An aurorally-propagate v.h.f. signal has a characteristic growl or hiss due to a fast fading”
+- [G. Lange-Hesse, VHF bistatic aurora communications (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19650029499): “usually obtained when both stations point their directional antennas northward towards the aurora”
 
 ### T3C04
 
@@ -1735,7 +2079,12 @@ A. Backscatter
 C. D region absorption  
 D. Gray-line propagation  
 
-_No explanation published._
+Sporadic E, patches of unusually dense ionization in the E region, can reflect much higher frequencies than the normal ionosphere. It brings occasional strong signals from beyond the horizon on 10, 6 and sometimes 2 meters.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Irregular cloud-like patches of unusually high ionization, called sporadic E, often form at heights near the normal E layer.”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “This condition may permit the long distance transmission of signals at unusually high frequencies.”
 
 ### T3C05
 
@@ -1746,7 +2095,12 @@ B. Faraday rotation
 C. Quantum tunneling  
 D. Doppler shift  
 
-_No explanation published._
+Radio waves bend (diffract) around the sharp edge of an obstruction, such as a ridge or building. Knife-edge diffraction lets some signal reach stations behind it.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “DIFFRACTION is the bending of the wave path when the waves meet an obstruction.”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “This change makes it possible to receive energy around the edges of an obstacle”
 
 ### T3C06
 
@@ -1757,7 +2111,12 @@ B. D region refraction
 C. F2 region refraction  
 D. Faraday rotation  
 
-_No explanation published._
+Tropospheric ducting traps VHF and UHF signals in layers of the lower atmosphere, regularly carrying them a few hundred miles (about 300) beyond the normal horizon.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “vhf and uhf transmissions may be propagated far beyond normal line-of-sight distances.”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “good reception of vhf and uhf television signals from a station located hundreds of miles away is not unusual”
 
 ### T3C07
 
@@ -1768,7 +2127,11 @@ A. 33 centimeters
 C. 2 meters  
 D. 70 centimeters  
 
-_No explanation published._
+Meteor trails reflect low-VHF signals best. Meteor-burst communication works mainly between about 30 and 100 MHz, so 6 meters (50 MHz) is the best amateur band for it.
+
+_Standard radio theory, not a quoted rule._
+
+- [Recommendation ITU-R P.843-1, Communication by meteor-burst propagation](https://www.itu.int/rec/R-REC-P.843/en): “that two-way telecommunication circuits are in operation with frequencies between 30 and 100 MHz over ranges up to 1 800 km”
 
 ### T3C08
 
@@ -1779,7 +2142,11 @@ B. Sunspots and solar flares
 C. Updrafts from hurricanes and tornadoes  
 **D. Temperature inversions in the atmosphere**  
 
-_No explanation published._
+Ducts form during temperature inversions, when a layer of warm air sits over cooler air. The sudden change in the air's refractive properties bends signals back down, trapping them in a duct.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “These temperature inversions cause channels, or ducts, of cool air to be sandwiched between the surface of the Earth and a layer of warm air, or between two layers of warm air.”
 
 ### T3C09
 
@@ -1790,7 +2157,12 @@ B. From shortly after sunset to dawn during periods of high sunspot activity
 C. From dawn to shortly after sunset during periods of low sunspot activity  
 D. From shortly after sunset to dawn during periods of low sunspot activity  
 
-_No explanation published._
+The Sun ionizes the F region, so it's densest in daytime and when sunspot activity is high. That's when it can return 10-meter signals, from about dawn until shortly after sunset during high sunspot periods.
+
+_Standard radio theory, not a quoted rule._
+
+- [NOAA Space Weather Prediction Center, Ionosphere](https://www.swpc.noaa.gov/phenomena/ionosphere): “the night-side of the earth, and the pole pointed away from the sun (depending on the season) have much less ionization than the day-side of the earth”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “During periods of maximum sunspot activity, the ionization density of all layers increases.”
 
 ### T3C10
 
@@ -1801,7 +2173,12 @@ B. 23 centimeters
 C. 70 centimeters and 1.25 meters  
 D. All these choices are correct  
 
-_No explanation published._
+At the peak of the sunspot cycle the F region becomes dense enough to return signals as high as 10 meters and sometimes 6 meters. UHF bands like 70 cm and 23 cm are far too high.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “During periods of maximum sunspot activity, the ionization density of all layers increases.”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “The F2 layer is the most important layer for long distance hf communications. It is a very variable layer and its height and density change with time of day, season, and sunspot activity.”
 
 ### T3C11
 
@@ -1812,10 +2189,24 @@ B. Radio waves are not blocked by dust particles
 **C. The atmosphere refracts radio waves slightly**  
 D. Radio waves are blocked by dust particles  
 
-_No explanation published._
+The atmosphere bends (refracts) VHF and UHF waves slightly downward, so they follow the Earth's curve a little. Engineers model this as an Earth 4/3 its real size. Since horizon distance grows with the square root of the Earth's radius, and √(4/3) ≈ 1.15, the radio horizon is about 15% farther than the straight-line (geometric) horizon.
+
+_Standard radio theory, not a quoted rule._
+
+- [Recommendation ITU-R P.310-11, Definitions of terms relating to propagation in non-ionized media](https://www.itu.int/rec/R-REC-P.310/en): “Note 1 – As a general rule, the radio and geometric horizons are different because of atmospheric refraction.”
+- [Recommendation ITU-R P.834-9, Effects of tropospheric refraction on radiowave propagation](https://www.itu.int/rec/R-REC-P.834/en): “The corresponding k-factor is k = 4/3.”
 
 ## Topic T4A. Station setup: connecting a microphone, RF power meter, a power source, a computer, digital equipment, an SWR meter; bonding; Mobile radio installation
 
+Putting a station together: powering the radio, where meters go, bonding, mobile installation, and the connections needed to run digital modes from a computer.
+
+- Mobile rigs (and many base radios) run on 13.8 V DC. A 50-watt FM mobile draws about 10 A on transmit, so choose a supply rated a bit higher (12 A or more). ([Yaesu FTM-6000R/E operating manual](https://sf.gov/sites/default/files/2022-11/FTM-6000R_E_OM_ENG_EH079M200_2110G-BS.pdf))
+- Use short, heavy-gauge DC leads to keep voltage drop low when transmitting. ([Vertex Standard (Yaesu) FT-2600M operating manual](https://sf.gov/sites/default/files/2022-07/2279-Yaesu%20FT-2600M%20Operating%20Manual.pdf))
+- In a vehicle, connect red to the battery's positive terminal and black directly to its negative terminal. ([Vertex Standard (Yaesu) FT-2600M operating manual](https://sf.gov/sites/default/files/2022-07/2279-Yaesu%20FT-2600M%20Operating%20Manual.pdf))
+- Battery run time ≈ ampere-hour rating ÷ average current draw. Example: 20 Ah ÷ 2 A ≈ 10 hours. ([US Navy](https://archive.org/details/NEETSModules))
+- For digital modes like FT8, connect radio audio to and from the computer's sound input and output, plus a keying (PTT, CAT or VOX) connection. ([WSJT-X User Guide](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/system-requirements.adoc))
+
+- Diagram: A typical station. Power comes through short, heavy DC leads; a power or SWR meter goes in the feed line between radio and antenna; a computer needs receive audio, transmit audio and a keying line for digital modes.
 ### T4A01
 
 Which of the following is an appropriate power supply rating for a typical 50-watt output mobile FM transceiver?
@@ -1825,7 +2216,12 @@ B. 13.8 volts at 4 amperes
 C. 24.0 volts at 12 amperes  
 **D. 13.8 volts at 12 amperes**  
 
-_No explanation published._
+Mobile rigs run on 13.8 volts, a car's charging voltage. A 50-watt FM mobile draws about 10 amps on transmit, so a 13.8 V supply rated for 12 amps has some headroom. 4 amps is far too little, and 24 volts would damage the radio.
+
+_General operating practice, not a quoted rule._
+
+- [Yaesu FTM-6000R/E operating manual](https://sf.gov/sites/default/files/2022-11/FTM-6000R_E_OM_ENG_EH079M200_2110G-BS.pdf): “10A (50W TX, 144MHz)”
+- [Yaesu FTM-6000R/E operating manual](https://sf.gov/sites/default/files/2022-11/FTM-6000R_E_OM_ENG_EH079M200_2110G-BS.pdf): “13.8V DC, negative ground”
 
 ### T4A02
 
@@ -1836,7 +2232,10 @@ B. The distance that the meter will be located from the antenna
 C. The maximum SWR anticipated on the transmission line  
 D. The ability of the meter to compensate for a poor transmission line match to the antenna  
 
-_No explanation published._
+SWR and power meters are built for particular frequency ranges and power levels. Pick one rated for the bands and power you'll use, or its readings won't be accurate (or it may be damaged).
+
+_General operating practice, not a quoted rule._
+
 
 ### T4A03
 
@@ -1847,7 +2246,11 @@ B. To provide a close match to the power supply output impedance
 C. To avoid RF interference  
 D. To minimize radiative losses in the power cable  
 
-_No explanation published._
+A transceiver draws its heaviest current when transmitting. Every wire has some resistance, and voltage drop is current times resistance, so short, thick wires keep the drop small and the radio gets its full voltage.
+
+_Standard radio theory, not a quoted rule._
+
+- [Vertex Standard (Yaesu) FT-2600M operating manual](https://sf.gov/sites/default/files/2022-07/2279-Yaesu%20FT-2600M%20Operating%20Manual.pdf): “To minimize voltage drop and avoid blowing the vehicle’s fuses, connect the supplied DC power cable directly to the battery terminals.”
 
 ### T4A04
 
@@ -1858,7 +2261,11 @@ A. To a computer running a terminal program and connected to a terminal node con
 C. To an FT8 conversion unit, a keyboard, and a computer monitor  
 D. To a computer connected to the FT8converter.com website  
 
-_No explanation published._
+For FT8, the radio's receive audio goes to the computer's audio input and the computer's audio output goes to the radio's transmit audio input. The FT8 software (such as WSJT-X) does the encoding and decoding. No TNC or special converter is needed.
+
+_General operating practice, not a quoted rule._
+
+- [WSJT-X User Guide, system requirements (source mirror on GitHub)](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/system-requirements.adoc): “Audio or equivalent USB connections between transceiver and computer”
 
 ### T4A05
 
@@ -1869,7 +2276,10 @@ B. At the power supply output
 C. In parallel with the push-to-talk line and the antenna  
 D. In the power supply cable, as close as possible to the radio  
 
-_No explanation published._
+An RF power meter measures the power flowing in the feed line, so it goes in the feed line between the transmitter and the antenna.
+
+_General operating practice, not a quoted rule._
+
 
 ### T4A06
 
@@ -1880,7 +2290,12 @@ B. Antenna and RF power
 **C. Receive audio, transmit audio, and transmitter keying**  
 D. NMEA GPS location and DC power  
 
-_No explanation published._
+A digital-mode interface carries three things: receive audio to the computer, transmit audio from the computer, and a way for the computer to key the transmitter (PTT, CAT or VOX).
+
+_General operating practice, not a quoted rule._
+
+- [WSJT-X User Guide, system requirements (source mirror on GitHub)](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/system-requirements.adoc): “Computer-to-radio interface using a serial port or equivalent USB device for T/R switching, or CAT control, or VOX, as required for your radio-to-computer connections”
+- [WSJT-X User Guide, system requirements (source mirror on GitHub)](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/system-requirements.adoc): “Audio or equivalent USB connections between transceiver and computer”
 
 ### T4A07
 
@@ -1891,7 +2306,11 @@ B. Computer “line in” to transceiver push-to-talk
 **C. Computer “line in” to transceiver speaker connector**  
 D. Computer “line out” to transceiver speaker connector  
 
-_No explanation published._
+The computer listens to the radio, so the computer's "line in" connects to the transceiver's speaker or audio output. (The computer's "line out" goes to the radio's microphone or data input.) Push-to-talk is a separate keying connection.
+
+_General operating practice, not a quoted rule._
+
+- [WSJT-X User Guide, system requirements (source mirror on GitHub)](https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/system-requirements.adoc): “Audio or equivalent USB connections between transceiver and computer”
 
 ### T4A08
 
@@ -1902,7 +2321,10 @@ B. Copper-clad steel wire
 C. Twisted-pair cable  
 **D. Flat copper strap**  
 
-_No explanation published._
+At radio frequencies, current flows on a conductor's surface, and a wide, flat strap has more surface and lower inductance than round wire or braid. That makes flat copper strap the preferred conductor for bonding equipment together.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T4A09
 
@@ -1913,7 +2335,11 @@ A. Divide the watt-hour rating of the battery by the peak power consumption of t
 C. Multiply the watts per hour consumed by the equipment by the battery power rating  
 D. Multiply the square of the current rating of the battery by the input resistance of the equipment  
 
-_No explanation published._
+A battery's capacity in ampere-hours equals current times hours, so the run time is the ampere-hour rating divided by the equipment's average current draw. For example, a 20 Ah battery at an average of 2 A lasts about 10 hours. Fast discharge reduces the usable capacity somewhat.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “The ampere-hour capacity is equal to the product of the current in amperes and the time in hours during which the battery will supply this current.”
 
 ### T4A10
 
@@ -1924,7 +2350,10 @@ B. FT8 digital communications via AFSK using a smartphone connected to the inter
 C. RTTY encoding and decoding without a computer  
 D. High-speed digital communications for meteor scatter  
 
-_No explanation published._
+A hotspot is a small, low-power digital transceiver connected to the internet. Your digital radio talks to it over the air, and it links you into a digital voice or data network such as DMR, D-STAR or System Fusion.
+
+_General operating practice, not a quoted rule._
+
 
 ### T4A11
 
@@ -1935,7 +2364,12 @@ B. To the shell of the power connector
 C. To any metal part of the vehicle  
 D. Through the transceiver’s mounting bracket  
 
-_No explanation published._
+Connect the radio's negative lead directly to the battery's negative terminal (the chassis ground at the battery), not just to any metal on the car. That keeps voltage drop and noise from the vehicle's electrical system to a minimum.
+
+_General operating practice, not a quoted rule._
+
+- [Vertex Standard (Yaesu) FT-2600M operating manual](https://sf.gov/sites/default/files/2022-07/2279-Yaesu%20FT-2600M%20Operating%20Manual.pdf): “Connect the RED power cable lead to the POSITIVE (+) battery terminal, and the BLACK power cable lead to the NEGATIVE (-) terminal.”
+- [Vertex Standard (Yaesu) FT-2600M operating manual](https://sf.gov/sites/default/files/2022-07/2279-Yaesu%20FT-2600M%20Operating%20Manual.pdf): “To minimize voltage drop and avoid blowing the vehicle’s fuses, connect the supplied DC power cable directly to the battery terminals.”
 
 ### T4A12
 
@@ -1946,9 +2380,20 @@ B. A device for voice activated switching from receive to transmit
 **C. A device that assists in manual sending of Morse code**  
 D. An interlock to prevent unauthorized use of a radio  
 
-_No explanation published._
+An electronic keyer is used with a paddle: it automatically makes evenly timed dots and dashes, which helps you send Morse code by hand.
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic T4B. Operating controls: frequency tuning, use of filters, squelch function, AGC, memory channels, noise blanker, microphone gain, receiver incremental tuning (RIT), bandwidth selection, scanning function; Digital transceiver configuration; DMR code plugs and talk groups
+
+The controls on a transceiver: tuning, squelch, scanning, filters, RIT, microphone gain, and setting up digital voice radios (DMR codeplugs and talkgroups), plus identification.
+
+- Squelch mutes the receiver when no signal is present. Raising it silences noise but can hide weak signals, so open it up to hear a weak station. ([Yaesu FTM-6000R/E operating manual](https://sf.gov/sites/default/files/2022-11/FTM-6000R_E_OM_ENG_EH079M200_2110G-BS.pdf))
+- Selectivity is a receiver's ability to separate the wanted signal from unwanted ones. Choosing a filter bandwidth that matches the mode (about 2.4 kHz for SSB, narrower for CW) improves it. ([US Navy](https://archive.org/details/NEETSModules))
+- AGC (automatic gain control) evens out changes in received signal strength, so you don't have to keep adjusting the volume. ([US Navy](https://archive.org/details/NEETSModules))
+- DMR radios use talkgroup IDs: the radio joins only calls to talkgroups it's programmed for. The codeplug is the configuration file that holds these settings. ([ETSI TS 102 361-1 V2.6.1](https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf))
+- You must give your call sign at the end of each contact and at least every 10 minutes during it, on any mode. ([47 CFR §97.119](https://www.ecfr.gov/current/title-47/section-97.119))
 
 ### T4B01
 
@@ -1959,7 +2404,10 @@ A. Frequency instability
 C. Increased SWR  
 D. Sideband inversion  
 
-_No explanation published._
+Too much microphone gain overdrives the SSB transmitter, so the transmitted audio is distorted, and it can cause splatter onto nearby frequencies.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T4B02
 
@@ -1970,7 +2418,10 @@ B. The CTCSS or DTMF encoder
 C. The Automatic Frequency Control  
 D. All these choices are correct  
 
-_No explanation published._
+You can set a transceiver's frequency by typing it on the keypad or by turning the main tuning (VFO) knob. CTCSS and DTMF are tone signaling, not frequency entry.
+
+_General operating practice, not a quoted rule._
+
 
 ### T4B03
 
@@ -1981,7 +2432,11 @@ B. Turn up the audio level until it overcomes the squelch threshold
 C. Turn on the anti-squelch function  
 D. Enable squelch enhancement  
 
-_No explanation published._
+Squelch mutes the receiver until a signal is strong enough. A weak signal may never reach the threshold, so lower the squelch until the audio stays on all the time (open squelch). You'll hear background noise, but also the weak signal.
+
+_General operating practice, not a quoted rule._
+
+- [Yaesu FTM-6000R/E operating manual](https://sf.gov/sites/default/files/2022-11/FTM-6000R_E_OM_ENG_EH079M200_2110G-BS.pdf): “When the squelch level is increased, the noise is more likely to be silenced, but it may become more difficult to receive weak signals.”
 
 ### T4B04
 
@@ -1992,7 +2447,10 @@ B. The audio decrease in pitch
 C. There is no effect except for reduction in amplitude  
 **D. The audio becomes distorted**  
 
-_No explanation published._
+An FM receiver slightly off frequency can't fully follow the signal's deviation, so the audio becomes distorted. FM pitch doesn't change with tuning the way SSB pitch does.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T4B05
 
@@ -2003,7 +2461,10 @@ B. Prevents interference to nearby repeaters
 **C. Tunes through a range of frequencies to check for activity**  
 D. Tunes through a range of frequencies to determine the antenna’s resonant frequency  
 
-_No explanation published._
+Scanning steps through a range of frequencies (or memory channels) and stops when it finds activity.
+
+_General operating practice, not a quoted rule._
+
 
 ### T4B06
 
@@ -2014,7 +2475,10 @@ B. The bandwidth selection
 C. The tone squelch  
 **D. The RIT or Clarifier**  
 
-_No explanation published._
+RIT (receiver incremental tuning), also called the clarifier, shifts just your receive frequency slightly. Use it to bring an SSB voice that sounds too high or low back to a natural pitch without changing your transmit frequency.
+
+_General operating practice, not a quoted rule._
+
 
 ### T4B07
 
@@ -2025,7 +2489,10 @@ A. An adapter cable used to connect a DMR radio to a computer for internet acces
 C. An upgrade to DMR programming software provided by the radio manufacturer to accommodate new radio models  
 D. A Coder-Decoder (CODEC) that converts analog voice data to DMR digital data and vice versa  
 
-_No explanation published._
+A codeplug is the configuration file loaded into a DMR radio. It holds the frequencies, color codes, talkgroups and contacts needed to use repeaters and talkgroups.
+
+_General operating practice, not a quoted rule._
+
 
 ### T4B08
 
@@ -2036,7 +2503,10 @@ A. Permits monitoring several modes simultaneously by selecting a separate filte
 C. Increases the number of frequencies that can be stored in memory  
 D. Increases the amount of offset between receive and transmit frequencies  
 
-_No explanation published._
+Choosing a receive filter bandwidth that matches the mode (narrow for CW, wider for SSB) lets the wanted signal through while cutting out noise and interference on either side.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T4B09
 
@@ -2047,7 +2517,11 @@ B. By enabling the group’s CTCSS tone
 **C. By entering the group’s identification code**  
 D. By inserting a five-pin, pre-programmed code plug  
 
-_No explanation published._
+DMR radios are selected into a group by entering that talkgroup's ID code. The radio only joins calls addressed to talkgroups it's set for. CTCSS tones and hardware code plugs aren't how it works.
+
+_General operating practice, not a quoted rule._
+
+- [ETSI TS 102 361-1 V2.6.1, Digital Mobile Radio (DMR) air interface protocol](https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf): “Others_Call: An MS transitions to this state when the received talk group(s) or individual ID does not match the talk group(s) or individual ID of the MS.”
 
 ### T4B10
 
@@ -2058,7 +2532,10 @@ B. 1000 Hz
 **C. 2400 Hz**  
 D. 5000 Hz  
 
-_No explanation published._
+An SSB voice signal is about 2.4 to 3 kHz wide. A 2400 Hz filter passes the voice while keeping out as much noise as possible. Narrower filters (500 or 1000 Hz) cut off the voice, and 5000 Hz lets in extra noise.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T4B11
 
@@ -2069,9 +2546,22 @@ B. Your output power
 C. The codec type being used  
 D. All these choices are correct  
 
-_No explanation published._
+The D-STAR system sends your call sign digitally in the header of each transmission, so the radio won't work properly until your call sign is programmed in. (You still also identify as the FCC rules require: at the end of each contact and every 10 minutes.)
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic T5A. Current and voltage: terminology and units, conductors and insulators, alternating and direct current
+
+The basic quantities of electricity. Voltage is the push, current is the flow of electrons, resistance opposes the flow, and power is how fast energy is used.
+
+- Voltage (electromotive force, or potential difference) is measured in volts. A difference in voltage is what makes electrons flow. ([US Navy](https://archive.org/details/NEETSModules))
+- Current, the flow of electrons, is measured in amperes. ([US Navy](https://archive.org/details/NEETSModules))
+- Resistance opposes current (DC, AC or RF) and is measured in ohms. ([US Navy](https://archive.org/details/NEETSModules))
+- Power is the rate of using energy, measured in watts. ([US Navy](https://archive.org/details/NEETSModules))
+- Metals conduct well because they have many free electrons. Insulators such as glass, rubber and plastic have few. ([US Navy](https://archive.org/details/NEETSModules))
+- Direct current flows one way. Alternating current keeps reversing direction. ([US Navy](https://archive.org/details/NEETSModules))
+- Frequency is cycles per second, measured in hertz (Hz). ([US Navy](https://archive.org/details/NEETSModules))
 
 ### T5A01
 
@@ -2082,7 +2572,11 @@ B. Watts
 C. Ohms  
 **D. Amperes**  
 
-_No explanation published._
+Current is measured in amperes (amps). Volts measure voltage, watts measure power, and ohms measure resistance.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “The magnitude of current is measured in AMPERES.”
 
 ### T5A02
 
@@ -2093,7 +2587,11 @@ A. Volts
 C. Watt-hours  
 D. Amperes  
 
-_No explanation published._
+Power is measured in watts. Watt-hours measure energy (power used over time), not power.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “As stated, the basic unit of power is the watt.”
 
 ### T5A03
 
@@ -2104,7 +2602,11 @@ B. Amperes per second
 C. Volts per second  
 **D. Current**  
 
-_No explanation published._
+The flow of electrons in a circuit is called current. Voltage is the push that causes it.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “This electron movement is called an ELECTRIC CURRENT.”
 
 ### T5A04
 
@@ -2115,7 +2617,11 @@ B. Wave number
 **C. Frequency**  
 D. Wavelength  
 
-_No explanation published._
+Frequency is the number of complete cycles per second, measured in hertz.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “FREQUENCY (f)—The number of complete cycles per second existing in any form of wave motion; such as the number of cycles per second of an alternating current.”
 
 ### T5A05
 
@@ -2126,7 +2632,11 @@ B. Ampere-hours
 C. Capacitance  
 D. Inductance  
 
-_No explanation published._
+A difference in voltage (electrical potential) between two points is what pushes electrons to flow.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “exists, which is called the difference of potential between the two bodies. This is referred to as ELECTROMOTIVE FORCE, or VOLTAGE, and the unit of measure is the VOLT.”
 
 ### T5A06
 
@@ -2137,7 +2647,11 @@ B. Henry
 C. Farad  
 D. Epicycles per second  
 
-_No explanation published._
+The unit of frequency is the hertz (Hz), one cycle per second. Henry is the unit of inductance and farad of capacitance.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “HERTZ (Hz)—The basic unit of frequency equal to one cycle per second.”
 
 ### T5A07
 
@@ -2148,7 +2662,11 @@ A. They have relatively high density
 C. They have many free protons  
 D. They have relatively high Young’s modulus values  
 
-_No explanation published._
+Metals are good conductors because they have many free electrons that can move easily from atom to atom.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “Silver, copper, gold, and aluminum are materials with many free electrons and make good conductors.”
 
 ### T5A08
 
@@ -2159,7 +2677,11 @@ A. Sea water
 C. Stainless steel  
 D. Graphite  
 
-_No explanation published._
+Glass is a good insulator: it has few free electrons. Sea water, stainless steel and graphite all conduct.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “Nonconductors have few free electrons. These materials are called INSULATORS. Some examples of these materials are rubber, plastic, enamel, glass, dry wood, and mica.”
 
 ### T5A09
 
@@ -2170,7 +2692,11 @@ B. Current that alternates between a negative direction and zero
 **C. Current that alternates between positive and negative directions**  
 D. All these answers are correct  
 
-_No explanation published._
+Alternating current keeps reversing direction, flowing first one way (positive) and then the other (negative).
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “A2. An electrical current which is constantly varying in amplitude, and which changes direction at regular intervals.”
 
 ### T5A10
 
@@ -2181,7 +2707,11 @@ B. Current
 **C. Power**  
 D. Voltage  
 
-_No explanation published._
+Power is the rate at which electrical energy is used (or work is done), measured in watts.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “Power, whether electrical or mechanical, pertains to the rate at which work is being done.”
 
 ### T5A11
 
@@ -2192,10 +2722,22 @@ B. Alternating current
 C. RF current  
 **D. All these choices are correct**  
 
-_No explanation published._
+Resistance opposes any current flow: direct current, alternating current and RF current alike.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “This opposition to current flow is known as RESISTANCE (R), and the unit of measure is the OHM.”
 
 ## Topic T5B. Math for electronics: conversion of electrical units, decibels
 
+Unit conversions and decibels. Metric prefixes step by factors of 1000, and decibels express power ratios.
+
+- Kilo = 1000, mega = 1,000,000, giga = 1,000,000,000. ([US Navy](https://archive.org/details/NEETSModules))
+- Milli = one-thousandth, micro = one-millionth, pico = one-millionth of a millionth. ([US Navy](https://archive.org/details/NEETSModules))
+- Decibels compare two powers: dB = 10 × log₁₀(new power ÷ original power). A negative result means a loss. ([US Navy](https://archive.org/details/NEETSModules))
+- Rules of thumb: double the power = +3 dB, half = −3 dB, a quarter = −6 dB, 10× = +10 dB. ([US Navy](https://archive.org/details/NEETSModules))
+
+- Diagram: Metric prefixes go up and down in steps of 1000. Moving to a bigger prefix makes the number smaller, and vice versa.
 ### T5B01
 
 How many milliamperes is 1.5 amperes?
@@ -2205,7 +2747,11 @@ B. 0.0015 milliamperes
 **C. 1500 milliamperes**  
 D. 1,500,000 milliamperes  
 
-_No explanation published._
+Milli means one-thousandth, so 1 ampere = 1000 milliamperes, and 1.5 A × 1000 = 1500 mA.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “the millivolt (mV), meaning one-thousandth of a volt”
 
 ### T5B02
 
@@ -2216,7 +2762,11 @@ B. 1500 MHz
 C. 15 GHz  
 D. 150 kHz  
 
-_No explanation published._
+Kilo means 1000, so 1,500,000 Hz ÷ 1000 = 1500 kHz (which is also 1.5 MHz).
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “the kilovolt (kV), meaning 1,000 volts”
 
 ### T5B03
 
@@ -2227,7 +2777,11 @@ B. One hundred volts
 **C. One thousand volts**  
 D. One million volts  
 
-_No explanation published._
+Kilo means one thousand, so one kilovolt is 1000 volts.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “the kilovolt (kV), meaning 1,000 volts”
 
 ### T5B04
 
@@ -2238,7 +2792,11 @@ B. One million volts
 C. One thousand kilovolts  
 D. One one-thousandth of a volt  
 
-_No explanation published._
+Micro means one-millionth, so one microvolt is one-millionth of a volt (0.000001 V).
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “the millivolt (mV), meaning one-thousandth of a volt, and the microvolt (µV), meaning one-millionth of a volt”
 
 ### T5B05
 
@@ -2249,7 +2807,11 @@ A. 5 watts
 C. 500,000 watts  
 D. 500,000,000 watts  
 
-_No explanation published._
+500 milliwatts is 500 thousandths of a watt: 500 ÷ 1000 = 0.5 watts.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “the millivolt (mV), meaning one-thousandth of a volt”
 
 ### T5B06
 
@@ -2260,7 +2822,11 @@ B. 0.3 amperes
 C. 3,000,000 amperes  
 **D. 3 amperes**  
 
-_No explanation published._
+Milli means one-thousandth, so 3000 milliamperes ÷ 1000 = 3 amperes.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “the millivolt (mV), meaning one-thousandth of a volt”
 
 ### T5B07
 
@@ -2271,7 +2837,10 @@ B. 35.25 kHz
 **C. 3525 kHz**  
 D. 3,525,000 kHz  
 
-_No explanation published._
+Mega is 1000 times kilo, so 3.525 MHz × 1000 = 3525 kHz.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T5B08
 
@@ -2282,7 +2851,11 @@ A. 0.001 microfarads
 C. 1000 microfarads  
 D. 1,000,000,000 microfarads  
 
-_No explanation published._
+A picofarad is one-millionth of a microfarad, so 1,000,000 pF = 1 µF.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “1.0 picofarad is equal to 0.000000000001 farad or 1.0 × 10-12 farad.”
 
 ### T5B09
 
@@ -2293,7 +2866,11 @@ A. 2 dB
 C. 5 dB  
 D. 10 dB  
 
-_No explanation published._
+Doubling power is a gain of about 3 dB. From 5 to 10 watts is double: 10 × log₁₀(10 ÷ 5) ≈ 3 dB.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 16: Introduction to Test Equipment (NAVEDTRA 14188)](https://archive.org/details/NEETSModules): “To say that an amplifier has a 3 dB gain means that the output power is twice the input power.”
 
 ### T5B10
 
@@ -2304,7 +2881,12 @@ B. -3 dB
 **C. -6 dB**  
 D. -9 dB  
 
-_No explanation published._
+Going from 12 to 3 watts is one-quarter the power: two halvings of about −3 dB each, so about −6 dB. (10 × log₁₀(3 ÷ 12) ≈ −6.0 dB.)
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 16: Introduction to Test Equipment (NAVEDTRA 14188)](https://archive.org/details/NEETSModules): “To say that an amplifier has a 3 dB gain means that the output power is twice the input power.”
+- [US Navy, NEETS Module 16: Introduction to Test Equipment (NAVEDTRA 14188)](https://archive.org/details/NEETSModules): “You can express the power gain of the amplifier (N) in bels by dividing the output (P1) by the input (P2) and taking the base 10 logarithm of the resulting quotient.”
 
 ### T5B11
 
@@ -2315,7 +2897,12 @@ B. 12 dB
 C. 18 dB  
 D. 28 dB  
 
-_No explanation published._
+20 to 200 watts is ten times the power, and a tenfold power increase is exactly 10 dB: 10 × log₁₀(10) = 10.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 16: Introduction to Test Equipment (NAVEDTRA 14188)](https://archive.org/details/NEETSModules): “You can express the power gain of the amplifier (N) in bels by dividing the output (P1) by the input (P2) and taking the base 10 logarithm of the resulting quotient.”
+- [US Navy, NEETS Module 16: Introduction to Test Equipment (NAVEDTRA 14188)](https://archive.org/details/NEETSModules): “A more practical unit, and one that can be used more easily, is the decibel (1/10 bel).”
 
 ### T5B12
 
@@ -2326,7 +2913,10 @@ B. 2.800 MHz
 C. 284.00 MHz  
 **D. 28.400 MHz**  
 
-_No explanation published._
+28400 kHz ÷ 1000 = 28.400 MHz.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T5B13
 
@@ -2337,9 +2927,20 @@ B. 24.25 GHz
 **C. 2.425 GHz**  
 D. 242.5 GHz  
 
-_No explanation published._
+2425 MHz ÷ 1000 = 2.425 GHz.
+
+_Standard radio theory, not a quoted rule._
+
 
 ## Topic T5C. Capacitance and inductance terminology and units; Radio frequency definition and units; Impedance definition and units; Calculating power
+
+Capacitance, inductance and impedance, their units, how unit symbols are written, and calculating DC power.
+
+- Capacitance stores energy in an electric field and is measured in farads. ([US Navy](https://archive.org/details/NEETSModules))
+- Inductance stores energy in a magnetic field and is measured in henrys. ([US Navy](https://archive.org/details/NEETSModules))
+- Impedance is the total opposition to AC (resistance and reactance combined), measured in ohms. ([US Navy](https://archive.org/details/NEETSModules))
+- Case matters in unit symbols: kHz (small k), MHz (capital M; small m means milli), and Hz with a capital H. ([NIST Special Publication 811](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication811e2008.pdf))
+- DC power: P = I × E. Example: 13.8 V × 10 A = 138 W; and I = P ÷ E, so 120 W at 12 V draws 10 A. ([US Navy](https://archive.org/details/NEETSModules))
 
 ### T5C01
 
@@ -2350,7 +2951,11 @@ B. Resistance
 C. Frequency  
 **D. Capacitance**  
 
-_No explanation published._
+Capacitance is the ability to store energy in an electric (electrostatic) field, which is what a capacitor does.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “A CAPACITOR is a device that stores electrical energy in an ELECTROSTATIC FIELD.”
 
 ### T5C02
 
@@ -2361,7 +2966,11 @@ B. Ohm
 C. Volt  
 D. Henry  
 
-_No explanation published._
+Capacitance is measured in farads (F). The henry is for inductance, the ohm for resistance.
+
+_Standard radio theory, not a quoted rule._
+
+- [NIST Special Publication 811, Guide for the Use of the International System of Units (SI)](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication811e2008.pdf): “capacitance farad F”
 
 ### T5C03
 
@@ -2372,7 +2981,11 @@ B. Capacitance
 C. Resistance  
 **D. Inductance**  
 
-_No explanation published._
+Inductance is the ability to store energy in a magnetic field, which is what a coil (inductor) does.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “the magnetic field of an inductor stores energy.”
 
 ### T5C04
 
@@ -2383,7 +2996,11 @@ B. Farad
 **C. Henry**  
 D. Ohm  
 
-_No explanation published._
+Inductance is measured in henrys (H).
+
+_Standard radio theory, not a quoted rule._
+
+- [NIST Special Publication 811, Guide for the Use of the International System of Units (SI)](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication811e2008.pdf): “inductance henry H”
 
 ### T5C05
 
@@ -2394,7 +3011,12 @@ B. Ampere
 C. Coulomb  
 **D. Ohm**  
 
-_No explanation published._
+Impedance, the total opposition to AC (resistance and reactance combined), is measured in ohms.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “This combined opposition by the resistance and the reactance is called the IMPEDANCE, and is represented by the symbol Z.”
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “Since the values of resistance and reactance are both given in ohms”
 
 ### T5C06
 
@@ -2405,7 +3027,12 @@ B. khz
 C. KHz  
 D. KHZ  
 
-_No explanation published._
+Kilohertz is written kHz: a lower-case k for kilo, and Hz with a capital H because the hertz is named after a person.
+
+_Standard radio theory, not a quoted rule._
+
+- [NIST Special Publication 811, Guide for the Use of the International System of Units (SI)](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication811e2008.pdf): “The prefix symbols Y (yotta), Z (zetta), E (exa), P (peta), T (tera), G (giga), and M (mega) are printed in upper-case letters while all other prefix symbols are printed in lower-case letters”
+- [NIST Special Publication 811, Guide for the Use of the International System of Units (SI)](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication811e2008.pdf): “the symbol or the first letter of the symbol is an upper-case letter when the name of the unit is derived from the name of a person”
 
 ### T5C07
 
@@ -2416,7 +3043,12 @@ B. mHZ
 C. Mhz  
 **D. MHz**  
 
-_No explanation published._
+Megahertz is written MHz: a capital M for mega (lower-case m means milli), and Hz with a capital H.
+
+_Standard radio theory, not a quoted rule._
+
+- [NIST Special Publication 811, Guide for the Use of the International System of Units (SI)](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication811e2008.pdf): “The prefix symbols Y (yotta), Z (zetta), E (exa), P (peta), T (tera), G (giga), and M (mega) are printed in upper-case letters while all other prefix symbols are printed in lower-case letters”
+- [NIST Special Publication 811, Guide for the Use of the International System of Units (SI)](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication811e2008.pdf): “the symbol or the first letter of the symbol is an upper-case letter when the name of the unit is derived from the name of a person”
 
 ### T5C08
 
@@ -2427,7 +3059,11 @@ B. P = E / I
 C. P = I² x E  
 D. P = I / E  
 
-_No explanation published._
+DC power is current times voltage: P = I × E (watts = amps × volts).
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “Power in watts is equal to the voltage across a circuit multiplied by current through the circuit.”
 
 ### T5C09
 
@@ -2438,7 +3074,11 @@ B. 0.7 watts
 C. 23.8 watts  
 D. 3.8 watts  
 
-_No explanation published._
+P = E × I = 13.8 V × 10 A = 138 watts.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “Power in watts is equal to the voltage across a circuit multiplied by current through the circuit.”
 
 ### T5C10
 
@@ -2449,7 +3089,11 @@ A. 4.8 watts
 C. 14.5 watts  
 D. 0.208 watts  
 
-_No explanation published._
+P = E × I = 12 V × 2.5 A = 30 watts.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “Power in watts is equal to the voltage across a circuit multiplied by current through the circuit.”
 
 ### T5C11
 
@@ -2460,7 +3104,11 @@ A. 0.1 amperes
 C. 12 amperes  
 D. 132 amperes  
 
-_No explanation published._
+I = P ÷ E = 120 W ÷ 12 V = 10 amperes.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “Power in watts is equal to the voltage across a circuit multiplied by current through the circuit.”
 
 ### T5C12
 
@@ -2471,10 +3119,24 @@ B. The inverse of resistance
 C. The inverse of reactance  
 D. The power handling capability of a component  
 
-_No explanation published._
+Impedance is the total opposition to alternating current: resistance and reactance together.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “This combined opposition by the resistance and the reactance is called the IMPEDANCE, and is represented by the symbol Z.”
 
 ## Topic T5D. Ohm’s Law; Series and parallel circuits
 
+Ohm's law ties voltage, current and resistance together. Series and parallel circuits divide current and voltage in different ways.
+
+- E = I × R. Example: 2 A through 10 Ω gives 20 V. ([US Navy](https://archive.org/details/NEETSModules))
+- I = E ÷ R. Example: 120 V across 80 Ω gives 1.5 A. ([US Navy](https://archive.org/details/NEETSModules))
+- R = E ÷ I. Example: 90 V and 3 A means 30 Ω. ([US Navy](https://archive.org/details/NEETSModules))
+- Series circuit: the same current flows through every component. ([US Navy](https://archive.org/details/NEETSModules))
+- Parallel circuit: the same voltage is across every branch. ([US Navy](https://archive.org/details/NEETSModules))
+
+- Diagram: Cover the quantity you want to find; what's left shows the formula. E is voltage in volts, I current in amperes, R resistance in ohms, P power in watts.
+- Diagram: Series: one path, the same current through every part. Parallel: every branch connects across the same two points, so each gets the same voltage.
 ### T5D01
 
 What formula is used to calculate current in a circuit?
@@ -2484,7 +3146,11 @@ A. I = E x R
 C. I = E² x R  
 D. I = E² / R  
 
-_No explanation published._
+Ohm's law: current equals voltage divided by resistance, I = E ÷ R.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To determine the unknown quantity, first cover that quantity with a finger. The position of the uncovered letters in the circle will indicate the mathematical operation to be performed. For example, to find I, cover I with a finger. The uncovered letters indicate that E is to be divided by R”
 
 ### T5D02
 
@@ -2495,7 +3161,11 @@ B. E = I / R
 C. E = I² x R  
 D. E = I² / R  
 
-_No explanation published._
+Ohm's law: voltage equals current times resistance, E = I × R.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To find the formula for E, cover E with your finger. The result indicates that I is to be multiplied by R, or E = IR.”
 
 ### T5D03
 
@@ -2506,7 +3176,11 @@ A. R = E x I
 C. R = E + I  
 D. R = E - I  
 
-_No explanation published._
+Ohm's law: resistance equals voltage divided by current, R = E ÷ I.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To find the formula for R, cover R. The result indicates that E is to be divided by I”
 
 ### T5D04
 
@@ -2517,7 +3191,11 @@ A. 3 ohms
 C. 1/30 ohm  
 D. 270 ohms  
 
-_No explanation published._
+R = E ÷ I = 90 V ÷ 3 A = 30 ohms.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To find the formula for R, cover R. The result indicates that E is to be divided by I”
 
 ### T5D05
 
@@ -2528,7 +3206,11 @@ B. 0.125 ohms
 **C. 8 ohms**  
 D. 13.5 ohms  
 
-_No explanation published._
+R = E ÷ I = 12 V ÷ 1.5 A = 8 ohms.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To find the formula for R, cover R. The result indicates that E is to be divided by I”
 
 ### T5D06
 
@@ -2539,7 +3221,11 @@ B. 16 ohms
 C. 48 ohms  
 D. 8 ohms  
 
-_No explanation published._
+R = E ÷ I = 12 V ÷ 4 A = 3 ohms.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To find the formula for R, cover R. The result indicates that E is to be divided by I”
 
 ### T5D07
 
@@ -2550,7 +3236,11 @@ B. 200 amperes
 C. 0.667 amperes  
 **D. 1.5 amperes**  
 
-_No explanation published._
+I = E ÷ R = 120 V ÷ 80 Ω = 1.5 amperes.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To determine the unknown quantity, first cover that quantity with a finger. The position of the uncovered letters in the circle will indicate the mathematical operation to be performed. For example, to find I, cover I with a finger. The uncovered letters indicate that E is to be divided by R”
 
 ### T5D08
 
@@ -2561,7 +3251,11 @@ B. 0.5 amperes
 **C. 2 amperes**  
 D. 100 amperes  
 
-_No explanation published._
+I = E ÷ R = 200 V ÷ 100 Ω = 2 amperes.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To determine the unknown quantity, first cover that quantity with a finger. The position of the uncovered letters in the circle will indicate the mathematical operation to be performed. For example, to find I, cover I with a finger. The uncovered letters indicate that E is to be divided by R”
 
 ### T5D09
 
@@ -2572,7 +3266,11 @@ B. 0.1 amperes
 **C. 10 amperes**  
 D. 5760 amperes  
 
-_No explanation published._
+I = E ÷ R = 240 V ÷ 24 Ω = 10 amperes.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To determine the unknown quantity, first cover that quantity with a finger. The position of the uncovered letters in the circle will indicate the mathematical operation to be performed. For example, to find I, cover I with a finger. The uncovered letters indicate that E is to be divided by R”
 
 ### T5D10
 
@@ -2583,7 +3281,11 @@ B. 0.25 volts
 C. 2.5 volts  
 D. 1.5 volts  
 
-_No explanation published._
+E = I × R = 0.5 A × 2 Ω = 1 volt.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To find the formula for E, cover E with your finger. The result indicates that I is to be multiplied by R, or E = IR.”
 
 ### T5D11
 
@@ -2594,7 +3296,11 @@ A. 1 volt
 C. 11 volts  
 D. 9 volts  
 
-_No explanation published._
+E = I × R = 1 A × 10 Ω = 10 volts.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To find the formula for E, cover E with your finger. The result indicates that I is to be multiplied by R, or E = IR.”
 
 ### T5D12
 
@@ -2605,7 +3311,11 @@ B. 0.2 volts
 C. 12 volts  
 **D. 20 volts**  
 
-_No explanation published._
+E = I × R = 2 A × 10 Ω = 20 volts.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “To find the formula for E, cover E with your finger. The result indicates that I is to be multiplied by R, or E = IR.”
 
 ### T5D13
 
@@ -2616,7 +3326,11 @@ B. Parallel
 C. Resonant  
 D. Branch  
 
-_No explanation published._
+In a series circuit there's only one path, so the same current flows through every component.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “Since there is only one path for current in a series circuit, the same current must flow through each component of the circuit.”
 
 ### T5D14
 
@@ -2627,9 +3341,22 @@ A. Series
 C. Resonant  
 D. Branch  
 
-_No explanation published._
+In a parallel circuit every component is connected across the same two points, so each has the same voltage across it.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “IN A PARALLEL CIRCUIT, THE SAME VOLTAGE IS PRESENT IN EACH BRANCH.”
 
 ## Topic T6A. Fixed and variable resistors; Capacitors; Inductors; Fuses; Switches; Batteries
+
+Basic components: resistors and potentiometers, capacitors, inductors, switches and batteries.
+
+- A resistor opposes current. A potentiometer is a variable resistor, often used as a volume control. ([US Navy](https://archive.org/details/NEETSModules))
+- A capacitor is two conductive plates separated by an insulator (the dielectric), and stores energy in an electric field. ([US Navy](https://archive.org/details/NEETSModules))
+- An inductor is usually a coil of wire, and stores energy in a magnetic field. ([US Navy](https://archive.org/details/NEETSModules))
+- SPST switches turn one circuit on or off. SPDT switches connect one circuit to either of two others. ([US Navy](https://archive.org/details/NEETSModules))
+- Nickel-metal hydride, lithium-ion, nickel-cadmium and lead-acid batteries are rechargeable. ([US EPA](https://www.epa.gov/recycle/used-household-batteries))
+- Carbon-zinc and alkaline cells are single-use. ([US EPA](https://www.epa.gov/recycle/used-household-batteries))
 
 ### T6A01
 
@@ -2640,7 +3367,11 @@ A. Inductor
 C. Inverter  
 D. Transformer  
 
-_No explanation published._
+A resistor's job is to oppose (resist) current flow.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “This opposition to current flow is known as RESISTANCE (R), and the unit of measure is the OHM.”
 
 ### T6A02
 
@@ -2651,7 +3382,11 @@ B. Power resistor
 **C. Potentiometer**  
 D. Transformer  
 
-_No explanation published._
+A potentiometer, a variable resistor with a sliding contact, is the classic volume control.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “An example of the potentiometer is the volume control on your radio”
 
 ### T6A03
 
@@ -2662,7 +3397,11 @@ A. Inductance
 C. Capacitance  
 D. Field strength  
 
-_No explanation published._
+A potentiometer is a variable resistor: turning it changes resistance.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)](https://archive.org/details/NEETSModules): “There are two types of variable resistors, one called a POTENTIOMETER and the other a RHEOSTAT”
 
 ### T6A04
 
@@ -2673,7 +3412,11 @@ A. Resistor
 C. Inductor  
 D. Diode  
 
-_No explanation published._
+A capacitor stores energy in an electric field between its plates.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “A CAPACITOR is a device that stores electrical energy in an ELECTROSTATIC FIELD.”
 
 ### T6A05
 
@@ -2684,7 +3427,11 @@ B. Potentiometer
 C. Oscillator  
 **D. Capacitor**  
 
-_No explanation published._
+A capacitor is made of conductive plates separated by an insulator, called the dielectric.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “A simple capacitor consists of two metal plates separated by an insulating material called a dielectric”
 
 ### T6A06
 
@@ -2695,7 +3442,11 @@ B. Capacitor
 **C. Inductor**  
 D. Diode  
 
-_No explanation published._
+An inductor stores energy in a magnetic field.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “the magnetic field of an inductor stores energy.”
 
 ### T6A07
 
@@ -2706,7 +3457,11 @@ B. Capacitor
 C. Diode  
 **D. Inductor**  
 
-_No explanation published._
+An inductor is typically a coil of wire, sometimes wound around a core.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “The inductor is made by forming a coil of wire around a core.”
 
 ### T6A08
 
@@ -2717,7 +3472,11 @@ B. Two circuits are opened or closed
 **C. A single circuit is switched between one of two other circuits**  
 D. Two circuits are each switched between one of two other circuits  
 
-_No explanation published._
+SPDT means single-pole, double-throw: one circuit (one pole) can be switched to either of two other circuits (two throws).
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “The center connection of the schematic symbol represents the point at which current enters the switch. The left and right connections represent the two different points to which this current can be switched.”
 
 ### T6A09
 
@@ -2728,7 +3487,10 @@ B. Single-pole double-throw
 C. Double-pole single-throw  
 D. Double-pole double-throw  
 
-_No explanation published._
+Component 3 in figure T-2 is a switch with one moving contact (one pole) and one place it can close to (one throw): a single-pole, single-throw (SPST) on/off switch.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6A10
 
@@ -2739,7 +3501,13 @@ B. Lithium-ion
 C. Lead-acid  
 **D. All these choices are correct**  
 
-_No explanation published._
+Nickel-metal hydride, lithium-ion and lead-acid batteries are all rechargeable types.
+
+_Standard radio theory, not a quoted rule._
+
+- [US EPA, Used household batteries](https://www.epa.gov/recycle/used-household-batteries): “Nickel Metal Hydride (Ni-MH)”
+- [US EPA, Used household batteries](https://www.epa.gov/recycle/used-household-batteries): “Lithium-Ion (Li-ion)”
+- [US EPA, Used household batteries](https://www.epa.gov/recycle/used-household-batteries): “Small-Sealed Lead Acid (Pb)”
 
 ### T6A11
 
@@ -2750,9 +3518,21 @@ A. Nickel-cadmium
 C. Lead-acid  
 D. Lithium-ion  
 
-_No explanation published._
+Carbon-zinc (zinc-carbon) cells are single-use and not rechargeable. Nickel-cadmium, lead-acid and lithium-ion are all rechargeable.
+
+_Standard radio theory, not a quoted rule._
+
+- [US EPA, Used household batteries](https://www.epa.gov/recycle/used-household-batteries): “Single-Use Batteries TypeUses and DescriptionDisposal Alkaline and Zinc-Carbon”
 
 ## Topic T6B. Semiconductors: basic principles and applications of solid-state devices, diodes and transistors; Gain
+
+Semiconductors: diodes let current flow one way, LEDs give off light, and transistors switch and amplify.
+
+- A diode passes current in only one direction. Its electrodes are the anode and cathode, and the cathode end is usually marked with a band. ([US Navy](https://archive.org/details/NEETSModules))
+- An LED gives off light when forward current flows through it. ([US Navy](https://archive.org/details/NEETSModules))
+- A bipolar transistor has three regions, the emitter, base and collector. ([US Navy](https://archive.org/details/NEETSModules))
+- A field-effect transistor (FET) has a gate, source and drain. ([US Navy](https://archive.org/details/NEETSModules))
+- Gain is output compared with input, as a voltage, current or power ratio. Transistors can provide power gain. ([US Navy](https://archive.org/details/NEETSModules))
 
 ### T6B01
 
@@ -2763,7 +3543,11 @@ B. It is proportional to peak inverse voltage
 C. It indicates that the diode is defective  
 D. It has no impact on the voltage delivered to the load  
 
-_No explanation published._
+Every diode drops some voltage when conducting, but how much depends on the type: a germanium junction, for example, needs only about 0.2 V to conduct versus about 0.6 V for silicon. The drop is normal, not a defect, and it does reduce the voltage reaching the load.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “it would take a battery slightly over .2 volts to properly forward bias a germanium transistor, while a similar silicon transistor would require a voltage slightly over .6 volts.”
 
 ### T6B02
 
@@ -2774,7 +3558,11 @@ B. Fuse
 **C. Diode**  
 D. Driven element  
 
-_No explanation published._
+A diode lets current flow in only one direction.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “to convert alternating current into direct current by permitting current flow in only one direction.”
 
 ### T6B03
 
@@ -2785,7 +3573,10 @@ B. Potentiometer
 **C. Transistor**  
 D. Thermistor  
 
-_No explanation published._
+A transistor can act as an electronic switch, turning a larger current fully on or off with a small control signal.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6B04
 
@@ -2796,7 +3587,11 @@ A. Alternator
 C. Triode  
 D. Pentode  
 
-_No explanation published._
+A bipolar transistor is made of three regions of semiconductor material: emitter, base and collector (for example NPN or PNP).
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “The three elements of the two-junction transistor are (1) the EMITTER, which gives off, or emits," current carriers (electrons or holes); (2) the BASE, which controls the flow of current carriers; and (3) the COLLECTOR, which collects the current carriers.”
 
 ### T6B05
 
@@ -2807,7 +3602,11 @@ A. Varistor
 C. Hall-effect  
 D. Bipolar junction  
 
-_No explanation published._
+A field-effect transistor (FET) has a gate, a source and a drain.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “The elements of the FET are the gate, source, and drain”
 
 ### T6B06
 
@@ -2818,7 +3617,11 @@ A. With the word "cathode"
 C. With the letter C  
 D. With the letter K  
 
-_No explanation published._
+Diodes are most commonly marked with a band or stripe at the cathode end. (Other markings such as a K are sometimes printed, but the stripe is by far the usual one.)
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “manufacturers generally code the cathode end of the diode with a "k," "+," "cath," a color dot or band”
 
 ### T6B07
 
@@ -2829,7 +3632,11 @@ B. Reverse current
 C. Capacitively-coupled RF signal  
 D. Inductively-coupled RF signal  
 
-_No explanation published._
+An LED lights up when forward current flows through it, that is, when it's forward biased.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “A LIGHT-EMITTING DIODE is a diode which, when forward biased, produces visible light.”
 
 ### T6B08
 
@@ -2840,7 +3647,11 @@ B. Fast Electron Transistor
 C. Free Electron Transmitter  
 **D. Field Effect Transistor**  
 
-_No explanation published._
+FET stands for field-effect transistor.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “The unijunction transistor (UJT) and the field effect transistor (FET) will be discussed”
 
 ### T6B09
 
@@ -2851,7 +3662,11 @@ B. Source and drain
 **C. Anode and cathode**  
 D. Gate and base  
 
-_No explanation published._
+A diode's two electrodes are the anode and the cathode.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “it is also necessary to distinguish one end of the diode from the other (anode from cathode).”
 
 ### T6B10
 
@@ -2862,7 +3677,10 @@ A. Transformer
 C. Reactor  
 D. Resistor  
 
-_No explanation published._
+A transistor can amplify, producing more output power than input power by controlling energy from the power supply. A transformer can raise voltage or current, but never power.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6B11
 
@@ -2873,7 +3691,11 @@ B. The output signal current relative to the input signal current
 C. The output signal power relative to the input signal power  
 **D. All these choices are correct**  
 
-_No explanation published._
+Gain is how much bigger the output is than the input. It can be measured as a ratio of voltages, currents or powers.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 8: Introduction to Amplifiers (NAVEDTRA 14180)](https://archive.org/details/NEETSModules): “Voltage gain is calculated using input and output voltage; current gain uses input and output current; and power gain uses input and output power.”
 
 ### T6B12
 
@@ -2884,10 +3706,20 @@ A. Signal, bias, power
 C. Input, output, supply  
 D. Pole one, pole two, output  
 
-_No explanation published._
+A bipolar junction transistor's electrodes are the emitter, base and collector.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “The three elements of the two-junction transistor are (1) the EMITTER, which gives off, or emits," current carriers (electrons or holes); (2) the BASE, which controls the flow of current carriers; and (3) the COLLECTOR, which collects the current carriers.”
 
 ## Topic T6C. Circuit diagrams: use of schematics, basic structure; Schematic symbols of basic components
 
+Schematic diagrams use standard symbols to show how components connect. Learn to recognize the common symbols, including those in exam figures T-1, T-2 and T-3.
+
+- A schematic shows electrical connections with standard symbols. ([US Navy](https://archive.org/details/NEETSModules))
+- It doesn't show real sizes, shapes, positions or wire lengths. ([US Navy](https://archive.org/details/NEETSModules))
+
+- Diagram: Common schematic symbols. An arrow drawn across a symbol means the part is adjustable (variable). An arrow pointing at a resistor or coil (a sliding contact or tap), as in exam figures T-2 and T-3, also marks an adjustable part.
 ### T6C01
 
 What is an electrical diagram using standard component symbols called?
@@ -2897,7 +3729,11 @@ B. Instrumentation system
 **C. Schematic**  
 D. Flow chart  
 
-_No explanation published._
+A schematic is an electrical diagram that uses standard symbols to show how components connect.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 4: Introduction to Electrical Conductors, Wiring Techniques, and Schematic Reading (NAVEDTRA 14176)](https://archive.org/details/NEETSModules): “The schematic diagram shows, by means of graphic symbols, the electrical connections and functions of a specific circuit arrangement.”
 
 ### T6C02
 
@@ -2908,7 +3744,10 @@ B. Transistor
 C. Battery  
 D. Connector  
 
-_No explanation published._
+Component 1 in figure T-1 is the zig-zag resistor symbol.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6C03
 
@@ -2919,7 +3758,10 @@ A. Resistor
 C. Indicator lamp  
 D. Connector  
 
-_No explanation published._
+Component 2 in figure T-1 is a transistor: a circle with base, collector and emitter leads, the emitter marked by an arrow.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6C04
 
@@ -2930,7 +3772,10 @@ B. Transistor
 **C. Lamp**  
 D. Ground symbol  
 
-_No explanation published._
+Component 3 in figure T-1 is a lamp (an indicator bulb).
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6C05
 
@@ -2941,7 +3786,10 @@ B. Transistor
 C. Ground symbol  
 **D. Battery**  
 
-_No explanation published._
+Component 4 in figure T-1 is a battery: long and short parallel lines for the cells.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6C06
 
@@ -2952,7 +3800,10 @@ A. Resistor
 C. Regulator IC  
 D. Transistor  
 
-_No explanation published._
+Component 6 in figure T-2 is a capacitor: two plates, one drawn straight and one curved, with a gap between.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6C07
 
@@ -2963,7 +3814,10 @@ B. Inductor
 C. Regulator IC  
 **D. Light emitting diode**  
 
-_No explanation published._
+Component 8 in figure T-2 is a light-emitting diode: a diode symbol with arrows pointing outward for emitted light.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6C08
 
@@ -2974,7 +3828,10 @@ B. Variable inductor
 **C. Variable resistor**  
 D. Variable transformer  
 
-_No explanation published._
+Component 9 in figure T-2 is a variable resistor: a resistor with an adjustable contact (arrow).
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6C09
 
@@ -2985,7 +3842,10 @@ B. Double-pole switch
 C. Potentiometer  
 **D. Transformer**  
 
-_No explanation published._
+Component 4 in figure T-2 is a transformer: two coils with lines between them for the iron core.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6C10
 
@@ -2996,7 +3856,10 @@ B. Meter
 C. Variable capacitor  
 **D. Variable inductor**  
 
-_No explanation published._
+Component 3 in figure T-3 is a variable inductor: a coil with an adjustable tap (arrow).
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6C11
 
@@ -3007,7 +3870,10 @@ B. Transmitter
 C. Dummy load  
 D. Ground  
 
-_No explanation published._
+Component 4 in figure T-3 is the antenna symbol.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6C12
 
@@ -3018,9 +3884,24 @@ B. Physical appearance of components
 **C. Component connections**  
 D. All these choices are correct  
 
-_No explanation published._
+Schematics show how components are connected, not their real size, appearance or wire lengths.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 4: Introduction to Electrical Conductors, Wiring Techniques, and Schematic Reading (NAVEDTRA 14176)](https://archive.org/details/NEETSModules): “The schematic diagram is used to trace the circuit and its functions without regard to the actual physical size, shape, or location of the component devices or parts.”
 
 ## Topic T6D. Component functions: rectifiers, relays, voltage regulators, meters, indicators, integrated circuits, transformers; Resonant circuit; Shielding
+
+What components do in circuits: rectifiers, relays, regulators, transformers, indicators, integrated circuits, resonant circuits and shielding.
+
+- A power supply is typically a transformer, a rectifier, a filter and a regulator. ([US Navy](https://archive.org/details/NEETSModules))
+- A transformer changes AC voltage, for example stepping 120 V down. ([US Navy](https://archive.org/details/NEETSModules))
+- A rectifier (diode) turns AC into pulsating DC. ([US Navy](https://archive.org/details/NEETSModules))
+- A regulator holds the output voltage steady. ([US Navy](https://archive.org/details/NEETSModules))
+- A relay is an electrically operated switch. ([US Navy](https://archive.org/details/NEETSModules))
+- An integrated circuit puts a complete circuit on one chip. ([US Navy](https://archive.org/details/NEETSModules))
+- An inductor plus a capacitor (in series or parallel) makes a resonant, or tuned, circuit. ([US Navy](https://archive.org/details/NEETSModules))
+- Shielded cable keeps unwanted signals from coupling into or out of the wire. ([US Navy](https://archive.org/details/NEETSModules))
 
 ### T6D01
 
@@ -3031,7 +3912,11 @@ A. Transformer
 C. Amplifier  
 D. Reflector  
 
-_No explanation published._
+A rectifier changes alternating current into a varying (pulsating) direct current by letting current flow only one way.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “to convert alternating current into direct current by permitting current flow in only one direction.”
 
 ### T6D02
 
@@ -3042,7 +3927,11 @@ B. A current-controlled amplifier
 C. An inverting amplifier  
 D. A pass transistor  
 
-_No explanation published._
+A relay is a switch operated by an electrical signal: current through its coil pulls the contacts closed or open.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “Relays are electrically operated control switches”
 
 ### T6D03
 
@@ -3053,7 +3942,11 @@ B. To increase the current carrying capability of the wire
 **C. To prevent coupling of unwanted signals to or from the wire**  
 D. To reduce receiver overload  
 
-_No explanation published._
+Shielded wire has a conductive outer layer that keeps unwanted signals from coupling into or out of the wire.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “The principal disadvantages of this type of line are the high radiation losses and electrical noise pickup because of the lack of shielding.”
 
 ### T6D04
 
@@ -3064,7 +3957,10 @@ B. Transistor
 **C. Meter**  
 D. Relay  
 
-_No explanation published._
+A meter displays an electrical quantity, such as volts, amps or ohms, as a value you can read.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6D05
 
@@ -3075,7 +3971,11 @@ B. Oscillator
 C. Filter  
 D. Phase inverter  
 
-_No explanation published._
+A voltage regulator keeps a power supply's output voltage steady.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “Regulator circuits sense changes in output voltages and compensate for the changes.”
 
 ### T6D06
 
@@ -3086,7 +3986,12 @@ A. Variable capacitor
 C. Transistor  
 D. Diode  
 
-_No explanation published._
+A transformer uses two coils to change AC voltage, for example stepping 120 V AC down to a lower voltage.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “TRANSFORMER—A device composed of two or more coils, linked by magnetic lines of force, used to transfer electrical energy from one circuit to another.”
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “This construction will provide less voltage in the secondary circuit than in the primary circuit.”
 
 ### T6D07
 
@@ -3097,7 +4002,11 @@ B. FET
 C. Zener diode  
 D. All these choices are correct  
 
-_No explanation published._
+LEDs are commonly used as visual indicators, such as power-on lights. FETs and Zener diodes don't give off light.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “the light-emitting diode (LED), was developed to replace the fragile, short-life incandescent light bulbs used to indicate on/off conditions on panels.”
 
 ### T6D08
 
@@ -3108,7 +4017,11 @@ B. Zener diode
 C. Potentiometer  
 **D. Capacitor**  
 
-_No explanation published._
+An inductor and a capacitor together form a resonant circuit: at one frequency their reactances cancel.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “RESONANCE—The condition existing in a circuit when the values of inductance, capacitance, and the applied frequency are such that the inductive reactance and capacitive reactance cancel each other.”
 
 ### T6D09
 
@@ -3119,7 +4032,11 @@ B. Multi-pole relay
 **C. Integrated circuit**  
 D. Transformer  
 
-_No explanation published._
+An integrated circuit (IC) combines many transistors and other components on one chip in one package.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)](https://archive.org/details/NEETSModules): “The integrated circuit is a minute piece of semiconductor material that can produce complete electronic circuit functions.”
 
 ### T6D10
 
@@ -3130,7 +4047,10 @@ B. Supply electrical energy
 **C. Control the flow of current**  
 D. Convert electrical energy into radio waves  
 
-_No explanation published._
+Component 2 in figure T-1 is a transistor. Here it controls the current through the lamp, switching it on and off.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T6D11
 
@@ -3141,9 +4061,21 @@ B. A linear voltage regulator
 C. A resistor circuit used for reducing standing wave ratio  
 D. A circuit designed to provide high-fidelity audio  
 
-_No explanation published._
+An inductor and a capacitor, in series or in parallel, make a resonant (tuned) circuit.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)](https://archive.org/details/NEETSModules): “RESONANCE—The condition existing in a circuit when the values of inductance, capacitance, and the applied frequency are such that the inductive reactance and capacitive reactance cancel each other.”
 
 ## Topic T7A. Station equipment: receivers, transceivers, transmitter amplifiers, RF preamplifiers, transverters; Basic radio circuit concepts and terminology: sensitivity, selectivity, mixers, oscillators, Push-To-Talk (PTT), VFO, modulation
+
+The building blocks of radio equipment: receivers and transmitters, oscillators and mixers, modulation, and add-ons like amplifiers and transverters.
+
+- Sensitivity is a receiver's ability to pick up weak signals. ([US Navy](https://archive.org/details/NEETSModules))
+- Selectivity is its ability to separate the wanted signal from others. ([US Navy](https://archive.org/details/NEETSModules))
+- An oscillator generates a signal at a specific frequency; the VFO is the one that sets your operating frequency. ([US Navy](https://archive.org/details/NEETSModules))
+- A mixer combines two signals to produce sum and difference frequencies, converting a signal to a new frequency. ([US Navy](https://archive.org/details/NEETSModules))
+- Modulation puts information, such as your voice, onto an RF carrier. ([US Navy](https://archive.org/details/NEETSModules))
 
 ### T7A01
 
@@ -3154,7 +4086,11 @@ A. RF gain
 C. Selectivity  
 D. Total Harmonic Distortion  
 
-_No explanation published._
+Sensitivity is a receiver's ability to detect (and reproduce) weak signals.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 17: Radio-Frequency Communications Principles (NAVEDTRA 14189)](https://archive.org/details/NEETSModules): “The ability of a receiver to reproduce weak signals is a function of the sensitivity of a receiver.”
 
 ### T7A02
 
@@ -3165,7 +4101,10 @@ B. A device for matching feed line impedance to 50 ohms
 C. A device for automatically sending and decoding Morse code  
 D. A device for converting receiver and transmitter frequencies to another band  
 
-_No explanation published._
+A transceiver combines a transmitter and a receiver in one unit.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T7A03
 
@@ -3176,7 +4115,12 @@ A. Phase splitter
 C. Inverter  
 D. Amplifier  
 
-_No explanation published._
+A mixer combines two signals to produce sum and difference frequencies, converting a signal from one frequency to another.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 12: Modulation Principles (NAVEDTRA 14184)](https://archive.org/details/NEETSModules): “signals to nonlinear impedance D1 are the sum and difference of the two original frequencies.”
+- [US Navy, NEETS Module 17: Radio-Frequency Communications Principles (NAVEDTRA 14189)](https://archive.org/details/NEETSModules): “The mixer also receives an input from the local oscillator. These two signals are beat together to obtain the IF through the process of heterodyning.”
 
 ### T7A04
 
@@ -3187,7 +4131,11 @@ B. Sensitivity
 **C. Selectivity**  
 D. Harmonic distortion  
 
-_No explanation published._
+Selectivity is a receiver's ability to separate the signal you want from others nearby.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 17: Radio-Frequency Communications Principles (NAVEDTRA 14189)](https://archive.org/details/NEETSModules): “Selectivity is the degree of distinction made by the receiver between the desired signal and unwanted signals.”
 
 ### T7A05
 
@@ -3198,7 +4146,11 @@ B. Phase modulator
 C. Low-pass filter  
 **D. Oscillator**  
 
-_No explanation published._
+An oscillator generates a signal at a specific frequency.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 17: Radio-Frequency Communications Principles (NAVEDTRA 14189)](https://archive.org/details/NEETSModules): “The oscillator generates the rf carrier at a preset frequency and maintains it within close tolerances.”
 
 ### T7A06
 
@@ -3209,7 +4161,10 @@ B. Low-pass filter
 **C. Transverter**  
 D. Phase converter  
 
-_No explanation published._
+A transverter converts a transceiver's RF input and output to a different band, for example letting an HF rig operate on a VHF or microwave band.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7A07
 
@@ -3220,7 +4175,10 @@ A. Input for a key used to send CW
 C. Provides a transmit tuning tone when grounded  
 D. Input for a preamplifier tuning tone  
 
-_No explanation published._
+The PTT (push-to-talk) input switches the radio from receive to transmit when it's grounded, for example by pressing the microphone button or by a computer interface.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7A08
 
@@ -3231,7 +4189,11 @@ B. Oscillation
 **C. Modulation**  
 D. Low-pass filtering  
 
-_No explanation published._
+Modulation is combining speech (or other information) with an RF carrier so it can be transmitted.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 12: Modulation Principles (NAVEDTRA 14184)](https://archive.org/details/NEETSModules): “In the modulation process, waves from the information source are impressed onto a radio-frequency sine wave called a CARRIER.”
 
 ### T7A09
 
@@ -3242,7 +4204,10 @@ A. Change the mode of the transmitted signal
 C. Change the frequency range of the amplifier to operate in the proper segment of the band  
 D. Reduce the received signal noise  
 
-_No explanation published._
+FM and CW signals have a constant amplitude, so an amplifier can run in a more efficient non-linear mode for them. SSB needs a linear amplifier, or it distorts. On many amplifiers the switch also lengthens the transmit/receive relay delay for SSB so the relay doesn't drop out between words. Either way, it sets the amplifier up for the mode you're using; it doesn't change your transmitted mode.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T7A10
 
@@ -3253,7 +4218,10 @@ A. A potentiometer
 C. An impedance multiplier  
 D. All these choices are correct  
 
-_No explanation published._
+An RF power amplifier added after the transceiver increases the transmitted power.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7A11
 
@@ -3264,9 +4232,21 @@ B. Provide automatic frequency control
 C. Inject a variable frequency to allow CW reception  
 D. Generate and demodulate single sideband signals  
 
-_No explanation published._
+The VFO (variable frequency oscillator) sets the receive and transmit frequency. It's what the main tuning knob controls.
+
+_Standard radio theory, not a quoted rule._
+
 
 ## Topic T7B. Symptoms, causes, and cures of common transmitter and receiver problems: overload and overdrive, distortion, interference and consumer electronics, RF feedback
+
+Interference and signal problems: overload, spurious emissions, over-deviation and RF feedback, and how to work cooperatively with neighbors.
+
+- Fundamental overload: a strong signal on its proper frequency can still swamp a nearby receiver that can't reject it. ([ARRL and CEA](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf))
+- The cure for overload goes on the affected device, for example a filter at its antenna input. ([ARRL and CEA](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf))
+- Spurious emissions (signals off your assigned frequency, including harmonics) are the transmitter operator's responsibility to fix. ([ARRL and CEA](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf))
+- If your own TVs and radios work fine while you transmit, the problem is very likely not your station. ([ARRL and CEA](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf))
+- For cable TV interference, first check for damaged wiring and loose connectors. ([ARRL and CEA](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf))
+- Devices such as consumer electronics must not cause harmful interference. ([47 CFR §15.5](https://www.ecfr.gov/current/title-47/section-15.5))
 
 ### T7B01
 
@@ -3277,7 +4257,10 @@ B. Let the transceiver cool off
 C. Change to a higher power level  
 **D. Talk farther away from the microphone**  
 
-_No explanation published._
+Over-deviation means your FM signal swings too wide, usually because your voice is too loud at the microphone. Move the mic farther away or speak more softly.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7B02
 
@@ -3288,7 +4271,11 @@ B. The microphone gain of the transmitter is turned up too high
 C. The audio amplifier of the transmitter is overloaded  
 D. The deviation of an FM transmitter is set too low  
 
-_No explanation published._
+A broadcast receiver near a strong amateur signal may be unable to reject it, even though the signal is outside the AM or FM broadcast band. This is called fundamental overload, and it's a weakness of the receiver.
+
+_Standard radio theory, not a quoted rule._
+
+- [ARRL and CEA, What to do if you have an electronic interference problem](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf): “(2.) Overload: Even if a nearby radio signal is being transmitted on its assigned frequency, if it is strong your equipment may be unable to reject it.”
 
 ### T7B03
 
@@ -3299,7 +4286,12 @@ B. Harmonics
 C. Spurious emissions  
 **D. All these choices are correct**  
 
-_No explanation published._
+Fundamental overload (a strong signal swamping a receiver), harmonics, and other spurious emissions can all cause radio frequency interference.
+
+_Standard radio theory, not a quoted rule._
+
+- [ARRL and CEA, What to do if you have an electronic interference problem](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf): “(2.) Overload: Even if a nearby radio signal is being transmitted on its assigned frequency, if it is strong your equipment may be unable to reject it.”
+- [ARRL and CEA, What to do if you have an electronic interference problem](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf): “A nearby radio transmitter could be inadvertently transmitting weak signals on a frequency not assigned to that transmitter. These signals are called "spurious emissions."”
 
 ### T7B04
 
@@ -3310,7 +4302,10 @@ B. Poor amplifier linearity
 C. Low SWR  
 **D. High SWR**  
 
-_No explanation published._
+Solid-state transmitters automatically reduce power when SWR is high, to protect their output transistors. So high SWR can cause low output. Low SWR is what you want.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7B05
 
@@ -3321,7 +4316,11 @@ B. Block the interfering signal with a filter on the amateur transmitter
 C. Switch the transmitter from FM to SSB  
 D. Switch the transmitter to a narrow-band mode  
 
-_No explanation published._
+When the receiver is being overloaded by your (clean) signal, a filter at its antenna input that blocks your frequency is the cure. Filtering at your transmitter can't remove your own wanted signal.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL and CEA, What to do if you have an electronic interference problem](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf): “The interference can usually be cured, but the necessary filtering must be applied to the affected device.”
 
 ### T7B06
 
@@ -3332,7 +4331,11 @@ B. Immediately turn off your transmitter and contact the nearest FCC office for 
 C. Install a harmonic doubler on the output of your transmitter and tune it until the interference is eliminated  
 D. All these choices are correct  
 
-_No explanation published._
+First check your own station. If your own radios and TVs, tuned to the same channel, don't suffer interference, your station is very likely operating properly and the problem is in the affected equipment.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL and CEA, What to do if you have an electronic interference problem](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf): “If consumer electronics equipment at the station is not suffering the effects of interference, you can be almost certain that the problem does not involve the radio station or its operation.”
 
 ### T7B07
 
@@ -3343,7 +4346,10 @@ B. Using double-shielded coaxial cable
 C. Installing bypass capacitors on the microphone cable  
 **D. Installing a band-reject filter**  
 
-_No explanation published._
+A band-reject (notch) filter tuned to the FM station's frequency removes the strong out-of-band signal before it overloads your 2-meter receiver. A preamplifier would make overload worse.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7B08
 
@@ -3354,7 +4360,12 @@ B. Politely inform your neighbor that FCC rules prohibit the use of devices that
 C. Make sure your station meets the standards of good amateur practice  
 **D. All these choices are correct**  
 
-_No explanation published._
+All of these. Work cooperatively with your neighbor to find the device, explain politely that devices must not cause harmful interference under FCC rules, and make sure your own station meets good practice.
+
+_General operating practice, not a quoted rule._
+
+- [47 CFR §15.5](https://www.ecfr.gov/current/title-47/section-15.5): “(b) Operation of an intentional, unintentional, or incidental radiator is subject to the conditions that no harmful interference is caused”
+- [ARRL and CEA, What to do if you have an electronic interference problem](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf): “No fault. No blame.”
 
 ### T7B09
 
@@ -3365,7 +4376,11 @@ B. Add a high-pass filter to the TV antenna input
 C. Add a preamplifier to the TV antenna input  
 **D. Be sure all TV feed line coaxial connectors are installed properly**  
 
-_No explanation published._
+Cable TV interference usually comes from signals leaking into the cable system through bad connectors or damaged shielding. So first make sure all the TV coax connectors are properly installed.
+
+_General operating practice, not a quoted rule._
+
+- [ARRL and CEA, What to do if you have an electronic interference problem](https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf): “As first steps, you might check your wiring for damage, for open outer wire shields, or for loose terminal connections.”
 
 ### T7B10
 
@@ -3376,7 +4391,10 @@ B. You are speaking too loudly or too close to the microphone
 C. You are in a bad location  
 **D. All these choices are correct**  
 
-_No explanation published._
+Any of these can distort FM audio through a repeater: being off frequency, speaking too loudly or too close to the mic (over-deviation), or a weak, noisy or multipath-affected location.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7B11
 
@@ -3387,9 +4405,18 @@ B. Turning the radio on and off to reset the computer-controlled circuitry
 **C. Adding a clip-on ferrite “choke” to the microphone cable to prevent the transmitted signal from feeding back into the transmitter**  
 D. Turning the squelch control fully clockwise to prevent the transmitted signal from triggering the squelch circuit  
 
-_No explanation published._
+RF from your own transmitter can get into the microphone cable and back into the transmitter, distorting your audio (RF feedback). A clip-on ferrite choke on the mic cable blocks it.
+
+_General operating practice, not a quoted rule._
+
 
 ## Topic T7C. Antenna and transmission line measurements and troubleshooting: measuring SWR, effects of high SWR, causes of feed line failures; Basic coaxial cable characteristics; Use of dummy loads when testing
+
+Feed lines and antennas: SWR, dummy loads, where feed line losses go, and what makes coax fail.
+
+- SWR 1:1 is a perfect match; anything higher is a mismatch. ([US Navy](https://archive.org/details/NEETSModules))
+- A dummy load is a non-reactive resistor that absorbs the transmitter's power, so you can test without radiating. ([US Navy](https://archive.org/details/NEETSModules))
+- Power lost in a feed line turns into heat. ([US Navy](https://archive.org/details/NEETSModules))
 
 ### T7C01
 
@@ -3400,7 +4427,11 @@ B. To prevent over-modulation of a transmitter
 C. To improve the efficiency of an antenna  
 D. To improve the signal-to-noise ratio of a receiver  
 
-_No explanation published._
+A dummy load is a resistor that takes the transmitter's power in place of the antenna, so you can test without transmitting a signal over the air.
+
+_General operating practice, not a quoted rule._
+
+- [US Navy, NEETS Module 16: Introduction to Test Equipment (NAVEDTRA 14188)](https://archive.org/details/NEETSModules): “DUMMY LOAD—A resistor used to replace the normal load, which is specifically designed to have low reactance and possess the ability to dissipate required amounts of power.”
 
 ### T7C02
 
@@ -3411,7 +4442,10 @@ A. A VTVM
 C. A Q meter  
 D. A frequency counter  
 
-_No explanation published._
+An antenna analyzer measures an antenna's impedance and SWR across frequencies, showing where it is resonant.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7C03
 
@@ -3422,7 +4456,11 @@ A. A low-voltage power supply and an AC relay
 C. A low-voltage power supply and a DC relay  
 D. A 50-ohm inductive reactance mounted in a shielded enclosure  
 
-_No explanation published._
+A typical dummy load is a 50-ohm non-inductive resistor (so it has low reactance) mounted on a heat sink to get rid of the power as heat.
+
+_General operating practice, not a quoted rule._
+
+- [US Navy, NEETS Module 16: Introduction to Test Equipment (NAVEDTRA 14188)](https://archive.org/details/NEETSModules): “DUMMY LOAD—A resistor used to replace the normal load, which is specifically designed to have low reactance and possess the ability to dissipate required amounts of power.”
 
 ### T7C04
 
@@ -3433,7 +4471,11 @@ B. Zero
 **C. 1:1**  
 D. Full Scale  
 
-_No explanation published._
+An SWR of 1:1 means a perfect match: the line is terminated in its characteristic impedance and no power is reflected.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “For example, a ratio of 1:1 describes a line terminated in its characteristic impedance (Z 0).”
 
 ### T7C05
 
@@ -3444,7 +4486,10 @@ B. To comply with FCC rules on spectral purity
 C. Because power supplies cannot supply enough current at high SWR  
 D. To lower the SWR on the transmission line  
 
-_No explanation published._
+With high SWR the output transistors see the wrong load impedance, which can push their voltage, current or heat beyond safe limits. So most solid-state rigs automatically reduce power to protect them.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7C06
 
@@ -3455,7 +4500,11 @@ B. Good impedance match
 C. Gain of +4 dB  
 **D. Impedance mismatch**  
 
-_No explanation published._
+Any SWR above 1:1 means a mismatch. 4:1 is a large one.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “For example, a ratio of 1:1 describes a line terminated in its characteristic impedance (Z 0).”
 
 ### T7C07
 
@@ -3466,7 +4515,12 @@ B. It is radiated as harmonics
 **C. It is converted into heat**  
 D. It distorts the signal  
 
-_No explanation published._
+Power lost in a feed line is turned into heat, in the conductors and in the dielectric.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Whenever current flows through one of these conductors, some energy is dissipated in the form of heat.”
+- [US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)](https://archive.org/details/NEETSModules): “Power from the source is used in heating the dielectric.”
 
 ### T7C08
 
@@ -3477,7 +4531,10 @@ B. Ohmmeter
 C. Iambic pentameter  
 **D. Directional wattmeter**  
 
-_No explanation published._
+A directional wattmeter measures forward and reflected power, from which you can work out SWR.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7C09
 
@@ -3488,7 +4545,10 @@ B. Solder flux contamination
 C. Rapid fluctuation in transmitter output power  
 D. Operation at 100% duty cycle for an extended period  
 
-_No explanation published._
+Water getting into coax is a major cause of failure: it corrodes the conductors and increases loss.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7C10
 
@@ -3499,7 +4559,10 @@ B. Ultraviolet light can increase losses in the cable’s jacket
 C. Ultraviolet and RF signals can mix, causing interference  
 **D. Ultraviolet light can damage the jacket and allow water to enter the cable**  
 
-_No explanation published._
+Sunlight's ultraviolet light breaks down many jacket plastics over time. The cracked jacket then lets water into the cable. UV-resistant jackets last much longer outdoors.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7C11
 
@@ -3510,10 +4573,21 @@ B. It has higher voltage breakdown
 **C. It has less loss per foot**  
 D. It has a better impedance match to 50 ohms  
 
-_No explanation published._
+Foam dielectric contains a lot of air, so it has a lower dielectric constant. That allows a thicker center conductor for the same impedance and also lowers dielectric loss, so foam coax loses less signal per foot. The trade-offs are that it's less moisture-resistant and has a lower voltage rating.
+
+_Standard radio theory, not a quoted rule._
+
 
 ## Topic T7D. Using basic test instruments: voltmeter, ammeter, and ohmmeter; Soldering
 
+Using meters and soldering. Voltmeters go across a part and ammeters go in series. Measure resistance only with the power off. Use rosin-core solder.
+
+- Voltmeters connect in parallel; ammeters (or a multimeter set to current) connect in series. ([US Navy](https://archive.org/details/NEETSModules))
+- A multimeter combines a voltmeter, ammeter and ohmmeter. ([US Navy](https://archive.org/details/NEETSModules))
+- An ohmmeter uses its own battery, so remove power from the circuit before measuring resistance. ([US Navy](https://archive.org/details/NEETSModules))
+- Never use acid-core solder or acid flux on electronics; use rosin. ([US Navy](https://archive.org/details/NEETSModules))
+
+- Diagram: A voltmeter connects across (in parallel with) the part. An ammeter connects in series so the current passes through it.
 ### T7D01
 
 Which instrument would you use to measure electric potential?
@@ -3523,7 +4597,11 @@ A. An ammeter
 C. A potentiometer  
 D. An ohmmeter  
 
-_No explanation published._
+Electric potential (voltage) is measured with a voltmeter.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “Voltage measurement, for example, is accomplished with a VOLTMETER.”
 
 ### T7D02
 
@@ -3534,7 +4612,11 @@ A. In series
 C. In quadrature  
 D. In phase  
 
-_No explanation published._
+A voltmeter is connected in parallel with (across) the component.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “While ammeters are always connected in series, voltmeters are always connected in parallel.”
 
 ### T7D03
 
@@ -3545,7 +4627,11 @@ B. In parallel
 C. In quadrature  
 D. In phase  
 
-_No explanation published._
+To measure current, the meter must be connected in series so the current flows through it.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “an ammeter is always connected in series with the circuit you wish to test.”
 
 ### T7D04
 
@@ -3556,7 +4642,11 @@ B. An electrometer
 C. A voltmeter  
 **D. An ammeter**  
 
-_No explanation published._
+Current is measured with an ammeter.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “An ammeter is a device that measures current.”
 
 ### T7D05
 
@@ -3567,7 +4657,10 @@ B. By placing a variable resistor in parallel with the circuit
 C. By placing a variable resistor in series with the circuit  
 D. By applying a variable voltage and measuring the resulting current change  
 
-_No explanation published._
+An ohmmeter passes a small, known current from its own battery through the part and measures the voltage that develops across it. By Ohm's law, R = E ÷ I.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T7D06
 
@@ -3578,7 +4671,11 @@ B. Failing to connect one of the probes to ground
 **C. Attempting to measure voltage when using the resistance setting**  
 D. Not allowing it to warm up properly  
 
-_No explanation published._
+On the resistance setting the meter is built to measure using its own small internal voltage. An external voltage can drive excessive current through it (especially in analog meters) and damage it.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “before the ohmmeter is used, power must be removed from the circuit”
 
 ### T7D07
 
@@ -3589,7 +4686,11 @@ B. Impedance and reactance
 **C. Voltage and resistance**  
 D. All these choices are correct  
 
-_No explanation published._
+A multimeter measures voltage, current and resistance.
+
+_Standard radio theory, not a quoted rule._
+
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “It is a dc ammeter, a dc voltmeter, an ac voltmeter, and an ohmmeter, all in one package.”
 
 ### T7D08
 
@@ -3600,7 +4701,11 @@ B. Lead-tin solder
 C. Rosin-core solder  
 D. Tin-copper solder  
 
-_No explanation published._
+Acid-core solder uses corrosive flux that eats away electronic connections. Use rosin-core solder for electronics.
+
+_General operating practice, not a quoted rule._
+
+- [US Navy, NEETS Module 4: Introduction to Electrical Conductors, Wiring Techniques, and Schematic Reading (NAVEDTRA 14176)](https://archive.org/details/NEETSModules): “Corrosive flux should NEVER be used in electrical or electronic repair work. Use only rosin fluxes.”
 
 ### T7D09
 
@@ -3611,7 +4716,10 @@ B. A bright or shiny surface
 **C. A rough or lumpy surface**  
 D. A greenish tinge  
 
-_No explanation published._
+A cold solder joint (one where the solder didn't fully melt and flow) looks rough, grainy or lumpy, rather than smooth and shiny.
+
+_General operating practice, not a quoted rule._
+
 
 ### T7D10
 
@@ -3622,7 +4730,10 @@ B. Decreasing resistance with time
 C. Steady full-scale reading  
 D. Alternating between open and short circuit  
 
-_No explanation published._
+An ohmmeter charges a discharged capacitor through its own current. At first current flows freely (low reading), then falls as the capacitor charges, so the resistance reading rises over time.
+
+_Standard radio theory, not a quoted rule._
+
 
 ### T7D11
 
@@ -3633,7 +4744,11 @@ A. Ensure that the applied voltages are correct
 C. Ensure that the circuit is grounded  
 D. Ensure that the circuit is operating at the correct frequency  
 
-_No explanation published._
+Always remove power before measuring resistance in a circuit: voltage in the circuit gives false readings and can damage the meter.
+
+_General operating practice, not a quoted rule._
+
+- [US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)](https://archive.org/details/NEETSModules): “before the ohmmeter is used, power must be removed from the circuit”
 
 ## Topic T8A. Basic characteristics of FM and SSB; Bandwidth of various modulation modes: CW, SSB, FM, fast-scan TV; Choice of emission type: selection of USB vs LSB, use of SSB for weak signal work, use of FM for VHF packet and repeaters
 

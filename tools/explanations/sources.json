@@ -491,6 +491,14 @@
   "97.115": {
    "head": "§ 97.115 Third party communications.",
    "url": "https://www.ecfr.gov/current/title-47/section-97.115"
+  },
+  "97.403": {
+   "head": "§ 97.403 Safety of life and protection of property.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.403"
+  },
+  "15.5": {
+   "head": "§ 15.5 General conditions of operation.",
+   "url": "https://www.ecfr.gov/current/title-47/section-15.5"
   }
  },
  "docs": {
@@ -641,6 +649,158 @@
   "arrl-vanity": {
    "title": "ARRL, Vanity call signs",
    "url": "https://www.arrl.org/vanity-call-signs"
+  },
+  "arrl-repeaters": {
+   "title": "ARRL Technical Information Service, Repeaters: what are they and how to use them",
+   "url": "https://www.arrl.org/files/file/Technology/tis/info/pdf/repeater1.pdf"
+  },
+  "csma-144": {
+   "title": "Connecticut Spectrum Management Association, 144–148 MHz frequency utilization plan",
+   "url": "https://www.ctspectrum.com/band%20plans/144%20-%20148%20mhz/CSMA%20144-148%20MHz%20Frequency%20Utilization%20Plan.pdf"
+  },
+  "arrl-bandplan": {
+   "title": "ARRL, Band plan",
+   "url": "https://www.arrl.org/band-plan"
+  },
+  "csma-440": {
+   "title": "Connecticut Spectrum Management Association, 420–450 MHz band plan (2017)",
+   "url": "https://www.ctspectrum.com/band%20plans/420-mhz/CSMA%20420%20-%20450%20MHz%20Band%20Plan%2010%2018%202017.pdf"
+  },
+  "itu-m1172": {
+   "title": "Recommendation ITU-R M.1172, Miscellaneous abbreviations and signals (Q code)",
+   "url": "https://www.itu.int/rec/R-REC-M.1172/en"
+  },
+  "itu-q23": {
+   "title": "Recommendation ITU-T Q.23, Technical features of push-button telephone sets",
+   "url": "https://www.itu.int/rec/T-REC-Q.23-198811-I/en"
+  },
+  "etsi-dmr": {
+   "title": "ETSI TS 102 361-1 V2.6.1, Digital Mobile Radio (DMR) air interface protocol",
+   "url": "https://www.etsi.org/deliver/etsi_ts/102300_102399/10236101/02.06.01_60/ts_10236101v020601p.pdf"
+  },
+  "arrl-opaids": {
+   "title": "ARRL, Operating aids",
+   "url": "https://www.arrl.org/operating-aids"
+  },
+  "arrl-mpg5": {
+   "title": "ARRL, NTS Methods and Practices Guidelines, chapter 5 (net control)",
+   "url": "https://www.arrl.org/files/file/Public%20Service/MPG504A.pdf"
+  },
+  "arrl-fsd218": {
+   "title": "ARRL, FSD-218 Pocket guide to message handling",
+   "url": "https://www.arrl.org/files/file/Public%20Service/fsd218.pdf"
+  },
+  "arrl-ares": {
+   "title": "ARRL, Amateur Radio Emergency Service (ARES)",
+   "url": "https://www.arrl.org/ares"
+  },
+  "arrl-mpg4": {
+   "title": "ARRL, NTS Methods and Practices Guidelines, chapter 4 (net operating)",
+   "url": "https://www.arrl.org/files/file/Public%20Service/MPG404A.pdf"
+  },
+  "winlink-faq": {
+   "title": "Winlink, Frequently asked questions about Winlink 2000 (2020)",
+   "url": "https://winlink.org/sites/default/files/download/wl2k_faq_9.pdf"
+  },
+  "itu-p1406": {
+   "title": "Recommendation ITU-R P.1406-2, Propagation effects relating to terrestrial land mobile and broadcasting services in the VHF and UHF bands",
+   "url": "https://www.itu.int/rec/R-REC-P.1406/en"
+  },
+  "neets10": {
+   "title": "US Navy, NEETS Module 10: Introduction to Wave Propagation, Transmission Lines, and Antennas (NAVEDTRA 14182)",
+   "url": "https://archive.org/details/NEETSModules"
+  },
+  "itu-p833": {
+   "title": "Recommendation ITU-R P.833-10, Attenuation in vegetation",
+   "url": "https://www.itu.int/rec/R-REC-P.833/en"
+  },
+  "swpc-iono": {
+   "title": "NOAA Space Weather Prediction Center, Ionosphere",
+   "url": "https://www.swpc.noaa.gov/phenomena/ionosphere"
+  },
+  "fcc-oet65": {
+   "title": "FCC OET Bulletin 65, Evaluating Compliance with FCC Guidelines for Human Exposure to Radiofrequency Electromagnetic Fields",
+   "url": "https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65.pdf"
+  },
+  "nist-c": {
+   "title": "NIST, CODATA value: speed of light in vacuum",
+   "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c"
+  },
+  "nasa-aurora-vhf": {
+   "title": "G. Lange-Hesse, VHF bistatic aurora communications (NASA Technical Reports Server)",
+   "url": "https://ntrs.nasa.gov/citations/19650029499"
+  },
+  "itu-p843": {
+   "title": "Recommendation ITU-R P.843-1, Communication by meteor-burst propagation",
+   "url": "https://www.itu.int/rec/R-REC-P.843/en"
+  },
+  "itu-p310": {
+   "title": "Recommendation ITU-R P.310-11, Definitions of terms relating to propagation in non-ionized media",
+   "url": "https://www.itu.int/rec/R-REC-P.310/en"
+  },
+  "itu-p834": {
+   "title": "Recommendation ITU-R P.834-9, Effects of tropospheric refraction on radiowave propagation",
+   "url": "https://www.itu.int/rec/R-REC-P.834/en"
+  },
+  "yaesu-ftm6000": {
+   "title": "Yaesu FTM-6000R/E operating manual",
+   "url": "https://sf.gov/sites/default/files/2022-11/FTM-6000R_E_OM_ENG_EH079M200_2110G-BS.pdf"
+  },
+  "yaesu-ft2600": {
+   "title": "Vertex Standard (Yaesu) FT-2600M operating manual",
+   "url": "https://sf.gov/sites/default/files/2022-07/2279-Yaesu%20FT-2600M%20Operating%20Manual.pdf"
+  },
+  "wsjtx-req": {
+   "title": "WSJT-X User Guide, system requirements (source mirror on GitHub)",
+   "url": "https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/system-requirements.adoc"
+  },
+  "neets01": {
+   "title": "US Navy, NEETS Module 1: Introduction to Matter, Energy, and Direct Current (NAVEDTRA 14173)",
+   "url": "https://archive.org/details/NEETSModules"
+  },
+  "neets17": {
+   "title": "US Navy, NEETS Module 17: Radio-Frequency Communications Principles (NAVEDTRA 14189)",
+   "url": "https://archive.org/details/NEETSModules"
+  },
+  "neets02": {
+   "title": "US Navy, NEETS Module 2: Introduction to Alternating Current and Transformers (NAVEDTRA 14174)",
+   "url": "https://archive.org/details/NEETSModules"
+  },
+  "neets16": {
+   "title": "US Navy, NEETS Module 16: Introduction to Test Equipment (NAVEDTRA 14188)",
+   "url": "https://archive.org/details/NEETSModules"
+  },
+  "nist-sp811": {
+   "title": "NIST Special Publication 811, Guide for the Use of the International System of Units (SI)",
+   "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication811e2008.pdf"
+  },
+  "neets03": {
+   "title": "US Navy, NEETS Module 3: Introduction to Circuit Protection, Control, and Measurement (NAVEDTRA 14175)",
+   "url": "https://archive.org/details/NEETSModules"
+  },
+  "epa-batteries": {
+   "title": "US EPA, Used household batteries",
+   "url": "https://www.epa.gov/recycle/used-household-batteries"
+  },
+  "neets07": {
+   "title": "US Navy, NEETS Module 7: Introduction to Solid-State Devices and Power Supplies (NAVEDTRA 14179)",
+   "url": "https://archive.org/details/NEETSModules"
+  },
+  "neets08": {
+   "title": "US Navy, NEETS Module 8: Introduction to Amplifiers (NAVEDTRA 14180)",
+   "url": "https://archive.org/details/NEETSModules"
+  },
+  "neets04": {
+   "title": "US Navy, NEETS Module 4: Introduction to Electrical Conductors, Wiring Techniques, and Schematic Reading (NAVEDTRA 14176)",
+   "url": "https://archive.org/details/NEETSModules"
+  },
+  "neets12": {
+   "title": "US Navy, NEETS Module 12: Modulation Principles (NAVEDTRA 14184)",
+   "url": "https://archive.org/details/NEETSModules"
+  },
+  "arrl-rfi-guide": {
+   "title": "ARRL and CEA, What to do if you have an electronic interference problem",
+   "url": "https://www.arrl.org/files/file/Technology/Neighbor_Info/250224%20Neighbor_Info.pdf"
   }
  }
 }

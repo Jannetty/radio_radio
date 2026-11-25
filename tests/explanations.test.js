@@ -24,13 +24,13 @@ for (const id of EXPLAINED) {
       assert.ok(ids.has(qid), `unknown question ${qid}`);
       assert.ok(e.why && e.why.length > 20, `${qid} why`);
       assert.ok(Array.isArray(e.src), `${qid} src`);
-      if (e.basis !== 'practice') assert.ok(e.src.length > 0, `${qid} has no source`);
+      if (!['practice', 'theory'].includes(e.basis)) assert.ok(e.src.length > 0, `${qid} has no source`);
       for (const s of e.src) {
         assert.ok(s.cite, `${qid} cite`);
         assert.match(s.url, /^https:\/\//, `${qid} url`);
         assert.ok(s.quote && s.quote.length > 3, `${qid} quote`);
       }
-      if (e.basis) assert.equal(e.basis, 'practice', qid);
+      if (e.basis) assert.ok(['practice', 'theory'].includes(e.basis), qid);
     }
   });
 
@@ -51,6 +51,15 @@ for (const id of EXPLAINED) {
       assert.ok(t.intro, `topic ${tid} intro`);
       for (const f of t.facts) { assert.ok(f.text); assert.match(f.url, /^https:\/\//); }
       for (const r of t.reading) assert.match(r.url, /^https:\/\//);
+      const ids = (t.diagrams || []).flatMap(d => [...d.svg.matchAll(/\sid="([^"]+)"/g)].map(m => m[1]));
+      assert.equal(new Set(ids).size, ids.length, `topic ${tid} diagram ids are unique`);
+      for (const d of t.diagrams || []) {
+        assert.match(d.svg, /^<svg[\s>]/, `topic ${tid} diagram`);
+        assert.doesNotMatch(d.svg, /<script|\son\w+\s*=|javascript:|<foreignObject/i, `topic ${tid} diagram is inert`);
+        assert.match(d.svg, /role="img"/, `topic ${tid} diagram role`);
+        assert.match(d.svg, /<title[\s>]/, `topic ${tid} diagram title`);
+        assert.ok(d.caption, `topic ${tid} diagram caption`);
+      }
     }
   });
 }

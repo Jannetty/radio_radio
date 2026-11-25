@@ -37,3 +37,8 @@ CFR sections get amended. Once a year (alongside the pool calendar in `docs/main
 ## Adding another exam
 
 Create `tools/explanations/<pool>/`, follow the workflow, then add the pool id to `EXPLAINED` in `app/src/ui/explain.js` and in `tests/explanations.test.js`, and add the built file to `FILES` in `app/sw.js`.
+
+## Theory answers and diagrams
+
+- `"basis": "theory"` marks answers that rest on standard radio or physics theory rather than a rule. The app labels them "Standard radio theory; no rule applies." Like `practice`, they may have no source, but cite one where a reliable reference exists.
+- A topic can list `"diagrams": [{"file": "x.svg", "caption": "...", "src": {...}}]`. The SVG lives in `tools/explanations/<pool>/diagrams/`. `build.py` inlines it into the app data and prefixes every `id` so several diagrams can share a page. Diagrams must have `role="img"`, a `<title>` and a `<desc>`, use `currentColor` (classes `ac`, `ac2`, `ac3`, `mu` pick theme colors), and contain no scripts or event handlers; the tests check this.

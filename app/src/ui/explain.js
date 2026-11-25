@@ -48,6 +48,7 @@ export function whyHtml(ex, qid, letter, group, esc) {
     <p>${esc(e.why)}</p>
     ${e.note ? `<p class="why-note"><b>Heads up:</b> ${esc(e.note)}</p>` : ''}
     ${e.basis === 'practice' ? '<p class="why-basis">Based on standard radio operating practice rather than one specific rule.</p>' : ''}
+    ${e.basis === 'theory' ? '<p class="why-basis">Standard radio theory; no rule applies.</p>' : ''}
     ${sourcesHtml(e.src, esc)}
     ${group && ex.topics[group.id] ? `<button class="linkbtn" data-topic="${esc(group.id)}">Study guide: ${esc(group.t)} →</button>` : ''}
   </div>`;

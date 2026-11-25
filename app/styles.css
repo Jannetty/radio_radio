@@ -141,6 +141,12 @@ details.whyd summary{cursor:pointer;color:var(--blue);font-size:15px;min-height:
 .topic h2{margin:4px 0 8px}.topic h3{margin:22px 0 8px}
 .topic .lede{font-size:18px}
 .facts{padding-left:20px}.facts li{margin:8px 0}
+.diagram{margin:18px 0;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.diagram .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.diagram svg{display:block;width:100%;min-width:540px;height:auto;max-width:640px;margin:0 auto;color:var(--ink)}
+.diagram .ac{color:var(--blue)}.diagram .ac2{color:var(--red)}.diagram .ac3{color:var(--green)}.diagram .mu{color:var(--mute)}
+.diagram text{font:13px "IBM Plex Sans",system-ui,sans-serif;fill:currentColor}
+.diagram figcaption{font-size:14px;color:var(--mute);margin-top:8px}
 .cite{font-size:13px;white-space:nowrap;margin-left:4px}
 
 /* Hover only where a real pointer can hover; on touch screens :hover sticks to whatever is under the last tap. */

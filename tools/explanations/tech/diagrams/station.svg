@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="t d"><title id="t">Connecting a basic station</title><desc id="d">A 13.8 volt power supply feeds the transceiver through short, heavy DC leads. The transceiver connects by coaxial feed line to an SWR or RF power meter and then on to the antenna, so the meter sits in the feed line between them. For digital modes, a computer connects to the transceiver with three links: receive audio from the radio to the computer's line in, transmit audio from the computer's line out to the radio, and a transmitter keying (PTT) or CAT control line.</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+<g fill="none" stroke="currentColor" stroke-width="2"><rect x="30" y="40" width="120" height="56" rx="6"/><rect x="230" y="40" width="140" height="56" rx="6"/><rect x="440" y="40" width="80" height="56" rx="6"/><rect x="230" y="232" width="140" height="56" rx="6"/><path d="M590 96 V30 M574 30 H606 M578 22 H602"/></g>
+<text x="90" y="64" text-anchor="middle">Power supply</text><text x="90" y="82" text-anchor="middle" class="mu">13.8 V DC</text>
+<text x="300" y="72" text-anchor="middle">Transceiver</text>
+<text x="480" y="64" text-anchor="middle">SWR /</text><text x="480" y="82" text-anchor="middle">power meter</text>
+<text x="590" y="116" text-anchor="middle">Antenna</text>
+<text x="300" y="265" text-anchor="middle">Computer</text>
+<g class="ac2" stroke="currentColor" stroke-width="6"><path d="M150 60 H230"/></g><g class="ac2" stroke="currentColor" stroke-width="6" stroke-dasharray="1 0"><path d="M150 78 H230"/></g>
+<g class="ac2"><text x="190" y="24" text-anchor="middle">short, heavy</text><text x="190" y="38" text-anchor="middle">DC leads</text></g>
+<g class="ac" stroke="currentColor" stroke-width="3" fill="none"><path d="M370 68 H440"/><path d="M520 68 H590 V96"/></g>
+<g class="ac"><text x="470" y="120" text-anchor="middle">coax feed line</text><text x="470" y="136" text-anchor="middle" class="mu">(meter goes in the line)</text></g>
+<g class="ac3" stroke="currentColor" stroke-width="2" fill="none"><path d="M260 98 V230" marker-end="url(#ah)"/><path d="M300 230 V98" marker-end="url(#ah)"/><path d="M340 230 V98" marker-end="url(#ah)"/></g>
+<g class="ac3"><text x="252" y="160" text-anchor="end">receive audio</text><text x="252" y="176" text-anchor="end">(to computer line in)</text><text x="350" y="172">transmit audio (from computer</text><text x="350" y="188">line out) and PTT / CAT keying</text></g>
+</svg>

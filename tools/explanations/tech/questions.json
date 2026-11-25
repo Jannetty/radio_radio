@@ -830,5 +830,2461 @@
    }
   ],
   "status": "verified"
+ },
+ "T2A01": {
+  "why": "On 2 meters, repeater input and output frequencies are normally 600 kHz apart. Frequency coordinators' published pairs show it, for example output 145.110 MHz with input 144.510 MHz. Whether the input is above or below the output depends on the part of the band.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-repeaters",
+    "quote": "The input and output frequencies are separated by a predetermined amount that is different for each band. This separation is called the offset."
+   },
+   {
+    "doc": "csma-144",
+    "quote": "145.110 144.510"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2A02": {
+  "why": "146.520 MHz is the national FM simplex calling frequency on 2 meters. 446.000 MHz is the 70 cm national simplex frequency, and 432.100 MHz is the 70 cm SSB/CW calling frequency.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-bandplan",
+    "quote": "146.52 National Simplex Calling Frequency"
+   },
+   {
+    "doc": "arrl-bandplan",
+    "quote": "446.00 National simplex frequency"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2A03": {
+  "why": "On 70 cm, repeater inputs and outputs are normally 5 MHz apart, for example 442.000 and 447.000 MHz.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "csma-440",
+    "quote": "77 - Repeater Pairs, 25 KHz spacing 5 MHz split Low Output, High Input"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2A04": {
+  "why": "On a quiet repeater, just give the other station's call sign and then yours, for example \"N1II, this is N1BKE\". CQ isn't used to start a repeater contact, and \"break break\" is reserved for emergencies.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-repeaters",
+    "quote": "To call another station when the repeater is not in use, just give both calls. For example, \"N1II, this is N1BKE''"
+   },
+   {
+    "doc": "arrl-repeaters",
+    "quote": "To make a distress call over a repeater, say \"break break\" and then your call sign"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2A05": {
+  "why": "When answering a CQ, give the calling station's call sign first and then your own. The standard call format is: the station called, \"this is\", then the station calling.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m1171",
+    "quote": "the call sign or other identification of the station called, not more than three times; – the words “THIS IS”;"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2A06": {
+  "why": "CQ means a general call to any station. Say \"CQ\" a few times, then \"this is\" and your call sign, then listen for an answer. An unmodulated carrier would just cause interference, and QTC is about messages to send.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m1172",
+    "quote": "CQ General call to all stations."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2A07": {
+  "why": "A repeater listens on one frequency (its input) and transmits on another (its output). The difference between them is the offset.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-repeaters",
+    "quote": "The input and output frequencies are separated by a predetermined amount that is different for each band. This separation is called the offset."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2A08": {
+  "why": "CQ is a general call: you're calling any station that hears you.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m1172",
+    "quote": "CQ General call to all stations."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2A09": {
+  "why": "On a repeater, you announce you're available by giving your call sign, often followed by \"listening\". Calling CQ isn't the custom on repeaters.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-repeaters",
+    "quote": "If the repeater is quiet, just say \"N1GZO\" or \"N1GZO listening\" -- to attract someone's attention."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2A10": {
+  "why": "A band plan is a voluntary agreement on which parts of a band to use for which modes or activities. It goes beyond the FCC rules, which only set what you may do, to avoid interference between incompatible modes.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-bandplan",
+    "quote": "A band plan refers to a voluntary division of a band to avoid interference between incompatible modes."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2A11": {
+  "why": "Simplex means transmitting and receiving on the same frequency, so stations talk to each other directly. Duplex uses two different frequencies, as a repeater does.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-repeaters",
+    "quote": "Simplex operation means the stations are talking to each other directly, on the same frequency."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2B01": {
+  "why": "The reverse function swaps your transmit and receive frequencies, so you listen on the repeater's input. If you can hear the other station there, you can talk to them directly on simplex.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-repeaters",
+    "quote": "The easiest way to determine if you are able to communicate with the other station on simplex is to listen to the repeater input frequency."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2B02": {
+  "why": "CTCSS (continuous tone-coded squelch system, also called PL) sends a steady sub-audible tone with your voice. A receiver or repeater set to that tone opens its squelch only when it hears it.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-repeaters",
+    "quote": "These are called CTCSS (continuous tone-coded squelch system) or PL (Private Line PL is a Motorola trademark) tones."
+   },
+   {
+    "doc": "arrl-repeaters",
+    "quote": "Such closed repeaters require the transmission of a continuous subaudible tone or a short \"burst\" of tones for access."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2B03": {
+  "why": "In a linked repeater network, a signal received by any one repeater is retransmitted by all the repeaters in the network, so you can reach a much wider area.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T2B04": {
+  "why": "If you can hear a repeater but can't get in, check your settings. A wrong offset puts your signal on the wrong input frequency. And if the repeater requires a CTCSS tone or DCS code, it ignores signals without the right one. Any of these will do it.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-repeaters",
+    "quote": "To use a repeater, you must have a transceiver that can transmit on the repeater's input frequency and receive on the repeater's output frequency."
+   },
+   {
+    "doc": "arrl-repeaters",
+    "quote": "closed repeaters require the transmission of a continuous subaudible tone or a short \"burst\" of tones for access"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2B05": {
+  "why": "Talking too loudly into the microphone overdeviates the FM signal: it swings wider than the receiver or repeater is set up for, so the loud peaks are clipped or drop out. Speak at a normal level with the mic a few inches from your mouth.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T2B06": {
+  "why": "DTMF (dual-tone multi-frequency) is the telephone keypad signaling system. Each key sends two tones at once, one from a low group and one from a high group. Repeaters use DTMF for control and autopatch.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-q23",
+    "quote": "the dialling signal is composed of two frequencies emitted simultaneously when a button is pressed"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2B07": {
+  "why": "On DMR you join a talkgroup by programming its ID into your radio. Your radio only joins calls whose talkgroup ID matches one it's set for.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "etsi-dmr",
+    "quote": "Others_Call: An MS transitions to this state when the received talk group(s) or individual ID does not match the talk group(s) or individual ID of the MS."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2B08": {
+  "why": "No one owns an amateur frequency, so neither station has a right to it. The stations should work it out between themselves and cooperate on who uses it.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "97.101",
+    "quote": "(b) Each station licensee and each control operator must cooperate in selecting transmitting channels and in making the most effective use of the amateur service frequencies. No frequency will be assigned for the exclusive use of any station."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2B09": {
+  "why": "Simplex channels let stations that can hear each other directly talk without tying up a repeater, leaving it free for stations that need it.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-repeaters",
+    "quote": "It follows that stations able to communicate without a repeater should not use one. That way, the repeater is available for stations that need it."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2B10": {
+  "why": "QRM is interference from other stations. QRN is static (natural noise), QTH is your location, and QSB is fading.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-opaids",
+    "quote": "QRM -- Is my transmission being interfered with?"
+   },
+   {
+    "doc": "arrl-opaids",
+    "quote": "QRN -- Are you troubled by static?"
+   },
+   {
+    "doc": "arrl-opaids",
+    "quote": "QSB -- Are my signals fading?"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2B11": {
+  "why": "QSY means to change frequency. QSL means acknowledging receipt, QRZ means \"who is calling me?\", and QRU means \"I have nothing for you\".",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-opaids",
+    "quote": "QSY -- Shall I change frequency?"
+   },
+   {
+    "doc": "arrl-opaids",
+    "quote": "QRZ -- Who is calling me?"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2B12": {
+  "why": "A DMR repeater uses a color code, a number from 0 to 15. Your radio must be programmed with the same color code to use the repeater. The DMR standard uses it to tell overlapping sites on the same frequency apart.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "etsi-dmr",
+    "quote": "A Colour Code (CC) is present in the embedded signalling field and general data burst to provide a simple means of distinguishing overlapping sites, in order to detect co-channel interference."
+   },
+   {
+    "doc": "etsi-dmr",
+    "quote": "The MS shall first sync to the outbound, match the Colour Code and determine the slotting structure."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2B13": {
+  "why": "Squelch mutes the receiver's audio when no signal is present, so you don't hear constant background noise between transmissions.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T2B14": {
+  "why": "A talkgroup is a DMR identifier that sorts traffic into groups. Your radio plays only the talkgroups it's set for, so you aren't bothered by other traffic.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "etsi-dmr",
+    "quote": "Others_Call: An MS transitions to this state when the received talk group(s) or individual ID does not match the talk group(s) or individual ID of the MS."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C01": {
+  "why": "The FCC rules always apply. RACES itself is governed by Part 97, and ARES and FEMA plans don't override the FCC rules.",
+  "src": [
+   {
+    "sec": "97.103",
+    "quote": "(a) The station licensee is responsible for the proper operation of the station in accordance with the FCC Rules."
+   },
+   {
+    "sec": "97.407",
+    "quote": "No station may transmit in RACES unless it is an FCC-licensed primary, club, or military recreation station"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C02": {
+  "why": "The net control station runs the net on the air: it calls the net to order, takes check-ins, and directs who transmits and when.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-mpg5",
+    "quote": "The NCS makes the net “happen”, directing all activities and managing the sequence of traffic dispatching to achieve an efficient and orderly net"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C03": {
+  "why": "Spell unusual words with a standard phonetic alphabet (Alpha, Bravo, Charlie...) so each letter is heard correctly.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-opaids",
+    "quote": "Alpha (AL fah)"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C04": {
+  "why": "RACES (Radio Amateur Civil Emergency Service) uses amateur stations for civil defense communications during local, regional or national civil emergencies, under Part 97. It isn't open to CB, and it isn't a contest.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(38) RACES (radio amateur civil emergency service). A radio service using amateur stations for civil defense communications during periods of local, regional or national civil emergencies."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C05": {
+  "why": "In net operation, \"traffic\" means formal messages passed between stations.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-fsd218",
+    "quote": "Every formal radiogram message originated and handled should contain the following component parts in the order given"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C06": {
+  "why": "ARES is made up of licensed amateurs who have voluntarily registered their qualifications and equipment for public service communications when disaster strikes.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-ares",
+    "quote": "The Amateur Radio Emergency Service (ARES) consists of licensed amateurs who have voluntarily registered their qualifications and equipment, with their local ARES leadership, for communications duty in the public service when disaster strikes."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C07": {
+  "why": "On a directed net, everything goes through net control: transmit only when the NCS asks you to, except to report an emergency.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-mpg4",
+    "quote": "All communications on a directed net are under the direction of the net control. Stations must seek recognition from the NCS prior to making comments or other interruptions."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C08": {
+  "why": "Winlink is a radio email system. Each user's address is their call sign at winlink.org (for example, YOURCALL@winlink.org). FT8, PSK31 and AMTOR are digital modes, not email systems.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "winlink-faq",
+    "quote": "Your radio email address is YOURCALL@winlink.org."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C09": {
+  "why": "Yes, but only when needed for the immediate safety of human life or protection of property and normal communications aren't available. Then a station may use any means of radio communication at its disposal.",
+  "src": [
+   {
+    "sec": "97.403",
+    "quote": "No provision of these rules prevents the use by an amateur station of any means of radiocommunication at its disposal to provide essential communication needs in connection with the immediate safety of human life and immediate protection of property when normal communication systems are not available."
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C10": {
+  "why": "The preamble holds the information needed to track the message: its number, precedence, station of origin, check, place of origin, time and date. The recipient's address comes after the preamble.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-fsd218",
+    "quote": "a. Number (begin with 1 each month or year) b. Precedence (R, W, P or EMERGENCY)"
+   },
+   {
+    "doc": "arrl-fsd218",
+    "quote": "d. Station of Origin (first amateur handler) e. Check (number of words/groups in text only)"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C11": {
+  "why": "The check is the number of words or word groups in the text of the message. Receiving stations use it to confirm they copied the whole text.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-fsd218",
+    "quote": "e. Check (number of words/groups in text only)"
+   }
+  ],
+  "status": "verified"
+ },
+ "T2C12": {
+  "why": "RACES control operators must be certified by a civil defense organization as enrolled in it. ARES, MARS and SKYWARN have no such FCC requirement.",
+  "src": [
+   {
+    "sec": "97.407",
+    "quote": "No person may be the control operator of an amateur station transmitting in RACES unless that person holds a FCC-issued amateur operator license and is certified by a civil defense organization as enrolled in that organization."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3A01": {
+  "why": "Signals often arrive both directly and reflected off buildings and the ground. Where the paths arrive in phase they add, and where out of phase they cancel. Strong and weak spots are about half a wavelength apart, roughly 3 feet on 2 meters, so moving the antenna a few feet can change the signal a lot.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "itu-p1406",
+    "quote": "On a scale of a few wavelengths, signal variability is determined by multipath effects."
+   },
+   {
+    "doc": "neets10",
+    "quote": "Radio waves that are received in phase reinforce each other and produce a stronger signal at the receiving site. Conversely, those that are received out of phase produce a weak or fading signal."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3A02": {
+  "why": "Leaves, branches and trees weaken (attenuate) UHF and microwave signals, absorbing and scattering their energy. Weak signals passing through foliage may become unreadable.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "itu-p833",
+    "quote": "Attenuation in vegetation can be important in some circumstances, for both terrestrial and Earth-space systems."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3A03": {
+  "why": "By convention, VHF and UHF weak-signal operators (long-distance CW and SSB) use horizontal polarization, so their antennas match each other. FM and repeater stations mostly use vertical.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T3A04": {
+  "why": "Over a direct (line-of-sight) path the polarization doesn't change much, so a vertical antenna receiving a horizontal signal, or the reverse, picks up much less of it. The received signal is much weaker.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "For maximum absorption of energy from the electromagnetic fields, the receiving antenna must be located in the plane of polarization."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3A05": {
+  "why": "If the direct path is blocked, try aiming your directional antenna at something that reflects the signal toward the repeater, such as a large building or hillside. VHF and UHF signals reflect well off large objects.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T3A06": {
+  "why": "\"Picket fencing\" is the rapid flutter you hear on a mobile VHF/UHF signal as the vehicle moves through the pattern of reinforcing and cancelling multipath signals, like running a stick along a picket fence.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "itu-p1406",
+    "quote": "On a scale of a few wavelengths, signal variability is determined by multipath effects."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3A07": {
+  "why": "Rain, and other precipitation, absorbs and scatters microwave signals, so range at microwave frequencies drops in wet weather. Wind, air pressure and cold don't have this effect.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "For example, rain has a pronounced effect on waves at microwave frequencies."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3A08": {
+  "why": "Ionospheric signals often reach you by more than one path (different hops or layers). As the ionosphere shifts, these arrive randomly in and out of phase, so the combined signal fades irregularly.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "Usually, however, fading on ionospheric circuits is mainly a result of multipath propagation."
+   },
+   {
+    "doc": "neets10",
+    "quote": "Radio waves that are received in phase reinforce each other and produce a stronger signal at the receiving site. Conversely, those that are received out of phase produce a weak or fading signal."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3A09": {
+  "why": "The ionosphere changes the polarization of signals passing through it, so by the time they arrive they're elliptically polarized: they have both vertical and horizontal components. Either a vertical or a horizontal antenna can receive them, and the transmitting and receiving antennas don't have to match.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "When a radio wave is refracted by the ionosphere or reflected from the Earth's surface, random changes in the polarization of the wave may occur."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3A10": {
+  "why": "With multipath, copies of the signal arrive at slightly different times and with different phases, smearing and distorting the data. That makes errors more likely.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "itu-p1406",
+    "quote": "Many types of radio system, particularly those using digital techniques, are sensitive to multipath propagation introduced to the signal by the path characteristics."
+   },
+   {
+    "doc": "neets10",
+    "quote": "This fading causes severe distortion of the signal"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3A11": {
+  "why": "The ionosphere, an upper layer of the atmosphere ionized by the Sun, bends (refracts) HF signals back to Earth, allowing long-distance contacts. The troposphere and stratosphere lie below it.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-iono",
+    "quote": "the ionosphere is important because it reflects and modifies radio waves used for communication and navigation."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3A12": {
+  "why": "Fog and rain have little effect on 10- and 6-meter signals. Precipitation only absorbs much at much higher, microwave, frequencies.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "with decreases in frequency, precipitation has little attenuation effect."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B01": {
+  "why": "A radio wave's electric and magnetic fields are at right angles to each other (and both are at right angles to the direction of travel).",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "it is easier to picture electromagnetic radiation in space as horizontal and vertical lines of force oriented at right angles to each other."
+   },
+   {
+    "doc": "neets10",
+    "quote": "These lines of force are made up of an electric field (E) and a magnetic field (H), which together make up the electromagnetic field in space."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B02": {
+  "why": "Polarization is defined by the orientation of the electric (E) field: vertical if the E field is vertical, horizontal if it's horizontal.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "Normally, the plane of polarization of a radio wave is the plane in which the E field propagates with respect to the Earth."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B03": {
+  "why": "A radio wave is made of an electric field and a magnetic field traveling together.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "An electromagnetic wave consists of two primary components—an ELECTRIC FIELD and a MAGNETIC FIELD."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B04": {
+  "why": "In free space, radio waves travel at the speed of light: they are electromagnetic waves, just like light.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "fcc-oet65",
+    "quote": "In free space the velocity of an electromagnetic wave is equal to the speed of light"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B05": {
+  "why": "Wavelength and frequency are inversely related: as frequency goes up, wavelength gets shorter.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "This illustrates the principle that the HIGHER THE FREQUENCY, the SHORTER THE WAVELENGTH."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B06": {
+  "why": "Since radio waves travel about 300,000,000 meters per second, wavelength in meters is about 300 divided by the frequency in megahertz. For example, 146 MHz is about 2 meters.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "the wavelength divided into 300 yields the frequency in megahertz."
+   },
+   {
+    "doc": "neets10",
+    "quote": "Wavelength-to-frequency conversions of radio waves are really quite simple because wavelength and frequency are reciprocals"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B07": {
+  "why": "Amateur bands are commonly named by their approximate wavelength, such as 2 meters for 144–148 MHz or 70 centimeters for 420–450 MHz. The FCC's own band tables use these names.",
+  "basis": "theory",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "Wavelength band ITU Region 1 ITU Region 2 ITU Region 3"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B08": {
+  "why": "VHF (very high frequency) is 30 to 300 MHz.",
+  "basis": "theory",
+  "src": [
+   {
+    "sec": "2.101",
+    "quote": "7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B09": {
+  "why": "UHF (ultra high frequency) is 300 to 3000 MHz.",
+  "basis": "theory",
+  "src": [
+   {
+    "sec": "2.101",
+    "quote": "7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B10": {
+  "why": "HF (high frequency) is 3 to 30 MHz.",
+  "basis": "theory",
+  "src": [
+   {
+    "sec": "2.101",
+    "quote": "7 HF 3 to 30 MHz Decametric waves. 8 VHF 30 to 300 MHz Metric waves. 9 UHF 300 to 3 000 MHz Decimetric waves."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B11": {
+  "why": "Radio waves in free space travel at the speed of light, 299,792,458 meters per second, or about 300,000,000 m/s.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "nist-c",
+    "quote": "299 792 458 m s-1"
+   },
+   {
+    "doc": "fcc-oet65",
+    "quote": "In free space the velocity of an electromagnetic wave is equal to the speed of light"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3B12": {
+  "why": "All radio waves, whatever their frequency, travel at the same speed in free space: the speed of light.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "fcc-oet65",
+    "quote": "In free space the velocity of an electromagnetic wave is equal to the speed of light"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3C01": {
+  "why": "UHF frequencies are far above the highest frequency the ionosphere can bend back to Earth, so they pass through it into space. Without ionospheric skip, UHF signals rarely go much beyond the radio horizon.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "Radio waves transmitted at frequencies higher than the critical frequency of a given layer will pass through the layer and be lost in space"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3C02": {
+  "why": "Long-distance contacts by ionospheric skip are routine on HF, but much rarer on VHF and above, where frequencies are usually too high for the ionosphere to return.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The F2 layer is the most important layer for long distance hf communications. It is a very variable layer and its height and density change with time of day, season, and sunspot activity."
+   },
+   {
+    "doc": "neets10",
+    "quote": "Radio waves transmitted at frequencies higher than the critical frequency of a given layer will pass through the layer and be lost in space"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3C03": {
+  "why": "VHF signals scattered by the aurora flutter very rapidly, giving them a distinctive raspy, hissing or growling sound. Phone signals are badly garbled; slow CW gets through best. In the Northern Hemisphere, contacts are made by pointing antennas north, toward the aurora.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "nasa-aurora-vhf",
+    "quote": "An aurorally-propagate v.h.f. signal has a characteristic growl or hiss due to a fast fading"
+   },
+   {
+    "doc": "nasa-aurora-vhf",
+    "quote": "usually obtained when both stations point their directional antennas northward towards the aurora"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3C04": {
+  "why": "Sporadic E, patches of unusually dense ionization in the E region, can reflect much higher frequencies than the normal ionosphere. It brings occasional strong signals from beyond the horizon on 10, 6 and sometimes 2 meters.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "Irregular cloud-like patches of unusually high ionization, called sporadic E, often form at heights near the normal E layer."
+   },
+   {
+    "doc": "neets10",
+    "quote": "This condition may permit the long distance transmission of signals at unusually high frequencies."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3C05": {
+  "why": "Radio waves bend (diffract) around the sharp edge of an obstruction, such as a ridge or building. Knife-edge diffraction lets some signal reach stations behind it.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "DIFFRACTION is the bending of the wave path when the waves meet an obstruction."
+   },
+   {
+    "doc": "neets10",
+    "quote": "This change makes it possible to receive energy around the edges of an obstacle"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3C06": {
+  "why": "Tropospheric ducting traps VHF and UHF signals in layers of the lower atmosphere, regularly carrying them a few hundred miles (about 300) beyond the normal horizon.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "vhf and uhf transmissions may be propagated far beyond normal line-of-sight distances."
+   },
+   {
+    "doc": "neets10",
+    "quote": "good reception of vhf and uhf television signals from a station located hundreds of miles away is not unusual"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3C07": {
+  "why": "Meteor trails reflect low-VHF signals best. Meteor-burst communication works mainly between about 30 and 100 MHz, so 6 meters (50 MHz) is the best amateur band for it.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "itu-p843",
+    "quote": "that two-way telecommunication circuits are in operation with frequencies between 30 and 100 MHz over ranges up to 1 800 km"
+   }
+  ],
+  "status": "verified"
+ },
+ "T3C08": {
+  "why": "Ducts form during temperature inversions, when a layer of warm air sits over cooler air. The sudden change in the air's refractive properties bends signals back down, trapping them in a duct.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "These temperature inversions cause channels, or ducts, of cool air to be sandwiched between the surface of the Earth and a layer of warm air, or between two layers of warm air."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3C09": {
+  "why": "The Sun ionizes the F region, so it's densest in daytime and when sunspot activity is high. That's when it can return 10-meter signals, from about dawn until shortly after sunset during high sunspot periods.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-iono",
+    "quote": "the night-side of the earth, and the pole pointed away from the sun (depending on the season) have much less ionization than the day-side of the earth"
+   },
+   {
+    "doc": "neets10",
+    "quote": "During periods of maximum sunspot activity, the ionization density of all layers increases."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3C10": {
+  "why": "At the peak of the sunspot cycle the F region becomes dense enough to return signals as high as 10 meters and sometimes 6 meters. UHF bands like 70 cm and 23 cm are far too high.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "During periods of maximum sunspot activity, the ionization density of all layers increases."
+   },
+   {
+    "doc": "neets10",
+    "quote": "The F2 layer is the most important layer for long distance hf communications. It is a very variable layer and its height and density change with time of day, season, and sunspot activity."
+   }
+  ],
+  "status": "verified"
+ },
+ "T3C11": {
+  "why": "The atmosphere bends (refracts) VHF and UHF waves slightly downward, so they follow the Earth's curve a little. Engineers model this as an Earth 4/3 its real size. Since horizon distance grows with the square root of the Earth's radius, and √(4/3) ≈ 1.15, the radio horizon is about 15% farther than the straight-line (geometric) horizon.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "itu-p310",
+    "quote": "Note 1 – As a general rule, the radio and geometric horizons are different because of atmospheric refraction."
+   },
+   {
+    "doc": "itu-p834",
+    "quote": "The corresponding k-factor is k = 4/3."
+   }
+  ],
+  "status": "verified"
+ },
+ "T4A01": {
+  "why": "Mobile rigs run on 13.8 volts, a car's charging voltage. A 50-watt FM mobile draws about 10 amps on transmit, so a 13.8 V supply rated for 12 amps has some headroom. 4 amps is far too little, and 24 volts would damage the radio.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "yaesu-ftm6000",
+    "quote": "10A (50W TX, 144MHz)"
+   },
+   {
+    "doc": "yaesu-ftm6000",
+    "quote": "13.8V DC, negative ground"
+   }
+  ],
+  "status": "verified"
+ },
+ "T4A02": {
+  "why": "SWR and power meters are built for particular frequency ranges and power levels. Pick one rated for the bands and power you'll use, or its readings won't be accurate (or it may be damaged).",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T4A03": {
+  "why": "A transceiver draws its heaviest current when transmitting. Every wire has some resistance, and voltage drop is current times resistance, so short, thick wires keep the drop small and the radio gets its full voltage.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "yaesu-ft2600",
+    "quote": "To minimize voltage drop and avoid blowing the vehicle’s fuses, connect the supplied DC power cable directly to the battery terminals."
+   }
+  ],
+  "status": "verified"
+ },
+ "T4A04": {
+  "why": "For FT8, the radio's receive audio goes to the computer's audio input and the computer's audio output goes to the radio's transmit audio input. The FT8 software (such as WSJT-X) does the encoding and decoding. No TNC or special converter is needed.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "wsjtx-req",
+    "quote": "Audio or equivalent USB connections between transceiver and computer"
+   }
+  ],
+  "status": "verified"
+ },
+ "T4A05": {
+  "why": "An RF power meter measures the power flowing in the feed line, so it goes in the feed line between the transmitter and the antenna.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T4A06": {
+  "why": "A digital-mode interface carries three things: receive audio to the computer, transmit audio from the computer, and a way for the computer to key the transmitter (PTT, CAT or VOX).",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "wsjtx-req",
+    "quote": "Computer-to-radio interface using a serial port or equivalent USB device for T/R switching, or CAT control, or VOX, as required for your radio-to-computer connections"
+   },
+   {
+    "doc": "wsjtx-req",
+    "quote": "Audio or equivalent USB connections between transceiver and computer"
+   }
+  ],
+  "status": "verified"
+ },
+ "T4A07": {
+  "why": "The computer listens to the radio, so the computer's \"line in\" connects to the transceiver's speaker or audio output. (The computer's \"line out\" goes to the radio's microphone or data input.) Push-to-talk is a separate keying connection.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "wsjtx-req",
+    "quote": "Audio or equivalent USB connections between transceiver and computer"
+   }
+  ],
+  "status": "verified"
+ },
+ "T4A08": {
+  "why": "At radio frequencies, current flows on a conductor's surface, and a wide, flat strap has more surface and lower inductance than round wire or braid. That makes flat copper strap the preferred conductor for bonding equipment together.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T4A09": {
+  "why": "A battery's capacity in ampere-hours equals current times hours, so the run time is the ampere-hour rating divided by the equipment's average current draw. For example, a 20 Ah battery at an average of 2 A lasts about 10 hours. Fast discharge reduces the usable capacity somewhat.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "The ampere-hour capacity is equal to the product of the current in amperes and the time in hours during which the battery will supply this current."
+   }
+  ],
+  "status": "verified"
+ },
+ "T4A10": {
+  "why": "A hotspot is a small, low-power digital transceiver connected to the internet. Your digital radio talks to it over the air, and it links you into a digital voice or data network such as DMR, D-STAR or System Fusion.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T4A11": {
+  "why": "Connect the radio's negative lead directly to the battery's negative terminal (the chassis ground at the battery), not just to any metal on the car. That keeps voltage drop and noise from the vehicle's electrical system to a minimum.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "yaesu-ft2600",
+    "quote": "Connect the RED power cable lead to the POSITIVE (+) battery terminal, and the BLACK power cable lead to the NEGATIVE (-) terminal."
+   },
+   {
+    "doc": "yaesu-ft2600",
+    "quote": "To minimize voltage drop and avoid blowing the vehicle’s fuses, connect the supplied DC power cable directly to the battery terminals."
+   }
+  ],
+  "status": "verified"
+ },
+ "T4A12": {
+  "why": "An electronic keyer is used with a paddle: it automatically makes evenly timed dots and dashes, which helps you send Morse code by hand.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T4B01": {
+  "why": "Too much microphone gain overdrives the SSB transmitter, so the transmitted audio is distorted, and it can cause splatter onto nearby frequencies.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T4B02": {
+  "why": "You can set a transceiver's frequency by typing it on the keypad or by turning the main tuning (VFO) knob. CTCSS and DTMF are tone signaling, not frequency entry.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T4B03": {
+  "why": "Squelch mutes the receiver until a signal is strong enough. A weak signal may never reach the threshold, so lower the squelch until the audio stays on all the time (open squelch). You'll hear background noise, but also the weak signal.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "yaesu-ftm6000",
+    "quote": "When the squelch level is increased, the noise is more likely to be silenced, but it may become more difficult to receive weak signals."
+   }
+  ],
+  "status": "verified"
+ },
+ "T4B04": {
+  "why": "An FM receiver slightly off frequency can't fully follow the signal's deviation, so the audio becomes distorted. FM pitch doesn't change with tuning the way SSB pitch does.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T4B05": {
+  "why": "Scanning steps through a range of frequencies (or memory channels) and stops when it finds activity.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T4B06": {
+  "why": "RIT (receiver incremental tuning), also called the clarifier, shifts just your receive frequency slightly. Use it to bring an SSB voice that sounds too high or low back to a natural pitch without changing your transmit frequency.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T4B07": {
+  "why": "A codeplug is the configuration file loaded into a DMR radio. It holds the frequencies, color codes, talkgroups and contacts needed to use repeaters and talkgroups.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T4B08": {
+  "why": "Choosing a receive filter bandwidth that matches the mode (narrow for CW, wider for SSB) lets the wanted signal through while cutting out noise and interference on either side.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T4B09": {
+  "why": "DMR radios are selected into a group by entering that talkgroup's ID code. The radio only joins calls addressed to talkgroups it's set for. CTCSS tones and hardware code plugs aren't how it works.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "etsi-dmr",
+    "quote": "Others_Call: An MS transitions to this state when the received talk group(s) or individual ID does not match the talk group(s) or individual ID of the MS."
+   }
+  ],
+  "status": "verified"
+ },
+ "T4B10": {
+  "why": "An SSB voice signal is about 2.4 to 3 kHz wide. A 2400 Hz filter passes the voice while keeping out as much noise as possible. Narrower filters (500 or 1000 Hz) cut off the voice, and 5000 Hz lets in extra noise.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T4B11": {
+  "why": "The D-STAR system sends your call sign digitally in the header of each transmission, so the radio won't work properly until your call sign is programmed in. (You still also identify as the FCC rules require: at the end of each contact and every 10 minutes.)",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T5A01": {
+  "why": "Current is measured in amperes (amps). Volts measure voltage, watts measure power, and ohms measure resistance.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "The magnitude of current is measured in AMPERES."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5A02": {
+  "why": "Power is measured in watts. Watt-hours measure energy (power used over time), not power.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "As stated, the basic unit of power is the watt."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5A03": {
+  "why": "The flow of electrons in a circuit is called current. Voltage is the push that causes it.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "This electron movement is called an ELECTRIC CURRENT."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5A04": {
+  "why": "Frequency is the number of complete cycles per second, measured in hertz.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "FREQUENCY (f)—The number of complete cycles per second existing in any form of wave motion; such as the number of cycles per second of an alternating current."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5A05": {
+  "why": "A difference in voltage (electrical potential) between two points is what pushes electrons to flow.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "exists, which is called the difference of potential between the two bodies. This is referred to as ELECTROMOTIVE FORCE, or VOLTAGE, and the unit of measure is the VOLT."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5A06": {
+  "why": "The unit of frequency is the hertz (Hz), one cycle per second. Henry is the unit of inductance and farad of capacitance.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "HERTZ (Hz)—The basic unit of frequency equal to one cycle per second."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5A07": {
+  "why": "Metals are good conductors because they have many free electrons that can move easily from atom to atom.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "Silver, copper, gold, and aluminum are materials with many free electrons and make good conductors."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5A08": {
+  "why": "Glass is a good insulator: it has few free electrons. Sea water, stainless steel and graphite all conduct.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "Nonconductors have few free electrons. These materials are called INSULATORS. Some examples of these materials are rubber, plastic, enamel, glass, dry wood, and mica."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5A09": {
+  "why": "Alternating current keeps reversing direction, flowing first one way (positive) and then the other (negative).",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "A2. An electrical current which is constantly varying in amplitude, and which changes direction at regular intervals."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5A10": {
+  "why": "Power is the rate at which electrical energy is used (or work is done), measured in watts.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "Power, whether electrical or mechanical, pertains to the rate at which work is being done."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5A11": {
+  "why": "Resistance opposes any current flow: direct current, alternating current and RF current alike.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "This opposition to current flow is known as RESISTANCE (R), and the unit of measure is the OHM."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5B01": {
+  "why": "Milli means one-thousandth, so 1 ampere = 1000 milliamperes, and 1.5 A × 1000 = 1500 mA.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "the millivolt (mV), meaning one-thousandth of a volt"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5B02": {
+  "why": "Kilo means 1000, so 1,500,000 Hz ÷ 1000 = 1500 kHz (which is also 1.5 MHz).",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "the kilovolt (kV), meaning 1,000 volts"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5B03": {
+  "why": "Kilo means one thousand, so one kilovolt is 1000 volts.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "the kilovolt (kV), meaning 1,000 volts"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5B04": {
+  "why": "Micro means one-millionth, so one microvolt is one-millionth of a volt (0.000001 V).",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "the millivolt (mV), meaning one-thousandth of a volt, and the microvolt (µV), meaning one-millionth of a volt"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5B05": {
+  "why": "500 milliwatts is 500 thousandths of a watt: 500 ÷ 1000 = 0.5 watts.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "the millivolt (mV), meaning one-thousandth of a volt"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5B06": {
+  "why": "Milli means one-thousandth, so 3000 milliamperes ÷ 1000 = 3 amperes.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "the millivolt (mV), meaning one-thousandth of a volt"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5B07": {
+  "why": "Mega is 1000 times kilo, so 3.525 MHz × 1000 = 3525 kHz.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T5B08": {
+  "why": "A picofarad is one-millionth of a microfarad, so 1,000,000 pF = 1 µF.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "1.0 picofarad is equal to 0.000000000001 farad or 1.0 × 10-12 farad."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5B09": {
+  "why": "Doubling power is a gain of about 3 dB. From 5 to 10 watts is double: 10 × log₁₀(10 ÷ 5) ≈ 3 dB.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets16",
+    "quote": "To say that an amplifier has a 3 dB gain means that the output power is twice the input power."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5B10": {
+  "why": "Going from 12 to 3 watts is one-quarter the power: two halvings of about −3 dB each, so about −6 dB. (10 × log₁₀(3 ÷ 12) ≈ −6.0 dB.)",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets16",
+    "quote": "To say that an amplifier has a 3 dB gain means that the output power is twice the input power."
+   },
+   {
+    "doc": "neets16",
+    "quote": "You can express the power gain of the amplifier (N) in bels by dividing the output (P1) by the input (P2) and taking the base 10 logarithm of the resulting quotient."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5B11": {
+  "why": "20 to 200 watts is ten times the power, and a tenfold power increase is exactly 10 dB: 10 × log₁₀(10) = 10.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets16",
+    "quote": "You can express the power gain of the amplifier (N) in bels by dividing the output (P1) by the input (P2) and taking the base 10 logarithm of the resulting quotient."
+   },
+   {
+    "doc": "neets16",
+    "quote": "A more practical unit, and one that can be used more easily, is the decibel (1/10 bel)."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5B12": {
+  "why": "28400 kHz ÷ 1000 = 28.400 MHz.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T5B13": {
+  "why": "2425 MHz ÷ 1000 = 2.425 GHz.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T5C01": {
+  "why": "Capacitance is the ability to store energy in an electric (electrostatic) field, which is what a capacitor does.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "A CAPACITOR is a device that stores electrical energy in an ELECTROSTATIC FIELD."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5C02": {
+  "why": "Capacitance is measured in farads (F). The henry is for inductance, the ohm for resistance.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "nist-sp811",
+    "quote": "capacitance farad F"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5C03": {
+  "why": "Inductance is the ability to store energy in a magnetic field, which is what a coil (inductor) does.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "the magnetic field of an inductor stores energy."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5C04": {
+  "why": "Inductance is measured in henrys (H).",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "nist-sp811",
+    "quote": "inductance henry H"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5C05": {
+  "why": "Impedance, the total opposition to AC (resistance and reactance combined), is measured in ohms.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "This combined opposition by the resistance and the reactance is called the IMPEDANCE, and is represented by the symbol Z."
+   },
+   {
+    "doc": "neets02",
+    "quote": "Since the values of resistance and reactance are both given in ohms"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5C06": {
+  "why": "Kilohertz is written kHz: a lower-case k for kilo, and Hz with a capital H because the hertz is named after a person.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "nist-sp811",
+    "quote": "The prefix symbols Y (yotta), Z (zetta), E (exa), P (peta), T (tera), G (giga), and M (mega) are printed in upper-case letters while all other prefix symbols are printed in lower-case letters"
+   },
+   {
+    "doc": "nist-sp811",
+    "quote": "the symbol or the first letter of the symbol is an upper-case letter when the name of the unit is derived from the name of a person"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5C07": {
+  "why": "Megahertz is written MHz: a capital M for mega (lower-case m means milli), and Hz with a capital H.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "nist-sp811",
+    "quote": "The prefix symbols Y (yotta), Z (zetta), E (exa), P (peta), T (tera), G (giga), and M (mega) are printed in upper-case letters while all other prefix symbols are printed in lower-case letters"
+   },
+   {
+    "doc": "nist-sp811",
+    "quote": "the symbol or the first letter of the symbol is an upper-case letter when the name of the unit is derived from the name of a person"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5C08": {
+  "why": "DC power is current times voltage: P = I × E (watts = amps × volts).",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "Power in watts is equal to the voltage across a circuit multiplied by current through the circuit."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5C09": {
+  "why": "P = E × I = 13.8 V × 10 A = 138 watts.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "Power in watts is equal to the voltage across a circuit multiplied by current through the circuit."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5C10": {
+  "why": "P = E × I = 12 V × 2.5 A = 30 watts.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "Power in watts is equal to the voltage across a circuit multiplied by current through the circuit."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5C11": {
+  "why": "I = P ÷ E = 120 W ÷ 12 V = 10 amperes.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "Power in watts is equal to the voltage across a circuit multiplied by current through the circuit."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5C12": {
+  "why": "Impedance is the total opposition to alternating current: resistance and reactance together.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "This combined opposition by the resistance and the reactance is called the IMPEDANCE, and is represented by the symbol Z."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D01": {
+  "why": "Ohm's law: current equals voltage divided by resistance, I = E ÷ R.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To determine the unknown quantity, first cover that quantity with a finger. The position of the uncovered letters in the circle will indicate the mathematical operation to be performed. For example, to find I, cover I with a finger. The uncovered letters indicate that E is to be divided by R"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D02": {
+  "why": "Ohm's law: voltage equals current times resistance, E = I × R.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To find the formula for E, cover E with your finger. The result indicates that I is to be multiplied by R, or E = IR."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D03": {
+  "why": "Ohm's law: resistance equals voltage divided by current, R = E ÷ I.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To find the formula for R, cover R. The result indicates that E is to be divided by I"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D04": {
+  "why": "R = E ÷ I = 90 V ÷ 3 A = 30 ohms.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To find the formula for R, cover R. The result indicates that E is to be divided by I"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D05": {
+  "why": "R = E ÷ I = 12 V ÷ 1.5 A = 8 ohms.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To find the formula for R, cover R. The result indicates that E is to be divided by I"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D06": {
+  "why": "R = E ÷ I = 12 V ÷ 4 A = 3 ohms.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To find the formula for R, cover R. The result indicates that E is to be divided by I"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D07": {
+  "why": "I = E ÷ R = 120 V ÷ 80 Ω = 1.5 amperes.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To determine the unknown quantity, first cover that quantity with a finger. The position of the uncovered letters in the circle will indicate the mathematical operation to be performed. For example, to find I, cover I with a finger. The uncovered letters indicate that E is to be divided by R"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D08": {
+  "why": "I = E ÷ R = 200 V ÷ 100 Ω = 2 amperes.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To determine the unknown quantity, first cover that quantity with a finger. The position of the uncovered letters in the circle will indicate the mathematical operation to be performed. For example, to find I, cover I with a finger. The uncovered letters indicate that E is to be divided by R"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D09": {
+  "why": "I = E ÷ R = 240 V ÷ 24 Ω = 10 amperes.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To determine the unknown quantity, first cover that quantity with a finger. The position of the uncovered letters in the circle will indicate the mathematical operation to be performed. For example, to find I, cover I with a finger. The uncovered letters indicate that E is to be divided by R"
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D10": {
+  "why": "E = I × R = 0.5 A × 2 Ω = 1 volt.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To find the formula for E, cover E with your finger. The result indicates that I is to be multiplied by R, or E = IR."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D11": {
+  "why": "E = I × R = 1 A × 10 Ω = 10 volts.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To find the formula for E, cover E with your finger. The result indicates that I is to be multiplied by R, or E = IR."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D12": {
+  "why": "E = I × R = 2 A × 10 Ω = 20 volts.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "To find the formula for E, cover E with your finger. The result indicates that I is to be multiplied by R, or E = IR."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D13": {
+  "why": "In a series circuit there's only one path, so the same current flows through every component.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "Since there is only one path for current in a series circuit, the same current must flow through each component of the circuit."
+   }
+  ],
+  "status": "verified"
+ },
+ "T5D14": {
+  "why": "In a parallel circuit every component is connected across the same two points, so each has the same voltage across it.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "IN A PARALLEL CIRCUIT, THE SAME VOLTAGE IS PRESENT IN EACH BRANCH."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6A01": {
+  "why": "A resistor's job is to oppose (resist) current flow.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "This opposition to current flow is known as RESISTANCE (R), and the unit of measure is the OHM."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6A02": {
+  "why": "A potentiometer, a variable resistor with a sliding contact, is the classic volume control.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "An example of the potentiometer is the volume control on your radio"
+   }
+  ],
+  "status": "verified"
+ },
+ "T6A03": {
+  "why": "A potentiometer is a variable resistor: turning it changes resistance.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets01",
+    "quote": "There are two types of variable resistors, one called a POTENTIOMETER and the other a RHEOSTAT"
+   }
+  ],
+  "status": "verified"
+ },
+ "T6A04": {
+  "why": "A capacitor stores energy in an electric field between its plates.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "A CAPACITOR is a device that stores electrical energy in an ELECTROSTATIC FIELD."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6A05": {
+  "why": "A capacitor is made of conductive plates separated by an insulator, called the dielectric.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "A simple capacitor consists of two metal plates separated by an insulating material called a dielectric"
+   }
+  ],
+  "status": "verified"
+ },
+ "T6A06": {
+  "why": "An inductor stores energy in a magnetic field.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "the magnetic field of an inductor stores energy."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6A07": {
+  "why": "An inductor is typically a coil of wire, sometimes wound around a core.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "The inductor is made by forming a coil of wire around a core."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6A08": {
+  "why": "SPDT means single-pole, double-throw: one circuit (one pole) can be switched to either of two other circuits (two throws).",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets03",
+    "quote": "The center connection of the schematic symbol represents the point at which current enters the switch. The left and right connections represent the two different points to which this current can be switched."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6A09": {
+  "why": "Component 3 in figure T-2 is a switch with one moving contact (one pole) and one place it can close to (one throw): a single-pole, single-throw (SPST) on/off switch.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6A10": {
+  "why": "Nickel-metal hydride, lithium-ion and lead-acid batteries are all rechargeable types.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "epa-batteries",
+    "quote": "Nickel Metal Hydride (Ni-MH)"
+   },
+   {
+    "doc": "epa-batteries",
+    "quote": "Lithium-Ion (Li-ion)"
+   },
+   {
+    "doc": "epa-batteries",
+    "quote": "Small-Sealed Lead Acid (Pb)"
+   }
+  ],
+  "status": "verified"
+ },
+ "T6A11": {
+  "why": "Carbon-zinc (zinc-carbon) cells are single-use and not rechargeable. Nickel-cadmium, lead-acid and lithium-ion are all rechargeable.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "epa-batteries",
+    "quote": "Single-Use Batteries TypeUses and DescriptionDisposal Alkaline and Zinc-Carbon"
+   }
+  ],
+  "status": "verified"
+ },
+ "T6B01": {
+  "why": "Every diode drops some voltage when conducting, but how much depends on the type: a germanium junction, for example, needs only about 0.2 V to conduct versus about 0.6 V for silicon. The drop is normal, not a defect, and it does reduce the voltage reaching the load.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "it would take a battery slightly over .2 volts to properly forward bias a germanium transistor, while a similar silicon transistor would require a voltage slightly over .6 volts."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6B02": {
+  "why": "A diode lets current flow in only one direction.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "to convert alternating current into direct current by permitting current flow in only one direction."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6B03": {
+  "why": "A transistor can act as an electronic switch, turning a larger current fully on or off with a small control signal.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6B04": {
+  "why": "A bipolar transistor is made of three regions of semiconductor material: emitter, base and collector (for example NPN or PNP).",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "The three elements of the two-junction transistor are (1) the EMITTER, which gives off, or emits,\" current carriers (electrons or holes); (2) the BASE, which controls the flow of current carriers; and (3) the COLLECTOR, which collects the current carriers."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6B05": {
+  "why": "A field-effect transistor (FET) has a gate, a source and a drain.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "The elements of the FET are the gate, source, and drain"
+   }
+  ],
+  "status": "verified"
+ },
+ "T6B06": {
+  "why": "Diodes are most commonly marked with a band or stripe at the cathode end. (Other markings such as a K are sometimes printed, but the stripe is by far the usual one.)",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "manufacturers generally code the cathode end of the diode with a \"k,\" \"+,\" \"cath,\" a color dot or band"
+   }
+  ],
+  "status": "verified"
+ },
+ "T6B07": {
+  "why": "An LED lights up when forward current flows through it, that is, when it's forward biased.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "A LIGHT-EMITTING DIODE is a diode which, when forward biased, produces visible light."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6B08": {
+  "why": "FET stands for field-effect transistor.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "The unijunction transistor (UJT) and the field effect transistor (FET) will be discussed"
+   }
+  ],
+  "status": "verified"
+ },
+ "T6B09": {
+  "why": "A diode's two electrodes are the anode and the cathode.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "it is also necessary to distinguish one end of the diode from the other (anode from cathode)."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6B10": {
+  "why": "A transistor can amplify, producing more output power than input power by controlling energy from the power supply. A transformer can raise voltage or current, but never power.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6B11": {
+  "why": "Gain is how much bigger the output is than the input. It can be measured as a ratio of voltages, currents or powers.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets08",
+    "quote": "Voltage gain is calculated using input and output voltage; current gain uses input and output current; and power gain uses input and output power."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6B12": {
+  "why": "A bipolar junction transistor's electrodes are the emitter, base and collector.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "The three elements of the two-junction transistor are (1) the EMITTER, which gives off, or emits,\" current carriers (electrons or holes); (2) the BASE, which controls the flow of current carriers; and (3) the COLLECTOR, which collects the current carriers."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6C01": {
+  "why": "A schematic is an electrical diagram that uses standard symbols to show how components connect.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets04",
+    "quote": "The schematic diagram shows, by means of graphic symbols, the electrical connections and functions of a specific circuit arrangement."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6C02": {
+  "why": "Component 1 in figure T-1 is the zig-zag resistor symbol.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6C03": {
+  "why": "Component 2 in figure T-1 is a transistor: a circle with base, collector and emitter leads, the emitter marked by an arrow.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6C04": {
+  "why": "Component 3 in figure T-1 is a lamp (an indicator bulb).",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6C05": {
+  "why": "Component 4 in figure T-1 is a battery: long and short parallel lines for the cells.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6C06": {
+  "why": "Component 6 in figure T-2 is a capacitor: two plates, one drawn straight and one curved, with a gap between.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6C07": {
+  "why": "Component 8 in figure T-2 is a light-emitting diode: a diode symbol with arrows pointing outward for emitted light.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6C08": {
+  "why": "Component 9 in figure T-2 is a variable resistor: a resistor with an adjustable contact (arrow).",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6C09": {
+  "why": "Component 4 in figure T-2 is a transformer: two coils with lines between them for the iron core.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6C10": {
+  "why": "Component 3 in figure T-3 is a variable inductor: a coil with an adjustable tap (arrow).",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6C11": {
+  "why": "Component 4 in figure T-3 is the antenna symbol.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6C12": {
+  "why": "Schematics show how components are connected, not their real size, appearance or wire lengths.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets04",
+    "quote": "The schematic diagram is used to trace the circuit and its functions without regard to the actual physical size, shape, or location of the component devices or parts."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6D01": {
+  "why": "A rectifier changes alternating current into a varying (pulsating) direct current by letting current flow only one way.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "to convert alternating current into direct current by permitting current flow in only one direction."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6D02": {
+  "why": "A relay is a switch operated by an electrical signal: current through its coil pulls the contacts closed or open.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets03",
+    "quote": "Relays are electrically operated control switches"
+   }
+  ],
+  "status": "verified"
+ },
+ "T6D03": {
+  "why": "Shielded wire has a conductive outer layer that keeps unwanted signals from coupling into or out of the wire.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The principal disadvantages of this type of line are the high radiation losses and electrical noise pickup because of the lack of shielding."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6D04": {
+  "why": "A meter displays an electrical quantity, such as volts, amps or ohms, as a value you can read.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6D05": {
+  "why": "A voltage regulator keeps a power supply's output voltage steady.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "Regulator circuits sense changes in output voltages and compensate for the changes."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6D06": {
+  "why": "A transformer uses two coils to change AC voltage, for example stepping 120 V AC down to a lower voltage.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "TRANSFORMER—A device composed of two or more coils, linked by magnetic lines of force, used to transfer electrical energy from one circuit to another."
+   },
+   {
+    "doc": "neets02",
+    "quote": "This construction will provide less voltage in the secondary circuit than in the primary circuit."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6D07": {
+  "why": "LEDs are commonly used as visual indicators, such as power-on lights. FETs and Zener diodes don't give off light.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "the light-emitting diode (LED), was developed to replace the fragile, short-life incandescent light bulbs used to indicate on/off conditions on panels."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6D08": {
+  "why": "An inductor and a capacitor together form a resonant circuit: at one frequency their reactances cancel.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "RESONANCE—The condition existing in a circuit when the values of inductance, capacitance, and the applied frequency are such that the inductive reactance and capacitive reactance cancel each other."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6D09": {
+  "why": "An integrated circuit (IC) combines many transistors and other components on one chip in one package.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets07",
+    "quote": "The integrated circuit is a minute piece of semiconductor material that can produce complete electronic circuit functions."
+   }
+  ],
+  "status": "verified"
+ },
+ "T6D10": {
+  "why": "Component 2 in figure T-1 is a transistor. Here it controls the current through the lamp, switching it on and off.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T6D11": {
+  "why": "An inductor and a capacitor, in series or in parallel, make a resonant (tuned) circuit.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets02",
+    "quote": "RESONANCE—The condition existing in a circuit when the values of inductance, capacitance, and the applied frequency are such that the inductive reactance and capacitive reactance cancel each other."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7A01": {
+  "why": "Sensitivity is a receiver's ability to detect (and reproduce) weak signals.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets17",
+    "quote": "The ability of a receiver to reproduce weak signals is a function of the sensitivity of a receiver."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7A02": {
+  "why": "A transceiver combines a transmitter and a receiver in one unit.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T7A03": {
+  "why": "A mixer combines two signals to produce sum and difference frequencies, converting a signal from one frequency to another.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets12",
+    "quote": "signals to nonlinear impedance D1 are the sum and difference of the two original frequencies."
+   },
+   {
+    "doc": "neets17",
+    "quote": "The mixer also receives an input from the local oscillator. These two signals are beat together to obtain the IF through the process of heterodyning."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7A04": {
+  "why": "Selectivity is a receiver's ability to separate the signal you want from others nearby.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets17",
+    "quote": "Selectivity is the degree of distinction made by the receiver between the desired signal and unwanted signals."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7A05": {
+  "why": "An oscillator generates a signal at a specific frequency.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets17",
+    "quote": "The oscillator generates the rf carrier at a preset frequency and maintains it within close tolerances."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7A06": {
+  "why": "A transverter converts a transceiver's RF input and output to a different band, for example letting an HF rig operate on a VHF or microwave band.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7A07": {
+  "why": "The PTT (push-to-talk) input switches the radio from receive to transmit when it's grounded, for example by pressing the microphone button or by a computer interface.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7A08": {
+  "why": "Modulation is combining speech (or other information) with an RF carrier so it can be transmitted.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets12",
+    "quote": "In the modulation process, waves from the information source are impressed onto a radio-frequency sine wave called a CARRIER."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7A09": {
+  "why": "FM and CW signals have a constant amplitude, so an amplifier can run in a more efficient non-linear mode for them. SSB needs a linear amplifier, or it distorts. On many amplifiers the switch also lengthens the transmit/receive relay delay for SSB so the relay doesn't drop out between words. Either way, it sets the amplifier up for the mode you're using; it doesn't change your transmitted mode.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T7A10": {
+  "why": "An RF power amplifier added after the transceiver increases the transmitted power.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7A11": {
+  "why": "The VFO (variable frequency oscillator) sets the receive and transmit frequency. It's what the main tuning knob controls.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T7B01": {
+  "why": "Over-deviation means your FM signal swings too wide, usually because your voice is too loud at the microphone. Move the mic farther away or speak more softly.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7B02": {
+  "why": "A broadcast receiver near a strong amateur signal may be unable to reject it, even though the signal is outside the AM or FM broadcast band. This is called fundamental overload, and it's a weakness of the receiver.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "arrl-rfi-guide",
+    "quote": "(2.) Overload: Even if a nearby radio signal is being transmitted on its assigned frequency, if it is strong your equipment may be unable to reject it."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7B03": {
+  "why": "Fundamental overload (a strong signal swamping a receiver), harmonics, and other spurious emissions can all cause radio frequency interference.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "arrl-rfi-guide",
+    "quote": "(2.) Overload: Even if a nearby radio signal is being transmitted on its assigned frequency, if it is strong your equipment may be unable to reject it."
+   },
+   {
+    "doc": "arrl-rfi-guide",
+    "quote": "A nearby radio transmitter could be inadvertently transmitting weak signals on a frequency not assigned to that transmitter. These signals are called \"spurious emissions.\""
+   }
+  ],
+  "status": "verified"
+ },
+ "T7B04": {
+  "why": "Solid-state transmitters automatically reduce power when SWR is high, to protect their output transistors. So high SWR can cause low output. Low SWR is what you want.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7B05": {
+  "why": "When the receiver is being overloaded by your (clean) signal, a filter at its antenna input that blocks your frequency is the cure. Filtering at your transmitter can't remove your own wanted signal.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-rfi-guide",
+    "quote": "The interference can usually be cured, but the necessary filtering must be applied to the affected device."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7B06": {
+  "why": "First check your own station. If your own radios and TVs, tuned to the same channel, don't suffer interference, your station is very likely operating properly and the problem is in the affected equipment.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-rfi-guide",
+    "quote": "If consumer electronics equipment at the station is not suffering the effects of interference, you can be almost certain that the problem does not involve the radio station or its operation."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7B07": {
+  "why": "A band-reject (notch) filter tuned to the FM station's frequency removes the strong out-of-band signal before it overloads your 2-meter receiver. A preamplifier would make overload worse.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7B08": {
+  "why": "All of these. Work cooperatively with your neighbor to find the device, explain politely that devices must not cause harmful interference under FCC rules, and make sure your own station meets good practice.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "15.5",
+    "quote": "(b) Operation of an intentional, unintentional, or incidental radiator is subject to the conditions that no harmful interference is caused"
+   },
+   {
+    "doc": "arrl-rfi-guide",
+    "quote": "No fault. No blame."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7B09": {
+  "why": "Cable TV interference usually comes from signals leaking into the cable system through bad connectors or damaged shielding. So first make sure all the TV coax connectors are properly installed.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-rfi-guide",
+    "quote": "As first steps, you might check your wiring for damage, for open outer wire shields, or for loose terminal connections."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7B10": {
+  "why": "Any of these can distort FM audio through a repeater: being off frequency, speaking too loudly or too close to the mic (over-deviation), or a weak, noisy or multipath-affected location.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7B11": {
+  "why": "RF from your own transmitter can get into the microphone cable and back into the transmitter, distorting your audio (RF feedback). A clip-on ferrite choke on the mic cable blocks it.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7C01": {
+  "why": "A dummy load is a resistor that takes the transmitter's power in place of the antenna, so you can test without transmitting a signal over the air.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "neets16",
+    "quote": "DUMMY LOAD—A resistor used to replace the normal load, which is specifically designed to have low reactance and possess the ability to dissipate required amounts of power."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7C02": {
+  "why": "An antenna analyzer measures an antenna's impedance and SWR across frequencies, showing where it is resonant.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7C03": {
+  "why": "A typical dummy load is a 50-ohm non-inductive resistor (so it has low reactance) mounted on a heat sink to get rid of the power as heat.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "neets16",
+    "quote": "DUMMY LOAD—A resistor used to replace the normal load, which is specifically designed to have low reactance and possess the ability to dissipate required amounts of power."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7C04": {
+  "why": "An SWR of 1:1 means a perfect match: the line is terminated in its characteristic impedance and no power is reflected.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "For example, a ratio of 1:1 describes a line terminated in its characteristic impedance (Z 0)."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7C05": {
+  "why": "With high SWR the output transistors see the wrong load impedance, which can push their voltage, current or heat beyond safe limits. So most solid-state rigs automatically reduce power to protect them.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7C06": {
+  "why": "Any SWR above 1:1 means a mismatch. 4:1 is a large one.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "For example, a ratio of 1:1 describes a line terminated in its characteristic impedance (Z 0)."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7C07": {
+  "why": "Power lost in a feed line is turned into heat, in the conductors and in the dielectric.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "Whenever current flows through one of these conductors, some energy is dissipated in the form of heat."
+   },
+   {
+    "doc": "neets10",
+    "quote": "Power from the source is used in heating the dielectric."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7C08": {
+  "why": "A directional wattmeter measures forward and reflected power, from which you can work out SWR.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7C09": {
+  "why": "Water getting into coax is a major cause of failure: it corrodes the conductors and increases loss.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7C10": {
+  "why": "Sunlight's ultraviolet light breaks down many jacket plastics over time. The cracked jacket then lets water into the cable. UV-resistant jackets last much longer outdoors.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7C11": {
+  "why": "Foam dielectric contains a lot of air, so it has a lower dielectric constant. That allows a thicker center conductor for the same impedance and also lowers dielectric loss, so foam coax loses less signal per foot. The trade-offs are that it's less moisture-resistant and has a lower voltage rating.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T7D01": {
+  "why": "Electric potential (voltage) is measured with a voltmeter.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets03",
+    "quote": "Voltage measurement, for example, is accomplished with a VOLTMETER."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7D02": {
+  "why": "A voltmeter is connected in parallel with (across) the component.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets03",
+    "quote": "While ammeters are always connected in series, voltmeters are always connected in parallel."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7D03": {
+  "why": "To measure current, the meter must be connected in series so the current flows through it.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets03",
+    "quote": "an ammeter is always connected in series with the circuit you wish to test."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7D04": {
+  "why": "Current is measured with an ammeter.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets03",
+    "quote": "An ammeter is a device that measures current."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7D05": {
+  "why": "An ohmmeter passes a small, known current from its own battery through the part and measures the voltage that develops across it. By Ohm's law, R = E ÷ I.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T7D06": {
+  "why": "On the resistance setting the meter is built to measure using its own small internal voltage. An external voltage can drive excessive current through it (especially in analog meters) and damage it.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets03",
+    "quote": "before the ohmmeter is used, power must be removed from the circuit"
+   }
+  ],
+  "status": "verified"
+ },
+ "T7D07": {
+  "why": "A multimeter measures voltage, current and resistance.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets03",
+    "quote": "It is a dc ammeter, a dc voltmeter, an ac voltmeter, and an ohmmeter, all in one package."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7D08": {
+  "why": "Acid-core solder uses corrosive flux that eats away electronic connections. Use rosin-core solder for electronics.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "neets04",
+    "quote": "Corrosive flux should NEVER be used in electrical or electronic repair work. Use only rosin fluxes."
+   }
+  ],
+  "status": "verified"
+ },
+ "T7D09": {
+  "why": "A cold solder joint (one where the solder didn't fully melt and flow) looks rough, grainy or lumpy, rather than smooth and shiny.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "T7D10": {
+  "why": "An ohmmeter charges a discharged capacitor through its own current. At first current flows freely (low reading), then falls as the capacitor charges, so the resistance reading rises over time.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "T7D11": {
+  "why": "Always remove power before measuring resistance in a circuit: voltage in the circuit gives false readings and can damage the meter.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "neets03",
+    "quote": "before the ohmmeter is used, power must be removed from the circuit"
+   }
+  ],
+  "status": "verified"
  }
 }

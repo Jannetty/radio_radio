@@ -29,6 +29,7 @@ for i, q in enumerate(P['q']):
         if t:
             out += [t['intro'], '']
             out += [f"- {f['text']} ([{f['cite']}]({f['url']}))" for f in t['facts']] + ['']
+            out += [f"- Diagram: {d['caption']}" for d in t.get('diagrams', [])]
     e = EX['q'].get(q[0])
     out += [f"### {q[0]}", '', q[1], '']
     out += [f"{'**' if k == q[3] else ''}{L[k]}. {c}{'**' if k == q[3] else ''}" + '  ' for k, c in enumerate(q[2])] + ['']
@@ -38,6 +39,7 @@ for i, q in enumerate(P['q']):
     out += [e['why'], '']
     if e.get('note'): out += [f"> Heads up: {e['note']}", '']
     if e.get('basis') == 'practice': out += ['_General operating practice, not a quoted rule._', '']
+    if e.get('basis') == 'theory': out += ['_Standard radio theory, not a quoted rule._', '']
     out += [f"- [{x['cite']}]({x['url']}): “{x['quote']}”" for x in e['src']] + ['']
 
 os.makedirs('docs/explanations', exist_ok=True)

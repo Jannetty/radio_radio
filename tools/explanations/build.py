@@ -26,7 +26,7 @@ for qid, e in Q.items():
         continue
     item = {'why': e['why'], 'src': [cite(s) for s in e['src']]}
     if e.get('note'): item['note'] = e['note']
-    if e.get('basis') == 'practice': item['basis'] = 'practice'
+    if e.get('basis') in ('practice', 'theory'): item['basis'] = e['basis']
     out['q'][qid] = item
     m = re.match(r'^([TGE]\d[A-Z])\d+$', qid) or re.match(r'^(?:\d+-)?(\d+)[A-Z]\d+$', qid)
     topic_secs.setdefault(m.group(1), []).extend(s['sec'] for s in e['src'] if 'sec' in s)
@@ -41,6 +41,22 @@ for tid, t in T.items():
     secs = list(dict.fromkeys(topic_secs.get(tid, []) + [f['src']['sec'] for f in t['facts'] if 'sec' in f['src']]))
     rules = [{'cite': cite({'sec': s, 'quote': ''})['cite'] + ' ' + head(s), 'url': SRC['sections'][s]['url'], 'quote': ''} for s in secs]
     out['topics'][tid] = {'intro': t['intro'], 'facts': facts, 'rules': rules, 'reading': t['reading']}
+    if t.get('diagrams'):
+        ds = []
+        for d in t['diagrams']:
+            svg = open(f'tools/explanations/{pool}/diagrams/{d["file"]}').read().strip()
+            assert svg.startswith('<svg') and not re.search(r'<script|\son\w+\s*=|javascript:|<foreignObject', svg, re.I), d['file']
+            # several diagrams share a page, so give every id a unique prefix
+            pre = f"{pool}-{tid}-{d['file'].rsplit('.', 1)[0]}-"
+            ids = re.findall(r'\sid="([^"]+)"', svg)
+            for i in ids:
+                svg = svg.replace(f'id="{i}"', f'id="{pre}{i}"').replace(f'url(#{i})', f'url(#{pre}{i})')
+            svg = re.sub(r'aria-labelledby="([^"]+)"', lambda m: 'aria-labelledby="' + ' '.join(pre + x for x in m.group(1).split()) + '"', svg)
+            item = {'svg': svg, 'caption': d['caption']}
+            if d.get('src'):
+                c = cite(d['src']); item['cite'] = c['cite'] if 'doc' not in d['src'] else c['cite'].split(',')[0]; item['url'] = c['url']
+            ds.append(item)
+        out['topics'][tid]['diagrams'] = ds
 
 import os
 os.makedirs('app/data/explanations', exist_ok=True)
