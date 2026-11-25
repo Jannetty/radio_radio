@@ -501,6 +501,10 @@
   "itu-m492": {
    "title": "Recommendation ITU-R M.492-6, Operational procedures for the use of direct-printing telegraph equipment in the maritime mobile service",
    "url": "https://www.itu.int/rec/R-REC-M.492/en"
+  },
+  "itu-iridium-2016": {
+   "title": "Iridium Communications presentation, ITU Global Forum on Emergency Telecommunications (2016)",
+   "url": "https://www.itu.int/en/ITU-D/Emergency-Telecommunications/Documents/2016/GET/D2S4/D2S3-GET2016-Hamad.pdf"
   }
  }
 }

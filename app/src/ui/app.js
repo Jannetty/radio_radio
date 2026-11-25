@@ -141,7 +141,7 @@ function guideHtml(p) {
   if (!ex) return '';
   return `<section class="sec"><h2>Study guide</h2><p class="note" style="margin:0 0 12px">A short page for each key topic: the rules behind it, with links to the official text and further reading.</p>
   ${p.sections.filter(sec => sec.g.some(g => ex.topics[g.id])).map(sec => `<div class="guide"><div class="k"><b>${esc(sec.id)}</b> ${esc(sec.t)}</div><div class="row">${sec.g.filter(g => ex.topics[g.id]).map(g => `<button class="btn" data-topic="${esc(g.id)}">${esc(g.t)}</button>`).join('')}</div></div>`).join('')}
-  ${p.sections.some(sec => sec.g.some(g => !ex.topics[g.id])) ? '<p class="note">More topics are on the way. Questions in other topics don\'t have explanations yet.</p>' : ''}</section>`;
+  ${p.sections.some(sec => sec.g.some(g => !ex.topics[g.id])) ? '<p class="note">Topics not listed here don\'t have reviewed explanations yet.</p>' : ''}</section>`;
 }
 
 function topicView() {

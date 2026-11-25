@@ -5840,5 +5840,716 @@
   ],
   "id": "100J4",
   "status": "verified"
+ },
+ "59I1": {
+  "why": "When a ship will be in port for weeks, the operator can log the Inmarsat-C terminal out and switch it off (or leave it running if the ship prefers). Logging out first tells the network the terminal is off the air, so messages aren't repeatedly sent to it. No all-ships alert or NCS confirmation number is needed.",
+  "basis": "practice",
+  "src": [],
+  "id": "59I1",
+  "status": "verified"
+ },
+ "59I2": {
+  "why": "Before switching off, or before moving to another ocean region's satellite, log out with the current NCS. That tells the network you're off the air (so traffic isn't sent to an absent terminal) and lets you log in cleanly to the new satellite.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "For the Inmarsat C communication system there is a NCS in each Ocean Region, which monitors and controls communications traffic within its region."
+   }
+  ],
+  "id": "59I2",
+  "status": "verified"
+ },
+ "59I4": {
+  "why": "A successful log-in registers the terminal with the network (the NCS for that ocean region), so it can send and receive routine traffic. It isn't about antenna pointing (Inmarsat-C antennas are omnidirectional) or receiver gain.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "For the Inmarsat C communication system there is a NCS in each Ocean Region, which monitors and controls communications traffic within its region."
+   }
+  ],
+  "id": "59I4",
+  "status": "verified"
+ },
+ "59I5": {
+  "why": "A \"SYNC\" indication means the terminal is receiving the NCS common channel well enough to lock on. That channel also carries EGC (SafetyNET) broadcasts. It doesn't mean the terminal is logged in yet.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Network Coordination Station (NCS) means a fixed land station in the Inmarsat satellite communications system which controls channel assignments and provides the network management functions for each of the four ocean regions. NCSs also transmit EGC messages on the NCS common channel."
+   }
+  ],
+  "id": "59I5",
+  "status": "verified"
+ },
+ "59I6": {
+  "why": "The EGC alarm draws the operator's attention to a SafetyNET message with distress or urgency priority. It sounds at the navigating position and must be reset by hand.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "provision is made for a specific audible alarm and visual indication at the position from which the ship is normally navigated to indicate receipt of SafetyNET messages with distress or urgency priority"
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "It is not possible to disable this alarm and it is only possible to reset it manually"
+   }
+  ],
+  "id": "59I6",
+  "status": "verified"
+ },
+ "60I1": {
+  "why": "Off the U.S. east coast, the Atlantic Ocean Region–West satellite (AOR-W, serving the Americas) is the one to use. IOR and POR satellites are over the Indian and Pacific oceans.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "The space segment is segmented globally into four Ocean Regions: Atlantic Ocean Region East (AOR-E), Atlantic Ocean Region West (AOR-W), Indian Ocean Region (IOR) and Pacific Ocean Region (POR). Each Ocean Region is served by a dedicated satellite."
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "AOR-W (Atlantic Ocean Region Inmarsat C, Mini C & Fleet 4-F3 AMER (Americas)"
+   }
+  ],
+  "id": "60I1",
+  "status": "verified"
+ },
+ "60I2": {
+  "why": "Between Japan and the Bering Sea, the ship is under the Pacific Ocean Region (POR) satellite. The Atlantic and Indian Ocean satellites don't cover the North Pacific.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "The space segment is segmented globally into four Ocean Regions: Atlantic Ocean Region East (AOR-E), Atlantic Ocean Region West (AOR-W), Indian Ocean Region (IOR) and Pacific Ocean Region (POR). Each Ocean Region is served by a dedicated satellite."
+   }
+  ],
+  "id": "60I2",
+  "status": "verified"
+ },
+ "61I1": {
+  "why": "To receive traffic of every priority, the terminal must be logged in to the satellite's network (NCS), automatically or by the operator. Being powered on and commissioned isn't enough, and the LES doesn't issue a message reference number for log-in.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "For the Inmarsat C communication system there is a NCS in each Ocean Region, which monitors and controls communications traffic within its region."
+   }
+  ],
+  "id": "61I1",
+  "status": "verified"
+ },
+ "61I2": {
+  "why": "To log in, select the ocean region (that is, its NCS). You don't type your Inmarsat number for the NCS or call a land earth station.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "For the Inmarsat C communication system there is a NCS in each Ocean Region, which monitors and controls communications traffic within its region."
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "The space segment is segmented globally into four Ocean Regions: Atlantic Ocean Region East (AOR-E), Atlantic Ocean Region West (AOR-W), Indian Ocean Region (IOR) and Pacific Ocean Region (POR). Each Ocean Region is served by a dedicated satellite."
+   }
+  ],
+  "id": "61I2",
+  "status": "verified"
+ },
+ "61I3": {
+  "why": "When moving to another ocean region, log out of the current satellite and log in to the new one. Inmarsat-C antennas are omnidirectional, so there's nothing to realign.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C means the digital satellite communications system for store-and-forward text or data messaging using mobile terminals with omni-directional antennas."
+   }
+  ],
+  "id": "61I3",
+  "status": "verified"
+ },
+ "61I4": {
+  "why": "If a terminal disappears without logging out, the network still thinks it's available, so messages sent to it fail and may be retried, running up charges for whoever is sending. Scheduled MSI isn't affected by log-out status.",
+  "basis": "practice",
+  "src": [],
+  "id": "61I4",
+  "status": "verified"
+ },
+ "61I6": {
+  "why": "A message from the NCS on the screen or printer is a normal network message, not a failure to log out. Switching off, sailing out of the footprint, or losing the signal (shadowing or interference) before logging out all are.",
+  "basis": "practice",
+  "src": [],
+  "id": "61I6",
+  "status": "verified"
+ },
+ "62I1": {
+  "why": "A Network Coordination Station (NCS) monitors and controls the traffic in its ocean region: it assigns channels and manages the network. It doesn't carry calls through to the destination; land earth stations do that.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "For the Inmarsat C communication system there is a NCS in each Ocean Region, which monitors and controls communications traffic within its region."
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "Network Coordination Station (NCS) means a fixed land station in the Inmarsat satellite communications system which controls channel assignments and provides the network management functions for each of the four ocean regions. NCSs also transmit EGC messages on the NCS common channel."
+   }
+  ],
+  "id": "62I1",
+  "status": "verified"
+ },
+ "62I2": {
+  "why": "A land earth station (LES) connects the satellite system to the worldwide telecommunication networks, linking the ship placing a call with the party receiving it. Controlling the network is the NCS's job.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "The Inmarsat system is connected into the worldwide telecommunication networks via LESs."
+   }
+  ],
+  "id": "62I2",
+  "status": "verified"
+ },
+ "62I3": {
+  "why": "Inmarsat traffic is handled in priority order (distress first, then urgency, safety and routine), not first in, first out. SafetyNET broadcasts follow the same rule: they go out according to their priority.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Messages are broadcast according to their priority, i.e. distress, urgency or safety."
+   }
+  ],
+  "id": "62I3",
+  "status": "verified"
+ },
+ "62I4": {
+  "why": "Inmarsat's GMDSS services use geostationary satellites about 22,000 miles above the equator, four for each service, one per ocean region. That's the classic answer, C. B isn't keyed because the Inmarsat-C and FBB constellations aren't two separate sets of four: they share satellites. Geostationary satellites can't see the polar regions, Inmarsat's GMDSS services don't use polar orbits, and COSPAS-SARSAT is a separate beacon-detection system.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "The space segment is segmented globally into four Ocean Regions: Atlantic Ocean Region East (AOR-E), Atlantic Ocean Region West (AOR-W), Indian Ocean Region (IOR) and Pacific Ocean Region (POR). Each Ocean Region is served by a dedicated satellite."
+   },
+   {
+    "doc": "imo-gmdss-sar-1999",
+    "quote": "Geostationary satellites, which are positioned above the equator, cannot reach this far."
+   },
+   {
+    "doc": "sarsat-faqs",
+    "quote": "A satellite in a geostationary orbit is at an altitude of 22,300 miles"
+   }
+  ],
+  "id": "62I4",
+  "status": "verified"
+ },
+ "62I5": {
+  "why": "Choosing an NCS (ocean region) affects signal strength, which rescue authorities handle distress traffic, and which NAVAREAs' MSI you receive.",
+  "basis": "practice",
+  "src": [],
+  "id": "62I5",
+  "status": "verified"
+ },
+ "62I6": {
+  "why": "A CODEC (coder-decoder) converts analogue voice into a digital signal for transmission, and back again at the far end.",
+  "basis": "practice",
+  "src": [],
+  "id": "62I6",
+  "status": "verified"
+ },
+ "63I1": {
+  "why": "Iridium uses a cross-linked constellation of 66 low Earth orbit satellites in near-polar orbits, giving coverage over the whole planet, including the poles. It isn't geostationary.",
+  "src": [
+   {
+    "doc": "itu-iridium-2016",
+    "quote": "Iridium relies on the unique cross- linked architecture of its global constellation of 66 Low Earth Orbiting (LEO) satellites."
+   },
+   {
+    "doc": "itu-iridium-2016",
+    "quote": "over the planet’s entire surface, including: • Oceans • Airways, and • Polar Regions"
+   }
+  ],
+  "id": "63I1",
+  "status": "verified"
+ },
+ "63I2": {
+  "why": "Iridium satellites move quickly across the sky, so ship antennas are small omnidirectional units that pick up whichever satellites are passing overhead. They don't track individual satellites.",
+  "basis": "practice",
+  "src": [],
+  "id": "63I2",
+  "status": "verified"
+ },
+ "63I4": {
+  "why": "Iridium satellites are cross-linked: calls are passed between satellites in space and down to a ground station. They're not stored and forwarded, and there are no geostationary relays.",
+  "src": [
+   {
+    "doc": "itu-iridium-2016",
+    "quote": "Iridium relies on the unique cross- linked architecture of its global constellation of 66 Low Earth Orbiting (LEO) satellites."
+   }
+  ],
+  "id": "63I4",
+  "status": "verified"
+ },
+ "63I5": {
+  "why": "Iridium covers the whole planet, including the polar regions, which geostationary systems can't see.",
+  "src": [
+   {
+    "doc": "itu-iridium-2016",
+    "quote": "over the planet’s entire surface, including: • Oceans • Airways, and • Polar Regions"
+   },
+   {
+    "doc": "imo-gmdss-sar-1999",
+    "quote": "Geostationary satellites, which are positioned above the equator, cannot reach this far."
+   }
+  ],
+  "id": "63I5",
+  "status": "verified"
+ },
+ "64I1": {
+  "why": "FleetBroadband uses a stabilized directional antenna that must stay pointed at the satellite. Inmarsat-C is the omnidirectional system.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C means the digital satellite communications system for store-and-forward text or data messaging using mobile terminals with omni-directional antennas."
+   }
+  ],
+  "id": "64I1",
+  "status": "verified"
+ },
+ "64I2": {
+  "why": "Fleet Safety (FBB for GMDSS) uses four ocean regions: AMER, APAC, EMEA and MEAS. Three share satellites with Inmarsat-C regions, but MEAS has no Inmarsat-C equivalent, and AOR-E (Inmarsat-C only) has no Fleet Safety equivalent, so the footprints aren't all identical.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "MEAS (Middle East & 4-F2 Fleet Safety Asia)"
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "AOR-E (Atlantic Ocean Region 3-F5 Inmarsat C & Mini C East)"
+   }
+  ],
+  "id": "64I2",
+  "status": "verified"
+ },
+ "64I3": {
+  "why": "For GMDSS (Fleet Safety), the distress alert with priority pre-emption is sent with the dedicated Distress Alert button on the type-approved Maritime Safety Terminal. Dialling 505 on an FBB handset places an emergency voice call to a rescue centre, but that isn't the GMDSS distress alert, and the FBB handset has no GMDSS distress-alert button.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Fleet Safety is the digital satellite communications system comprising of a FleetBroadband Ship Earth System (SES) and type approved Maritime Safety Terminal (MST) for use within the GMDSS"
+   }
+  ],
+  "id": "64I3",
+  "status": "verified"
+ },
+ "64I5": {
+  "why": "A FleetBroadband terminal meets GMDSS requirements only when combined with a type-approved Maritime Safety Terminal (with distress button, keyboard and a printer or dedicated display). FBB alone isn't GMDSS equipment.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Fleet Safety is the digital satellite communications system comprising of a FleetBroadband Ship Earth System (SES) and type approved Maritime Safety Terminal (MST) for use within the GMDSS"
+   }
+  ],
+  "id": "64I5",
+  "status": "verified"
+ },
+ "64I6": {
+  "why": "FBB voice is digital, so a CODEC is used to digitize the voice signal.",
+  "basis": "practice",
+  "src": [],
+  "id": "64I6",
+  "status": "verified"
+ },
+ "65I1": {
+  "why": "Inmarsat-C is a text and data messaging system. Ships can send telex and data and use emergency alerting, but can't receive a facsimile from shore.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C means the digital satellite communications system for store-and-forward text or data messaging using mobile terminals with omni-directional antennas."
+   }
+  ],
+  "id": "65I1",
+  "status": "verified"
+ },
+ "65I3": {
+  "why": "Inmarsat-C terminals have small omnidirectional antennas. No aiming at the satellite is needed.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C and Mini C SESs with the EGC function are small, lightweight terminals, with small omni-directional antennas, for providing data and message-type services."
+   }
+  ],
+  "id": "65I3",
+  "status": "verified"
+ },
+ "65I4": {
+  "why": "Inmarsat-C is store-and-forward: messages are stored at the land earth station and then forwarded, so there's no direct real-time connection between ship and shore users.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C means the digital satellite communications system for store-and-forward text or data messaging using mobile terminals with omni-directional antennas."
+   }
+  ],
+  "id": "65I4",
+  "status": "verified"
+ },
+ "65I5": {
+  "why": "Inmarsat-C land earth stations forward all messages on a store-and-forward basis.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C means the digital satellite communications system for store-and-forward text or data messaging using mobile terminals with omni-directional antennas."
+   }
+  ],
+  "id": "65I5",
+  "status": "verified"
+ },
+ "65I6": {
+  "why": "Inmarsat-C terminals use small omnidirectional antennas.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C and Mini C SESs with the EGC function are small, lightweight terminals, with small omni-directional antennas, for providing data and message-type services."
+   }
+  ],
+  "id": "65I6",
+  "status": "verified"
+ },
+ "66I1": {
+  "why": "Inmarsat-C is a digital store-and-forward messaging system that also carries enhanced group calls (SafetyNET), data reporting and polling, and distress alerting. It isn't analogue, needs no stabilized antenna, and carries no voice or video.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C means the digital satellite communications system for store-and-forward text or data messaging using mobile terminals with omni-directional antennas."
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "It has been developed as a safety service of the Inmarsat C Enhanced Group Call (EGC) system"
+   }
+  ],
+  "id": "66I1",
+  "status": "verified"
+ },
+ "66I2": {
+  "why": "A shipboard Inmarsat-C system is a small, lightweight terminal for store-and-forward satellite messaging. It doesn't give real-time connections, doesn't use HF, and doesn't provide DSC.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C and Mini C SESs with the EGC function are small, lightweight terminals, with small omni-directional antennas, for providing data and message-type services."
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C means the digital satellite communications system for store-and-forward text or data messaging using mobile terminals with omni-directional antennas."
+   }
+  ],
+  "id": "66I2",
+  "status": "verified"
+ },
+ "66I5": {
+  "why": "Inmarsat-C carries text and data (telex, text for fax delivery, data services) but not voice.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C means the digital satellite communications system for store-and-forward text or data messaging using mobile terminals with omni-directional antennas."
+   }
+  ],
+  "id": "66I5",
+  "status": "verified"
+ },
+ "66I6": {
+  "why": "Inmarsat-C's full range is polling, enhanced group calls, one-way position and data reporting, and two-way store-and-forward messaging and data. D lists all of them.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C means the digital satellite communications system for store-and-forward text or data messaging using mobile terminals with omni-directional antennas."
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "It has been developed as a safety service of the Inmarsat C Enhanced Group Call (EGC) system"
+   }
+  ],
+  "id": "66I6",
+  "status": "verified"
+ },
+ "67I1": {
+  "why": "Both FBB and Inmarsat-C can send data and send messages for delivery to fax machines. Only FBB carries voice.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C means the digital satellite communications system for store-and-forward text or data messaging using mobile terminals with omni-directional antennas."
+   }
+  ],
+  "id": "67I1",
+  "status": "verified"
+ },
+ "67I2": {
+  "why": "FBB antennas are larger and directional, for higher gain, and must point at the satellite. Inmarsat-C antennas are small, omnidirectional and don't need aiming.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C and Mini C SESs with the EGC function are small, lightweight terminals, with small omni-directional antennas, for providing data and message-type services."
+   }
+  ],
+  "id": "67I2",
+  "status": "verified"
+ },
+ "67I5": {
+  "why": "Both systems can be shadowed by the ship's own structure, but FBB uses a directional antenna while Inmarsat-C's is omnidirectional.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "Inmarsat C and Mini C SESs with the EGC function are small, lightweight terminals, with small omni-directional antennas, for providing data and message-type services."
+   }
+  ],
+  "id": "67I5",
+  "status": "verified"
+ },
+ "67I6": {
+  "why": "FBB offers much more (voice and broadband data), at the cost of a bigger, heavier, more expensive installation than Inmarsat-C.",
+  "basis": "practice",
+  "src": [],
+  "id": "67I6",
+  "status": "verified"
+ },
+ "76I1": {
+  "why": "The quickest, surest way to alert an RCC is the satellite terminal's dedicated distress alert (\"hot key\"), after checking that the distress alert setup information is correct. It gives priority access and routes the alert automatically.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-gmdss-sar-1999",
+    "quote": "It only involves pressing a special distress button or using an abbreviated dialling code."
+   }
+  ],
+  "id": "76I1",
+  "status": "verified"
+ },
+ "76I2": {
+  "why": "The hot-key alert automatically sends the terminal's identity, position (with time) and, if set up, the nature of distress, course and speed. The detailed follow-up message should add what the alert lacks: the vessel's name and call sign, persons on board, a description of the vessel, all its ID numbers and shore contact numbers. Choices that repeat the position or nature of distress repeat what the alert already sent. (Part 80 lists similar \"other information\" for voice distress calls, such as a vessel description and persons on board.)",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "80.314",
+    "quote": "Any other information which might facilitate rescue, for example, the length, color, and type of vessel, or number of persons on board."
+   }
+  ],
+  "id": "76I2",
+  "status": "verified"
+ },
+ "76I3": {
+  "why": "Bring up a pre-saved detailed distress message, edit it, and send it through the transmit menu with distress priority via the best land earth station. Pressing the hot key again only re-sends the basic alert.",
+  "basis": "practice",
+  "src": [],
+  "id": "76I3",
+  "status": "verified"
+ },
+ "76I4": {
+  "why": "When an EGC distress message asks ships to report, silence the alarm, tell the master, and send the RCC your position and what your ship can do. Ships receiving a shore-to-ship distress relay should make contact as directed and help as required.",
+  "src": [
+   {
+    "sec": "80.1121",
+    "quote": "A ship station in receipt of a shore-to-ship distress alert relay (see § 80.1113(e)) should establish communication as directed and render such assistance as required and appropriate."
+   },
+   {
+    "sec": "80.1121",
+    "quote": "must, as soon as possible, inform the master or person responsible for the ship of the contents of the distress alert"
+   }
+  ],
+  "id": "76I4",
+  "status": "verified"
+ },
+ "76I6": {
+  "why": "IAMSAR Manual Volume III (Mobile Facilities), carried on board ships, contains standard formats for detailed distress and situation reports. Part 80 and the ITU lists don't.",
+  "basis": "practice",
+  "src": [],
+  "id": "76I6",
+  "status": "verified"
+ },
+ "77I1": {
+  "why": "A SafetyNET distress or urgency message sets off an alarm that can't be disabled and must be reset manually.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "It is not possible to disable this alarm and it is only possible to reset it manually"
+   }
+  ],
+  "id": "77I1",
+  "status": "verified"
+ },
+ "77I2": {
+  "why": "FleetNET is the commercial EGC service that lets information providers send messages to predefined groups of subscribers, such as a company's ships. SafetyNET is the safety (MSI) service.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "It has been developed as a safety service of the Inmarsat C Enhanced Group Call (EGC) system"
+   }
+  ],
+  "id": "77I2",
+  "status": "verified"
+ },
+ "77I3": {
+  "why": "An ordinary (Class 2) Inmarsat-C terminal receives EGC broadcasts only when it's idle. A separate EGC receiver keeps listening while the main terminal is busy.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "MSI and SAR related information broadcasts will only be received when the terminal is idle."
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "Class 0 standalone EGC receivers provide the capability to receive SafetyNET messages only"
+   }
+  ],
+  "id": "77I3",
+  "status": "verified"
+ },
+ "77I4": {
+  "why": "Enhanced group calls are broadcast over Inmarsat satellites as part of the Inmarsat-C system.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "It has been developed as a safety service of the Inmarsat C Enhanced Group Call (EGC) system"
+   }
+  ],
+  "id": "77I4",
+  "status": "verified"
+ },
+ "77I5": {
+  "why": "A separate EGC receiver gives the best availability: an integrated Class 2 terminal misses EGC broadcasts while it's busy sending or receiving telex.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "MSI and SAR related information broadcasts will only be received when the terminal is idle."
+   },
+   {
+    "doc": "imo-safetynet",
+    "quote": "in the case of Class 3 Inmarsat C SES (having two separate receivers for Inmarsat C messages, MSI and SAR related information)"
+   }
+  ],
+  "id": "77I5",
+  "status": "verified"
+ },
+ "77I6": {
+  "why": "Statement B is false: an MSI originator can address a message to a specific circular or rectangular area. The others are true: NAVAREA selection should be kept up to date, and extra NAVAREAs can be selected.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "The area may be fixed, as in the case of a NAVAREA/METAREA or coastal warning area, or a user-defined area (circular or rectangular)."
+   }
+  ],
+  "id": "77I6",
+  "status": "verified"
+ },
+ "78I1": {
+  "why": "A ship sailing from Miami to Panama stays well inside the Atlantic (AOR-W) satellite's coverage. Land earth stations don't have coverage areas of their own, so losing Inmarsat-C there most likely points to an equipment fault.",
+  "basis": "practice",
+  "src": [],
+  "id": "78I1",
+  "status": "verified"
+ },
+ "78I2": {
+  "why": "The Pacific (POR) satellite sits over the western Pacific, so a ship heading east from Hawaii toward Panama eventually sails out of its footprint. If the terminal is still logged in to POR, it loses service. The fix is to log in to the Atlantic (AOR-W) satellite, which covers the eastern Pacific approaches to Panama. Land earth stations don't have coverage areas.",
+  "basis": "practice",
+  "src": [],
+  "id": "78I2",
+  "status": "verified"
+ },
+ "78I4": {
+  "why": "Keeping the antenna clean of soot and debris is routine care an operator can do. Adjusting transmitter power (EIRP), oscillators or tuning affects the station's proper operation, so it needs a GMDSS maintainer.",
+  "src": [
+   {
+    "sec": "80.1074",
+    "quote": "all adjustments of radio installations, servicing, or maintenance of such installations that may affect the proper operation of the GMDSS station must be performed by, or under the immediate supervision and responsibility of, a qualified GMDSS radio maintainer"
+   },
+   {
+    "sec": "80.1073",
+    "quote": "including basic equipment adjustments as denoted in the knowledge requirements"
+   }
+  ],
+  "id": "78I4",
+  "status": "verified"
+ },
+ "78I5": {
+  "why": "Operators may use and adjust the front panel controls in normal operation. Adjusting EIRP or reference oscillators affects the station's proper operation, so it needs a maintainer, and painting the dome would degrade the antenna.",
+  "src": [
+   {
+    "sec": "80.1073",
+    "quote": "including basic equipment adjustments as denoted in the knowledge requirements"
+   },
+   {
+    "sec": "80.1074",
+    "quote": "all adjustments of radio installations, servicing, or maintenance of such installations that may affect the proper operation of the GMDSS station must be performed by, or under the immediate supervision and responsibility of, a qualified GMDSS radio maintainer"
+   }
+  ],
+  "id": "78I5",
+  "status": "verified"
+ },
+ "78I6": {
+  "why": "Adjusting the transmitter EIRP affects the station's proper operation, so it's maintainer work, not something a GMDSS operator does. Keeping the antenna clean, logging in, handling traffic, logging out, and entering position and LES choices are operator tasks.",
+  "src": [
+   {
+    "sec": "80.1074",
+    "quote": "all adjustments of radio installations, servicing, or maintenance of such installations that may affect the proper operation of the GMDSS station must be performed by, or under the immediate supervision and responsibility of, a qualified GMDSS radio maintainer"
+   },
+   {
+    "sec": "80.1073",
+    "quote": "including basic equipment adjustments as denoted in the knowledge requirements"
+   }
+  ],
+  "id": "78I6",
+  "status": "verified"
+ },
+ "79I1": {
+  "why": "If the ship's own structure is blocking the satellite, the quickest fix is to change course so the antenna has a clear view. More power or receiver gain won't get through a mast.",
+  "basis": "practice",
+  "src": [],
+  "id": "79I1",
+  "status": "verified"
+ },
+ "79I2": {
+  "why": "Losing FBB service right after a big course change suggests the ship's superstructure is now blocking the antenna's view of the satellite (shadowing).",
+  "basis": "practice",
+  "src": [],
+  "id": "79I2",
+  "status": "verified"
+ },
+ "79I3": {
+  "why": "Shadowing by an on-board obstruction can be cleared by changing course so the antenna regains a clear line to the satellite.",
+  "basis": "practice",
+  "src": [],
+  "id": "79I3",
+  "status": "verified"
+ },
+ "79I4": {
+  "why": "Normal rain from storms doesn't typically impair FBB's L-band links. Obstructions, a satellite below the horizon, and leaving the coverage area all do.",
+  "basis": "practice",
+  "src": [],
+  "id": "79I4",
+  "status": "verified"
+ },
+ "79I5": {
+  "why": "At sea, in-port interference from cell phones and shore radio systems is the least likely cause. Shadowing by a mast, being at the fringe of coverage, or extremely heavy rain or snow (especially snow or ice building up on the antenna) are more plausible, though ordinary rain has little effect on these links.",
+  "basis": "practice",
+  "src": [],
+  "id": "79I5",
+  "status": "verified"
+ },
+ "79I6": {
+  "why": "Inmarsat-C antennas are omnidirectional, so an operator never sets azimuth and elevation values. At sea, any adjustment that could affect the station's proper operation belongs to a GMDSS maintainer. Choosing an LES, keeping the antenna clean, logging on, handling traffic and logging off are all operator tasks.",
+  "src": [
+   {
+    "doc": "imo-safetynet",
+    "quote": "with small omni-directional antennas"
+   },
+   {
+    "sec": "80.1074",
+    "quote": "all adjustments of radio installations, servicing, or maintenance of such installations that may affect the proper operation of the GMDSS station must be performed by, or under the immediate supervision and responsibility of, a qualified GMDSS radio maintainer"
+   }
+  ],
+  "id": "79I6",
+  "status": "verified"
  }
 }
