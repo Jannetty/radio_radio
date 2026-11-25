@@ -1,0 +1,1649 @@
+{
+ "G1A01": {
+  "why": "On 80, 40, 20 and 15 meters, part of each band is reserved for Amateur Extra (and Advanced) licensees, so Generals can't use it. Generals have all of 160, 60, 30, 17, 12 and 10 meters.",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "(d) For a station having a control operator who has been granted an operator license of General Class:"
+   },
+   {
+    "sec": "97.301",
+    "quote": "80 m 3.525-3.600 3.525-3.600 3.525-3.600 (a) 75 m 3.800-4.000 3.800-3.900 (a) 60 m 5.3515-5.3665 5.3515-5.3665 5.3515-5.3665 (h) 40 m 7.025-7.125 7.025-7.125 7.025-7.125 (i) Do 7.175-7.200 7.175-7.300 7.175-7.200 (i)"
+   },
+   {
+    "sec": "97.301",
+    "quote": "20 m 14.025-14.150 14.025-14.150 14.025-14.150 Do 14.225-14.350 14.225-14.350 14.225-14.350"
+   },
+   {
+    "sec": "97.301",
+    "quote": "15 m 21.025-21.200 21.025-21.200 21.025-21.200 Do 21.275-21.450 21.275-21.450 21.275-21.450"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1A02": {
+  "why": "30 meters (10.100–10.150 MHz) is limited to CW, RTTY and data. No phone or image is allowed there.",
+  "src": [
+   {
+    "sec": "97.305",
+    "quote": "(viii) 30 m Entire band RTTY, data"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1A03": {
+  "why": "30 meters is limited to CW, RTTY and data, so image transmissions aren't allowed.",
+  "src": [
+   {
+    "sec": "97.305",
+    "quote": "(viii) 30 m Entire band RTTY, data"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1A05": {
+  "why": "General privileges on 40 meters skip 7.125–7.175 MHz, which is reserved for Amateur Extra and Advanced licensees. The other choices are inside General segments.",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "80 m 3.525-3.600 3.525-3.600 3.525-3.600 (a) 75 m 3.800-4.000 3.800-3.900 (a) 60 m 5.3515-5.3665 5.3515-5.3665 5.3515-5.3665 (h) 40 m 7.025-7.125 7.025-7.125 7.025-7.125 (i) Do 7.175-7.200 7.175-7.300 7.175-7.200 (i)"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1A06": {
+  "why": "As a secondary user, amateurs must not cause harmful interference to primary users and must accept interference from them.",
+  "src": [
+   {
+    "sec": "97.303",
+    "quote": "A station in a secondary service must not cause harmful interference to, and must accept interference from, stations in a primary service."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1A07": {
+  "why": "CW is allowed anywhere you have privileges, and Generals have all of 10 meters (28.000–29.700 MHz), so CW is allowed across the whole band.",
+  "src": [
+   {
+    "sec": "97.305",
+    "quote": "(a) Except as specified elsewhere in this part, an amateur station may transmit a CW emission on any frequency authorized to the control operator."
+   },
+   {
+    "sec": "97.301",
+    "quote": "10 m 28.000-29.700 28.000-29.700 28.000-29.700"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1A08": {
+  "why": "80, 40, 20 and 15 meters each have a segment only Amateur Extra licensees may use. Some of the other parts Generals can't use on those bands are also open to Advanced licensees, but the lowest segment of each (such as 3.500–3.525 and 7.000–7.025 MHz) is Extra-only: even the Advanced table starts at 3.525 and 7.025 MHz.",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "(d) For a station having a control operator who has been granted an operator license of General Class:"
+   },
+   {
+    "sec": "97.301",
+    "quote": "80 m 3.525-3.600 3.525-3.600 3.525-3.600 (a) 75 m 3.800-4.000 3.800-3.900 (a) 60 m 5.3515-5.3665 5.3515-5.3665 5.3515-5.3665 (h) 40 m 7.025-7.125 7.025-7.125 7.025-7.125 (i) Do 7.175-7.200 7.175-7.300 7.175-7.200 (i)"
+   },
+   {
+    "sec": "97.301",
+    "quote": "20 m 14.025-14.150 14.025-14.150 14.025-14.150 Do 14.225-14.350 14.225-14.350 14.225-14.350"
+   },
+   {
+    "sec": "97.301",
+    "quote": "15 m 21.025-21.200 21.025-21.200 21.025-21.200 Do 21.275-21.450 21.275-21.450 21.275-21.450"
+   },
+   {
+    "sec": "97.301",
+    "quote": "(c) For a station having a control operator who has been granted an operator license of Advanced Class:"
+   },
+   {
+    "sec": "97.301",
+    "quote": "80 m 3.525-3.600 3.525-3.600 3.525-3.600 (a) 75 m 3.700-3.800 3.700-4.000 3.700-3.900 (a) 60 m 5.3515-5.3665 5.3515-5.3665 5.3515-5.3665 (h) 40 m 7.025-7.200 7.025-7.300 7.025-7.200 (i)"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1A09": {
+  "why": "Generals have 21.275–21.450 MHz for phone on 15 meters, so 21.300 MHz (21300 kHz) is in the General portion. 14250 kHz is 20 m, 18155 kHz is 17 m, and 24900 kHz is 12 m.",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "15 m 21.025-21.200 21.025-21.200 21.025-21.200 Do 21.275-21.450 21.275-21.450 21.275-21.450"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1A10": {
+  "why": "On 10 meters, repeaters may operate only above 29.5 MHz (29.5–29.7 MHz).",
+  "src": [
+   {
+    "sec": "97.205",
+    "quote": "(b) A repeater may receive and retransmit only on the 10 m and shorter wavelength frequency bands except the 28.0-29.5 MHz"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1A11": {
+  "why": "Where Generals don't get the whole voice segment (75, 40, 20 and 15 meters), they get the upper part: for example 3.800–4.000, 7.175–7.300, 14.225–14.350 and 21.275–21.450 MHz.",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "80 m 3.525-3.600 3.525-3.600 3.525-3.600 (a) 75 m 3.800-4.000 3.800-3.900 (a) 60 m 5.3515-5.3665 5.3515-5.3665 5.3515-5.3665 (h) 40 m 7.025-7.125 7.025-7.125 7.025-7.125 (i) Do 7.175-7.200 7.175-7.300 7.175-7.200 (i)"
+   },
+   {
+    "sec": "97.301",
+    "quote": "20 m 14.025-14.150 14.025-14.150 14.025-14.150 Do 14.225-14.350 14.225-14.350 14.225-14.350"
+   },
+   {
+    "sec": "97.301",
+    "quote": "15 m 21.025-21.200 21.025-21.200 21.025-21.200 Do 21.275-21.450 21.275-21.450 21.275-21.450"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B01": {
+  "why": "Antenna structures over 200 feet (60.96 m) above ground, or near a public-use airport, require FAA notification and FCC registration. So away from airports, a structure up to 200 feet needs no FAA notification or FCC registration (local permits may still apply).",
+  "src": [
+   {
+    "sec": "97.15",
+    "quote": "(a) Owners of certain antenna structures more than 60.96 meters (200 feet) above ground level at the site or located near or at a public use airport must notify the Federal Aviation Administration and register with the Commission as required by part 17 of this chapter."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B02": {
+  "why": "A beacon must not transmit on more than one channel in the same band at the same time from the same location. No beacon organization or publication is required.",
+  "src": [
+   {
+    "sec": "97.203",
+    "quote": "(b) A beacon must not concurrently transmit on more than 1 channel in the same amateur service frequency band, from the same station location."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B03": {
+  "why": "The FCC defines a beacon as a station transmitting for observing propagation and reception, or related experiments.",
+  "src": [
+   {
+    "sec": "97.3",
+    "quote": "(9) Beacon. An amateur station transmitting communications for the purposes of observation of propagation and reception or other related experimental activities."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B04": {
+  "why": "Any amateur station may occasionally retransmit propagation and weather forecast information from US government stations. Unidentified transmissions, automatic retransmission by ordinary stations, and encrypted messages aren't allowed.",
+  "src": [
+   {
+    "sec": "97.113",
+    "quote": "except propagation and weather forecast information intended for use by the general public and originated from United States Government stations"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B05": {
+  "why": "One-way transmissions to help people learn or improve Morse code are specifically allowed. Transmissions must still be identified, and regular sales announcements aren't allowed.",
+  "src": [
+   {
+    "sec": "97.111",
+    "quote": "(5) Transmissions necessary to assisting persons learning, or improving proficiency in, the international Morse code; and"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B06": {
+  "why": "Under PRB-1, state and local rules must reasonably accommodate amateur communications and be the minimum practicable regulation to achieve their legitimate purpose.",
+  "src": [
+   {
+    "sec": "97.15",
+    "quote": "it must reasonably accommodate such communications and must constitute the minimum practicable regulation to accomplish the state or local authority's legitimate purpose."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B07": {
+  "why": "Abbreviations and procedural signals (like Q signals) are fine as long as they don't obscure the meaning of the message. Messages encoded to obscure meaning are prohibited.",
+  "src": [
+   {
+    "sec": "97.113",
+    "quote": "messages encoded for the purpose of obscuring their meaning, except as otherwise provided herein"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B08": {
+  "why": "You may contact amateurs in any country except those whose administrations have told the ITU they object to such contacts. A third-party agreement is only needed for messages on behalf of others.",
+  "src": [
+   {
+    "sec": "97.111",
+    "quote": "except those in any country whose administration has notified the ITU that it objects to such communications"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B09": {
+  "why": "On HF, automatically controlled beacons are allowed only between 28.20 and 28.30 MHz.",
+  "src": [
+   {
+    "sec": "97.203",
+    "quote": "(d) A beacon may be automatically controlled while it is transmitting on the 28.20-28.30 MHz"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B10": {
+  "why": "A beacon's transmitter power must not exceed 100 watts.",
+  "src": [
+   {
+    "sec": "97.203",
+    "quote": "(c) The transmitter power of a beacon must not exceed 100 W."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B11": {
+  "why": "Where Part 97 doesn't spell something out, stations must follow good engineering and good amateur practice. The FCC, which writes and enforces the rules, is the one that decides what that means.",
+  "src": [
+   {
+    "sec": "97.101",
+    "quote": "(a) In all respects not specifically covered by FCC Rules each amateur station must be operated in accordance with good engineering and good amateur practice."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1C01": {
+  "why": "10.140 MHz is in the 30-meter band (10.10–10.15 MHz), where power is limited to 200 watts PEP output.",
+  "src": [
+   {
+    "sec": "97.313",
+    "quote": "(c) No station may transmit with a transmitter power output exceeding 200 W PEP: (1) On the 10.10-10.15 MHz segment;"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1C02": {
+  "why": "On 12 meters the normal amateur limit applies: 1500 watts PEP output.",
+  "src": [
+   {
+    "sec": "97.313",
+    "quote": "(b) No station may transmit with a transmitter power exceeding 1.5 kW PEP."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1C03": {
+  "why": "On 60 meters, emissions must not take up more than 2.8 kHz.",
+  "src": [
+   {
+    "sec": "97.303",
+    "quote": "For all 60 m spectrum, Amateur operators shall ensure that their emissions do not occupy more than 2.8 kHz."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1C04": {
+  "why": "60-meter power is limited in ERP relative to a dipole, so if you use an antenna other than a dipole you must keep a record of its gain (manufacturer data or your calculations).",
+  "src": [
+   {
+    "sec": "97.313",
+    "quote": "Licensees using other antennas must maintain in their station records either the antenna manufacturer's data on the antenna gain or calculations of the antenna gain."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1C05": {
+  "why": "For a General class control operator on 10 meters, the limit is 1500 watts PEP output. (The 200-watt limit on 28.0–28.5 MHz applies only to Novice and Technician operators.)",
+  "src": [
+   {
+    "sec": "97.313",
+    "quote": "(b) No station may transmit with a transmitter power exceeding 1.5 kW PEP."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1C06": {
+  "why": "The limit on 160 meters (1.8 MHz) is 1500 watts PEP output.",
+  "src": [
+   {
+    "sec": "97.313",
+    "quote": "(b) No station may transmit with a transmitter power exceeding 1.5 kW PEP."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1C07": {
+  "why": "Data techniques may be used if their technical characteristics have been publicly documented (like CLOVER, G-TOR or PACTOR). No type certification, experimental license or rulemaking is needed.",
+  "src": [
+   {
+    "sec": "97.309",
+    "quote": "(4) An amateur station transmitting a RTTY or data emission using a digital code specified in this paragraph may use any technique whose technical characteristics have been documented publicly, such as CLOVER, G-TOR, or PacTOR, for the purpose of facilitating communications."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1C11": {
+  "why": "Most FCC power limits, including the 1500-watt maximum, are stated as PEP (peak envelope power) output from the transmitter: the average power fed to the antenna line during one RF cycle at the peak of the modulation.",
+  "src": [
+   {
+    "sec": "97.313",
+    "quote": "(b) No station may transmit with a transmitter power exceeding 1.5 kW PEP."
+   },
+   {
+    "sec": "97.3",
+    "quote": "(9) PEP (peak envelope power). The average power supplied to the antenna transmission line by a transmitter during one RF cycle at the crest of the modulation envelope taken under normal operating conditions."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D01": {
+  "why": "Someone who once held a General, Advanced or Amateur Extra license (or a Technician license granted before March 21, 1987) gets exam credit even after it has expired beyond the grace period: Element 3, plus Element 4 for a former Extra. They must still pass Element 2.",
+  "src": [
+   {
+    "sec": "97.505",
+    "quote": "(1) Amateur Extra Not applicable Elements 3 and 4. (2) Advanced; General; or Technician granted before March 21, 1987 Elements 2 and 3 Element 3."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D02": {
+  "why": "An accredited VE with a General license may help give Technician exams only. General exams need an Advanced or Extra VE, and Extra exams need an Extra VE.",
+  "src": [
+   {
+    "sec": "97.509",
+    "quote": "(i) Amateur Extra, Advanced or General Class in order to administer a Technician Class operator license examination;"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D03": {
+  "why": "A CSCE for General lets you use General (and Technician) privileges right away, for up to 365 days or until the upgrade is granted.",
+  "src": [
+   {
+    "sec": "97.9",
+    "quote": "is authorized to exercise the rights and privileges of the higher operator class until final disposition of the application or until 365 days following the passing of the examination, whichever comes first."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D04": {
+  "why": "Every exam is given by a team of at least three VEs, and for a Technician exam each must hold a General or higher license.",
+  "src": [
+   {
+    "sec": "97.509",
+    "quote": "(a) Each examination for an amateur operator license must be administered by a team of at least 3 VEs at an examination session coordinated by a VEC."
+   },
+   {
+    "sec": "97.509",
+    "quote": "(i) Amateur Extra, Advanced or General Class in order to administer a Technician Class operator license examination;"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D05": {
+  "why": "The control operator of a US station needs a US operator/primary license (or reciprocal authorization), wherever they're controlling it from. No special remote permit exists.",
+  "src": [
+   {
+    "sec": "97.7",
+    "quote": "When transmitting, each amateur station must have a control operator. The control operator must be a person: (a) For whom an amateur operator/primary station license grant appears on the ULS consolidated licensee database"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D06": {
+  "why": "While using General privileges on a CSCE before the upgrade shows in the database, a Technician must add \"AG\" after their call sign.",
+  "src": [
+   {
+    "sec": "97.119",
+    "quote": "(2) For a control operator who has requested a license modification from Novice or Technician to General Class: AG;"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D07": {
+  "why": "VEs are accredited by a Volunteer Examiner Coordinator (VEC).",
+  "src": [
+   {
+    "sec": "97.509",
+    "quote": "(1) Be accredited by the coordinating VEC;"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D08": {
+  "why": "There's no citizenship requirement. A VE must hold an FCC amateur license of the right class (General or higher), be accredited by a VEC, be 18 or older, and never have had a license revoked or suspended.",
+  "src": [
+   {
+    "sec": "97.509",
+    "quote": "(3) Be a person who holds an amateur operator license of the class specified below:"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D09": {
+  "why": "A CSCE gives exam element credit for 365 days.",
+  "src": [
+   {
+    "sec": "97.505",
+    "quote": "(b) The administering VEs must give credit to an examinee holding a CSCE for each element the CSCE indicates the examinee passed within the previous 365 days."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D10": {
+  "why": "A VE must be at least 18 years old.",
+  "src": [
+   {
+    "sec": "97.509",
+    "quote": "(2) Be at least 18 years of age;"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D11": {
+  "why": "Once past the grace period, a former General gets credit for Element 3 but must pass the current Element 2 (Technician) exam to be relicensed.",
+  "src": [
+   {
+    "sec": "97.505",
+    "quote": "(2) Advanced; General; or Technician granted before March 21, 1987 Elements 2 and 3 Element 3."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D12": {
+  "why": "A station located in another country is governed by that country's rules. FCC rules apply where the FCC regulates the amateur service, not to a foreign station you control over the internet.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "97.301",
+    "quote": "outside any area where the amateur service is regulated by any authority other than the FCC"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E01": {
+  "why": "A third party can't take part if their own amateur license was revoked and hasn't been reinstated. Citizenship and language don't matter.",
+  "src": [
+   {
+    "sec": "97.115",
+    "quote": "(2) The third party is not a prior amateur service licensee whose license was revoked or not renewed after hearing and re-licensing has not taken place"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E02": {
+  "why": "On 10 meters, a repeater may transmit only on 29.5–29.7 MHz, which is outside Technician privileges. So the repeater's control operator must hold at least a General license; then it may retransmit a Technician's 2-meter signal.",
+  "src": [
+   {
+    "sec": "97.205",
+    "quote": "A holder of a Technician, General, Advanced or Amateur Extra Class operator license may be the control operator of a repeater, subject to the privileges of the class of operator license held."
+   },
+   {
+    "sec": "97.205",
+    "quote": "(b) A repeater may receive and retransmit only on the 10 m and shorter wavelength frequency bands except the 28.0-29.5 MHz"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E03": {
+  "why": "Outside the automatic-control segments, an automatically controlled digital station may only respond to a station that is under local or remote control.",
+  "src": [
+   {
+    "sec": "97.221",
+    "quote": "(1) The station is responding to interrogation by a station under local or remote control; and"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E04": {
+  "why": "All of these: stations within a mile of an FCC monitoring station must protect it, secondary users must not interfere with primary users, and spread spectrum must not interfere with other emissions.",
+  "src": [
+   {
+    "sec": "97.13",
+    "quote": "(b) A station within 1600 m (1 mile) of an FCC monitoring facility must protect that facility from harmful interference."
+   },
+   {
+    "sec": "97.303",
+    "quote": "A station in a secondary service must not cause harmful interference to, and must accept interference from, stations in a primary service."
+   },
+   {
+    "sec": "97.311",
+    "quote": "(b) A station transmitting SS emissions must not cause harmful interference to stations employing other authorized emissions"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E05": {
+  "why": "Messages to other countries, including third-party traffic where there's an agreement, must relate to amateur radio, be remarks of a personal character, or be emergency or disaster relief communications.",
+  "src": [
+   {
+    "sec": "97.117",
+    "quote": "Transmissions to a different country, where permitted, shall be limited to communications incidental to the purposes of the amateur service and to remarks of a personal character."
+   },
+   {
+    "sec": "97.115",
+    "quote": "when transmitting emergency or disaster relief communications"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E06": {
+  "why": "North and South America are in ITU Region 2.",
+  "src": [
+   {
+    "sec": "2.104",
+    "quote": "(2) Region 2. Region 2 includes the area limited on the east by line B and on the west by line C."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E07": {
+  "why": "Amateur stations may only communicate with other amateur stations (with a few listed exceptions), not with unlicensed Wi-Fi devices, anywhere in the band.",
+  "src": [
+   {
+    "sec": "97.111",
+    "quote": "(1) Transmissions necessary to exchange messages with other stations in the amateur service"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E08": {
+  "why": "Spread spectrum transmissions are limited to 10 watts PEP output.",
+  "src": [
+   {
+    "sec": "97.313",
+    "quote": "(j) No station may transmit with a transmitter output exceeding 10 W PEP when the station is transmitting a SS emission type."
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E10": {
+  "why": "The NCDXF/IARU international propagation beacon network transmits on these frequencies (14.100, 18.110, 21.150, 24.930 and 28.200 MHz), so avoid transmitting there.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-bandplan",
+    "quote": "14.100 NCDXF Beacons"
+   },
+   {
+    "doc": "ncdxf-schedule",
+    "quote": "14.100 18.110 21.150 24.930 28.200"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E11": {
+  "why": "Automatically controlled digital stations may talk to each other anywhere on 6 meters and shorter wavelengths, and in specific small segments of some HF bands.",
+  "src": [
+   {
+    "sec": "97.221",
+    "quote": "(b) A station may be automatically controlled while transmitting a RTTY or data emission on the 6 m or shorter wavelength bands"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E12": {
+  "why": "Remote control doesn't change the third-party rules: third-party messages may be sent whenever the rules permit them.",
+  "src": [
+   {
+    "sec": "97.115",
+    "quote": "(a) An amateur station may transmit messages for a third party to:"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A01": {
+  "why": "By convention, SSB voice above 10 MHz uses upper sideband, so 20 meters (14 MHz) and up use USB.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "iaru-r2",
+    "quote": "For SSB phone operations below 10 MHz use lower sideband (LSB); above 10 MHz use upper sideband (USB)."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A02": {
+  "why": "By convention, SSB voice below 10 MHz uses lower sideband, so 160, 75 and 40 meters use LSB.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "iaru-r2",
+    "quote": "For SSB phone operations below 10 MHz use lower sideband (LSB); above 10 MHz use upper sideband (USB)."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A03": {
+  "why": "VHF and UHF are far above 10 MHz, and SSB there uses upper sideband by convention.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "iaru-r2",
+    "quote": "For SSB phone operations below 10 MHz use lower sideband (LSB); above 10 MHz use upper sideband (USB)."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A04": {
+  "why": "17 meters (18 MHz) and 12 meters (24 MHz) are above 10 MHz, so voice there uses upper sideband by convention.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "iaru-r2",
+    "quote": "For SSB phone operations below 10 MHz use lower sideband (LSB); above 10 MHz use upper sideband (USB)."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A05": {
+  "why": "Single sideband is the standard voice mode on the HF amateur bands, because it packs a lot of power into a narrow slice of spectrum.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-firstcontact",
+    "quote": "SSB packs a great deal of power into a small slice of the radio spectrum, allowing many more conversations to occupy the same band"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A06": {
+  "why": "With the carrier and one sideband removed, SSB uses less bandwidth than AM and puts all its power into the part that carries the voice. It doesn't sound high-fidelity and isn't especially immune to noise.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets17",
+    "quote": "By eliminating the carrier and one of the sidebands, intelligence is transmitted at a savings in power and frequency bandwidth."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A07": {
+  "why": "SSB transmits only one sideband; both the carrier and the other sideband are suppressed. No rule makes SSB the only voice mode on any band.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets17",
+    "quote": "In a single-sideband transmitter (ssb), only one of the sidebands, the upper or the lower, is transmitted while the remaining sideband and the carrier are suppressed."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A08": {
+  "why": "To join a conversation, wait for a pause between transmissions and say your call sign once. Save \"break\" for emergencies.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-firstcontact",
+    "quote": "The best approach is to wait for one station to stop transmitting and then quickly announce your call sign"
+   },
+   {
+    "doc": "arrl-firstcontact",
+    "quote": "you should only say “break” when you need to interrupt because of an emergency."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A09": {
+  "why": "Using LSB on 160, 75 and 40 meters is simply the accepted convention. Neither sideband is more efficient, the rules allow both, and neither works with an AM detector.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "iaru-r2",
+    "quote": "For SSB phone operations below 10 MHz use lower sideband (LSB); above 10 MHz use upper sideband (USB)."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A10": {
+  "why": "VOX (voice-operated switch) puts the transmitter on the air when you start speaking, so you don't have to press a button: hands-free operation. It doesn't change bandwidth, power or audio quality.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-firstcontact",
+    "quote": "When the VOX is on, the sound of your voice will automatically switch the transceiver into the transmit mode."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A11": {
+  "why": "\"CQ DX\" asks for long-distance (DX) stations. For a station in the lower 48 states, that means anyone outside the lower 48 states should answer.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "G2A12": {
+  "why": "The ALC meter shows how hard you're driving the transmitter. If the reading is too high, turn down the microphone (transmit audio) gain.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-firstcontact",
+    "quote": "If the meter indicates that your voice is bouncing it out of the ALC range, you’ll need to find the microphone gain control and turn it down or try speaking a little softer."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2B01": {
+  "why": "No station has exclusive use of any frequency. Stations must cooperate in choosing channels, and only emergency communications get priority.",
+  "src": [
+   {
+    "sec": "97.101",
+    "quote": "No frequency will be assigned for the exclusive use of any station."
+   },
+   {
+    "sec": "97.101",
+    "quote": "(c) At all times and on all frequencies, each control operator must give priority to stations providing emergency communications"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2B02": {
+  "why": "Emergency communications get priority, so acknowledge the station in distress and find out what help is needed. Going silent or just turning down your power doesn't help them.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "97.101",
+    "quote": "(c) At all times and on all frequencies, each control operator must give priority to stations providing emergency communications"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2B03": {
+  "why": "No one owns a frequency, and the rules require stations to cooperate in choosing channels. When propagation brings in another group, work it out with them in a mutually acceptable way.",
+  "src": [
+   {
+    "sec": "97.101",
+    "quote": "(b) Each station licensee and each control operator must cooperate in selecting transmitting channels and in making the most effective use of the amateur service frequencies."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2B04": {
+  "why": "A CW signal is only a few hundred hertz wide at most (band plans assume up to 200 Hz), so 150 to 500 Hz of separation keeps you out of a neighbor's receiver passband.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "iaru-r2",
+    "quote": "1810-1830 200 CW"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2B05": {
+  "why": "An SSB voice signal is about 2.7 kHz wide, so stay 2 to 3 kHz away from other stations so your signals don't overlap.",
+  "basis": "practice",
+  "src": [
+   {
+    "sec": "2.202",
+    "quote": "Bandwidth: 2700Hz = 2.7 kHz 2K70J3E"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2B06": {
+  "why": "Even if a frequency sounds clear, someone you can't hear may be using it. Ask first: send \"QRL?\" and your call on CW, or ask \"Is the frequency in use?\" and your call on phone.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m1172",
+    "quote": "QRL Are you busy? I am busy (or I am busy with … (name and/or call sign)). Please do not interfere."
+   },
+   {
+    "doc": "arrl-firstcontact",
+    "quote": "If the frequency seems clear, ask if the frequency is in use, followed by your call."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2B07": {
+  "why": "Band plans are voluntary agreements on where each mode and activity goes in a band. Following them is accepted good practice. Listening for two minutes or sending your call three times isn't a standard practice.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "iaru-r2",
+    "quote": "The IARU Region 2 has established this voluntary band plan to better organize the use of our bands efficiently."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2B08": {
+  "why": "50.100–50.125 MHz is the 6-meter DX window. Stations in the 48 contiguous states should use it only for contacts with stations outside the 48 states.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-bandplan",
+    "quote": "50.10-50.125 DX window"
+   },
+   {
+    "doc": "iaru-r2",
+    "quote": "50.100-50.125 2700 CW, SSB DX window."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2B09": {
+  "why": "Only a person holding an FCC-issued amateur license (and enrolled with a civil defense organization) may be the control operator of a station transmitting in RACES. Government officials without a license may not.",
+  "src": [
+   {
+    "sec": "97.407",
+    "quote": "No person may be the control operator of an amateur station transmitting in RACES unless that person holds a FCC-issued amateur operator license and is certified by a civil defense organization as enrolled in that organization."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2B10": {
+  "why": "A net should have a backup frequency so it can move if interference or poor conditions make the main one unusable. Multiple phonetics and reading the whole roster just waste time.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "G2B11": {
+  "why": "RACES training drills and tests may not exceed 1 hour per week in total, unless the state's chief emergency planning officer approves longer drills (up to 72 hours, no more than twice a year).",
+  "src": [
+   {
+    "sec": "97.407",
+    "quote": "Such drills and tests may not exceed a total time of 1 hour per week. With the approval of the chief officer for emergency planning in the applicable State, Commonwealth, District or territory, however, such tests and drills may be conducted for a period not to exceed 72 hours no more than twice in any calendar year."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C01": {
+  "why": "With full break-in (QSK), the radio switches to receive between dots, dashes and characters, so you can hear the other station (or interference) while you send.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m1172",
+    "quote": "QSK Can you hear me between your I can hear you between my signals; signals and if so may I break in break in on my transmission. on your transmission?"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C02": {
+  "why": "QRS means \"send more slowly.\" Formally QRS? is the question \"Shall I send more slowly?\", but on the air hams commonly use QRS or QRS? to ask the other station to slow down. So the right response is to send slower.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m1172",
+    "quote": "QRS Shall I send more slowly? Send more slowly ( … words per minute)."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C03": {
+  "why": "KN at the end of a transmission means only the station (or stations) you're in contact with should answer. Others shouldn't break in.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-qroa",
+    "quote": "KN Used at the end of any transmission when only the specific station contacted is invited to answer."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C04": {
+  "why": "QRL means \"I am busy.\" Sent as a question, QRL? asks whether the frequency is in use.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m1172",
+    "quote": "QRL Are you busy? I am busy (or I am busy with … (name and/or call sign)). Please do not interfere."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C05": {
+  "why": "Answer at a speed you can copy comfortably, but no faster than the station calling CQ is sending.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-firstcontact",
+    "quote": "Don’t send faster than you can receive and don’t respond to a CQ at a speed faster than the other station is sending."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C06": {
+  "why": "Zero beating means setting your transmit frequency to match the station you're answering, so you're on the same frequency.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-firstcontact",
+    "quote": "When answering a CQer you should zero beat the other ham's frequency. That means setting your transmit frequency as close to theirs as possible."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C07": {
+  "why": "In an RST report, a \"C\" suffix means the signal is chirpy: its frequency shifts slightly as it is keyed. \"K\" means key clicks and \"X\" means crystal-steady.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-qroa",
+    "quote": "If there is a chirp, the letter C may be added to so indicate. Similarly for a click, add K."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C08": {
+  "why": "AR marks the end of a message. (SK ends the contact, BK means break, and KN invites only the station you're working.)",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-fsd218",
+    "quote": "AR End of message (end of record copy)."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C09": {
+  "why": "QSL means \"I am acknowledging receipt\": I received and understood. A QSL card is a written confirmation of a contact, named after this.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m1172",
+    "quote": "QSL Can you acknowledge receipt? I am acknowledging receipt."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C10": {
+  "why": "QRN means \"I am troubled by static\" (natural noise such as lightning crashes). QRM is interference from other stations.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m1172",
+    "quote": "QRN Are you troubled by static? I am troubled by static"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C11": {
+  "why": "QRV means \"I am ready\" (to receive).",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m1172",
+    "quote": "QRV Are you ready? I am ready."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2D01": {
+  "why": "Under an agreement between the FCC and ARRL, trained, vetted volunteers formally monitor the bands and collect evidence of rule violations (and of exemplary operating).",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-vm",
+    "quote": "The ARRL Volunteer Monitor program is a formal agreement between the FCC and ARRL. Volunteers trained and vetted by ARRL monitor the airwaves and collect evidence that can be used both to correct misconduct or recognize exemplary on-air operation."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2D02": {
+  "why": "The program's aim is to encourage hams to follow the rules and police themselves. Evidence can be used to correct misconduct, and only flagrant cases are referred to the FCC.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-vm",
+    "quote": "collect evidence that can be used both to correct misconduct or recognize exemplary on-air operation. Cases of flagrant violations are referred to the FCC by ARRL for action in accordance with FCC guidelines."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2D03": {
+  "why": "Monitors at different locations each point a directional antenna at the strongest signal on the repeater input. Where their bearings cross is roughly where the transmitter is (triangulation). The repeater output doesn't help, since it comes from the repeater.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G2D04": {
+  "why": "An azimuthal (equidistant) projection is centered on one location and shows true bearings and distances from that point, so you can read off where to aim a beam. Land shapes far from the center are badly distorted.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G2D05": {
+  "why": "To call any station, repeat \"CQ\" a few times, say \"this is\" and your call sign a few times, then pause to listen. Repeat as needed, and keep the call short.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-firstcontact",
+    "quote": "To start a contact, call \"CQ\" or answer someonecalling CQ. A CQ is a general call to get a random contact."
+   },
+   {
+    "doc": "arrl-firstcontact",
+    "quote": "“CQ CQ Calling CQ. This is AD5UAP, Alfa-Delta-Five-Uniform-Alfa-Papa.”"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2D06": {
+  "why": "The long path goes the other way around the Earth along the same great circle, so you point the antenna 180 degrees from the short-path heading.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G2D07": {
+  "why": "Alpha, Bravo, Charlie, Delta are the start of the ITU (NATO) phonetic alphabet. The ITU's own list spells the first one \"Alfa.\" Able/Baker and Adam/Boy are older or non-standard lists.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-qroa",
+    "quote": "A--Alfa B--Bravo C--Charlie D--Delta"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2D08": {
+  "why": "The FCC doesn't require a station log, but a log helps if the FCC (or a neighbor's interference complaint) asks about your station's operation.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-contestbasics",
+    "quote": "The Federal Communications Commission does not require hams to keep station logs with records of every contact, but contest sponsors do."
+   },
+   {
+    "doc": "arrl-log",
+    "quote": "Legally, a log of your transmissions would be invaluable in proving your innocence in an interference complaint."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2D09": {
+  "why": "Contest rules don't override FCC rules: you must still identify normally (at the end of each contact and at least every 10 minutes). Submitting a log and sending QSLs are optional.",
+  "src": [
+   {
+    "sec": "97.119",
+    "quote": "(a) Each amateur station, except a space station or telecommand station, must transmit its assigned call sign on its transmitting channel at the end of each communication, and at least every 10 minutes during a communication"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2D10": {
+  "why": "QRP means low-power operation, from the Q signal \"decrease transmitter power.\"",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "itu-m1172",
+    "quote": "QRP Shall I decrease transmitter power? Decrease transmitter power."
+   },
+   {
+    "doc": "iaru-r2",
+    "quote": "QRP – Q signal referring to low power operations."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2D11": {
+  "why": "Exchanging signal reports right away tells each station how well it's being heard, so both can adjust: speak or send more slowly, repeat information, or keep the contact short.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "G2E01": {
+  "why": "By convention, amateur RTTY sent as AFSK through an SSB transmitter uses lower sideband.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "dxlab-afsk",
+    "quote": "By convention, amateur RTTY uses the lower sideband, with the Mark frequency 170 hz higher than the Space frequency."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E02": {
+  "why": "VARA is a high-performance HF data modem (based on OFDM) that Winlink uses to send email over the air.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "vara",
+    "quote": "VARA is a High Performance HF modem based on OFDM modulation."
+   },
+   {
+    "doc": "winlink-faq",
+    "quote": "It enables the station to accept Connects from other stations using the pactor, WINMOR, ARDOP, VARA HF, and \"Robust Packet HF\" protocols."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E03": {
+  "why": "PACTOR and VARA are error-correcting (ARQ) protocols: the receiver must acknowledge each block. Interference causes repeated retries and timeouts, long pauses, and can stop a connection from being made at all.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G2E04": {
+  "why": "FT8 stations take turns in 15-second time slots: one station sends in the even slots and the other in the odd ones. Transmit in the slot opposite the station calling CQ (when it is listening), and pick a clear audio frequency rather than its exact frequency so callers don't pile on top of each other.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "wsjtx-intro",
+    "quote": "FT8 is four times faster (15-second T/R sequences)"
+   },
+   {
+    "doc": "wsjtx-ft8",
+    "quote": "The *Tx even* box is checked or cleared appropriately, so that you will transmit in the proper (odd or even) minutes."
+   },
+   {
+    "doc": "wsjtx-ft8",
+    "quote": "TIP: To avoid QRM from competing callers, it is usually best to answer a CQ on a different frequency from that of the CQing station."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E05": {
+  "why": "WSJT-X modes such as FT8, FT4, JT65 and JT9 are run with the radio set to upper sideband.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "wsjtx-makeqso",
+    "quote": "Radio set to *USB* (upper sideband) mode"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E06": {
+  "why": "Amateur RTTY normally uses a 170 Hz shift between the mark and space frequencies.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "dxlab-afsk",
+    "quote": "By convention, amateur RTTY uses the lower sideband, with the Mark frequency 170 hz higher than the Space frequency."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E07": {
+  "why": "FT8 transmissions start and stop at fixed times, so your computer clock must be synchronized to UTC within about 1 second.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "wsjtx-makeqso",
+    "quote": "Computer clock properly synchronized to UTC within ±1 s"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E08": {
+  "why": "On 20 meters, RTTY and data are found between about 14.070 and 14.100 MHz, just below the 14.100 MHz beacon frequency.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "arrl-bandplan",
+    "quote": "14.070-14.095 RTTY 14.095-14.0995 Packet 14.100 NCDXF Beacons"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E09": {
+  "why": "A PACTOR link is a connection between exactly two stations that acknowledge each other's data blocks, so a third station can't join in.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G2E10": {
+  "why": "Gateway stations wait for a connection. You reach one by sending a connect request on its published frequency, after making sure the frequency is clear.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "winlink-faq",
+    "quote": "It is the responsibility of WL2K users to attempt a Connect ONLY on a \"quiet\" frequency."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E11": {
+  "why": "AREDN mesh networks give hams high-speed data networks (email, chat, phone, video) for emergencies and community events.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "aredn-overview",
+    "quote": "it provides a way for Amateur Radio operators to create high-speed ad hoc Data Networks for use in Emergency and service-oriented communications."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E12": {
+  "why": "Winlink is a radio email system that connects to internet email. It runs over packet radio (among other modes) and works on both HF and VHF/UHF, so all of these are true.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "winlink-faq",
+    "quote": "RMS -- A \"gateway\" station, which bridges Winlink user radios to the email part of the internet."
+   },
+   {
+    "doc": "winlink-faq",
+    "quote": "RMS VHF - A RMS station which operates on VHF or UHF bands."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E13": {
+  "why": "A Winlink Remote Message Server (RMS) is a gateway: it bridges users' radios to internet email.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "winlink-faq",
+    "quote": "RMS -- A \"gateway\" station, which bridges Winlink user radios to the email part of the internet."
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E14": {
+  "why": "Any of these can stop RTTY from decoding: mark and space reversed (for example, the wrong sideband), or the wrong baud rate (amateur RTTY is normally 45.45 baud).",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G2E15": {
+  "why": "The standard FT8 dial frequency on 20 meters is 14.074 MHz (USB). The signals occupy roughly the next 3 kHz of audio, so FT8 activity is at about 14.074–14.077 MHz.",
+  "basis": "practice",
+  "src": [
+   {
+    "doc": "wsjtx-freqlist",
+    "quote": "{14074000, Modes::FT8, IARURegions::ALL,"
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A01": {
+  "why": "More sunspots go with more solar ultraviolet and X-ray output, which makes the ionosphere denser. A denser ionosphere can refract higher frequencies, so the upper HF bands open more often.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-iono",
+    "quote": "The amount of energy (photon flux) at EUV and x-ray wavelengths varies by nearly a factor of ten over the 11 year solar cycle. The density of the ionosphere changes accordingly."
+   },
+   {
+    "doc": "swpc-f107",
+    "quote": "The F10.7 correlates well with the sunspot number as well as a number of UltraViolet (UV) and visible solar irradiance records."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A02": {
+  "why": "A sudden ionospheric disturbance comes from a solar flare's X-rays, which boost the D region on the daylit side. The D region absorbs lower frequencies more strongly, so those are hit hardest.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-flares",
+    "quote": "When a strong enough solar flare occurs, ionization is produced in the lower, more dense layers of the ionosphere (the D-layer), and radio waves that interact with electrons in layers lose energy due to the more frequent collisions that occur in the higher density environment of the D-layer."
+   },
+   {
+    "doc": "neets10",
+    "quote": "As a frequency is lowered, absorption of the radio wave increases. A wave whose frequency is too low is absorbed to such an extent that it is too weak for reception."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A03": {
+  "why": "A flare's ultraviolet and X-rays travel at the speed of light, so they arrive when we see the flare: about 8 minutes after leaving the Sun (150 million km ÷ 300,000 km/s ≈ 500 s).",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-flares",
+    "quote": "The sudden outburst of electromagnetic energy travels at the speed of light, therefore any effect upon the sunlit side of Earth’s exposed outer atmosphere occurs at the same time the event is observed."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A04": {
+  "why": "With low solar activity the ionosphere is thin, and the maximum usable frequency often stays below the highest bands. So 15, 12 and 10 meters are the least reliable for long-distance contacts.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-iono",
+    "quote": "The amount of energy (photon flux) at EUV and x-ray wavelengths varies by nearly a factor of ten over the 11 year solar cycle. The density of the ionosphere changes accordingly."
+   },
+   {
+    "doc": "neets10",
+    "quote": "the higher the frequency of a radio wave, the lower the rate of refraction by an ionized layer."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A05": {
+  "why": "The solar flux index (F10.7) measures the Sun's radio emission at a wavelength of 10.7 cm (2800 MHz). It tracks overall solar activity and the sunspot number.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-f107",
+    "quote": "The solar radio flux at 10.7 cm (2800 MHz) is an excellent indicator of solar activity."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A06": {
+  "why": "A geomagnetic storm is a temporary, major disturbance of Earth's magnetic field and magnetosphere, driven by the solar wind.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-geostorm",
+    "quote": "A geomagnetic storm is a major disturbance of Earth's magnetosphere that occurs when there is a very efficient exchange of energy from the solar wind into the space environment surrounding Earth."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A07": {
+  "why": "Even near solar minimum, the daytime maximum usable frequency usually stays above 14 MHz, so 20 meters supports long-distance contacts in daylight at any point in the cycle.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G3A08": {
+  "why": "Geomagnetic storms send charged particles into the polar ionosphere, which absorbs and disrupts HF signals. Paths through high latitudes suffer most.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-hf",
+    "quote": "During auroral displays, the precipitating electrons can enhance other layers of the ionosphere and have similar disrupting and blocking effects on radio communication."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A09": {
+  "why": "Strong geomagnetic activity produces auroras, and the ionized auroral regions can reflect VHF signals, allowing contacts that are otherwise impossible.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-aurora",
+    "quote": "During major geomagnetic storms these ovals expand away from the poles such that aurora can be seen over most of the United States."
+   },
+   {
+    "doc": "nasa-aurora-vhf",
+    "quote": "Radio amateurs discovered during 1939 in the U.S.A. that they were able to communicate abnormally long distances up to about 1000 km on frequencies too high to be propagated by normal modes."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A10": {
+  "why": "The Sun rotates about every 27 days as seen from Earth, so active regions and coronal holes face Earth again roughly every 26 to 28 days, and conditions tend to repeat on that cycle.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-holes",
+    "quote": "The more persistent coronal holes can sometimes last through several solar rotations (27-day periods)."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A11": {
+  "why": "A coronal mass ejection is a cloud of plasma, much slower than light. The fastest reach Earth in about 15 to 18 hours; slower ones take several days.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-cme",
+    "quote": "The fastest Earth-directed CMEs can reach our planet in as little as 15-18 hours. Slower CMEs can take several days to arrive."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A12": {
+  "why": "The K-index rates disturbance of Earth's magnetic field over a 3-hour period, on a 0–9 scale. It's a short-term measure of geomagnetic stability.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-ka",
+    "quote": "The indices have a range from 0 to 9 and are directly related to the maximum amount of fluctuation (relative to a quiet day) in the geomagnetic field over a three-hour interval."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A13": {
+  "why": "The A-index averages a day's eight 3-hourly readings into one number, so it describes the longer-term (daily) stability of Earth's magnetic field.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-ka",
+    "quote": "The value is calculated as the average of eight, three-hourly station ak-indices observed during a UT day, and provides a single, average value to indicate the activity level for that day."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A14": {
+  "why": "Coronal holes release high-speed solar wind streams that can cause geomagnetic storms, which disturb HF communication.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "swpc-holes",
+    "quote": "Strong CIRs and the faster CH HSS can impact Earth’s magnetosphere enough to cause periods of geomagnetic storming to the G1-G2 (Minor to Moderate) levels"
+   }
+  ],
+  "status": "verified"
+ },
+ "G3B01": {
+  "why": "The long path is much longer than the short path, so the same signal arrives a fraction of a second later by the long path, heard as a slight echo.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G3B02": {
+  "why": "The MUF depends on how dense the ionosphere is along the path, and on the path's length and location. Density changes with time of day, season, solar radiation and disturbances, so all of these affect the MUF.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "It is a very variable layer and its height and density change with time of day, season, and sunspot activity."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3B03": {
+  "why": "Frequencies just below the MUF are still returned to Earth, and absorption in the lower ionosphere falls as frequency rises. So the highest usable frequency has the least attenuation.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "As a frequency is lowered, absorption of the radio wave increases. A wave whose frequency is too low is absorbed to such an extent that it is too weak for reception."
+   },
+   {
+    "doc": "neets10",
+    "quote": "This frequency is known as the MAXIMUM USABLE FREQUENCY (muf)."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3B04": {
+  "why": "Automated receiving networks (such as the Reverse Beacon Network or PSK Reporter) report where your signal is being heard right now, so you can see where the band is open from your station.",
+  "basis": "practice",
+  "src": [],
+  "status": "verified"
+ },
+ "G3B05": {
+  "why": "Between the LUF and the MUF, the ionosphere refracts signals back to Earth without absorbing too much of them. That's the usable window for that path.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "This frequency is known as the MAXIMUM USABLE FREQUENCY (muf)."
+   },
+   {
+    "doc": "neets10",
+    "quote": "As a frequency is lowered, absorption of the radio wave increases. A wave whose frequency is too low is absorbed to such an extent that it is too weak for reception."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3B06": {
+  "why": "Below the LUF, absorption (mostly in the D region) weakens the signal too much to be heard at the destination.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "As a frequency is lowered, absorption of the radio wave increases. A wave whose frequency is too low is absorbed to such an extent that it is too weak for reception."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3B07": {
+  "why": "LUF is the Lowest Usable Frequency for communication between two specific points.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "there is also a minimum operating frequency. This is known as the LOWEST USABLE FREQUENCY (luf)."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3B08": {
+  "why": "MUF is the Maximum Usable Frequency for communication between two points.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "there is a maximum frequency that can be used for communications between two given locations. This frequency is known as the MAXIMUM USABLE FREQUENCY (muf)."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3B09": {
+  "why": "The F2 region is the highest, about 300 km or more up. A signal leaving at a very low angle can come back down about 4,000 km (roughly 2,500 miles) away in one hop.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G3B10": {
+  "why": "The E region is lower (about 100 km), so one E hop covers less ground: up to about 1,200 miles.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The E layer refracts hf waves during the day up to 20 megahertz to distances of about 1200 miles."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3B11": {
+  "why": "If the lowest usable frequency is above the maximum usable frequency, no frequency works: anything low enough to be refracted is absorbed. Ordinary skywave can't cover that path.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "This frequency is known as the MAXIMUM USABLE FREQUENCY (muf)."
+   },
+   {
+    "doc": "neets10",
+    "quote": "As a frequency is lowered, absorption of the radio wave increases. A wave whose frequency is too low is absorbed to such an extent that it is too weak for reception."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3B12": {
+  "why": "Thunderstorms are most common in summer, and lightning noise is strongest at lower frequencies, so summer brings heavy static on the lower HF bands.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "Likewise, atmospheric noise is greater at lower frequencies; thus, a low-frequency radio wave may have an unacceptable signal-to-noise ratio."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3C01": {
+  "why": "The D region is the lowest part of the ionosphere, roughly 30 to 55 miles up.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The D layer ranges from about 30 to 55 miles. Ionization in the D layer is low because it is the lowest region of the ionosphere."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3C02": {
+  "why": "The critical frequency is the highest frequency a layer will refract back to Earth. It is usually quoted for a wave sent straight up; at more oblique angles (lower elevation, farther from vertical), higher frequencies can return.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The CRITICAL FREQUENCY is the maximum frequency that a radio wave can be transmitted vertically and still be refracted back to Earth."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3C03": {
+  "why": "F2 is the highest region, so a wave refracted there comes down farther away than one turned back by the lower E region.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The F2 layer is the most important layer for long distance hf communications."
+   },
+   {
+    "doc": "neets10",
+    "quote": "The F layer exists from about 90 to 240 miles."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3C04": {
+  "why": "Waves sent up too steeply pass through the ionosphere and are lost. The critical angle is the highest takeoff angle that still returns to Earth under the current conditions.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "Any wave that leaves the antenna at an angle greater than the critical angle will penetrate the ionospheric layer for that frequency and then be lost in space."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3C05": {
+  "why": "In daylight the D region forms and absorbs lower HF signals (160, 80, 60 and 40 m) before they reach the higher layers. It disappears at night, so these bands open up for long distances after dark.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The D layer reflects vlf waves; is important for long range vlf communications; refracts lf and mf waves for short range communications; absorbs hf waves; has little effect on vhf and above; and disappears at night."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3C06": {
+  "why": "HF scatter signals arrive by many paths at once, each with a different delay, so they sound fluttery or hollow.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G3C07": {
+  "why": "Energy is scattered into the skip zone along several different paths. The copies arrive with different delays and mix together, which distorts the signal.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G3C08": {
+  "why": "Only a small fraction of the signal's energy is scattered back into the skip zone, so scatter signals there are weak.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G3C09": {
+  "why": "The skip zone lies beyond ground-wave range but short of where the skywave first comes down. Normally nothing is heard there, but scattering can put some signal into it.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The SKIP ZONE is a zone of silence between the point where the ground wave becomes too weak for reception and the point where the sky wave is first returned to Earth."
+   }
+  ],
+  "status": "verified"
+ },
+ "G3C10": {
+  "why": "NVIS sends MF or HF signals almost straight up. Below the critical frequency they come back down over a wide area around the station, covering short distances (up to a few hundred miles) with no skip zone.",
+  "basis": "theory",
+  "src": [],
+  "status": "verified"
+ },
+ "G3C11": {
+  "why": "The D region is the most absorbent of lower HF signals (below about 10 MHz) in daytime.",
+  "basis": "theory",
+  "src": [
+   {
+    "doc": "neets10",
+    "quote": "The D layer reflects vlf waves; is important for long range vlf communications; refracts lf and mf waves for short range communications; absorbs hf waves; has little effect on vhf and above; and disappears at night."
+   }
+  ],
+  "status": "verified"
+ }
+}

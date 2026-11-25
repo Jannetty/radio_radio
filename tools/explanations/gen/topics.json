@@ -1,0 +1,959 @@
+{
+ "G1A": {
+  "intro": "Where a General may transmit on HF. Generals get all of 160, 60, 30, 17, 12 and 10 meters, and most of 80, 40, 20 and 15 meters. On those four bands, some segments are reserved for Amateur Extra licensees.",
+  "diagrams": [
+   {
+    "file": "general-hf.svg",
+    "caption": "General class HF privileges in the US (ITU Region 2). Where Generals don't get a whole voice segment, they get its upper part.",
+    "src": {
+     "sec": "97.301",
+     "quote": "(d) For a station having a control operator who has been granted an operator license of General Class:"
+    }
+   }
+  ],
+  "facts": [
+   {
+    "text": "General segments on 80/75 m: 3.525–3.600 and 3.800–4.000 MHz.",
+    "src": {
+     "sec": "97.301",
+     "quote": "80 m 3.525-3.600 3.525-3.600 3.525-3.600 (a) 75 m 3.800-4.000 3.800-3.900 (a)"
+    }
+   },
+   {
+    "text": "On 40 m: 7.025–7.125 and 7.175–7.300 MHz (7.125–7.175 is Extra/Advanced only).",
+    "src": {
+     "sec": "97.301",
+     "quote": "40 m 7.025-7.125 7.025-7.125 7.025-7.125 (i) Do 7.175-7.200 7.175-7.300 7.175-7.200 (i)"
+    }
+   },
+   {
+    "text": "On 20 m: 14.025–14.150 and 14.225–14.350 MHz.",
+    "src": {
+     "sec": "97.301",
+     "quote": "20 m 14.025-14.150 14.025-14.150 14.025-14.150 Do 14.225-14.350 14.225-14.350 14.225-14.350"
+    }
+   },
+   {
+    "text": "On 15 m: 21.025–21.200 and 21.275–21.450 MHz.",
+    "src": {
+     "sec": "97.301",
+     "quote": "15 m 21.025-21.200 21.025-21.200 21.025-21.200 Do 21.275-21.450 21.275-21.450 21.275-21.450"
+    }
+   },
+   {
+    "text": "30 meters is CW, RTTY and data only: no phone or image.",
+    "src": {
+     "sec": "97.305",
+     "quote": "(viii) 30 m Entire band RTTY, data"
+    }
+   },
+   {
+    "text": "CW is allowed anywhere you have privileges.",
+    "src": {
+     "sec": "97.305",
+     "quote": "(a) Except as specified elsewhere in this part, an amateur station may transmit a CW emission on any frequency authorized to the control operator."
+    }
+   },
+   {
+    "text": "Secondary users must not interfere with, and must accept interference from, primary users.",
+    "src": {
+     "sec": "97.303",
+     "quote": "A station in a secondary service must not cause harmful interference to, and must accept interference from, stations in a primary service."
+    }
+   },
+   {
+    "text": "On 10 meters, repeaters are allowed only above 29.5 MHz.",
+    "src": {
+     "sec": "97.205",
+     "quote": "(b) A repeater may receive and retransmit only on the 10 m and shorter wavelength frequency bands except the 28.0-29.5 MHz"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 97 Subpart D, Technical Standards (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-D"
+   },
+   {
+    "title": "ARRL, US amateur radio bands",
+    "url": "https://www.arrl.org/frequency-allocations"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1B": {
+  "intro": "Antenna structures, beacons, permitted one-way transmissions and retransmissions, and the catch-all of good engineering and good amateur practice.",
+  "facts": [
+   {
+    "text": "Antenna structures over 200 feet, or near a public-use airport, need FAA notification and FCC registration.",
+    "src": {
+     "sec": "97.15",
+     "quote": "(a) Owners of certain antenna structures more than 60.96 meters (200 feet) above ground level at the site or located near or at a public use airport must notify the Federal Aviation Administration and register with the Commission as required by part 17 of this chapter."
+    }
+   },
+   {
+    "text": "PRB-1: state and local rules must reasonably accommodate amateur radio and be the minimum practicable regulation.",
+    "src": {
+     "sec": "97.15",
+     "quote": "it must reasonably accommodate such communications and must constitute the minimum practicable regulation to accomplish the state or local authority's legitimate purpose."
+    }
+   },
+   {
+    "text": "Beacons are for observing propagation and reception.",
+    "src": {
+     "sec": "97.3",
+     "quote": "(9) Beacon. An amateur station transmitting communications for the purposes of observation of propagation and reception or other related experimental activities."
+    }
+   },
+   {
+    "text": "Beacon power is limited to 100 W.",
+    "src": {
+     "sec": "97.203",
+     "quote": "(c) The transmitter power of a beacon must not exceed 100 W."
+    }
+   },
+   {
+    "text": "A beacon may use only one channel per band from one location.",
+    "src": {
+     "sec": "97.203",
+     "quote": "(b) A beacon must not concurrently transmit on more than 1 channel in the same amateur service frequency band, from the same station location."
+    }
+   },
+   {
+    "text": "On HF, beacons may run under automatic control only on 28.20–28.30 MHz.",
+    "src": {
+     "sec": "97.203",
+     "quote": "(d) A beacon may be automatically controlled while it is transmitting on the 28.20-28.30 MHz"
+    }
+   },
+   {
+    "text": "Any station may occasionally retransmit US government weather and propagation forecasts.",
+    "src": {
+     "sec": "97.113",
+     "quote": "except propagation and weather forecast information intended for use by the general public and originated from United States Government stations"
+    }
+   },
+   {
+    "text": "Abbreviations and Q signals are fine; codes meant to obscure meaning are not.",
+    "src": {
+     "sec": "97.113",
+     "quote": "messages encoded for the purpose of obscuring their meaning, except as otherwise provided herein"
+    }
+   },
+   {
+    "text": "Anything not covered by the rules must follow good engineering and good amateur practice.",
+    "src": {
+     "sec": "97.101",
+     "quote": "(a) In all respects not specifically covered by FCC Rules each amateur station must be operated in accordance with good engineering and good amateur practice."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 97 Subpart A, General Provisions (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart B, Station Operation Standards (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart C, Special Operations (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-C"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1C": {
+  "intro": "Power limits, the special 60-meter rules, and digital codes.",
+  "facts": [
+   {
+    "text": "The general limit is 1500 W PEP output.",
+    "src": {
+     "sec": "97.313",
+     "quote": "(b) No station may transmit with a transmitter power exceeding 1.5 kW PEP."
+    }
+   },
+   {
+    "text": "30 meters (10.10–10.15 MHz) is limited to 200 W PEP.",
+    "src": {
+     "sec": "97.313",
+     "quote": "(c) No station may transmit with a transmitter power output exceeding 200 W PEP: (1) On the 10.10-10.15 MHz segment;"
+    }
+   },
+   {
+    "text": "Power is measured as PEP: the average power during one RF cycle at the peak of the modulation.",
+    "src": {
+     "sec": "97.3",
+     "quote": "(9) PEP (peak envelope power). The average power supplied to the antenna transmission line by a transmitter during one RF cycle at the crest of the modulation envelope taken under normal operating conditions."
+    }
+   },
+   {
+    "text": "On 60 m, emissions must be no wider than 2.8 kHz.",
+    "src": {
+     "sec": "97.303",
+     "quote": "For all 60 m spectrum, Amateur operators shall ensure that their emissions do not occupy more than 2.8 kHz."
+    }
+   },
+   {
+    "text": "60 m power is limited in ERP relative to a dipole, so keep antenna gain records if you use something else.",
+    "src": {
+     "sec": "97.313",
+     "quote": "Licensees using other antennas must maintain in their station records either the antenna manufacturer's data on the antenna gain or calculations of the antenna gain."
+    }
+   },
+   {
+    "text": "Data techniques may be used if their technical characteristics are publicly documented.",
+    "src": {
+     "sec": "97.309",
+     "quote": "may use any technique whose technical characteristics have been documented publicly, such as CLOVER, G-TOR, or PacTOR, for the purpose of facilitating communications."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 97 Subpart D, Technical Standards (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-D"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1D": {
+  "intro": "Volunteer Examiners and exam credit, operating on a new CSCE, and remote operation across borders.",
+  "facts": [
+   {
+    "text": "Exams are given by at least three VEs, accredited by a VEC.",
+    "src": {
+     "sec": "97.509",
+     "quote": "(a) Each examination for an amateur operator license must be administered by a team of at least 3 VEs at an examination session coordinated by a VEC."
+    }
+   },
+   {
+    "text": "VEs must be at least 18.",
+    "src": {
+     "sec": "97.509",
+     "quote": "(2) Be at least 18 years of age;"
+    }
+   },
+   {
+    "text": "VEs must never have had a license revoked or suspended. There's no citizenship requirement.",
+    "src": {
+     "sec": "97.509",
+     "quote": "(4) Not be a person whose grant of an amateur station license or amateur operator license has ever been revoked or suspended."
+    }
+   },
+   {
+    "text": "General VEs may give Technician exams only.",
+    "src": {
+     "sec": "97.509",
+     "quote": "(i) Amateur Extra, Advanced or General Class in order to administer a Technician Class operator license examination;"
+    }
+   },
+   {
+    "text": "A CSCE gives element credit for 365 days.",
+    "src": {
+     "sec": "97.505",
+     "quote": "(b) The administering VEs must give credit to an examinee holding a CSCE for each element the CSCE indicates the examinee passed within the previous 365 days."
+    }
+   },
+   {
+    "text": "With a CSCE you may use the new privileges right away, until the application is processed or 365 days pass.",
+    "src": {
+     "sec": "97.9",
+     "quote": "is authorized to exercise the rights and privileges of the higher operator class until final disposition of the application or until 365 days following the passing of the examination, whichever comes first."
+    }
+   },
+   {
+    "text": "Until the upgrade appears, a new General identifies with \"/AG\" when using General privileges.",
+    "src": {
+     "sec": "97.119",
+     "quote": "(2) For a control operator who has requested a license modification from Novice or Technician to General Class: AG;"
+    }
+   },
+   {
+    "text": "A former General (past the grace period) gets Element 3 credit but must pass Element 2 again.",
+    "src": {
+     "sec": "97.505",
+     "quote": "(2) Advanced; General; or Technician granted before March 21, 1987 Elements 2 and 3 Element 3."
+    }
+   },
+   {
+    "text": "A US station's control operator needs a US license (or FCC reciprocal authorization), wherever they control it from.",
+    "src": {
+     "sec": "97.7",
+     "quote": "The control operator must be a person: (a) For whom an amateur operator/primary station license grant appears on the ULS consolidated licensee database, or (b) Who is authorized for alien reciprocal operation by § 97.107 of this part."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 97 Subpart F, Qualifying Examination Systems (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart A, General Provisions (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A"
+   }
+  ],
+  "status": "verified"
+ },
+ "G1E": {
+  "intro": "Third-party traffic, repeaters, ITU regions, spread spectrum, and automatically controlled digital stations.",
+  "facts": [
+   {
+    "text": "A third party whose amateur license was revoked (and not reinstated) can't take part.",
+    "src": {
+     "sec": "97.115",
+     "quote": "(2) The third party is not a prior amateur service licensee whose license was revoked or not renewed after hearing and re-licensing has not taken place"
+    }
+   },
+   {
+    "text": "International messages are limited to amateur radio topics and remarks of a personal character.",
+    "src": {
+     "sec": "97.117",
+     "quote": "Transmissions to a different country, where permitted, shall be limited to communications incidental to the purposes of the amateur service and to remarks of a personal character."
+    }
+   },
+   {
+    "text": "North and South America are ITU Region 2.",
+    "src": {
+     "sec": "2.104",
+     "quote": "(2) Region 2. Region 2 includes the area limited on the east by line B and on the west by line C."
+    }
+   },
+   {
+    "text": "Spread spectrum is limited to 10 W PEP.",
+    "src": {
+     "sec": "97.313",
+     "quote": "(j) No station may transmit with a transmitter output exceeding 10 W PEP when the station is transmitting a SS emission type."
+    }
+   },
+   {
+    "text": "Spread spectrum must not cause harmful interference to other emissions, and must accept interference from them.",
+    "src": {
+     "sec": "97.311",
+     "quote": "(b) A station transmitting SS emissions must not cause harmful interference to stations employing other authorized emissions, and must accept all interference caused by stations employing other authorized emissions."
+    }
+   },
+   {
+    "text": "Automatically controlled digital stations may talk to each other on 6 m and up, and in small HF segments.",
+    "src": {
+     "sec": "97.221",
+     "quote": "(b) A station may be automatically controlled while transmitting a RTTY or data emission on the 6 m or shorter wavelength bands"
+    }
+   },
+   {
+    "text": "Elsewhere, they may only answer a station under local or remote control.",
+    "src": {
+     "sec": "97.221",
+     "quote": "(1) The station is responding to interrogation by a station under local or remote control; and"
+    }
+   },
+   {
+    "text": "Avoid the NCDXF/IARU beacon frequencies (14.100, 18.110, 21.150, 24.930, 28.200 MHz).",
+    "src": {
+     "doc": "ncdxf-schedule",
+     "quote": "14.100 18.110 21.150 24.930 28.200"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 97 Subpart B, Station Operation Standards (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B"
+   },
+   {
+    "title": "47 CFR Part 97 Subpart C, Special Operations (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-C"
+   },
+   {
+    "title": "NCDXF/IARU International Beacon Project",
+    "url": "https://www.ncdxf.org/beacon/"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2A": {
+  "intro": "Phone operating on HF. Single sideband is the main voice mode: lower sideband below 10 MHz and upper sideband above, by convention rather than rule. Also covered: joining a conversation, VOX, ALC and answering DX calls.",
+  "facts": [
+   {
+    "text": "SSB sends only one sideband; the carrier and the other sideband are suppressed.",
+    "src": {
+     "doc": "neets17",
+     "quote": "In a single-sideband transmitter (ssb), only one of the sidebands, the upper or the lower, is transmitted while the remaining sideband and the carrier are suppressed."
+    }
+   },
+   {
+    "text": "Dropping the carrier and one sideband saves both power and bandwidth compared with AM.",
+    "src": {
+     "doc": "neets17",
+     "quote": "By eliminating the carrier and one of the sidebands, intelligence is transmitted at a savings in power and frequency bandwidth."
+    }
+   },
+   {
+    "text": "Convention: LSB below 10 MHz (160, 75, 40 m), USB above (20 m and up, VHF/UHF). 60 m is the exception and uses USB.",
+    "src": {
+     "doc": "iaru-r2",
+     "quote": "For SSB phone operations below 10 MHz use lower sideband (LSB); above 10 MHz use upper sideband (USB). Exception: On 60 m band (5.3 MHz) the best practice is to use upper sideband (USB)."
+    }
+   },
+   {
+    "text": "To join a conversation, say your call sign once between transmissions. \"Break\" is for emergencies.",
+    "src": {
+     "doc": "arrl-firstcontact",
+     "quote": "you should only say “break” when you need to interrupt because of an emergency."
+    }
+   },
+   {
+    "text": "VOX switches to transmit when you speak, for hands-free operation.",
+    "src": {
+     "doc": "arrl-firstcontact",
+     "quote": "When the VOX is on, the sound of your voice will automatically switch the transceiver into the transmit mode."
+    }
+   },
+   {
+    "text": "If the ALC reading is too high, turn down the microphone gain.",
+    "src": {
+     "doc": "arrl-firstcontact",
+     "quote": "If the meter indicates that your voice is bouncing it out of the ALC range, you’ll need to find the microphone gain control and turn it down or try speaking a little softer."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "IARU Region 2 Band Plan",
+    "url": "https://www.iaru.org/wp-content/uploads/2020/10/IARU-Region-2-Band-plan.pdf"
+   },
+   {
+    "title": "ARRL, Making your first contact",
+    "url": "https://www.arrl.org/making-your-first-contact"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2B": {
+  "intro": "Sharing the bands: nobody owns a frequency, emergencies come first, how far apart to stay from other signals, voluntary band plans, nets and RACES.",
+  "facts": [
+   {
+    "text": "No frequency is assigned for any station's exclusive use; stations must cooperate.",
+    "src": {
+     "sec": "97.101",
+     "quote": "No frequency will be assigned for the exclusive use of any station."
+    }
+   },
+   {
+    "text": "Emergency communications always get priority.",
+    "src": {
+     "sec": "97.101",
+     "quote": "(c) At all times and on all frequencies, each control operator must give priority to stations providing emergency communications"
+    }
+   },
+   {
+    "text": "An SSB voice signal is about 2.7 kHz wide, so stay 2–3 kHz from other SSB stations.",
+    "src": {
+     "sec": "2.202",
+     "quote": "Bandwidth: 2700Hz = 2.7 kHz 2K70J3E"
+    }
+   },
+   {
+    "text": "CW signals are much narrower (band plans allow 200 Hz), so 150–500 Hz of separation is enough.",
+    "src": {
+     "doc": "iaru-r2",
+     "quote": "1810-1830 200 CW"
+    }
+   },
+   {
+    "text": "Before calling CQ, ask whether the frequency is in use (\"QRL?\" on CW).",
+    "src": {
+     "doc": "arrl-firstcontact",
+     "quote": "If the frequency seems clear, ask if the frequency is in use, followed by your call."
+    }
+   },
+   {
+    "text": "Band plans are voluntary, but following them is good amateur practice.",
+    "src": {
+     "doc": "iaru-r2",
+     "quote": "The IARU Region 2 has established this voluntary band plan to better organize the use of our bands efficiently."
+    }
+   },
+   {
+    "text": "50.100–50.125 MHz is the 6-meter DX window, for contacts with stations outside the 48 contiguous states.",
+    "src": {
+     "doc": "arrl-bandplan",
+     "quote": "50.10-50.125 DX window"
+    }
+   },
+   {
+    "text": "A RACES control operator must hold an FCC amateur license and be enrolled with a civil defense organization.",
+    "src": {
+     "sec": "97.407",
+     "quote": "No person may be the control operator of an amateur station transmitting in RACES unless that person holds a FCC-issued amateur operator license and is certified by a civil defense organization as enrolled in that organization."
+    }
+   },
+   {
+    "text": "RACES drills and tests are limited to 1 hour per week.",
+    "src": {
+     "sec": "97.407",
+     "quote": "Such drills and tests may not exceed a total time of 1 hour per week."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "IARU Region 2 Band Plan",
+    "url": "https://www.iaru.org/wp-content/uploads/2020/10/IARU-Region-2-Band-plan.pdf"
+   },
+   {
+    "title": "47 CFR 97.101 and 97.407 (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-E"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2C": {
+  "intro": "CW operating: full break-in, Q signals and prosigns, matching speed and frequency, and RST reports. A Q signal followed by a question mark asks the question; without it, it gives the answer.",
+  "facts": [
+   {
+    "text": "QSK (full break-in): you hear the other station between your own dots and dashes.",
+    "src": {
+     "doc": "itu-m1172",
+     "quote": "QSK Can you hear me between your I can hear you between my signals; signals and if so may I break in break in on my transmission. on your transmission?"
+    }
+   },
+   {
+    "text": "QRS: send more slowly.",
+    "src": {
+     "doc": "itu-m1172",
+     "quote": "QRS Shall I send more slowly? Send more slowly ( … words per minute)."
+    }
+   },
+   {
+    "text": "QRL: I am busy. QRL? asks if the frequency is in use.",
+    "src": {
+     "doc": "itu-m1172",
+     "quote": "QRL Are you busy? I am busy (or I am busy with … (name and/or call sign)). Please do not interfere."
+    }
+   },
+   {
+    "text": "QSL: I acknowledge receipt.",
+    "src": {
+     "doc": "itu-m1172",
+     "quote": "QSL Can you acknowledge receipt? I am acknowledging receipt."
+    }
+   },
+   {
+    "text": "QRN: I am troubled by static.",
+    "src": {
+     "doc": "itu-m1172",
+     "quote": "QRN Are you troubled by static? I am troubled by static"
+    }
+   },
+   {
+    "text": "QRV: I am ready.",
+    "src": {
+     "doc": "itu-m1172",
+     "quote": "QRV Are you ready? I am ready."
+    }
+   },
+   {
+    "text": "KN: only the station you're working should answer.",
+    "src": {
+     "doc": "arrl-qroa",
+     "quote": "KN Used at the end of any transmission when only the specific station contacted is invited to answer."
+    }
+   },
+   {
+    "text": "AR: end of message.",
+    "src": {
+     "doc": "arrl-fsd218",
+     "quote": "AR End of message (end of record copy)."
+    }
+   },
+   {
+    "text": "RST suffixes: C for chirp, K for key clicks, X for crystal-steady.",
+    "src": {
+     "doc": "arrl-qroa",
+     "quote": "If the signal has the characteristic steadiness of crystal control, add the letter X to the RST report. If there is a chirp, the letter C may be added to so indicate. Similarly for a click, add K."
+    }
+   },
+   {
+    "text": "Zero beat the station you answer, and don't send faster than it does.",
+    "src": {
+     "doc": "arrl-firstcontact",
+     "quote": "Don’t send faster than you can receive and don’t respond to a CQ at a speed faster than the other station is sending."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "Recommendation ITU-R M.1172, Q code",
+    "url": "https://www.itu.int/rec/R-REC-M.1172/en"
+   },
+   {
+    "title": "ARRL, Quick reference operating aids",
+    "url": "https://www.arrl.org/quick-reference-operating-aids"
+   },
+   {
+    "title": "ARRL, Making your first contact",
+    "url": "https://www.arrl.org/making-your-first-contact"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2D": {
+  "intro": "The Volunteer Monitor program, aiming a beam, calling CQ, phonetics, logs, contests and QRP. An azimuthal (equidistant) map centered on your station shows true bearings and distances to anywhere, so you can read off where to point. The long path goes the other way around the Earth, 180° from the short-path heading.",
+  "facts": [
+   {
+    "text": "Volunteer Monitors are trained volunteers, under an FCC–ARRL agreement, who monitor the bands and collect evidence of rule violations.",
+    "src": {
+     "doc": "arrl-vm",
+     "quote": "The ARRL Volunteer Monitor program is a formal agreement between the FCC and ARRL. Volunteers trained and vetted by ARRL monitor the airwaves and collect evidence that can be used both to correct misconduct or recognize exemplary on-air operation."
+    }
+   },
+   {
+    "text": "The ITU phonetic alphabet starts Alfa, Bravo, Charlie, Delta.",
+    "src": {
+     "doc": "arrl-qroa",
+     "quote": "A--Alfa B--Bravo C--Charlie D--Delta"
+    }
+   },
+   {
+    "text": "The FCC doesn't require a log, but contest sponsors do.",
+    "src": {
+     "doc": "arrl-contestbasics",
+     "quote": "The Federal Communications Commission does not require hams to keep station logs with records of every contact, but contest sponsors do."
+    }
+   },
+   {
+    "text": "Contest or not, identify at the end of each contact and every 10 minutes.",
+    "src": {
+     "sec": "97.119",
+     "quote": "(a) Each amateur station, except a space station or telecommand station, must transmit its assigned call sign on its transmitting channel at the end of each communication, and at least every 10 minutes during a communication"
+    }
+   },
+   {
+    "text": "QRP means low-power operation.",
+    "src": {
+     "doc": "iaru-r2",
+     "quote": "QRP – Q signal referring to low power operations."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "ARRL, Volunteer Monitor Program",
+    "url": "https://www.arrl.org/volunteer-monitor-program"
+   },
+   {
+    "title": "ARRL, Keeping a log",
+    "url": "https://www.arrl.org/keeping-a-log"
+   },
+   {
+    "title": "ARRL, Contest basics",
+    "url": "https://www.arrl.org/contest-basics"
+   }
+  ],
+  "status": "verified"
+ },
+ "G2E": {
+  "intro": "Digital modes on HF: RTTY, FT8 and other WSJT-X modes, Winlink with PACTOR and VARA, and AREDN mesh networks.",
+  "facts": [
+   {
+    "text": "Amateur RTTY: 170 Hz shift, sent on lower sideband by convention.",
+    "src": {
+     "doc": "dxlab-afsk",
+     "quote": "By convention, amateur RTTY uses the lower sideband, with the Mark frequency 170 hz higher than the Space frequency."
+    }
+   },
+   {
+    "text": "FT8 and other WSJT-X modes are sent on upper sideband.",
+    "src": {
+     "doc": "wsjtx-makeqso",
+     "quote": "Radio set to *USB* (upper sideband) mode"
+    }
+   },
+   {
+    "text": "FT8 uses 15-second transmit/receive periods, so your clock must be within about 1 second of UTC.",
+    "src": {
+     "doc": "wsjtx-makeqso",
+     "quote": "Computer clock properly synchronized to UTC within ±1 s"
+    }
+   },
+   {
+    "text": "The 20-meter FT8 dial frequency is 14.074 MHz.",
+    "src": {
+     "doc": "wsjtx-freqlist",
+     "quote": "{14074000, Modes::FT8, IARURegions::ALL,"
+    }
+   },
+   {
+    "text": "Answer an FT8 CQ in the opposite (odd or even) time slot.",
+    "src": {
+     "doc": "wsjtx-ft8",
+     "quote": "The *Tx even* box is checked or cleared appropriately, so that you will transmit in the proper (odd or even) minutes."
+    }
+   },
+   {
+    "text": "Call on a clear frequency rather than right on top of the CQing station.",
+    "src": {
+     "doc": "wsjtx-ft8",
+     "quote": "TIP: To avoid QRM from competing callers, it is usually best to answer a CQ on a different frequency from that of the CQing station."
+    }
+   },
+   {
+    "text": "A Winlink RMS is a gateway between radio users and internet email.",
+    "src": {
+     "doc": "winlink-faq",
+     "quote": "RMS -- A \"gateway\" station, which bridges Winlink user radios to the email part of the internet."
+    }
+   },
+   {
+    "text": "VARA is a high-performance HF modem used with Winlink.",
+    "src": {
+     "doc": "vara",
+     "quote": "VARA is a High Performance HF modem based on OFDM modulation."
+    }
+   },
+   {
+    "text": "AREDN builds high-speed data networks for emergencies and events.",
+    "src": {
+     "doc": "aredn-overview",
+     "quote": "it provides a way for Amateur Radio operators to create high-speed ad hoc Data Networks for use in Emergency and service-oriented communications."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "WSJT-X User Guide (GitHub mirror)",
+    "url": "https://github.com/saitohirga/WSJT-X/tree/master/doc/user_guide/en"
+   },
+   {
+    "title": "Winlink FAQ",
+    "url": "https://winlink.org/sites/default/files/download/wl2k_faq_9.pdf"
+   },
+   {
+    "title": "AREDN overview",
+    "url": "https://docs.arednmesh.org/en/latest/aredn_overview.html"
+   }
+  ],
+  "status": "verified"
+ },
+ "G3A": {
+  "intro": "The Sun drives HF propagation. Its ultraviolet and X-rays ionize the upper atmosphere, and that output rises and falls over the roughly 11-year sunspot cycle. Flares, coronal mass ejections and coronal holes can disrupt conditions, and the K and A indices rate how disturbed Earth's magnetic field is.",
+  "facts": [
+   {
+    "text": "Sunspot numbers and the Sun's ultraviolet output rise and fall together; both track the F10.7 index.",
+    "src": {
+     "doc": "swpc-f107",
+     "quote": "The F10.7 correlates well with the sunspot number as well as a number of UltraViolet (UV) and visible solar irradiance records."
+    }
+   },
+   {
+    "text": "Solar EUV and X-ray output varies about tenfold over the 11-year cycle, and the ionosphere's density follows it. A denser ionosphere supports higher usable frequencies.",
+    "src": {
+     "doc": "swpc-iono",
+     "quote": "The amount of energy (photon flux) at EUV and x-ray wavelengths varies by nearly a factor of ten over the 11 year solar cycle. The density of the ionosphere changes accordingly."
+    }
+   },
+   {
+    "text": "The solar flux index is the Sun's radio output at 10.7 cm (2800 MHz).",
+    "src": {
+     "doc": "swpc-f107",
+     "quote": "The solar radio flux at 10.7 cm (2800 MHz) is an excellent indicator of solar activity."
+    }
+   },
+   {
+    "text": "A flare's X-rays arrive at the speed of light (about 8 minutes) and boost D-region absorption on the daylit side: a sudden ionospheric disturbance.",
+    "src": {
+     "doc": "swpc-flares",
+     "quote": "The sudden outburst of electromagnetic energy travels at the speed of light, therefore any effect upon the sunlit side of Earth’s exposed outer atmosphere occurs at the same time the event is observed."
+    }
+   },
+   {
+    "text": "Coronal mass ejections take 15 hours to several days to arrive.",
+    "src": {
+     "doc": "swpc-cme",
+     "quote": "The fastest Earth-directed CMEs can reach our planet in as little as 15-18 hours. Slower CMEs can take several days to arrive."
+    }
+   },
+   {
+    "text": "Coronal holes send high-speed solar wind that can trigger geomagnetic storms, and can recur with the Sun's 27-day rotation.",
+    "src": {
+     "doc": "swpc-holes",
+     "quote": "The more persistent coronal holes can sometimes last through several solar rotations (27-day periods)."
+    }
+   },
+   {
+    "text": "Auroras can reflect VHF signals far beyond normal range.",
+    "src": {
+     "doc": "nasa-aurora-vhf",
+     "quote": "Radio amateurs discovered during 1939 in the U.S.A. that they were able to communicate abnormally long distances up to about 1000 km on frequencies too high to be propagated by normal modes."
+    }
+   },
+   {
+    "text": "Geomagnetic storms disrupt HF, especially at high latitudes.",
+    "src": {
+     "doc": "swpc-hf",
+     "quote": "During auroral displays, the precipitating electrons can enhance other layers of the ionosphere and have similar disrupting and blocking effects on radio communication."
+    }
+   },
+   {
+    "text": "K-index: geomagnetic disturbance over 3 hours, 0 to 9.",
+    "src": {
+     "doc": "swpc-ka",
+     "quote": "The indices have a range from 0 to 9 and are directly related to the maximum amount of fluctuation (relative to a quiet day) in the geomagnetic field over a three-hour interval."
+    }
+   },
+   {
+    "text": "A-index: the day's average, a longer-term measure.",
+    "src": {
+     "doc": "swpc-ka",
+     "quote": "The value is calculated as the average of eight, three-hourly station ak-indices observed during a UT day, and provides a single, average value to indicate the activity level for that day."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "NOAA Space Weather Prediction Center, HF radio communications",
+    "url": "https://www.swpc.noaa.gov/impacts/hf-radio-communications"
+   },
+   {
+    "title": "NOAA SWPC, Station K and A indices",
+    "url": "https://www.swpc.noaa.gov/products/station-k-and-indices"
+   }
+  ],
+  "status": "verified"
+ },
+ "G3B": {
+  "intro": "For any path at any moment there is a window of usable frequencies. Above the maximum usable frequency (MUF), signals pass through the ionosphere. Below the lowest usable frequency (LUF), they are absorbed. The best signals are just below the MUF. One hop off the E region covers up to about 1,200 miles; off the higher F2 region, about 2,500 miles.",
+  "diagrams": [
+   {
+    "file": "usable-window.svg",
+    "caption": "Between the LUF and the MUF, the ionosphere returns signals to Earth. If the LUF rises above the MUF, ordinary skywave can't cover the path.",
+    "src": {
+     "doc": "neets10",
+     "quote": "there is a maximum frequency that can be used for communications between two given locations. This frequency is known as the MAXIMUM USABLE FREQUENCY (muf)."
+    }
+   }
+  ],
+  "facts": [
+   {
+    "text": "MUF: the maximum usable frequency between two points. Higher frequencies are refracted less.",
+    "src": {
+     "doc": "neets10",
+     "quote": "the higher the frequency of a radio wave, the lower the rate of refraction by an ionized layer."
+    }
+   },
+   {
+    "text": "LUF: below it, absorption makes the signal too weak to receive.",
+    "src": {
+     "doc": "neets10",
+     "quote": "As a frequency is lowered, absorption of the radio wave increases. A wave whose frequency is too low is absorbed to such an extent that it is too weak for reception."
+    }
+   },
+   {
+    "text": "The F2 layer, and so the MUF, varies with time of day, season and solar activity.",
+    "src": {
+     "doc": "neets10",
+     "quote": "It is a very variable layer and its height and density change with time of day, season, and sunspot activity."
+    }
+   },
+   {
+    "text": "One E-region hop reaches about 1,200 miles.",
+    "src": {
+     "doc": "neets10",
+     "quote": "The E layer refracts hf waves during the day up to 20 megahertz to distances of about 1200 miles."
+    }
+   },
+   {
+    "text": "Atmospheric noise is worse at lower frequencies, which is why summer static is heavy on the low bands.",
+    "src": {
+     "doc": "neets10",
+     "quote": "Likewise, atmospheric noise is greater at lower frequencies; thus, a low-frequency radio wave may have an unacceptable signal-to-noise ratio."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "US Navy NEETS Module 10, Wave Propagation, Transmission Lines, and Antennas",
+    "url": "https://archive.org/details/NEETSModules"
+   }
+  ],
+  "status": "verified"
+ },
+ "G3C": {
+  "intro": "The ionosphere's regions, from lowest to highest, are D, E, F1 and F2. The D region absorbs; the F2 region carries the longest skip. Also covered: critical frequency and angle, the skip zone and scatter, and NVIS.",
+  "diagrams": [
+   {
+    "file": "skip-nvis.svg",
+    "caption": "Waves sent above the critical angle are lost. Between the ground wave and the first skywave landing is the skip zone. NVIS uses a low enough frequency that near-vertical waves return close to home.",
+    "src": {
+     "doc": "neets10",
+     "quote": "The SKIP ZONE is a zone of silence between the point where the ground wave becomes too weak for reception and the point where the sky wave is first returned to Earth."
+    }
+   }
+  ],
+  "facts": [
+   {
+    "text": "The D region is the lowest region of the ionosphere.",
+    "src": {
+     "doc": "neets10",
+     "quote": "The D layer ranges from about 30 to 55 miles. Ionization in the D layer is low because it is the lowest region of the ionosphere."
+    }
+   },
+   {
+    "text": "In daytime the D region absorbs HF (worst on the lower bands). It disappears at night.",
+    "src": {
+     "doc": "neets10",
+     "quote": "The D layer reflects vlf waves; is important for long range vlf communications; refracts lf and mf waves for short range communications; absorbs hf waves; has little effect on vhf and above; and disappears at night."
+    }
+   },
+   {
+    "text": "F2 is the main layer for long-distance HF.",
+    "src": {
+     "doc": "neets10",
+     "quote": "The F2 layer is the most important layer for long distance hf communications."
+    }
+   },
+   {
+    "text": "The F layer is the highest (about 90 to 240 miles up), so it gives the longest hops.",
+    "src": {
+     "doc": "neets10",
+     "quote": "The F layer exists from about 90 to 240 miles."
+    }
+   },
+   {
+    "text": "Critical frequency: the highest frequency a layer returns to Earth (for a wave sent straight up).",
+    "src": {
+     "doc": "neets10",
+     "quote": "The CRITICAL FREQUENCY is the maximum frequency that a radio wave can be transmitted vertically and still be refracted back to Earth."
+    }
+   },
+   {
+    "text": "Critical angle: waves leaving at steeper angles go through the layer and are lost.",
+    "src": {
+     "doc": "neets10",
+     "quote": "Any wave that leaves the antenna at an angle greater than the critical angle will penetrate the ionospheric layer for that frequency and then be lost in space."
+    }
+   },
+   {
+    "text": "Skip zone: the silent gap between ground-wave range and the first skywave landing. Weak, fluttery scatter signals can sometimes be heard there.",
+    "src": {
+     "doc": "neets10",
+     "quote": "The SKIP ZONE is a zone of silence between the point where the ground wave becomes too weak for reception and the point where the sky wave is first returned to Earth."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "US Navy NEETS Module 10, Wave Propagation, Transmission Lines, and Antennas",
+    "url": "https://archive.org/details/NEETSModules"
+   },
+   {
+    "title": "NOAA Space Weather Prediction Center, HF radio communications",
+    "url": "https://www.swpc.noaa.gov/impacts/hf-radio-communications"
+   }
+  ],
+  "status": "verified"
+ }
+}

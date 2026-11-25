@@ -511,6 +511,34 @@
   "97.13": {
    "head": "§ 97.13 Restrictions on station location.",
    "url": "https://www.ecfr.gov/current/title-47/section-97.13"
+  },
+  "97.15": {
+   "head": "§ 97.15 Station antenna structures.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.15"
+  },
+  "97.309": {
+   "head": "§ 97.309 RTTY and data emission codes.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.309"
+  },
+  "97.505": {
+   "head": "§ 97.505 Element credit.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.505"
+  },
+  "97.509": {
+   "head": "§ 97.509 Administering VE requirements.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.509"
+  },
+  "97.221": {
+   "head": "§ 97.221 Automatically controlled digital station.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.221"
+  },
+  "97.311": {
+   "head": "§ 97.311 SS emission types.",
+   "url": "https://www.ecfr.gov/current/title-47/section-97.311"
+  },
+  "2.104": {
+   "head": "§ 2.104 International Table of Frequency Allocations.",
+   "url": "https://www.ecfr.gov/current/title-47/section-2.104"
   }
  },
  "docs": {
@@ -833,6 +861,90 @@
   "fcc-oet65b": {
    "title": "FCC OET Bulletin 65, Supplement B (amateur radio stations)",
    "url": "https://transition.fcc.gov/Bureaus/Engineering_Technology/Documents/bulletins/oet65/oet65b.pdf"
+  },
+  "ncdxf-schedule": {
+   "title": "NCDXF/IARU International Beacon Project, transmission schedule",
+   "url": "https://www.ncdxf.org/beacon/beaconschedule.html"
+  },
+  "iaru-r2": {
+   "title": "IARU Region 2 Band Plan (September 2020)",
+   "url": "https://www.iaru.org/wp-content/uploads/2020/10/IARU-Region-2-Band-plan.pdf"
+  },
+  "arrl-firstcontact": {
+   "title": "ARRL, Making your first contact",
+   "url": "https://www.arrl.org/making-your-first-contact"
+  },
+  "arrl-qroa": {
+   "title": "ARRL, Quick reference operating aids",
+   "url": "https://www.arrl.org/quick-reference-operating-aids"
+  },
+  "arrl-vm": {
+   "title": "ARRL, Volunteer Monitor Program",
+   "url": "https://www.arrl.org/volunteer-monitor-program"
+  },
+  "arrl-contestbasics": {
+   "title": "ARRL, Contest basics",
+   "url": "https://www.arrl.org/contest-basics"
+  },
+  "arrl-log": {
+   "title": "ARRL, Keeping a log",
+   "url": "https://www.arrl.org/keeping-a-log"
+  },
+  "dxlab-afsk": {
+   "title": "DXLab Suite wiki, AFSK and FSK",
+   "url": "https://dxlabsuite.com/dxlabwiki/AFSKFSK"
+  },
+  "vara": {
+   "title": "EA5HVK, VARA HF modem (author's site)",
+   "url": "https://rosmodem.wordpress.com/"
+  },
+  "wsjtx-ft8": {
+   "title": "WSJT-X User Guide, FT8 tutorial (source mirror on GitHub)",
+   "url": "https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/tutorial-example3.adoc"
+  },
+  "wsjtx-makeqso": {
+   "title": "WSJT-X User Guide, making QSOs (source mirror on GitHub)",
+   "url": "https://github.com/saitohirga/WSJT-X/blob/master/doc/user_guide/en/make-qso.adoc"
+  },
+  "aredn-overview": {
+   "title": "AREDN documentation, AREDN overview",
+   "url": "https://docs.arednmesh.org/en/latest/aredn_overview.html"
+  },
+  "wsjtx-freqlist": {
+   "title": "WSJT-X source code, default working frequency list (models/FrequencyList.cpp, GitHub mirror)",
+   "url": "https://github.com/saitohirga/WSJT-X/blob/master/models/FrequencyList.cpp"
+  },
+  "swpc-f107": {
+   "title": "NOAA Space Weather Prediction Center, F10.7 cm radio emissions",
+   "url": "https://www.swpc.noaa.gov/phenomena/f107-cm-radio-emissions"
+  },
+  "swpc-flares": {
+   "title": "NOAA Space Weather Prediction Center, Solar flares (radio blackouts)",
+   "url": "https://www.swpc.noaa.gov/phenomena/solar-flares-radio-blackouts"
+  },
+  "swpc-geostorm": {
+   "title": "NOAA Space Weather Prediction Center, Geomagnetic storms",
+   "url": "https://www.swpc.noaa.gov/phenomena/geomagnetic-storms"
+  },
+  "swpc-hf": {
+   "title": "NOAA Space Weather Prediction Center, HF radio communications",
+   "url": "https://www.swpc.noaa.gov/impacts/hf-radio-communications"
+  },
+  "swpc-aurora": {
+   "title": "NOAA Space Weather Prediction Center, Aurora",
+   "url": "https://www.swpc.noaa.gov/phenomena/aurora"
+  },
+  "swpc-holes": {
+   "title": "NOAA Space Weather Prediction Center, Coronal holes",
+   "url": "https://www.swpc.noaa.gov/phenomena/coronal-holes"
+  },
+  "swpc-cme": {
+   "title": "NOAA Space Weather Prediction Center, Coronal mass ejections",
+   "url": "https://www.swpc.noaa.gov/phenomena/coronal-mass-ejections"
+  },
+  "swpc-ka": {
+   "title": "NOAA Space Weather Prediction Center, Station K and A indices",
+   "url": "https://www.swpc.noaa.gov/products/station-k-and-indices"
   }
  }
 }
