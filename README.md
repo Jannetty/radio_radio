@@ -22,9 +22,12 @@ A free study app for all three amateur radio license exams and four FCC commerci
   of what you missed.
 - **Read the pool**: every question with its answer, searchable, with answers hidden on request.
 
-It's a static site (plain HTML, CSS and ES modules, no build step) with an optional
-[Supabase](https://supabase.com) backend for accounts. Without an account, progress is
-saved on the device. With one, it syncs between devices.
+It's a static site (plain HTML, CSS and ES modules, no build step) hosted on GitHub Pages,
+with a [Supabase](https://supabase.com) backend for accounts. Without an account, progress is
+saved on the device. With one, it's saved to the account and available on any device.
+
+Deploying, Supabase administration, database changes, question pool updates and setup from
+scratch are covered in [docs/maintenance.md](docs/maintenance.md).
 
 ## Run it locally
 
@@ -33,6 +36,7 @@ python3 -m http.server 8642 -d app
 ```
 
 Open http://localhost:8642. The service worker is skipped on localhost, so edits show on reload.
+Pushing to `main` deploys to GitHub Pages after the tests pass.
 
 ## Run the tests
 
@@ -42,70 +46,6 @@ npm test
 
 No dependencies; tests use Node's built-in test runner. They cover the progress logic,
 the study-session rounds, merging progress from two devices, and the question data itself.
-
-## Deploy to GitHub Pages
-
-Pushing to `main` runs `.github/workflows/pages.yml`: it runs the tests, then publishes `app/`.
-One time only: in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**.
-
-Each deploy stamps the commit into the service worker's cache name, so installed copies pick up
-the new version on their next launch. If you add or rename a file under `app/`, add it to
-`FILES` in `app/sw.js`.
-
-## Set up accounts (optional)
-
-1. Create a free project at https://supabase.com.
-2. In the dashboard, open **SQL Editor → New query**, paste `supabase/schema.sql`, and run it.
-   This creates the `progress` table with row-level security, so each person can read and
-   write only their own rows.
-3. Open **Authentication → URL Configuration**. Set **Site URL** to your Pages URL
-   (for example `https://yourname.github.io/radio_radio/`) and add it, plus
-   `http://localhost:8642/`, under **Redirect URLs**. Confirmation and sign-in-link emails
-   send people back there.
-4. Click **Connect** at the top of the project page and copy the **Project URL**
-   (`https://<ref>.supabase.co`) and the **publishable key** (`sb_publishable_…`) into `app/config.js`.
-   They're also under **Integrations → Data API** and **Project Settings → API Keys**; a legacy
-   `anon` key works too. These are designed to be public; row-level security is what protects the data.
-   Never put a secret key (`sb_secret_…`) or the `service_role` key in the app.
-   If you turned off the Data API when creating the project, turn it on under **Integrations → Data API**.
-5. Commit and push.
-
-If your `progress` table was created before the Technician and Extra pools were added, run
-`supabase/migrations/2026-11-25-amateur-pools.sql` once in the SQL Editor so it accepts them.
-
-People sign up with an email and password. Supabase emails a confirmation link first
-(you can turn that off under **Authentication → Providers → Email**). "Forgot your password?"
-emails a one-time sign-in link, after which they can set a new password from the account menu.
-Supabase's built-in email sender is rate-limited and meant for testing. For more than a
-handful of users, add your own SMTP provider under **Authentication → Emails**.
-
-### How syncing works
-
-- Progress is one JSON record per person per exam (about 10–40 KB). It holds, for each
-  question, right and wrong counts, the current streak, and when it was last answered; the
-  unfinished study session; the unfinished practice exam; and the last 40 exam results.
-- Every change is saved on the device first, so the app works offline. A few seconds later it
-  is merged with the server copy and uploaded. The app also syncs when it opens, when it comes
-  back to the foreground, and when the connection returns.
-- Merging is per question: whichever device answered a question most recently wins. Exam
-  history from both devices is combined. The study session and the practice exam are
-  merged separately, and the copy that changed last wins. "Reset progress" on one device
-  wipes everything older than the reset on every device.
-- Signing out removes the progress from that device; it stays in the account. Progress made
-  on a device before signing in is merged into the account on first sign-in.
-
-## Adding or updating question pools
-
-Progress, sessions and exam history refer to questions by their pool ID (for example `T1A01`),
-so pools can change without scrambling anyone's progress:
-
-- **Errata that withdraw a question**: rebuild `pools.json`. The withdrawn question drops out of
-  unfinished sessions and exam history the next time each person opens the app; everything else stays.
-- **A new exam**: add it to `pools.json` with a new pool id, add a flag in `src/ui/flags.js`, and add
-  the id to the `progress_pool_check` constraint (a small migration in `supabase/migrations/`).
-- **A replacement pool** (the next General pool starts July 1, 2027): add it as a new pool id
-  such as `gen2027` instead of overwriting `gen`. The new pool reuses question IDs for different
-  questions, and a new id keeps old stats from being attached to them.
 
 ## Install on a phone or laptop
 
@@ -130,6 +70,7 @@ supabase/schema.sql  database table and security rules
 supabase/migrations/ one-off changes for databases created earlier
 tests/               node --test
 tools/pools/         how the question data was built, and scripts to rebuild it
+docs/maintenance.md  how to keep it running
 ```
 
 ## The flags

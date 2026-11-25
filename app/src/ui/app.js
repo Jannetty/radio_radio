@@ -62,7 +62,7 @@ function header(p) {
   $('#crumb').innerHTML = p ? `<div class="crumb"><button data-go="home">All exams</button></div>` : '';
   $('#hdr').innerHTML = p
     ? `<div class="row" style="gap:16px">${flagSvg(p.id)}<div><h1>${esc(p.name)}</h1><div class="sub">${esc(p.code)} · ${esc(p.desc)} · ${p.q.length} questions</div></div></div>`
-    : `<h1>Radio exam study</h1><div class="sub">Seven FCC question pools, amateur and commercial. Learn every question, retry the ones you miss, then sit practice exams built like the real ones.</div>`;
+    : `<h1>Radio Exam Study</h1><div class="sub">Study for the FCC radio exams. Learn every question, retry the ones you miss, and take practice exams built like the real ones.</div>`;
 }
 
 function acctButton() {
@@ -75,7 +75,7 @@ function acctButton() {
 function foot() {
   const where = !acct.configured ? 'Progress is saved on this device.'
     : acct.user ? ({ synced: 'Progress is synced to your account.', syncing: 'Syncing…', offline: 'Offline. Progress is saved on this device and will sync when you reconnect.', error: `Sync problem: ${esc(acct.message)}` }[acct.status] || 'Progress is synced to your account.')
-    : 'Progress is saved on this device. Sign in to sync it between your phone and laptop.';
+    : 'Progress is saved on this device. Sign in to save and access your progress across multiple devices.';
   $('#foot').innerHTML = `<p>${where}</p><p>Questions: ${D.pools.map(p => esc(`${p.code}, ${p.src}`)).join('; ')}. Answer keys are the official FCC and NCVEC keys. <button class="linkbtn" data-act="flags">About the flags</button></p>`;
 }
 
@@ -331,7 +331,7 @@ function accountModal(msg = '', kind = '') {
   }
   const mode = accountModal.mode || 'in';
   modal(`<h3>${mode === 'in' ? 'Sign in' : 'Create an account'}</h3>
-  <p class="note">Your account keeps your progress in sync between your phone and laptop. Progress you already have on this device is kept.</p>
+  <p class="note">Sign in to save and access your progress across multiple devices. Progress you already have on this device is kept.</p>
   <form id="authform"><label>Email<input type="email" name="email" autocomplete="email" required value="${esc(accountModal.email || '')}"></label>
   <label>Password<input type="password" name="pw" autocomplete="${mode === 'in' ? 'current-password' : 'new-password'}" minlength="8" required></label>
   <button class="btn pri" type="submit">${mode === 'in' ? 'Sign in' : 'Create account'}</button>
