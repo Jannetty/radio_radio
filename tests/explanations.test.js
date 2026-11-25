@@ -4,7 +4,7 @@ import { readFileSync, existsSync } from 'node:fs';
 import { pools } from './fixtures.js';
 
 const read = p => JSON.parse(readFileSync(new URL(p, import.meta.url), 'utf8'));
-const EXPLAINED = ['e1'];
+const EXPLAINED = ['e1', 'e7'];
 
 for (const id of EXPLAINED) {
   const file = `../app/data/explanations/${id}.json`;

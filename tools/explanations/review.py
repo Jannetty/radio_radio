@@ -18,7 +18,7 @@ out = [f"# {P['name']} explanations, review copy", '',
        "\"general practice\" marks answers with no rule to quote.", '']
 missing = [q[0] for q in P['q'] if q[0] not in EX['q']]
 if missing:
-    out += ['Questions with no explanation (no reliable source found): ' + ', '.join(missing), '']
+    out += ['Questions without an explanation: ' + ', '.join(missing), '']
 cur = None
 for i, q in enumerate(P['q']):
     s, g = grp[i]

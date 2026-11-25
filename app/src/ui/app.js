@@ -140,7 +140,8 @@ function guideHtml(p) {
   const ex = loaded(p.id);
   if (!ex) return '';
   return `<section class="sec"><h2>Study guide</h2><p class="note" style="margin:0 0 12px">A short page for each key topic: the rules behind it, with links to the official text and further reading.</p>
-  ${p.sections.map(sec => `<div class="guide"><div class="k"><b>${esc(sec.id)}</b> ${esc(sec.t)}</div><div class="row">${sec.g.filter(g => ex.topics[g.id]).map(g => `<button class="btn" data-topic="${esc(g.id)}">${esc(g.t)}</button>`).join('')}</div></div>`).join('')}</section>`;
+  ${p.sections.filter(sec => sec.g.some(g => ex.topics[g.id])).map(sec => `<div class="guide"><div class="k"><b>${esc(sec.id)}</b> ${esc(sec.t)}</div><div class="row">${sec.g.filter(g => ex.topics[g.id]).map(g => `<button class="btn" data-topic="${esc(g.id)}">${esc(g.t)}</button>`).join('')}</div></div>`).join('')}
+  ${p.sections.some(sec => sec.g.some(g => !ex.topics[g.id])) ? '<p class="note">More topics are on the way. Questions in other topics don\'t have explanations yet.</p>' : ''}</section>`;
 }
 
 function topicView() {
@@ -155,7 +156,7 @@ function topicView() {
   <h3>The rules behind this topic</h3>${sourcesHtml(t.rules, esc)}
   ${t.reading.length ? `<h3>Further reading</h3><ul class="why-src">${t.reading.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`).join('')}</ul>` : ''}
   <h3>Questions in this topic</h3><div class="list">${g.q.map(i => { const q = p.q[i]; return `<div class="item"><span class="qid">${esc(q[0])}</span><p>${esc(q[1])}</p><div class="ans r">${L[q[3]]}. ${esc(q[2][q[3]])}</div>${why(p, i, L[q[3]]) ? `<details class="whyd"><summary>Why ${L[q[3]]}?</summary>${why(p, i, L[q[3]])}</details>` : '<p class="note">No explanation yet.</p>'}</div>`; }).join('')}</div>
-  <p class="note" style="margin-top:16px">Explanations quote the current official text. Where today's rule differs from the 2009 exam key, a “Heads up” note says so; the exam still grades on its key.</p></article>`;
+  <p class="note" style="margin-top:16px">Explanations quote the current official text. Where today's rule differs from the exam's answer key, a “Heads up” note says so; the exam still grades on its key.</p></article>`;
 }
 
 /* ---------- learn ---------- */

@@ -2,7 +2,7 @@
 
 Generated from `app/data/explanations/e1.json` by `tools/explanations/review.py`. 141 of 144 questions have an explanation. Each quote below appears word for word in the linked source. "Heads up" notes mark places where the current rule differs from the exam's answer key; "general practice" marks answers with no rule to quote.
 
-Questions with no explanation (no reliable source found): 1-18C5, 1-20D1, 1-21D2
+Questions without an explanation: 1-18C5, 1-20D1, 1-21D2
 
 ## Topic 1. Equipment Requirements
 

@@ -1,6 +1,6 @@
 // Answer explanations and topic study guides. Data lives in data/explanations/<pool>.json,
 // built from the sourced drafts in tools/explanations/. Only pools listed here have them.
-export const EXPLAINED = ['e1'];
+export const EXPLAINED = ['e1', 'e7'];
 
 const cache = {};
 

@@ -16,7 +16,7 @@ tools/explanations/
 - Every factual sentence must be backed by a source in `src`, and every `quote` must appear word for word in that source. Prefer the current eCFR text (47 CFR Part 80, 47 CFR Part 13, 33 CFR) and official ITU, IMO, NOAA, NWS and FAA documents.
 - If today's rule differs from the 2009 answer key, say so in `note`. The exam still grades on its key, so the explanation explains the keyed answer and the note says what changed.
 - If no official text states the answer (operating practice or general radio knowledge), set `"basis": "practice"`. The app labels these "General operating practice, not a quoted rule".
-- If you can't support an answer, leave the question out. The app simply shows no explanation for it.
+- If you can't support an answer, leave the question out and record why in `<pool>/withheld.json`. The app simply shows no explanation for it. `python3 tools/explanations/missing.py` lists withheld and not-yet-written questions (handy for filing issues).
 - An entry is published only once it has `"status": "verified"`. Set that only after someone other than the author has checked it against the sources.
 
 ## Workflow

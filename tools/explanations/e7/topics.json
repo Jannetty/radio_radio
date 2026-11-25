@@ -1,0 +1,1308 @@
+{
+ "1": {
+  "intro": "The GMDSS is a worldwide, largely automated distress and safety system for ships. Its core idea is shore-centred alerting: rescue authorities ashore and nearby ships are both alerted, so they can mount a coordinated search and rescue.",
+  "facts": [
+   {
+    "text": "Rescue authorities ashore and ships near the casualty are alerted together, so they can coordinate a search with minimum delay.",
+    "src": {
+     "doc": "imo-gmdss-sar-1999",
+     "quote": "will be rapidly alerted to a distress incident so they can assist in a co-ordinated search and rescue operation with the minimum of delay"
+    }
+   },
+   {
+    "text": "Every GMDSS ship must be able to perform the communication functions essential for its own safety and that of nearby ships.",
+    "src": {
+     "doc": "imo-gmdss-sar-1999",
+     "quote": "to perform those communication functions considered essential for the safety of the ship itself and of other ships operating in the same area"
+    }
+   },
+   {
+    "text": "The rules apply to all passenger ships and to cargo ships of 300 gross tons and up.",
+    "src": {
+     "sec": "80.1065",
+     "quote": "apply to all passenger ships regardless of size and cargo ships of 300 tons gross tonnage and upwards"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "IMO, Shipping Emergencies: Search and Rescue and the GMDSS (1999)",
+    "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf"
+   },
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "2": {
+  "intro": "GMDSS equipment splits into terrestrial radio (VHF, MF and HF with DSC), satellite systems (Inmarsat, COSPAS-SARSAT EPIRBs), maritime safety information receivers (NAVTEX, EGC), and survival craft equipment.",
+  "facts": [
+   {
+    "text": "Every GMDSS ship carries VHF with DSC on Channel 70 and voice on Channels 6, 13 and 16.",
+    "src": {
+     "sec": "80.1085",
+     "quote": "Radiotelephony on the frequencies 156.300 MHz (channel 6), 156.650 MHz (channel 13), and 156.800 MHz (channel 16)"
+    }
+   },
+   {
+    "text": "Every GMDSS ship carries a NAVTEX receiver for maritime safety information.",
+    "src": {
+     "sec": "80.1085",
+     "quote": "A receiver capable of receiving international NAVTEX service broadcasts"
+    }
+   },
+   {
+    "text": "The 406 MHz satellite EPIRB floats free and activates automatically if the ship sinks.",
+    "src": {
+     "sec": "80.1085",
+     "quote": "capable of floating free if the ship sinks and of being automatically activated when afloat"
+    }
+   },
+   {
+    "text": "Alerting equipment needs the ship's position from a built-in or connected navigation receiver, or entered by hand at least every 4 hours.",
+    "src": {
+     "sec": "80.1085",
+     "quote": "If there is no navigation receiver, the position must be entered manually for each alerting device at least once every 4 hours"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   },
+   {
+    "title": "IMO, Shipping Emergencies: Search and Rescue and the GMDSS (1999)",
+    "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf"
+   }
+  ],
+  "status": "verified"
+ },
+ "3": {
+  "intro": "The oceans are divided into four sea areas by which shore-based or satellite alerting covers them. A ship's equipment depends on the sea areas it sails in.",
+  "facts": [
+   {
+    "text": "A1: within range of a VHF coast station with continuous DSC alerting.",
+    "src": {
+     "sec": "80.1069",
+     "quote": "Sea area A1. An area within the radiotelephone coverage of at least one VHF coast station in which continuous DSC alerting is available"
+    }
+   },
+   {
+    "text": "A2: outside A1 but within range of an MF coast station with continuous DSC alerting.",
+    "src": {
+     "sec": "80.1069",
+     "quote": "Sea area A2. An area, excluding sea area A1, within the radiotelephone coverage of at least one MF coast station in which continuous DSC alerting is available"
+    }
+   },
+   {
+    "text": "A3: outside A1 and A2 but within Inmarsat geostationary satellite coverage.",
+    "src": {
+     "sec": "80.1069",
+     "quote": "Sea area A3. An area, excluding sea areas A1 and A2, within the coverage of an INMARSAT geostationary satellite in which continuous alerting is available."
+    }
+   },
+   {
+    "text": "A4: everywhere else, in practice the polar regions.",
+    "src": {
+     "sec": "80.1069",
+     "quote": "Sea area A4. An area outside sea areas A1, A2 and A3."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   },
+   {
+    "title": "IMO, Shipping Emergencies: Search and Rescue and the GMDSS (1999)",
+    "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf"
+   }
+  ],
+  "status": "verified"
+ },
+ "4": {
+  "intro": "Part 80 lists the functions every GMDSS ship must be able to perform at sea, whatever equipment it uses to do them.",
+  "facts": [
+   {
+    "text": "Ships must be able to send ship-to-shore distress alerts by at least two separate and independent means, each using a different radio service (with limited exceptions).",
+    "src": {
+     "sec": "80.1081",
+     "quote": "by at least two separate and independent means, each using a different radiocommunication service"
+    }
+   },
+   {
+    "text": "They must also handle SAR coordinating and on-scene communications, locating signals and maritime safety information.",
+    "src": {
+     "sec": "80.1081",
+     "quote": "Of transmitting and receiving search and rescue co-ordinating communications;"
+    }
+   },
+   {
+    "text": "General radiocommunications and bridge-to-bridge communications are GMDSS functions too.",
+    "src": {
+     "sec": "80.1081",
+     "quote": "Of transmitting and receiving bridge-to-bridge communications."
+    }
+   },
+   {
+    "text": "Equipment must cover these functions throughout the intended voyage.",
+    "src": {
+     "sec": "80.1083",
+     "quote": "capable of complying with the functional requirements prescribed by § 80.1081 throughout its intended voyage"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "5": {
+  "intro": "What a ship must carry depends on the sea areas of its intended voyage, building up from a common core (VHF DSC, NAVTEX, EPIRB, SART) to MF, then Inmarsat or HF, and HF for A4.",
+  "facts": [
+   {
+    "text": "A1 ships need a way to start a ship-to-shore distress alert from where the ship is navigated.",
+    "src": {
+     "sec": "80.1087",
+     "quote": "capable of initiating the transmission of ship-to-shore distress alerts from the position from which the ship is normally navigated"
+    }
+   },
+   {
+    "text": "A2 ships add MF: DSC on 2187.5 kHz and voice on 2182 kHz.",
+    "src": {
+     "sec": "80.1089",
+     "quote": "2187.5 kHz using DSC; and"
+    }
+   },
+   {
+    "text": "A3 ships choose between an Inmarsat option and an MF/HF option.",
+    "src": {
+     "sec": "80.1091",
+     "quote": "Ships fitting in accordance to this section have the option to comply with either the requirements of paragraph (a) or (b) of this section."
+    }
+   },
+   {
+    "text": "Passenger ships and cargo ships of 500 GT and up carry three survival craft VHF radios and a SART on each side.",
+    "src": {
+     "sec": "80.1095",
+     "quote": "At least three two-way VHF radiotelephone apparatus must be provided on every passenger ship and on every cargo ship of 500 tons gross tonnage and upwards."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "6": {
+  "intro": "GMDSS equipment must stay available, using one or more of three maintenance methods depending on the sea areas.",
+  "facts": [
+   {
+    "text": "The three methods are duplication of equipment, shore-based maintenance and at-sea maintenance.",
+    "src": {
+     "sec": "80.1105",
+     "quote": "duplication of equipment, shore-based maintenance, or at-sea electronic maintenance capability"
+    }
+   },
+   {
+    "text": "A1 and A2 ships need one method; A3 and A4 ships need at least two.",
+    "src": {
+     "sec": "80.1105",
+     "quote": "On ships engaged on voyages in sea areas A3 and A4, the availability must be ensured by using a combination of at least two of the following methods"
+    }
+   },
+   {
+    "text": "Whatever the method, a ship can't leave port unless it can perform all its distress and safety functions.",
+    "src": {
+     "sec": "80.1105",
+     "quote": "a ship must not depart from any port unless and until the ship is capable of performing all distress and safety functions"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "13": {
+  "intro": "GMDSS stations are inspected every year, and exemptions are possible only in limited cases. Foreign governments may also inspect a visiting ship's station in some circumstances.",
+  "facts": [
+   {
+    "text": "Required equipment is inspected at least every 12 months by an FCC-licensed GMDSS Radio Maintainer.",
+    "src": {
+     "sec": "80.1067",
+     "quote": "Ships must have the required equipment inspected at least once every 12 months by an FCC-licensed technician holding a GMDSS Radio Maintainer's License."
+    }
+   },
+   {
+    "text": "Partial or conditional exemptions are possible, for example for a single voyage outside the ship's sea areas.",
+    "src": {
+     "sec": "80.1071",
+     "quote": "In exceptional circumstances, for a single voyage outside the sea area or sea areas for which the ship is equipped."
+    }
+   },
+   {
+    "text": "A foreign government may inspect if the license can't be produced or irregularities are seen.",
+    "src": {
+     "sec": "80.79",
+     "quote": "When the license cannot be produced without delay or when irregularities are observed, Governments or administrations may inspect the radio installations"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   },
+   {
+    "title": "47 CFR §80.401, Station documents requirement (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/section-80.401"
+   }
+  ],
+  "status": "verified"
+ },
+ "14": {
+  "intro": "Ships must carry certain licenses, certificates, rules and ITU service publications, plus the manufacturers' manuals for their equipment.",
+  "facts": [
+   {
+    "text": "Manufacturers' operating and maintenance manuals for all required equipment must be on board.",
+    "src": {
+     "sec": "80.1105",
+     "quote": "all manufacturers' instruction manuals and maintenance manuals for each piece of equipment required and installed must be available on-board ship"
+    }
+   },
+   {
+    "text": "Cargo ships of 300 tons and up must carry the station license, operator licenses, logs and the Part 80 rules.",
+    "src": {
+     "doc": "cfr-80401-table",
+     "quote": "Cargo ships (300 tons and up): Station License R(1); Appropriate Operator Authorization R; Station Logs R;"
+    }
+   },
+   {
+    "text": "They must also carry the ITU lists of ship and coast stations and the ITU manual for the maritime mobile services.",
+    "src": {
+     "doc": "cfr-80401-table",
+     "quote": "List of Ship Stations R(6); Manual for Use by Maritime Mobile (M/M) Service and M/M Satellite Service R; List of Coast Stations R(5);"
+    }
+   },
+   {
+    "text": "Any one of the GMDSS Master Plan, NGA Pub. 117, the Admiralty List of Radio Signals or IMO Circ. 7 satisfies the requirement.",
+    "src": {
+     "sec": "80.401",
+     "quote": "The requirements for having the GMDSS Master Plan, NGA Publication 117, Admiralty List of Radio Signals or IMO Circ. 7 are satisfied by having any one of those four documents."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR §80.401, Station documents requirement (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/section-80.401"
+   },
+   {
+    "title": "ITU, List of Ship Stations and MMSI Assignments (List V)",
+    "url": "https://www.itu.int/en/ITU-R/terrestrial/mars/Pages/shipstationslist.aspx"
+   }
+  ],
+  "status": "verified"
+ },
+ "15": {
+  "intro": "GMDSS operators do routine checks; anything that may affect the station's proper operation is a maintainer's job. A ship can't sail until it can perform all its distress and safety functions.",
+  "facts": [
+   {
+    "text": "Adjustments or servicing that may affect the station must be done by or under a qualified GMDSS maintainer.",
+    "src": {
+     "sec": "80.1074",
+     "quote": "must be performed by, or under the immediate supervision and responsibility of, a qualified GMDSS radio maintainer"
+    }
+   },
+   {
+    "text": "The maintainer may also be one of the designated operators.",
+    "src": {
+     "sec": "80.1074",
+     "quote": "This person may be, but need not be, the person designated as GMDSS radio operator as specified in § 80.1073."
+    }
+   },
+   {
+    "text": "With shore-based maintenance, each GMDSS unit is tested and logged before leaving every port.",
+    "src": {
+     "sec": "80.1105",
+     "quote": "Each GMDSS equipment must be tested and performance verified and the results noted in the ship's record before departure from every port."
+    }
+   },
+   {
+    "text": "Spares and test equipment follow the manufacturer's recommendations.",
+    "src": {
+     "sec": "80.1105",
+     "quote": "as recommended by the manufacturer should be provided"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "16": {
+  "intro": "Every GMDSS ship needs at least two licensed GMDSS radio operators, with defined duties, and a licensed maintainer if it uses at-sea maintenance.",
+  "facts": [
+   {
+    "text": "At least two people with GMDSS Radio Operator's Licenses must be carried.",
+    "src": {
+     "sec": "80.1073",
+     "quote": "Ships must carry at least two persons holding GMDSS Radio Operator's Licenses"
+    }
+   },
+   {
+    "text": "One operator has primary responsibility during distress incidents; a second is the backup.",
+    "src": {
+     "sec": "80.1073",
+     "quote": "A second qualified GMDSS radio operator must be designated as backup for distress and safety radiocommunications"
+    }
+   },
+   {
+    "text": "The GMDSS Maintainer (DM) and Operator/Maintainer (DB) licenses qualify a person as a maintainer.",
+    "src": {
+     "sec": "80.1074",
+     "quote": "(2) DB: GMDSS Operator's/Maintainer's License."
+    }
+   },
+   {
+    "text": "A ship using at-sea maintenance carries at least one qualified maintainer.",
+    "src": {
+     "sec": "80.1074",
+     "quote": "must carry at least one person who qualifies as a GMDSS radio maintainer"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   },
+   {
+    "title": "47 CFR §13.7, Classification of operator licenses and endorsements (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/section-13.7"
+   }
+  ],
+  "status": "verified"
+ },
+ "17": {
+  "intro": "The Reserve Source of Energy (RSE), usually batteries, keeps the radios working for distress and safety communications when both the main and emergency power sources fail.",
+  "facts": [
+   {
+    "text": "The RSE must run the radios if both the main and emergency sources of electrical power fail.",
+    "src": {
+     "sec": "80.1099",
+     "quote": "in the event of failure of the ship's main and emergency sources of electrical power"
+    }
+   },
+   {
+    "text": "It must be independent of the propulsion and the ship's electrical system.",
+    "src": {
+     "sec": "80.1099",
+     "quote": "The reserve sources of energy must be independent of the propelling power of the ship and the ship's electrical system."
+    }
+   },
+   {
+    "text": "It doesn't have to power separate MF and HF installations at the same time.",
+    "src": {
+     "sec": "80.1099",
+     "quote": "The reserve sources of energy need not supply independent HF and MF radio installations at the same time."
+    }
+   },
+   {
+    "text": "Battery charge is checked at least every 30 days with the equipment on and the charger off.",
+    "src": {
+     "sec": "80.1099",
+     "quote": "Battery charge levels should be checked at intervals of 30 days or less with equipment turned ON and the battery charger turned OFF."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "18": {
+  "intro": "At sea, GMDSS equipment is checked every day, by a test or by normal use, with extra weekly checks. Test transmissions must follow the FCC's testing procedure.",
+  "facts": [
+   {
+    "text": "Satisfactory daily tests of GMDSS equipment are logged every day.",
+    "src": {
+     "sec": "80.409",
+     "quote": "Daily entries of satisfactory tests to ensure the continued proper functioning of GMDSS equipment shall be made."
+    }
+   },
+   {
+    "text": "Normal communications can count as the daily check of the radiotelephone equipment.",
+    "src": {
+     "sec": "80.409",
+     "quote": "as determined by either normal communication or test communication"
+    }
+   },
+   {
+    "text": "Each week, DSC is verified by a real or test call, and survival craft radios and transponders are tested.",
+    "src": {
+     "sec": "80.409",
+     "quote": "The proper functioning of digital selective calling (DSC) equipment has been verified by actual communications or a test call;"
+    }
+   },
+   {
+    "text": "A test must not interfere with traffic in progress.",
+    "src": {
+     "sec": "80.101",
+     "quote": "The operator must not interfere with transmissions in progress."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   },
+   {
+    "title": "47 CFR §80.409, Station logs (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/section-80.409"
+   }
+  ],
+  "status": "verified"
+ },
+ "19": {
+  "intro": "GMDSS ships keep automatic DSC watches on the frequencies that match their equipment, plus watches for maritime safety information and, when practicable, Channel 16.",
+  "facts": [
+   {
+    "text": "Ships with VHF DSC watch Channel 70; ships with MF watch 2187.5 kHz.",
+    "src": {
+     "sec": "80.1123",
+     "quote": "On the distress and safety DSC frequency 2187.5 kHz, if the ship is fitted with an MF radio installation"
+    }
+   },
+   {
+    "text": "MF/HF ships also watch 8414.5 kHz and at least one other HF DSC frequency suited to time and position.",
+    "src": {
+     "sec": "80.1123",
+     "quote": "On the distress and safety DSC frequencies 2187.5 kHz and 8414.5 kHz also on at least one of the distress and safety DSC frequencies 4207.5 kHz, 6312 kHz, 12577 kHz, or 16804.5 kHz appropriate to the time of day and the geographical position of the ship"
+    }
+   },
+   {
+    "text": "Ships keep a Channel 16 listening watch when practicable.",
+    "src": {
+     "sec": "80.1123",
+     "quote": "Every ship while at sea must maintain, when practicable, a continuous listening watch on VHF Channel 16."
+    }
+   },
+   {
+    "text": "Received distress alerts must be reported to the master as soon as possible.",
+    "src": {
+     "sec": "80.1121",
+     "quote": "must, as soon as possible, inform the master or person responsible for the ship of the contents of the distress alert"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "20": {
+  "intro": "The GMDSS radio log records distress, urgency and certain safety traffic, tests, equipment problems and inspections. It is kept at the operating position and retained for set periods.",
+  "facts": [
+   {
+    "text": "The log summarizes distress and urgency communications affecting your own ship.",
+    "src": {
+     "sec": "80.409",
+     "quote": "A summary of all distress and urgency communications affecting the station's own ship"
+    }
+   },
+   {
+    "text": "Only safety communications on other than VHF need to be logged.",
+    "src": {
+     "sec": "80.409",
+     "quote": "A summary of safety communications on other than VHF channels affecting the station's own ship."
+    }
+   },
+   {
+    "text": "Entries stay on board in their original form for at least 30 days.",
+    "src": {
+     "sec": "80.409",
+     "quote": "All entries in their original form must be retained on board the vessel for at least 30 days from the date of entry."
+    }
+   },
+   {
+    "text": "The licensee keeps logs two years, or three if they relate to distress.",
+    "src": {
+     "sec": "80.409",
+     "quote": "Logs relating to a distress situation or disaster must be retained for three years from the date of entry."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR §80.409, Station logs (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/section-80.409"
+   },
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "21": {
+  "intro": "Stations identify themselves in different ways depending on the system: call signs for voice, selective call numbers (SELCALs) for narrow-band direct printing, and MMSIs for DSC.",
+  "facts": [
+   {
+    "text": "In NBDP, ship stations use 5-digit selective call numbers and coast stations 4-digit identification numbers.",
+    "src": {
+     "sec": "80.121",
+     "quote": "the coast station must use the ship station selective calling number (5 digits) and its assigned coast station identification number (4 digits)"
+    }
+   },
+   {
+    "text": "NBDP equipment also handles 9-digit identities.",
+    "src": {
+     "doc": "itu-m625",
+     "quote": "by the number of digits (4, 5 or 9) supplied to the equipment of a calling station to identify the station to be called"
+    }
+   },
+   {
+    "text": "NMN is the Coast Guard communications station at Chesapeake, Virginia.",
+    "src": {
+     "doc": "nws-hfvprod",
+     "quote": "U.S. Coast Guard Chesapeake, VA (NMN)"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "22": {
+  "intro": "Every ship MMSI begins with its Maritime Identification Digits (MID), three digits that identify the country whose administration has jurisdiction over the ship.",
+  "facts": [
+   {
+    "text": "A ship MMSI is nine digits, the first three being the MID.",
+    "src": {
+     "doc": "itu-m585",
+     "quote": "assigned a 9-digit unique ship station identity in the format M1I2D3X4X5X6X7X8X9 where in the first three digits represent the maritime identification digits (MID)"
+    }
+   },
+   {
+    "text": "The MID shows which administration has jurisdiction over the ship.",
+    "src": {
+     "doc": "itu-m585",
+     "quote": "The MID denotes the administration having jurisdiction over the ship station so identified."
+    }
+   },
+   {
+    "text": "U.S. MIDs include 338 and 366–369; 303 is Alaska.",
+    "src": {
+     "doc": "itu-mids",
+     "quote": "366 367 368 369 | United States of America |"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "Recommendation ITU-R M.585, Assignment and use of identities in the maritime mobile service",
+    "url": "https://www.itu.int/rec/R-REC-M.585/en"
+   },
+   {
+    "title": "ITU, Table of Maritime Identification Digits",
+    "url": "https://www.itu.int/gladapp/Allocation/MIDs"
+   }
+  ],
+  "status": "verified"
+ },
+ "23": {
+  "intro": "Where the zeros fall in an MMSI tells you what kind of station it is: no leading zero for a ship, one zero for a group, two zeros for a coast station.",
+  "facts": [
+   {
+    "text": "Group call identities start with a single zero followed by the MID.",
+    "src": {
+     "doc": "itu-m585",
+     "quote": "Group ship station call identities for calling simultaneously more than one ship are formed as follows: 01M2I3D4X5X6X7X8X9 where the first figure is zero"
+    }
+   },
+   {
+    "text": "Coast station identities start with two zeros followed by the MID.",
+    "src": {
+     "doc": "itu-m585",
+     "quote": "0102M3I4D5X6X7X8X9 where the digits 3, 4 and 5 represent the MID"
+    }
+   },
+   {
+    "text": "Administrations may optionally use the sixth digit to show the kind of station (for example 00MID1XXX for coast stations, 00MID2XXX for port stations); any 00 + MID number is a coast station identity.",
+    "src": {
+     "doc": "itu-m585",
+     "quote": "a) 00MID1XXX Coast stations b) 00MID2XXX Port stations (harbour radio stations) c) 00MID3XXX Pilot stations"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "Recommendation ITU-R M.585, Assignment and use of identities in the maritime mobile service",
+    "url": "https://www.itu.int/rec/R-REC-M.585/en"
+   }
+  ],
+  "status": "verified"
+ },
+ "24": {
+  "intro": "Some 9-digit identities aren't MMSIs at all. AIS locating devices use special prefixes, and Inmarsat Fleet terminals have their own numbers.",
+  "facts": [
+   {
+    "text": "AIS-SARTs start with 970, man-overboard devices with 972 and EPIRB-AIS with 974.",
+    "src": {
+     "doc": "itu-m585",
+     "quote": "970 to indicate AIS SART, 972 to indicate man overboard device (MOB), 974 to indicate EPIRB-AIS"
+    }
+   },
+   {
+    "text": "Inmarsat Fleet (F77) numbers are 9 digits starting with 76.",
+    "src": {
+     "doc": "itu-inmarsat-870",
+     "quote": "76 9 digits 9 digits Inmarsat mini-M GAN Inmarsat Fleet"
+    }
+   },
+   {
+    "text": "FleetBroadband numbers start with 77 or 78.",
+    "src": {
+     "doc": "itu-inmarsat-870",
+     "quote": "78 9 digits 9 digits Inmarsat BGAN Inmarsat Fleet broadband"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "Recommendation ITU-R M.585, Assignment and use of identities in the maritime mobile service",
+    "url": "https://www.itu.int/rec/R-REC-M.585/en"
+   }
+  ],
+  "status": "verified"
+ },
+ "25": {
+  "intro": "Inmarsat-C terminals have their own Inmarsat mobile numbers (IMNs), separate from the ship's MMSI, and they always start with 4.",
+  "facts": [
+   {
+    "text": "Inmarsat-C terminal numbers start with 4.",
+    "src": {
+     "doc": "itu-inmarsat-2005",
+     "quote": "Inmarsat C terminals have \"4\" as the initial digit"
+    }
+   },
+   {
+    "text": "Inmarsat-C doesn't carry telephone calls; it's a data and telex service.",
+    "src": {
+     "doc": "itu-inmarsat-2005",
+     "quote": "however, Inmarsat C does not support the International Telephone Service"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "Recommendation ITU-R M.585, Assignment and use of identities in the maritime mobile service",
+    "url": "https://www.itu.int/rec/R-REC-M.585/en"
+   }
+  ],
+  "status": "verified"
+ },
+ "26": {
+  "intro": "A DSC call is a short burst of digital data: a dot pattern and phasing to wake up receivers, a format specifier, addresses, messages, and closing characters that let the receiver check for errors.",
+  "facts": [
+   {
+    "text": "DSC characters use a ten-bit error-detecting code.",
+    "src": {
+     "doc": "itu-m493",
+     "quote": "The system is a synchronous system using characters composed from a ten-bit error-detecting code"
+    }
+   },
+   {
+    "text": "On MF/HF, DSC is sent as J2B (FSK tones through an SSB transmitter) or F1B.",
+    "src": {
+     "doc": "itu-m493",
+     "quote": "When frequency-shift keying is effected by applying audio signals to the input of single-sideband transmitters (J2B)"
+    }
+   },
+   {
+    "text": "A distress alert carries the MMSI, position and time, and the nature of distress if entered.",
+    "src": {
+     "doc": "itu-m541",
+     "quote": "The DSC distress alert provides for alerting, maritime mobile service identity (MMSI), ship’s position including time, and if entered nature of distress"
+    }
+   },
+   {
+    "text": "Each call ends with an End Of Sequence character and an Error Check Character.",
+    "src": {
+     "doc": "itu-m493",
+     "quote": "The error-check character (ECC) is the final character transmitted and it serves to check the entire sequence for the presence of errors"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "Recommendation ITU-R M.493, Digital selective-calling system for use in the maritime mobile service",
+    "url": "https://www.itu.int/rec/R-REC-M.493/en"
+   }
+  ],
+  "status": "verified"
+ },
+ "27": {
+  "intro": "Operators are responsible for keeping DSC equipment ready: position updated, guard channels selected, and the right actions when alerts come in. Ships normally leave acknowledging and relaying to coast stations.",
+  "facts": [
+   {
+    "text": "Position must be updated automatically, or by hand at least every four hours underway.",
+    "src": {
+     "sec": "80.1073",
+     "quote": "either automatically through a connected or integral navigation receiver, or manually at least every four hours when the ship is underway"
+    }
+   },
+   {
+    "text": "MF/HF distress alerts use a multi-frequency attempt by default; a single frequency can be chosen.",
+    "src": {
+     "doc": "itu-m541",
+     "quote": "For MF/HF, a distress alert attempt should use multi-frequency call attempt (see § A3-6) by default, however, a single-frequency call attempt may be used when the operator wants to do so."
+    }
+   },
+   {
+    "text": "On HF, relay to a coast station only if no coast station acknowledgement and no distress traffic have been heard.",
+    "src": {
+     "sec": "80.1121",
+     "quote": "If no distress communications are heard and if the call is not acknowledged by a coast station, the ship shall transmit a distress relay on HF to the coast radio station and inform the Rescue Coordination Center."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "Recommendation ITU-R M.541, Operational procedures for the use of DSC equipment",
+    "url": "https://www.itu.int/rec/R-REC-M.541/en"
+   },
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "28": {
+  "intro": "There are seven DSC distress frequencies: one VHF, one MF and five HF. Which ones a ship watches depends on its equipment.",
+  "facts": [
+   {
+    "text": "The DSC distress frequencies are 2187.5, 4207.5, 6312, 8414.5, 12577 and 16804.5 kHz and Channel 70.",
+    "src": {
+     "sec": "80.1077",
+     "quote": "DSC 2187.5 kHz, 4207.5 kHz, 6312 kHz, 8414.5 kHz, 12577 kHz, 16804.5 kHz, and 156.525 MHz."
+    }
+   },
+   {
+    "text": "MF/HF ships watch 2187.5 and 8414.5 kHz plus at least one other HF DSC frequency.",
+    "src": {
+     "sec": "80.1123",
+     "quote": "On the distress and safety DSC frequencies 2187.5 kHz and 8414.5 kHz also on at least one of the distress and safety DSC frequencies 4207.5 kHz, 6312 kHz, 12577 kHz, or 16804.5 kHz"
+    }
+   },
+   {
+    "text": "2182 kHz is the MF voice distress frequency, not a DSC frequency.",
+    "src": {
+     "sec": "80.1077",
+     "quote": "Radiotelephony 2182 kHz, 4125 kHz, 6215 kHz, 8291 kHz, 12290 kHz, 16420 kHz, and 156.8 MHz."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   },
+   {
+    "title": "Recommendation ITU-R M.541, Operational procedures for the use of DSC equipment",
+    "url": "https://www.itu.int/rec/R-REC-M.541/en"
+   }
+  ],
+  "status": "verified"
+ },
+ "29": {
+  "intro": "Sending a distress alert is designed to be quick: one protected button sends a default alert, and a fuller alert can be composed if time allows.",
+  "facts": [
+   {
+    "text": "A distress alert must identify the ship and its position.",
+    "src": {
+     "sec": "80.1113",
+     "quote": "The distress alert must identify the station in distress and its position."
+    }
+   },
+   {
+    "text": "The distress button with no setup sends the default alert: undesignated distress, telephony follow-on.",
+    "src": {
+     "doc": "itu-m493",
+     "quote": "The “default distress alert attempt” consists of “undesignated” for the nature of distress, radiotelephony for the communication mode"
+    }
+   },
+   {
+    "text": "Unacknowledged alerts repeat after a random 3½–4½ minutes.",
+    "src": {
+     "doc": "itu-m541",
+     "quote": "this call attempt may be transmitted on the same frequency again after a random delay of between 3 ½ and 4 ½ min from the beginning of the initial call"
+    }
+   },
+   {
+    "text": "An Inmarsat distress alert just needs the distress button or a short code.",
+    "src": {
+     "doc": "imo-gmdss-sar-1999",
+     "quote": "It only involves pressing a special distress button or using an abbreviated dialling code."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "Recommendation ITU-R M.541, Operational procedures for the use of DSC equipment",
+    "url": "https://www.itu.int/rec/R-REC-M.541/en"
+   },
+   {
+    "title": "Recommendation ITU-R M.493, Digital selective-calling system for use in the maritime mobile service",
+    "url": "https://www.itu.int/rec/R-REC-M.493/en"
+   },
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "30": {
+  "intro": "After a DSC distress alert, the distress traffic follows by voice on the radiotelephone frequency associated with the DSC frequency used, starting with a MAYDAY call.",
+  "facts": [
+   {
+    "text": "Voice follow-on frequencies: Ch 16, 2182 kHz, and 4125, 6215, 8291, 12290 or 16420 kHz on HF.",
+    "src": {
+     "sec": "80.1077",
+     "quote": "Radiotelephony 2182 kHz, 4125 kHz, 6215 kHz, 8291 kHz, 12290 kHz, 16420 kHz, and 156.8 MHz."
+    }
+   },
+   {
+    "text": "After a multi-frequency alert, use 8291 kHz.",
+    "src": {
+     "doc": "itu-m541",
+     "quote": "Where multiple frequency call attempts are transmitted the corresponding distress traffic frequency should be 8 291 kHz."
+    }
+   },
+   {
+    "text": "The call is MAYDAY three times, THIS IS, and the call sign or name three times.",
+    "src": {
+     "sec": "80.314",
+     "quote": "The call sign (or name, if no call sign assigned) of the mobile station in distress, spoken three times;"
+    }
+   },
+   {
+    "text": "The message gives position, nature of distress, assistance wanted, and anything else that helps the rescue.",
+    "src": {
+     "sec": "80.314",
+     "quote": "Any other information which might facilitate rescue, for example, the length, color, and type of vessel, or number of persons on board."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   },
+   {
+    "title": "Recommendation ITU-R M.541, Operational procedures for the use of DSC equipment",
+    "url": "https://www.itu.int/rec/R-REC-M.541/en"
+   }
+  ],
+  "status": "verified"
+ },
+ "31": {
+  "intro": "When a distress alert comes in, inform the master, watch the associated voice frequency, and normally let a coast station acknowledge first.",
+  "facts": [
+   {
+    "text": "Tell the master about any distress alert as soon as possible.",
+    "src": {
+     "sec": "80.1121",
+     "quote": "must, as soon as possible, inform the master or person responsible for the ship of the contents of the distress alert"
+    }
+   },
+   {
+    "text": "Set watch on the voice frequency associated with the DSC frequency the alert arrived on.",
+    "src": {
+     "sec": "80.1123",
+     "quote": "ship stations must set watch on the radiotelephone distress and safety traffic frequency associated with the distress and safety calling frequency on which the distress alert was received"
+    }
+   },
+   {
+    "text": "Ships should delay acknowledging so a coast station can respond first.",
+    "src": {
+     "sec": "80.1117",
+     "quote": "Ships should delay any acknowledgement in order to give sufficient time for a coast station to acknowledge the call."
+    }
+   },
+   {
+    "text": "On HF, ships don't acknowledge another ship's DSC alert.",
+    "src": {
+     "doc": "itu-m541",
+     "quote": "Ships receiving a DSC distress alert on HF from another ship shall not acknowledge the alert"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "Recommendation ITU-R M.541, Operational procedures for the use of DSC equipment",
+    "url": "https://www.itu.int/rec/R-REC-M.541/en"
+   },
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "32": {
+  "intro": "Relaying a distress alert is the exception, not the rule. Unnecessary relays clutter the distress channels.",
+  "facts": [
+   {
+    "text": "Relay for another ship if it can't alert for itself, or if the master decides more help is needed.",
+    "src": {
+     "sec": "80.1115",
+     "quote": "When the mobile unit in distress is not itself in a position to transmit the distress alert; or"
+    }
+   },
+   {
+    "text": "On VHF and MF, a ship that receives a DSC distress alert doesn't normally relay it: it listens on the voice channel for 5 minutes, acknowledges by voice if appropriate, and informs the coast station or RCC. An all-ships relay on these bands is allowed only if the ship in distress can't alert for itself and the master decides more help is needed.",
+    "src": {
+     "sec": "80.1121",
+     "quote": "For VHF and MF, ships in receipt of a distress alert shall not transmit a distress alert relay, but should listen on the distress traffic channel for 5 minutes and, if appropriate, acknowledge the alert by radiotelephony to the ship in distress and inform the coast station and/or Rescue Coordination Center."
+    }
+   },
+   {
+    "text": "A relay from a coast station is acknowledged by voice, not DSC.",
+    "src": {
+     "doc": "itu-m541",
+     "quote": "Ships receiving a distress alert relay transmitted by a coast station shall not use DSC to acknowledge the call, but should acknowledge the receipt of the call by radiotelephony on the distress traffic channel in the same band"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "Recommendation ITU-R M.541, Operational procedures for the use of DSC equipment",
+    "url": "https://www.itu.int/rec/R-REC-M.541/en"
+   },
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "33": {
+  "intro": "A false distress alert must be cancelled straight away, by voice on the associated distress frequency (and, with current equipment, a DSC self-cancel first). For Inmarsat, send a cancellation through the same land earth station.",
+  "facts": [
+   {
+    "text": "VHF: reset, switch to Channel 16 and cancel by voice to all stations.",
+    "src": {
+     "sec": "80.335",
+     "quote": "Set to Channel 16; and"
+    }
+   },
+   {
+    "text": "MF: cancel by voice on 2182 kHz.",
+    "src": {
+     "sec": "80.335",
+     "quote": "Tune for radiotelephony transmission on 2182 kHz; and"
+    }
+   },
+   {
+    "text": "HF: cancel on the voice distress frequency in each band used.",
+    "src": {
+     "sec": "80.335",
+     "quote": "Tune for radiotelephony on the distress and safety frequency in each band in which a false distress alert was transmitted; and"
+    }
+   },
+   {
+    "text": "Current ITU procedure sends a DSC self-cancel first, if the equipment can.",
+    "src": {
+     "doc": "itu-m541",
+     "quote": "Immediately cancel the distress alert by transmitting a DSC self-cancel on all the frequencies where the inadvertent DSC distress alert was transmitted, if the ship station is capable hereof."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   },
+   {
+    "title": "Recommendation ITU-R M.541, Operational procedures for the use of DSC equipment",
+    "url": "https://www.itu.int/rec/R-REC-M.541/en"
+   }
+  ],
+  "status": "verified"
+ },
+ "34": {
+  "intro": "Radio silence protects distress traffic. It's imposed by the station controlling the traffic and lifted only when that station says distress traffic has ended.",
+  "facts": [
+   {
+    "text": "The RCC, the unit coordinating the search, or the coast station involved may impose silence.",
+    "src": {
+     "sec": "80.1125",
+     "quote": "The Rescue Coordination Center coordinating distress traffic, the unit coordinating search and rescue operations, or the coast station involved may impose silence"
+    }
+   },
+   {
+    "text": "SEELONCE MAYDAY imposes silence by voice.",
+    "src": {
+     "sec": "80.1125",
+     "quote": "In radiotelephony, the signal SEELONCE MAYDAY, pronounced as the French expression “silence, m'aider”;"
+    }
+   },
+   {
+    "text": "Stations not involved may not transmit there until normal working is announced.",
+    "src": {
+     "sec": "80.1125",
+     "quote": "are forbidden to transmit on the frequencies in which the distress traffic is taking place"
+    }
+   },
+   {
+    "text": "The end is announced with SEELONCE FEENEE (voice) or SILENCE FINI (NBDP).",
+    "src": {
+     "sec": "80.1125",
+     "quote": "The words SEELONCE FEENEE pronounced as the French words “silence fini”"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "35": {
+  "intro": "Urgency (PAN PAN) is for very urgent messages about the safety of a ship or person, short of the grave and imminent danger that calls for distress.",
+  "facts": [
+   {
+    "text": "The urgency signal is PAN PAN.",
+    "src": {
+     "sec": "80.1131",
+     "quote": "The urgency signal consists of the words PAN PAN."
+    }
+   },
+   {
+    "text": "It means a very urgent message about the safety of a mobile unit or person follows.",
+    "src": {
+     "sec": "80.1131",
+     "quote": "The urgency call format and the urgency signal indicate that the calling station has a very urgent message to transmit concerning the safety of a mobile unit or a person."
+    }
+   },
+   {
+    "text": "By voice, the urgency signal is said three times before the message.",
+    "src": {
+     "sec": "80.1131",
+     "quote": "In radiotelephony, the urgency message must be preceded by the urgency signal, repeated three times, and the identification of the transmitting station."
+    }
+   },
+   {
+    "text": "Distress (MAYDAY) is for grave and imminent danger.",
+    "src": {
+     "sec": "80.314",
+     "quote": "These distress signals indicate that a mobile station is threatened by grave and imminent danger and requests immediate assistance."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "36": {
+  "intro": "Safety (SECURITE) messages carry important navigational and meteorological warnings.",
+  "facts": [
+   {
+    "text": "The safety signal is SECURITE, spoken three times.",
+    "src": {
+     "sec": "80.329",
+     "quote": "In radiotelephony, the safety signal consists of the word SECURITE, pronounced as in French, spoken three times and transmitted before the call."
+    }
+   },
+   {
+    "text": "It announces an important navigational or meteorological warning.",
+    "src": {
+     "sec": "80.1133",
+     "quote": "The safety call format or the safety signal indicates that the calling station has an important navigational or meteorological warning to transmit."
+    }
+   },
+   {
+    "text": "Dangers to navigation such as wrecks or ice are reported with the safety signal.",
+    "src": {
+     "sec": "80.329",
+     "quote": "Messages about meteorological warnings, of cyclones, dangerous ice, dangerous wrecks, or any other imminent danger to marine navigation must be preceded by the safety signal."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "37": {
+  "intro": "Part 80 lists the GMDSS frequencies by purpose: alerting, on-scene communications, locating signals, MSI and general distress traffic.",
+  "facts": [
+   {
+    "text": "Alerting: 406 MHz EPIRBs, Inmarsat 1626.5–1645.5 MHz, Channel 70 and six MF/HF DSC frequencies.",
+    "src": {
+     "sec": "80.1077",
+     "quote": "Alerting: 406.0-406.1 EPIRBs 406.0-406.1 MHz (Earth-to-space)."
+    }
+   },
+   {
+    "text": "On-scene: Channel 16, 2182 kHz voice and 2174.5 kHz NBDP.",
+    "src": {
+     "sec": "80.1077",
+     "quote": "On-scene communications: VHF Ch.16 156.8 MHz. MF Radiotelephony 2182 kHz. NBDP 2174.5 kHz."
+    }
+   },
+   {
+    "text": "There are seven DSC distress frequencies in all.",
+    "src": {
+     "sec": "80.1077",
+     "quote": "DSC 2187.5 kHz, 4207.5 kHz, 6312 kHz, 8414.5 kHz, 12577 kHz, 16804.5 kHz, and 156.525 MHz."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "38": {
+  "intro": "Other distress procedures: who controls distress traffic, which NBDP mode to use, and what to take when abandoning ship.",
+  "facts": [
+   {
+    "text": "The RCC coordinates distress traffic or appoints another station to do it.",
+    "src": {
+     "sec": "80.1125",
+     "quote": "The Rescue Coordination Center responsible for controlling a search and rescue operation will also coordinate the distress traffic relating to the incident or may appoint another station to do so."
+    }
+   },
+   {
+    "text": "NBDP uses ARQ with coast stations, FEC for broadcasts.",
+    "src": {
+     "sec": "80.1125",
+     "quote": "Distress communications by direct-printing telegraphy should be in the ARQ mode when ships are communicating directly to the Coast Guard or other coast stations"
+    }
+   },
+   {
+    "text": "Keep a SART's antenna at least 1 m high for good detection range.",
+    "src": {
+     "doc": "itu-m628",
+     "quote": "Tests have also shown the importance of maintaining a SART antenna height of at least 1 m."
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "49": {
+  "intro": "VHF works by line of sight, so range depends mostly on antenna height, power and the condition of the antenna system. Operator settings like squelch and power also matter.",
+  "facts": [
+   {
+    "text": "VHF coast stations cover roughly 20 to 30 miles (sea area A1).",
+    "src": {
+     "doc": "imo-gmdss-sar-1999",
+     "quote": "Area A1 Within range of VHF coast stations (about 20-30 miles)"
+    }
+   },
+   {
+    "text": "Every VHF transmitter must be able to reduce power to 1 W or less.",
+    "src": {
+     "sec": "80.215",
+     "quote": "All transmitters and remote control units must be capable of reducing the carrier power to one watt or less;"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   }
+  ],
+  "status": "verified"
+ },
+ "50": {
+  "intro": "Marine VHF channels are simplex or duplex. In U.S. waters some international duplex channels are used simplex as \"A\" channels, and Channel 13 is the bridge-to-bridge channel.",
+  "facts": [
+   {
+    "text": "\"A\" after a channel number means simplex on an internationally duplex channel.",
+    "src": {
+     "sec": "80.373",
+     "quote": "the letter “A” following the channel designator indicates simplex operation on a channel designated internationally as a duplex channel"
+    }
+   },
+   {
+    "text": "Channel 24 (157.200/161.800 MHz) is a duplex public correspondence channel.",
+    "src": {
+     "sec": "80.371",
+     "quote": "Working Carrier Frequency Pairs in the 156-162 MHz Band 1 Channel designator Carrier Frequency (MHz) Ship transmit Coast transmit 24 157.200 161.800"
+    }
+   },
+   {
+    "text": "Channel 13 is the bridge-to-bridge watch channel in most U.S. waters (Channel 67 in some areas).",
+    "src": {
+     "sec": "33:26.04",
+     "quote": "channel 13 (156.65 MHz) is the designated frequency required to be monitored in accordance with § 26.05(a) except that in the area prescribed in § 26.03(e), channel 67 (156.375 MHz) is the designated frequency"
+    }
+   }
+  ],
+  "reading": [
+   {
+    "title": "47 CFR Part 80 Subpart W, Global Maritime Distress and Safety System (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-80/subpart-W"
+   },
+   {
+    "title": "33 CFR Part 26, Vessel Bridge-to-Bridge Radiotelephone Regulations (eCFR)",
+    "url": "https://www.ecfr.gov/current/title-33/chapter-I/subchapter-C/part-26"
+   }
+  ],
+  "status": "verified"
+ }
+}

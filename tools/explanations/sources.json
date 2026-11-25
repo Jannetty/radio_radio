@@ -243,6 +243,106 @@
   "80.1101": {
    "head": "§ 80.1101 Performance standards.",
    "url": "https://www.ecfr.gov/current/title-47/section-80.1101"
+  },
+  "80.1069": {
+   "head": "§ 80.1069 Maritime sea areas.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1069"
+  },
+  "80.1091": {
+   "head": "§ 80.1091 Ship radio equipment—Sea areas A1, A2, and A3.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1091"
+  },
+  "80.1093": {
+   "head": "§ 80.1093 Ship radio equipment—Sea areas A1, A2, A3, and A4.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1093"
+  },
+  "80.1083": {
+   "head": "§ 80.1083 Ship radio installations.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1083"
+  },
+  "80.1073": {
+   "head": "§ 80.1073 Radio operator requirements for ship stations.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1073"
+  },
+  "80.1087": {
+   "head": "§ 80.1087 Ship radio equipment—Sea area A1.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1087"
+  },
+  "80.1095": {
+   "head": "§ 80.1095 Survival craft equipment.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1095"
+  },
+  "80.1105": {
+   "head": "§ 80.1105 Maintenance requirements.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1105"
+  },
+  "80.1067": {
+   "head": "§ 80.1067 Inspection of station.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1067"
+  },
+  "80.1071": {
+   "head": "§ 80.1071 Exemptions.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1071"
+  },
+  "80.79": {
+   "head": "§ 80.79 Inspection of ship station by a foreign Government.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.79"
+  },
+  "80.1109": {
+   "head": "§ 80.1109 Distress, urgency, and safety communications.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1109"
+  },
+  "80.401": {
+   "head": "§ 80.401 Station documents requirement.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.401"
+  },
+  "80.1074": {
+   "head": "§ 80.1074 Radio maintenance personnel for at-sea maintenance.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1074"
+  },
+  "80.1075": {
+   "head": "§ 80.1075 Radio records.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1075"
+  },
+  "80.1089": {
+   "head": "§ 80.1089 Ship radio equipment—Sea areas A1 and A2.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1089"
+  },
+  "80.1121": {
+   "head": "§ 80.1121 Receipt and acknowledgement of distress alerts by ship stations and ship earth stations.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1121"
+  },
+  "80.121": {
+   "head": "§ 80.121 Public coast stations using telegraphy.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.121"
+  },
+  "80.1077": {
+   "head": "§ 80.1077 Frequencies.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1077"
+  },
+  "80.1117": {
+   "head": "§ 80.1117 Procedure for receipt and acknowledgement of distress alerts.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1117"
+  },
+  "80.1111": {
+   "head": "§ 80.1111 Distress alerting.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1111"
+  },
+  "80.1115": {
+   "head": "§ 80.1115 Transmission of a distress alert by a station not itself in distress.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1115"
+  },
+  "80.1125": {
+   "head": "§ 80.1125 Search and rescue coordinating communications.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1125"
+  },
+  "80.1131": {
+   "head": "§ 80.1131 Transmissions of urgency communications.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1131"
+  },
+  "80.1133": {
+   "head": "§ 80.1133 Transmission of safety communications.",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.1133"
   }
  },
  "docs": {
@@ -277,6 +377,50 @@
   "sarsat-false": {
    "title": "NOAA SARSAT, Preventing False Alerts",
    "url": "https://www.sarsat.noaa.gov/false.html"
+  },
+  "imo-gmdss-sar-1999": {
+   "title": "IMO, Shipping Emergencies: Search and Rescue and the GMDSS (1999)",
+   "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/GMDSSandSAR1999.pdf"
+  },
+  "cfr-80401-table": {
+   "title": "47 CFR §80.401, table of required station documents",
+   "url": "https://www.ecfr.gov/current/title-47/section-80.401"
+  },
+  "itu-list-v": {
+   "title": "ITU, List of Ship Stations and Maritime Mobile Service Identity Assignments (List V)",
+   "url": "https://www.itu.int/en/ITU-R/terrestrial/mars/Pages/shipstationslist.aspx"
+  },
+  "nws-hfvprod": {
+   "title": "National Weather Service, Marine products via U.S. Coast Guard HF voice",
+   "url": "https://www.weather.gov/marine/hfvprod"
+  },
+  "itu-m625": {
+   "title": "Recommendation ITU-R M.625-4, Direct-printing telegraph equipment employing automatic identification in the maritime mobile service",
+   "url": "https://www.itu.int/rec/R-REC-M.625/en"
+  },
+  "itu-m585": {
+   "title": "Recommendation ITU-R M.585-10, Assignment and use of identities in the maritime mobile service",
+   "url": "https://www.itu.int/rec/R-REC-M.585/en"
+  },
+  "itu-mids": {
+   "title": "ITU, Table of Maritime Identification Digits",
+   "url": "https://www.itu.int/gladapp/Allocation/MIDs"
+  },
+  "itu-inmarsat-870": {
+   "title": "ITU Operational Bulletin notice, Inmarsat numbering using country code +870 (2008)",
+   "url": "https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000650001MSWE.doc"
+  },
+  "itu-inmarsat-2005": {
+   "title": "ITU Operational Bulletin notice, Inmarsat national numbering plan (2005)",
+   "url": "https://www.itu.int/itudoc/itu-t/number/gn/imt/82457_ww2.doc"
+  },
+  "itu-m493": {
+   "title": "Recommendation ITU-R M.493-16, Digital selective-calling system for use in the maritime mobile service",
+   "url": "https://www.itu.int/rec/R-REC-M.493/en"
+  },
+  "itu-m541": {
+   "title": "Recommendation ITU-R M.541-11, Operational procedures for the use of digital selective-calling equipment in the maritime mobile service",
+   "url": "https://www.itu.int/rec/R-REC-M.541/en"
   }
  }
 }
